@@ -91,6 +91,14 @@ Merchandising, production, procurement, quality and marketing each look at their
 
 38 routes, in English and Arabic (RTL), light and dark.
 
+<div align="center">
+<img src="docs/screenshots/premium/desktop_CEO_en_light_home.jpg" width="48%" alt="Command Center" />
+<img src="docs/screenshots/premium/desktop_CEO_en_light_leakage.jpg" width="48%" alt="Profit Leakage" />
+<br/>
+<img src="docs/screenshots/premium/desktop_CEO_en_dark_map.jpg" width="48%" alt="Command Map" />
+<img src="docs/screenshots/premium/desktop_CEO_en_dark_time-machine.jpg" width="48%" alt="Business Time Machine" />
+</div>
+
 ### Executive layer
 | Screen | What it does |
 |---|---|

@@ -1,0 +1,30 @@
+data/private/
+*.csv
+*.xlsx
+*.parquet
+.env
+*.db
+*.sqlite
+__pycache__/
+.pytest_cache/
+node_modules/
+.next/
+models_store/
+backups/
+
+# Python
+.venv/
+venv/
+*.pyc
+
+# Node
+out/
+
+# Runtime
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

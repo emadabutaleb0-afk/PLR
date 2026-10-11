@@ -1,0 +1,64 @@
+# SHARNOUBY MERCH BRAIN - fully on-premise. Run:  docker compose up --build
+# Company CSVs are mounted READ-ONLY from COMPANY_DATA_PATH (default ./data/private). Nothing leaves this machine.
+x-backend-env: &backend-env
+  ENVIRONMENT: production
+  DATABASE_URL: postgresql+psycopg2://merch:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}@postgres:5432/merchbrain
+  REDIS_URL: redis://redis:6379/0
+  DATA_DIRECTORY: /company_data/sharnouby
+  MODEL_DIRECTORY: /app/models_store
+  SECRET_KEY: ${SECRET_KEY:?set SECRET_KEY in .env}
+  CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+  BOOTSTRAP_ADMIN_EMAIL: ${BOOTSTRAP_ADMIN_EMAIL:-ceo@company.local}
+  BOOTSTRAP_ADMIN_PASSWORD: ${BOOTSTRAP_ADMIN_PASSWORD:?set BOOTSTRAP_ADMIN_PASSWORD in .env}
+  ACCESS_TOKEN_MINUTES: ${ACCESS_TOKEN_MINUTES:-30}
+  REFRESH_TOKEN_DAYS: ${REFRESH_TOKEN_DAYS:-7}
+  RATE_LIMIT_PER_MINUTE: ${RATE_LIMIT_PER_MINUTE:-240}
+  STALE_DATA_DAYS: ${STALE_DATA_DAYS:-45}
+  CELERY_ENABLED: "true"
+  AUTO_IMPORT_ON_START: "false"   # several API workers would race; press "Load company data" once in the UI
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment: { POSTGRES_USER: merch, POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}", POSTGRES_DB: merchbrain }
+    volumes: [pgdata:/var/lib/postgresql/data, ./backups:/backups]
+    healthcheck: { test: ["CMD-SHELL", "pg_isready -U merch -d merchbrain"], interval: 5s, timeout: 5s, retries: 20 }
+    restart: unless-stopped
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no", "--maxmemory", "256mb", "--maxmemory-policy", "allkeys-lru"]
+    healthcheck: { test: ["CMD", "redis-cli", "ping"], interval: 5s, timeout: 3s, retries: 20 }
+    restart: unless-stopped
+  backend:
+    build: ./backend
+    environment: *backend-env
+    volumes: ["${COMPANY_DATA_PATH:-./data/private}:/company_data/sharnouby:ro", models:/app/models_store]
+    depends_on: { postgres: { condition: service_healthy }, redis: { condition: service_healthy } }
+    ports: ["8000:8000"]
+    restart: unless-stopped
+  worker:
+    build: ./backend
+    command: ["celery", "-A", "app.workers.celery_app", "worker", "--loglevel=INFO", "--concurrency=1"]
+    environment: *backend-env
+    volumes: ["${COMPANY_DATA_PATH:-./data/private}:/company_data/sharnouby:ro", models:/app/models_store]
+    depends_on: { backend: { condition: service_healthy } }
+    healthcheck: { test: ["CMD-SHELL", "celery -A app.workers.celery_app inspect ping -d celery@$$HOSTNAME || exit 1"], interval: 30s, timeout: 10s, retries: 5 }
+    restart: unless-stopped
+  frontend:
+    build: { context: ./frontend, args: { BACKEND_URL: "http://backend:8000" } }
+    depends_on: { backend: { condition: service_healthy } }
+    ports: ["3000:3000"]
+    restart: unless-stopped
+  prometheus:
+    image: prom/prometheus:latest
+    profiles: ["monitoring"]
+    volumes: ["./ops/prometheus.yml:/etc/prometheus/prometheus.yml:ro"]
+    ports: ["9090:9090"]
+  grafana:
+    image: grafana/grafana:latest
+    profiles: ["monitoring"]
+    environment: { GF_SECURITY_ADMIN_PASSWORD: "${GRAFANA_PASSWORD:-change-me}" }
+    volumes: ["./ops/grafana/provisioning:/etc/grafana/provisioning:ro"]
+    ports: ["3001:3000"]
+    depends_on: [prometheus]
+volumes: { pgdata: {}, models: {} }

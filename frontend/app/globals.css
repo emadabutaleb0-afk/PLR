@@ -1,0 +1,77 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+@import "./theme.css";
+
+:root {
+  --chart-grid: rgb(var(--line));
+  --chart-axis: rgb(var(--slate-500));
+  --series-ink: rgb(var(--slate-800));
+  --series-gold: rgb(var(--brand-500));
+  --slide-from: 24px;
+  --c-red: rgb(var(--rose-500)); --c-green: rgb(var(--emerald-500)); --c-green-soft: rgb(var(--emerald-200));
+  --c-amber: rgb(var(--amber-500)); --c-violet: rgb(var(--violet-500)); --c-violet-soft: rgb(var(--violet-300));
+  --c-sky: rgb(var(--sky-500)); --c-muted: rgb(var(--slate-400)); --c-soft: rgb(var(--slate-200)); --c-soft2: rgb(var(--brand-200));
+}
+:root[dir="rtl"] { --slide-from: -24px; }
+:root[data-theme="dark"] { --chart-grid: rgb(var(--line)); }
+
+html, body { background: rgb(var(--canvas)); color: rgb(var(--slate-900)); }
+body {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11", "ss03";
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+/* Arabic gets its own face; Latin digits and codes inside it keep the Latin face. */
+:root[lang="ar"] body { font-family: "IBM Plex Sans Arabic", "Inter Variable", Tahoma, sans-serif; }
+/* financial figures line up in columns */
+table, .num, .tabular { font-variant-numeric: tabular-nums lining-nums; font-feature-settings: "tnum", "lnum", "cv11"; }
+h1, h2, h3 { letter-spacing: -0.012em; }
+:root[lang="ar"] h1, :root[lang="ar"] h2, :root[lang="ar"] h3 { letter-spacing: 0; }
+
+/* focus: one visible, consistent ring for every interactive element */
+:where(a, button, input, select, textarea, [tabindex], [role="tab"], [role="option"]):focus-visible {
+  outline: 2px solid rgb(var(--focus)); outline-offset: 2px; border-radius: 8px;
+}
+::selection { background: rgb(var(--brand-200)); color: rgb(var(--slate-900)); }
+.sticky-th th { position: sticky; top: 0; z-index: 1; }
+.chart-ltr { direction: ltr; }
+[dir="rtl"] .recharts-legend-item-text { margin-inline-start: 4px; }
+[dir="rtl"] .num, [dir="rtl"] td.num { unicode-bidi: plaintext; }
+.skip-link { position: absolute; inset-inline-start: 8px; top: -48px; z-index: 100; background: rgb(var(--accent)); color: rgb(var(--accent-fg)); padding: 8px 14px; border-radius: 10px; font-weight: 600; }
+.skip-link:focus { top: 8px; }
+
+/* brand */
+.brand-grad { background: radial-gradient(1200px 500px at 85% -10%, rgba(197,164,109,.2), transparent 60%), linear-gradient(135deg, #070C16 0%, #0B1220 55%, #151E2D 100%); }
+.hairline-gold { background: linear-gradient(90deg, transparent, rgba(197,164,109,.7), transparent); height: 1px; }
+
+/* scrollbars: quiet, theme aware */
+* { scrollbar-width: thin; scrollbar-color: rgb(var(--line-strong)) transparent; }
+::-webkit-scrollbar { width: 10px; height: 10px; } ::-webkit-scrollbar-thumb { background: rgb(var(--line-strong)); border-radius: 8px; border: 2px solid transparent; background-clip: content-box; }
+
+/* Recharts: its default tooltip is a white inline-styled box */
+.recharts-default-tooltip { background: rgb(var(--raised)) !important; border: 1px solid rgb(var(--line)) !important; border-radius: 12px !important; box-shadow: 0 12px 32px -12px rgba(0,0,0,.35); color: rgb(var(--slate-900)) !important; }
+.recharts-tooltip-label { color: rgb(var(--slate-700)) !important; font-weight: 600; }
+.recharts-cartesian-grid line { stroke: var(--chart-grid); }
+.recharts-text { fill: var(--chart-axis); }
+
+/* cmdk command palette */
+[cmdk-root] { width: 100%; }
+[cmdk-input] { width: 100%; background: transparent; outline: none; font-size: 15px; color: rgb(var(--slate-900)); }
+[cmdk-input]::placeholder { color: rgb(var(--slate-400)); }
+[cmdk-list] { max-height: min(420px, 55vh); overflow: auto; overscroll-behavior: contain; padding: 6px; }
+[cmdk-group-heading] { padding: 8px 10px 4px; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: rgb(var(--slate-500)); }
+[cmdk-item] { display: flex; align-items: center; gap: 10px; padding: 9px 10px; border-radius: 10px; font-size: 14px; cursor: pointer; color: rgb(var(--slate-800)); }
+[cmdk-item][data-selected="true"] { background: rgb(var(--sunken)); }
+[cmdk-item][data-disabled="true"] { opacity: .45; cursor: not-allowed; }
+[cmdk-empty] { padding: 28px 12px; text-align: center; font-size: 14px; color: rgb(var(--slate-500)); }
+
+/* React Flow follows the theme */
+.react-flow { --xy-background-color: transparent; --xy-edge-stroke-default: rgb(var(--slate-400)); --xy-controls-button-background-color: rgb(var(--raised));
+  --xy-controls-button-color: rgb(var(--slate-700)); --xy-controls-button-border-color: rgb(var(--line)); --xy-minimap-background-color: rgb(var(--sunken)); }
+.react-flow__attribution { display: none; }
+.react-flow__node { font-family: inherit; }
+
+/* motion: only when the person has not asked for less */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
+}
+@keyframes shimmer { 100% { transform: translateX(100%); } }
+@media print { aside, header, [data-no-print] { display: none !important; } html, body { background: #fff !important; } }

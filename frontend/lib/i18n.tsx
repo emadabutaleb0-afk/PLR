@@ -5,18 +5,18 @@ import { AR } from "./ar";
 export type Lang = "en" | "ar";
 export const LANG_KEY = "mb_lang";
 /** Module-level mirror of the active language so plain helpers (egp, pct, api headers) can read it without a hook. */
-export const i18nState: { lang: Lang } = { lang: "en" };
+export const i18nState: { lang: Lang } = { lang: "ar" };
 
 const readStored = (): Lang => {
   try {
     const v = localStorage.getItem(LANG_KEY);
     if (v === "ar" || v === "en") return v;
-    return (navigator.language || "").toLowerCase().startsWith("ar") ? "ar" : "en";
-  } catch { return "en"; }
+    return "ar";
+  } catch { return "ar"; }
 };
 
 type Ctx = { lang: Lang; dir: "ltr" | "rtl"; isAr: boolean; setLang: (l: Lang) => void; t: (key: string, vars?: Record<string, string | number>) => string };
-const I18n = createContext<Ctx>({ lang: "en", dir: "ltr", isAr: false, setLang: () => {}, t: (k) => k });
+const I18n = createContext<Ctx>({ lang: "ar", dir: "rtl", isAr: true, setLang: () => {}, t: (k) => k });
 
 /** Translate a UI string. English text is the key; a missing Arabic entry falls back to the English text (never breaks a screen). */
 export const translate = (lang: Lang, key: string, vars?: Record<string, string | number>) => {
@@ -26,7 +26,7 @@ export const translate = (lang: Lang, key: string, vars?: Record<string, string 
 };
 
 export function I18nProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Lang>("en");
+  const [lang, setLangState] = useState<Lang>("ar");
   useEffect(() => { const l = readStored(); i18nState.lang = l; setLangState(l); }, []);
   useEffect(() => {
     i18nState.lang = lang;

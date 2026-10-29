@@ -15,6 +15,8 @@ import { ErrorBoundary } from "./ErrorBoundary";
 import { CommandPalette } from "./shell/CommandPalette";
 import { NotificationBell } from "./shell/NotificationBell";
 import { UserMenu } from "./shell/UserMenu";
+import { LangSwitch } from "./LangSwitch";
+import { ThemeSwitch } from "./ThemeSwitch";
 
 const isMac = () => typeof navigator !== "undefined" && /mac|iphone|ipad/i.test(navigator.platform || navigator.userAgent);
 
@@ -23,16 +25,27 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   const [open, setOpen] = useState(false); const { collapsed, toggleCollapsed, setPalette, hydrate } = useWorkspace(); const hydrateTheme = useTheme((s) => s.hydrate);
   const main = useRef<HTMLElement>(null); const first = useRef(true); const [mac, setMac] = useState(false);
   const notes = useApi(user ? "/workspace/notifications" : null, { refetchInterval: 120_000 });
+
   useEffect(() => { hydrate(); hydrateTheme(); setMac(isMac()); }, [hydrate, hydrateTheme]);
   useEffect(() => { if (!loading && !user) router.replace("/login"); }, [loading, user, router]);
   useEffect(() => { setOpen(false); if (first.current) { first.current = false; return; } main.current?.focus({ preventScroll: true }); }, [path]);
+
+  // Accessibility: close mobile drawer on Escape key
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setOpen(false); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
+
   if (loading || !user) return <div className="grid min-h-screen place-items-center"><LogoBadge size={64} className="animate-pulse" /></div>;
   const badge = (href: string) => href === "/war-room" ? notes.data?.totals?.approval : href === "/alerts" ? notes.data?.totals?.alert : href === "/notifications" ? notes.data?.total : undefined;
   const trail = crumbs(path); const actions = contextActions(path).filter((a) => allowed(a.scope, can));
   const rail = collapsed; // icon-only on desktop
+
   return <div className="min-h-screen">
     {open && <div className="fixed inset-0 z-30 bg-black/55 lg:hidden" onClick={() => setOpen(false)} aria-hidden />}
-    <aside aria-label={t("Primary")} className={cn("fixed inset-y-0 start-0 z-40 flex w-72 -translate-x-full flex-col overflow-y-auto overflow-x-hidden bg-ink-900 text-slate-300 transition-[transform,width] duration-200 rtl:translate-x-full lg:translate-x-0 lg:rtl:translate-x-0", rail ? "lg:w-[76px]" : "lg:w-[264px]", open && "translate-x-0 rtl:translate-x-0")}>
+    <aside aria-label={t("Primary")} className={cn("fixed inset-y-0 start-0 z-40 flex w-72 flex-col overflow-y-auto overflow-x-hidden bg-ink-900 text-slate-300 transition-[transform,width] duration-200 lg:translate-x-0 lg:rtl:translate-x-0", open ? "translate-x-0 rtl:translate-x-0" : "-translate-x-full rtl:translate-x-full", rail ? "lg:w-[76px]" : "lg:w-[264px]")}>
       <div className={cn("flex items-center gap-2 px-4 pb-3 pt-4", rail && "lg:justify-center lg:px-2")}>
         {rail ? <LogoBadge size={36} className="hidden lg:inline-grid" /> : null}<div className={cn("min-w-0 flex-1", rail && "lg:hidden")}><BrandLockup dark showTagline={false} /></div>
         <button className="lg:hidden" onClick={() => setOpen(false)} aria-label={t("Close")}><X className="h-5 w-5 text-slate-400" /></button></div>
@@ -58,7 +71,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
             {c.href ? <Link href={c.href} className="truncate text-slate-500 hover:text-slate-900">{t(c.label)}</Link> : <span className={cn("truncate", i === trail.length - 1 ? "font-semibold text-slate-900" : "text-slate-500")} aria-current={i === trail.length - 1 ? "page" : undefined}>{t(c.label)}</span>}</li>)}</ol></nav>
           <button onClick={() => setPalette(true)} aria-haspopup="dialog" aria-keyshortcuts="Control+K Meta+K" className="mx-auto flex h-9 w-full max-w-md items-center gap-2 rounded-xl border border-line bg-surface px-3 text-sm text-slate-500 hover:border-line-strong md:mx-0 md:ms-auto">
             <Search className="h-4 w-4" /><span className="flex-1 truncate text-start">{t("Search or jump to…")}</span><kbd className="hidden rounded border border-line px-1.5 py-0.5 text-[11px] sm:block">{mac ? "⌘" : "Ctrl"} K</kbd></button>
-          <div className="ms-auto flex items-center gap-1 md:ms-0"><NotificationBell /><UserMenu /></div>
+          <div className="ms-auto flex items-center gap-1.5 md:ms-0"><LangSwitch className="h-8 px-2.5 text-xs shadow-none border-line bg-surface" /><ThemeSwitch className="h-8 w-8 text-xs shadow-none border-line bg-surface" /><NotificationBell /><UserMenu /></div>
         </div>
         {!!actions.length && <div className="hidden items-center gap-2 border-t border-line px-4 py-1.5 text-xs md:flex lg:px-8"><span className="text-slate-500">{t("Related")}:</span>{actions.map((a) => <Link key={a.href} href={a.href} className="rounded-lg border border-line px-2.5 py-1 font-medium text-slate-700 hover:bg-sunken">{t(a.label)}</Link>)}</div>}
       </header>

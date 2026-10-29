@@ -37,7 +37,13 @@ def _user_dict(u: User):
 
 @router.post("/login", response_model=TokenOut)
 def login(body: LoginIn, request: Request, db: Session = Depends(get_db)):
-    u = db.scalars(select(User).where(User.email == body.email.lower().strip())).first()
+    ident = body.email.lower().strip()
+    idents = [ident]
+    if "@" not in ident:
+        idents.append(f"{ident}@company.local")
+    elif ident.endswith("@company.local"):
+        idents.append(ident.split("@")[0])
+    u = db.scalars(select(User).where(User.email.in_(idents))).first()
     if not u or not u.is_active or not verify_password(body.password, u.password_hash):
         audit(db, None, "login_failed", detail={"email_hint": body.email[:3] + "***"})
         raise HTTPException(401, "Email or password is not correct.")

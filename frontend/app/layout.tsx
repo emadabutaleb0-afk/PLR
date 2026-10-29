@@ -6,8 +6,8 @@ import "@fontsource/ibm-plex-sans-arabic/700.css";
 import "./globals.css";
 import type { Metadata, Viewport } from "next";
 import Providers from "./providers";
-export const metadata: Metadata = { title: "MERCHBRAIN · El-Sharnouby for Clothing", description: "AI Commercial Decision & Profit Recovery Engine" };
-export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: [{ media: "(prefers-color-scheme: light)", color: "#F8F7F4" }, { media: "(prefers-color-scheme: dark)", color: "#0B1220" }] };
+export const metadata: Metadata = { title: "BUSINESS GATE · Commercial Decision & Profit Intelligence", description: "AI Commercial Decision & Profit Recovery Engine" };
+export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: [{ media: "(prefers-color-scheme: light)", color: "#F8FAFC" }, { media: "(prefers-color-scheme: dark)", color: "#0B0F19" }] };
 // Runs before first paint: language + direction (no left-to-right flash for Arabic) and the colour theme (no white flash in dark mode).
 const PRE = `try{var d=document.documentElement,l=localStorage.getItem("mb_lang");if(!l)l=(navigator.language||"").toLowerCase().indexOf("ar")===0?"ar":"en";d.lang=l;d.dir=l==="ar"?"rtl":"ltr";var m=localStorage.getItem("mb_theme")||"system";var t=m==="system"?(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"):m;d.setAttribute("data-theme",t)}catch(e){}`;
 export default function RootLayout({ children }: { children: React.ReactNode }) {

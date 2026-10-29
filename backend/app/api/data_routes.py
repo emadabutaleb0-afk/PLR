@@ -1,5 +1,7 @@
 from __future__ import annotations
-from fastapi import APIRouter, Depends, HTTPException, Query, Request
+import shutil
+from pathlib import Path
+from fastapi import APIRouter, Depends, HTTPException, Query, Request, UploadFile, File
 from sqlalchemy import select, func
 from sqlalchemy.orm import Session
 from app.db.session import get_db
@@ -12,6 +14,7 @@ from app.models.tables import TABLES
 from app.api.common import freshness, PageParams, paginate
 from app.services.jobs import submit
 from app.services.audit import audit
+from app.services.company import get_company_name, set_company_name
 
 router = APIRouter(prefix="/data", tags=["Data"])
 jobs_router = APIRouter(prefix="/jobs", tags=["Jobs"])
@@ -51,7 +54,57 @@ def system_status(db: Session = Depends(get_db), u: User = Depends(current_user)
     found = discover(cfg.data_dir)
     return dict(has_data=bool(ok), importing=running, stage=job.stage if running else None, progress=round(job.progress or 0, 2) if running else None,
                 last_error=(job.message if job and job.status == "FAILED" else None), files_found=len(found["present"]), data_folder_ok=found["exists"] and bool(found["present"]),
-                can_import=has_scope(u, "data_import"))
+                can_import=has_scope(u, "data_import"), company=get_company_name(db))
+
+
+
+@status_router.get("/company", summary="Get target company name and detection source")
+def get_company(db: Session = Depends(get_db), u: User = Depends(current_user)):
+    return get_company_name(db)
+
+
+@status_router.post("/company", summary="Update target company name")
+def update_company(payload: dict, db: Session = Depends(get_db), u: User = Depends(current_user)):
+    name = str(payload.get("name", "")).strip()
+    audit(db, u, "update_company_name", detail={"name": name})
+    return set_company_name(db, name)
+
+
+@router.post("/upload", summary="Upload CSV tables to data directory")
+async def upload_csv_tables(
+    files: list[UploadFile] = File(...),
+    auto_refresh: bool = Query(False, description="Automatically trigger data refresh after upload"),
+    db: Session = Depends(get_db),
+    u: User = Depends(require("data_import"))
+):
+    cfg = get_settings()
+    target_dir = Path(cfg.data_dir)
+    target_dir.mkdir(parents=True, exist_ok=True)
+    canon_map = {f.lower(): f for f in LOAD_ORDER}
+    canon_map.update({f.lower().replace("-", "_").replace(" ", "_"): f for f in LOAD_ORDER})
+
+    saved = []
+    rejected = []
+    for f in files:
+        raw_name = Path(f.filename or "file.csv").name
+        norm = raw_name.lower().replace("-", "_").replace(" ", "_")
+        canonical = canon_map.get(raw_name.lower()) or canon_map.get(norm)
+        if not canonical:
+            if raw_name.lower().endswith(".csv"):
+                canonical = raw_name
+            else:
+                rejected.append({"file": raw_name, "reason": "Only CSV files are accepted."})
+                continue
+        dest = target_dir / canonical
+        with dest.open("wb") as out_file:
+            shutil.copyfileobj(f.file, out_file)
+        saved.append({"original": raw_name, "saved_as": canonical, "size": dest.stat().st_size})
+
+    audit(db, u, "data_upload", "data", None, {"files_saved": len(saved), "files": [s["saved_as"] for s in saved]})
+    res = {"saved": saved, "rejected": rejected, "total_saved": len(saved)}
+    if auto_refresh and saved:
+        res["job"] = _start("import", db, u, False)
+    return res
 
 
 @router.post("/import", status_code=202, summary="Import (replace) data from the configured company folder")

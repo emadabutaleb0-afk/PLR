@@ -15,13 +15,14 @@ class Settings(BaseSettings):
     database_url: str = f"sqlite:///{(BACKEND / 'merchbrain.db').as_posix()}"
     redis_url: str | None = None  # None -> in-process cache + threaded jobs
     data_directory: str = ""   # empty -> auto-detect (see data_dir property)
+    company_name: str = ""   # optional override; defaults to data-detected name or 'Business Gate'
     model_directory: str = str(BACKEND / "models_store")
     secret_key: str = "dev-only-secret-change-me-dev-only-secret"
     access_token_minutes: int = 30
     refresh_token_days: int = 7
     cors_origins: str = "http://localhost:3000"
     rate_limit_per_minute: int = 240
-    bootstrap_admin_email: str = "ceo@company.local"
+    bootstrap_admin_email: str = "admin"
     bootstrap_admin_password: str = "change-me-now"
     stale_data_days: int = 45
     celery_enabled: bool = False

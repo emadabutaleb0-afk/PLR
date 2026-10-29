@@ -27,12 +27,14 @@ def build_pdf(cc: dict, lk: dict, sp: dict, ds: dict, fresh: dict) -> bytes:
     from reportlab.platypus import Image, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
     st = getSampleStyleSheet(); INK, GOLD = colors.HexColor("#111827"), colors.HexColor("#94702b")
     h2 = ParagraphStyle("h2", parent=st["Heading2"], textColor=INK, spaceBefore=10, spaceAfter=4); small = ParagraphStyle("sm", parent=st["Normal"], fontSize=8, textColor=colors.HexColor("#64748b"), leading=10)
+    from app.services.company import get_company_name
+    comp = get_company_name(db).get("company_name", "Business Gate")
     body = ParagraphStyle("b", parent=st["Normal"], fontSize=9, leading=12)
     buf = io.BytesIO(); doc = SimpleDocTemplate(buf, pagesize=A4, title="MERCHBRAIN weekly report", leftMargin=16 * mm, rightMargin=16 * mm, topMargin=14 * mm, bottomMargin=14 * mm)
     head = [[Image(str(LOGO), 22 * mm, 22 * mm) if LOGO.exists() else "", [Paragraph("<b>MERCHBRAIN</b> - Weekly report", ParagraphStyle("t", parent=st["Title"], alignment=0, fontSize=18, textColor=INK, spaceAfter=2)),
-            Paragraph("El-Sharnouby for Clothing - AI Commercial Decision &amp; Profit Recovery Engine", small), Paragraph(f"Generated {datetime.utcnow():%d %b %Y} - data as of {fresh.get('data_as_of')}", small)]]]
+            Paragraph(f"{comp} - AI Commercial Decision &amp; Profit Recovery Engine", small), Paragraph(f"Generated {datetime.utcnow():%d %b %Y} - data as of {fresh.get('data_as_of')}", small)]]]
     ht = Table(head, colWidths=[26 * mm, 150 * mm]); ht.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "MIDDLE"), ("LINEBELOW", (0, 0), (-1, 0), 1, GOLD)]))
-    el = [ht, Spacer(1, 8), Paragraph("Where is El-Sharnouby losing money today, what will happen next, and what should the business do about it?", ParagraphStyle("q", parent=body, fontSize=10, textColor=GOLD))]
+    el = [ht, Spacer(1, 8), Paragraph(f"Where is {comp} losing money today, what will happen next, and what should the business do about it?", ParagraphStyle("q", parent=body, fontSize=10, textColor=GOLD))]
     tiles = [[t["label"], _egp(t["value"]) if t["unit"] == "egp" else f"{t['value']:,.0f} {t['unit']}"] for t in cc["tiles"]]
     tt = Table([["Headline", "Value"]] + tiles, colWidths=[110 * mm, 66 * mm]); tt.setStyle(TableStyle([("BACKGROUND", (0, 0), (-1, 0), INK), ("TEXTCOLOR", (0, 0), (-1, 0), colors.white), ("GRID", (0, 0), (-1, -1), .25, colors.HexColor("#cbd5e1")), ("FONTSIZE", (0, 0), (-1, -1), 9), ("ALIGN", (1, 0), (1, -1), "RIGHT")]))
     el += [Paragraph("Headline numbers", h2), tt, Paragraph("Profit at Risk and Recoverable Profit are estimates; leakage is what already happened in the last 12 months.", small), Paragraph("Top actions this week", h2)]

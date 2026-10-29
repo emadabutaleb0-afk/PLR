@@ -17,7 +17,7 @@ export default function Login() {
     <Card className="w-full max-w-sm p-8 shadow-2xl">
       <div className="mb-7 flex flex-col items-center text-center"><LogoBadge size={96} /><h1 className="mt-4 text-xl font-bold tracking-[0.2em]">{BRAND.name}</h1><p className="mt-0.5 text-sm font-medium text-brand-700">{t(BRAND.company)}</p><div className="hairline-gold my-3 w-24" /><p className="text-xs uppercase tracking-wider text-slate-500">{t(BRAND.tagline)}</p></div>
       <form onSubmit={submit} className="space-y-4">
-        <div><Label htmlFor="email">{t("Work email")}</Label><Input id="email" type="email" autoComplete="username" dir="ltr" value={email} onChange={(e) => setE(e.target.value)} required autoFocus /></div>
+        <div><Label htmlFor="email">{t("Work email")}</Label><Input id="email" type="text" autoComplete="username" dir="ltr" value={email} onChange={(e) => setE(e.target.value)} required autoFocus /></div>
         <div><Label htmlFor="pw">{t("Password")}</Label><div className="relative"><Input id="pw" type={show ? "text" : "password"} autoComplete="current-password" dir="ltr" className="pe-10" value={pw} onChange={(e) => setP(e.target.value)} required />
           <button type="button" className="absolute end-3 top-3 text-slate-400 hover:text-slate-600" onClick={() => setShow(!show)} aria-label={show ? t("Hide password") : t("Show password")}>{show ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}</button></div></div>
         {err && <p className="rounded-lg bg-rose-50 p-2.5 text-sm text-rose-700" role="alert">{err}</p>}

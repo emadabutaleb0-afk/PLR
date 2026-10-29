@@ -79,9 +79,11 @@ def _pdf(db, u) -> bytes:
     from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle, Spacer
     from reportlab.lib import colors
     ex = snap(db, "executive", {}); st = getSampleStyleSheet(); buf = io.BytesIO()
-    doc = SimpleDocTemplate(buf, pagesize=A4, title="SHARNOUBY MERCH BRAIN - Executive summary")
+    from app.services.company import get_company_name
+    comp = get_company_name(db).get("company_name", "Business Gate")
+    doc = SimpleDocTemplate(buf, pagesize=A4, title=f"{comp.upper()} - Executive summary")
     f = freshness(db)
-    el = [Paragraph("SHARNOUBY MERCH BRAIN - Executive summary", st["Title"]), Paragraph(f"{f['message']} (data as of {f.get('data_as_of')})", st["Normal"]), Spacer(1, 12)]
+    el = [Paragraph(f"{comp.upper()} - Executive summary", st["Title"]), Paragraph(f"{f['message']} (data as of {f.get('data_as_of')})", st["Normal"]), Spacer(1, 12)]
     k = [["KPI", "Value"]]
     for x in ex.get("kpis", []):
         v = x["value"]; k.append([x["label"], f"{v:.1%}" if x["unit"] == "pct" else (f"{v:.1f}x" if x["unit"] == "x" else f"EGP {v:,.0f}")])

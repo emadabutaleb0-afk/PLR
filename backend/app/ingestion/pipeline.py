@@ -23,7 +23,11 @@ STAGES = ["extract", "validate", "transform", "load", "features", "analytics", "
 def discover(data_dir: str) -> dict:
     d = Path(data_dir)
     present, missing = {}, []
-    lower = {p.name.lower(): p for p in d.glob("*.csv")} if d.exists() else {}
+    lower = {}
+    if d.exists():
+        for p in d.glob("*.csv"):
+            lower[p.name.lower()] = p
+            lower[p.name.lower().replace("-", "_").replace(" ", "_")] = p
     for f in LOAD_ORDER:
         p = lower.get(f.lower())
         (present.__setitem__(f, p) if p else missing.append(f))

@@ -6,6 +6,7 @@ import { download } from "@/lib/api";
 import { useApi } from "@/lib/hooks";
 import { egp, num, pct } from "@/lib/format";
 import { useI18n } from "@/lib/i18n";
+import { useCompany } from "@/lib/company";
 import { LogoBadge } from "@/components/Brand";
 import { ErrorState, LoadingBlock } from "@/components/States";
 import { LEAK_COLOR } from "@/components/leak";
@@ -16,7 +17,7 @@ const STEPS = [
   { en: "What to do today", ar: "ماذا نفعل اليوم" }, { en: "What the data taught us", ar: "ماذا علّمتنا البيانات" }, { en: "Try it, and what we do not claim", ar: "جرّبه، وما لا ندّعيه" }];
 
 export default function Demo() {
-  const { t, isAr } = useI18n(); const L = isAr ? "ar" : "en"; const [i, setI] = useState(0);
+  const { t, isAr } = useI18n(); const { companyName } = useCompany(); const L = isAr ? "ar" : "en"; const [i, setI] = useState(0);
   const cc = useApi("/commercial/command-center"); const lk = useApi("/commercial/leakage"); const ds = useApi("/commercial/discounts"); const cu = useApi("/commercial/customers"); const op = useApi("/operations/bottlenecks");
   const Next = isAr ? ArrowLeft : ArrowRight; const Prev = isAr ? ArrowRight : ArrowLeft;
   const go = useCallback((d: number) => setI((x) => Math.max(0, Math.min(STEPS.length - 1, x + d))), []);
@@ -30,8 +31,8 @@ export default function Demo() {
   if (ready && !failed) {
     const topLeak = lk.data.items[0]; const dl = op.data.downtime_link; const k = cu.data.kpis;
     body = [
-      <div key="0" className="flex flex-col items-start gap-6"><LogoBadge size={96} /><h1 className="max-w-4xl text-3xl font-semibold leading-snug lg:text-5xl">{t("Where is El-Sharnouby losing money today, what will happen next, and what should the business do about it?")}</h1>
-        <p className={sub}>{L === "ar" ? "ميرش برين يربط المبيعات والمخزون والمصنع والخامات والموردين والعملاء في مكان واحد، ويخرج بقرارات جاهزة." : "MerchBrain connects sales, stock, factory, materials, suppliers and customers in one place and ends with decisions, not charts."}</p></div>,
+      <div key="0" className="flex flex-col items-start gap-6"><LogoBadge size={96} /><h1 className="max-w-4xl text-3xl font-semibold leading-snug lg:text-5xl">{t("Where is {company} losing money today, what will happen next, and what should the business do about it?", { company: companyName })}</h1>
+        <p className={sub}>{L === "ar" ? "بزنس جيت يربط المبيعات والمخزون والمصنع والخامات والموردين والعملاء في مكان واحد، ويخرج بقرارات جاهزة." : "Business Gate connects sales, stock, factory, materials, suppliers and customers in one place and ends with decisions, not charts."}</p></div>,
       <div key="1"><p className={sub}>{L === "ar" ? "تسرّبت من الأرباح خلال آخر 12 شهرًا" : "Leaked from profit in the last 12 months"}</p><p className={cn(big, "text-rose-400")}>{egp(lk.data.total)}</p>
         <div className="mt-6 flex h-4 max-w-3xl overflow-hidden rounded-full bg-white/10">{lk.data.items.map((x: any) => <div key={x.key} style={{ width: `${x.share * 100}%`, background: LEAK_COLOR[x.key] }} />)}</div>
         <div className="mt-4 grid max-w-3xl gap-2 sm:grid-cols-2">{lk.data.items.map((x: any) => <p key={x.key} className="flex items-center justify-between text-slate-300"><span className="flex items-center gap-2"><span className="h-2.5 w-2.5 rounded-full" style={{ background: LEAK_COLOR[x.key] }} />{x.label}</span><b className="text-white">{egp(x.value)}</b></p>)}</div>

@@ -38,9 +38,9 @@ h1, h2, h3 { letter-spacing: -0.012em; }
 .skip-link { position: absolute; inset-inline-start: 8px; top: -48px; z-index: 100; background: rgb(var(--accent)); color: rgb(var(--accent-fg)); padding: 8px 14px; border-radius: 10px; font-weight: 600; }
 .skip-link:focus { top: 8px; }
 
-/* brand */
-.brand-grad { background: radial-gradient(1200px 500px at 85% -10%, rgba(197,164,109,.2), transparent 60%), linear-gradient(135deg, #070C16 0%, #0B1220 55%, #151E2D 100%); }
-.hairline-gold { background: linear-gradient(90deg, transparent, rgba(197,164,109,.7), transparent); height: 1px; }
+/* brand - Royal Indigo & Obsidian palette (#6366F1, #0B0F19) */
+.brand-grad { background: radial-gradient(1200px 500px at 85% -10%, rgba(99, 102, 241, 0.22), transparent 60%), linear-gradient(135deg, #060911 0%, #0B0F19 55%, #111827 100%); }
+.hairline-gold, .hairline-blue, .hairline-indigo { background: linear-gradient(90deg, transparent, rgba(99, 102, 241, 0.7), transparent); height: 1px; }
 
 /* scrollbars: quiet, theme aware */
 * { scrollbar-width: thin; scrollbar-color: rgb(var(--line-strong)) transparent; }

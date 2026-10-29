@@ -21,7 +21,10 @@ async function refresh(): Promise<boolean> {
   return refreshing;
 }
 export async function api<T = any>(path: string, opts: RequestInit & { raw?: boolean } = {}): Promise<T> {
-  const doFetch = () => fetch(`/api/v1${path}`, { ...opts, headers: { "Content-Type": "application/json", "Accept-Language": i18nState.lang, ...(tokens.get()?.access_token ? { Authorization: `Bearer ${tokens.get().access_token}` } : {}), ...(opts.headers || {}) } });
+  const isFormData = typeof FormData !== "undefined" && opts.body instanceof FormData;
+  const defHeaders: Record<string, string> = { "Accept-Language": i18nState.lang, ...(tokens.get()?.access_token ? { Authorization: `Bearer ${tokens.get().access_token}` } : {}) };
+  if (!isFormData) defHeaders["Content-Type"] = "application/json";
+  const doFetch = () => fetch(`/api/v1${path}`, { ...opts, headers: { ...defHeaders, ...(opts.headers || {}) } });
   let r = await doFetch().catch(() => { throw new ApiError(m().network, 0, "network"); });
   const isAuthCall = path.startsWith("/auth/login") || path.startsWith("/auth/refresh");
   if (r.status === 401 && !isAuthCall && (await refresh())) r = await doFetch();

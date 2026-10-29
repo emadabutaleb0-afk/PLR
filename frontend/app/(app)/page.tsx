@@ -7,6 +7,7 @@ import { useApi } from "@/lib/hooks";
 import { api, download } from "@/lib/api";
 import { egp, greetingKey, num, pct } from "@/lib/format";
 import { useI18n } from "@/lib/i18n";
+import { useCompany } from "@/lib/company";
 import { Freshness } from "@/components/Freshness";
 import { KpiCard, DecisionCard } from "@/components/Cards";
 import { ErrorState, LoadingGrid, Empty, LoadingBlock } from "@/components/States";
@@ -21,7 +22,7 @@ const TONE: Record<string, { text: string; bar: string; icon: any }> = {
 };
 
 export default function Home() {
-  const { t, isAr } = useI18n(); const { user, can } = useAuth(); const ex = can("executive");
+  const { t, isAr } = useI18n(); const { user, can } = useAuth(); const { companyName } = useCompany(); const ex = can("executive");
   const cc = useApi(ex ? "/commercial/command-center" : null); const lk = useApi(ex ? "/commercial/leakage" : null); const ov = useApi(ex ? "/executive/overview" : null); const dec = useApi(ex ? "/executive/decisions?limit=6" : null);
   const [open, setOpen] = useState<any>(null); const [busy, setBusy] = useState<string | null>(null);
   const first = (user?.full_name || user?.email || "").split(/[ @]/)[0]; const Arrow = isAr ? ArrowLeft : ArrowRight;
@@ -32,7 +33,7 @@ export default function Home() {
       <div className="flex flex-wrap items-center gap-5"><LogoBadge size={64} /><div className="min-w-0 flex-1">
         <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-200">{t("Command Center")}</p>
         <h1 className="mt-1 text-2xl font-semibold tracking-tight lg:text-3xl">{t(greetingKey())}{first ? `, ${first}` : ""}</h1>
-        <p className="mt-2 max-w-3xl text-sm text-slate-300 lg:text-base">{t("Where is El-Sharnouby losing money today, what will happen next, and what should the business do about it?")}</p></div>
+        <p className="mt-2 max-w-3xl text-sm text-slate-300 lg:text-base">{t("Where is {company} losing money today, what will happen next, and what should the business do about it?", { company: companyName })}</p></div>
         <div className="flex flex-col items-end gap-2"><div className="rounded-xl bg-white/10 px-3 py-2 text-xs text-slate-200"><Freshness dark f={cc.data?.freshness || ov.data?.freshness} /></div>
           {ex && <button onClick={() => download("/commercial/weekly-report.pdf", "merchbrain-weekly-report.pdf")} className="inline-flex items-center gap-2 rounded-xl border border-white/20 bg-white/10 px-3 py-2 text-sm font-medium text-white hover:bg-white/20"><Download className="h-4 w-4" />{t("Weekly report (PDF)")}</button>}</div></div></section>
     {!ex && <Card className="p-6 text-sm text-slate-600">{t("Use the menu to open your areas:")} <Link className="text-brand-600 underline" href="/alerts">{t("Alert Center")}</Link>, <Link className="text-brand-600 underline" href="/actions">{t("Action Center")}</Link>, <Link className="text-brand-600 underline" href="/products">{t("Products")}</Link>.</Card>}

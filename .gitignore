@@ -28,3 +28,10 @@ out/
 Thumbs.db
 .vscode/
 .idea/
+
+# Binaries, Packages & Browser Cache
+chrome/
+*.zip
+BusinessGate-Offline-Package/
+docs/screenshots/temp_profile/
+*.tsbuildinfo

@@ -11,17 +11,17 @@ const blend = (fg, bg, a) => fg.map((v, i) => v * a + bg[i] * (1 - a));
 const lum = (c) => { const f = c.map((v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; }); return 0.2126 * f[0] + 0.7152 * f[1] + 0.0722 * f[2]; };
 const contrast = (a, b) => { const [x, y] = [lum(a), lum(b)].sort((p, q) => q - p); return (x + 0.05) / (y + 0.05); };
 
-// ---- semantic surfaces (RGB)
+// ---- semantic surfaces (RGB) - Modern Obsidian & Royal Indigo (Linear theme)
 const S = {
-  light: { canvas: "#F8F7F4", surface: "#FFFFFF", raised: "#FFFFFF", sunken: "#F1EFE9", line: "#E6E2D8", "line-strong": "#D4CFC2", accent: "#047857", "accent-hover": "#065F46", "accent-fg": "#FFFFFF", focus: "#047857" },
-  dark: { canvas: "#0B1220", surface: "#151E2D", raised: "#1B2638", sunken: "#0F1726", line: "#25324A", "line-strong": "#34445F", accent: "#10B981", "accent-hover": "#34D399", "accent-fg": "#04281D", focus: "#34D399" },
+  light: { canvas: "#F8FAFC", surface: "#FFFFFF", raised: "#FFFFFF", sunken: "#F1F5F9", line: "#E2E8F0", "line-strong": "#CBD5E1", accent: "#4F46E5", "accent-hover": "#4338CA", "accent-fg": "#FFFFFF", focus: "#6366F1" },
+  dark: { canvas: "#0B0F19", surface: "#111827", raised: "#1F2937", sunken: "#080C14", line: "#1F2937", "line-strong": "#374151", accent: "#5850EC", "accent-hover": "#818CF8", "accent-fg": "#FFFFFF", focus: "#818CF8" },
 };
-const slateDark = { 50: "#1B2638", 100: "#1F2B40", 200: "#25324A", 300: "#34445F", 400: "#7F8BA3", 500: "#A3AEC2", 600: "#B9C2D2", 700: "#CDD4E0", 800: "#E1E6EF", 900: "#E9EDF4", 950: "#F4F6FA" };
-const gold = { 50: "#FAF6EC", 100: "#F1E6C8", 200: "#E4D097", 300: "#D6BB7F", 400: "#CDAF75", 500: "#C5A46D", 600: "#8A6B2C", 700: "#6F541F", 800: "#594319", 900: "#463414" };
-const goldDark = { 400: "#CDAF75", 500: "#C5A46D", 600: "#D2B57E", 700: "#E3CC9B", 800: "#EFDDB8", 900: "#F6EBD3" };
+const slateDark = { 50: "#111827", 100: "#172033", 200: "#1F2937", 300: "#374151", 400: "#9CA3AF", 500: "#D1D5DB", 600: "#E5E7EB", 700: "#F3F4F6", 800: "#F9FAFB", 900: "#FFFFFF", 950: "#FFFFFF" };
+const royalIndigo = { 50: "#EEF2FF", 100: "#E0E7FF", 200: "#C7D2FE", 300: "#A5B4FC", 400: "#818CF8", 500: "#6366F1", 600: "#4F46E5", 700: "#4338CA", 800: "#3730A3", 900: "#312E81" };
+const royalIndigoDark = { 400: "#818CF8", 500: "#6366F1", 600: "#A5B4FC", 700: "#C7D2FE", 800: "#E0E7FF", 900: "#EEF2FF" };
 const SHADES = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900];
 const surfDark = hex2rgb(S.dark.surface);
-const lightShift = { emerald: { 600: 700 }, amber: { 600: 700 }, orange: { 600: 700 }, sky: { 600: 700 } }; // 600 is used as TEXT: raise its contrast on white
+const lightShift = { emerald: { 600: 700 }, amber: { 600: 700 }, orange: { 600: 700 }, sky: { 600: 700 }, brand: { 600: 700 } };
 
 const scales = {}; // name -> {light:{shade:rgb}, dark:{shade:rgb}}
 for (const n of ["emerald", "rose", "amber", "orange", "sky", "violet"]) {
@@ -33,9 +33,9 @@ for (const n of ["emerald", "rose", "amber", "orange", "sky", "violet"]) {
   D[600] = hex2rgb(base[400]); D[700] = hex2rgb(base[300]); D[800] = hex2rgb(base[200]); D[900] = hex2rgb(base[100]);
   scales[n] = { light: L, dark: D };
 }
-{ const L = {}, D = {}; for (const s of SHADES) L[s] = hex2rgb(gold[s]);
-  const gb = hex2rgb(gold[500]); for (const [s, a] of [[50, 0.1], [100, 0.16], [200, 0.26], [300, 0.4]]) D[s] = blend(gb, surfDark, a);
-  for (const s of [400, 500, 600, 700, 800, 900]) D[s] = hex2rgb(goldDark[s]); scales.brand = { light: L, dark: D }; }
+{ const L = {}, D = {}; for (const s of SHADES) L[s] = hex2rgb(royalIndigo[s]);
+  const gb = hex2rgb(royalIndigo[500]); for (const [s, a] of [[50, 0.1], [100, 0.16], [200, 0.26], [300, 0.4]]) D[s] = blend(gb, surfDark, a);
+  for (const s of [400, 500, 600, 700, 800, 900]) D[s] = hex2rgb(royalIndigoDark[s]); scales.brand = { light: L, dark: D }; }
 { const L = {}, D = {}; for (const s of [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950]) { L[s] = hex2rgb(colors.slate[s]); D[s] = hex2rgb(slateDark[s]); } scales.slate = { light: L, dark: D }; }
 
 // the stock slate-500/400 are just under the contrast minimum on the warm off-white canvas: nudge them

@@ -15,8 +15,8 @@ export default {
       brand: scale("brand", S10),
       canvas: v("canvas"), surface: v("surface"), raised: v("raised"), sunken: v("sunken"), line: { DEFAULT: v("line"), strong: v("line-strong") },
       accent: { DEFAULT: v("accent"), hover: v("accent-hover"), fg: v("accent-fg") },
-      // fixed (theme independent): the dark sidebar and brand artwork
-      ink: { DEFAULT: "#0B1220", 950: "#070C16", 900: "#0B1220", 800: "#151E2D", 700: "#1B2638", 600: "#25324A" },
+      // fixed (theme independent): the dark sidebar and brand artwork (Obsidian Linear dark #0B0F19)
+      ink: { DEFAULT: "#0B0F19", 950: "#060911", 900: "#0B0F19", 800: "#111827", 700: "#1F2937", 600: "#374151" },
     },
     boxShadow: { card: "0 1px 2px rgba(11,18,32,.05), 0 10px 28px -16px rgba(11,18,32,.18)", pop: "0 24px 64px -16px rgba(0,0,0,.45)" },
     fontFamily: {

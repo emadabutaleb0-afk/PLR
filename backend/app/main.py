@@ -82,7 +82,7 @@ async def lifespan(app: FastAPI):
 
 def create_app() -> FastAPI:
     cfg = get_settings()
-    app = FastAPI(title="SHARNOUBY MERCH BRAIN API", version="1.0.0", description="Fashion Retail Decision Intelligence Platform - on-premise decision and execution layer.",
+    app = FastAPI(title="BUSINESS GATE API", version="1.0.0", description="Commercial Decision & Profit Intelligence Platform - on-premise decision and execution layer.",
                   lifespan=lifespan, docs_url="/docs" if cfg.environment != "production" else None, redoc_url=None)
     app.add_middleware(Hardening)
     app.add_middleware(CORSMiddleware, allow_origins=cfg.cors_list, allow_credentials=True, allow_methods=["GET", "POST", "PATCH"], allow_headers=["Authorization", "Content-Type"])

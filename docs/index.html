@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Gate - رادار تسرّب الأرباح (نسخة تفاعلية للمالية)</title>
+<style>
+  /* Offline-safe typography without external CDN dependencies */
+  :root {
+    --font: 'Segoe UI', Tahoma, 'Arial', system-ui, sans-serif;
+    --bg-canvas: #f8fafc;
+    --bg-surface: #ffffff;
+    --bg-sunken: #f1f5f9;
+    --border: #e2e8f0;
+    --border-strong: #cbd5e1;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --accent: #4f46e5;
+    --accent-hover: #4338ca;
+    --accent-soft: #eef2ff;
+    --green: #10b981;
+    --green-soft: #ecfdf5;
+    --red: #ef4444;
+    --red-soft: #fef2f2;
+    --amber: #f59e0b;
+    --amber-soft: #fffbeb;
+  }
+  
+  [data-theme="dark"] {
+    --bg-canvas: #0b0f19;
+    --bg-surface: #111827;
+    --bg-sunken: #060911;
+    --border: #1f2937;
+    --border-strong: #374151;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --accent: #6366f1;
+    --accent-hover: #4f46e5;
+    --accent-soft: #1e1b4b;
+    --green: #10b981;
+    --green-soft: #064e3b;
+    --red: #f43f5e;
+    --red-soft: #4c0519;
+    --amber: #f59e0b;
+    --amber-soft: #451a03;
+  }
+
+  * { box-sizing: border-box; transition: background-color 0.2s, border-color 0.2s; }
+  body {
+    font-family: var(--font);
+    margin: 0;
+    padding: 0;
+    background: var(--bg-canvas);
+    color: var(--text-main);
+    line-height: 1.5;
+    font-size: 13.5px;
+  }
+
+  /* Header */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: var(--bg-surface);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .brand-logo {
+    width: 36px;
+    height: 36px;
+    background: linear-gradient(135deg, #4f46e5, #0b0f19);
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(79, 70, 229, 0.35);
+  }
+  .brand-title {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+  }
+  .brand-sub {
+    font-size: 11px;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .nav-tabs {
+    display: flex;
+    gap: 4px;
+    background: var(--bg-sunken);
+    padding: 4px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  .nav-tab {
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+  }
+  .nav-tab.active {
+    background: var(--bg-surface);
+    color: var(--accent);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .btn {
+    padding: 6px 14px;
+    border-radius: 10px;
+    font-size: 12.5px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: var(--bg-surface);
+    color: var(--text-main);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .btn:hover { background: var(--bg-sunken); }
+  .btn-primary {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  .btn-primary:hover { background: var(--accent-hover); }
+  .btn-green {
+    background: var(--green);
+    color: #fff;
+    border-color: var(--green);
+  }
+  .btn-green:hover { opacity: 0.9; }
+
+  /* Main Container */
+  main {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+
+  /* Notice Banner */
+  .demo-banner {
+    background: linear-gradient(90deg, #312e81, #1e1b4b);
+    color: #fff;
+    border-radius: 16px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .demo-banner h3 { margin: 0 0 4px; font-size: 15px; font-weight: 800; color: #a5b4fc; }
+  .demo-banner p { margin: 0; font-size: 12px; color: #e2e8f0; }
+
+  /* Freshness Banner */
+  .freshness-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--bg-sunken);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 10px 16px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+
+  /* Grid Layouts */
+  .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+
+  /* Cards */
+  .card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .card-title {
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0;
+  }
+  .badge {
+    padding: 3px 8px;
+    border-radius: 9999px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .badge-red { background: var(--red-soft); color: var(--red); }
+  .badge-green { background: var(--green-soft); color: var(--green); }
+  .badge-amber { background: var(--amber-soft); color: var(--amber); }
+  .badge-indigo { background: var(--accent-soft); color: var(--accent); }
+  .badge-gray { background: var(--bg-sunken); color: var(--text-muted); }
+
+  .kpi-num {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    margin: 6px 0 2px;
+  }
+
+  /* Tab View Panels */
+  .view-panel { display: none; }
+  .view-panel.active { display: block; animation: fadeIn 0.2s ease-out; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
+  /* Profit Leakage Progress Bars */
+  .leak-row { margin-bottom: 14px; }
+  .leak-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .progress-track {
+    height: 10px;
+    background: var(--bg-sunken);
+    border-radius: 9999px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+  .progress-fill {
+    height: 100%;
+    border-radius: 9999px;
+    transition: width 0.6s ease;
+  }
+
+  /* Decision Items */
+  .decision-item {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+  }
+  .decision-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+    border-color: var(--accent);
+  }
+
+  /* Kanban Columns */
+  .kanban-col {
+    background: var(--bg-sunken);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 12px;
+    min-height: 480px;
+  }
+  .kanban-header {
+    font-size: 13px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* CFO Simulator */
+  .slider-box { margin-bottom: 18px; }
+  .slider-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  input[type=range] {
+    width: 100%;
+    accent-color: var(--accent);
+    cursor: pointer;
+  }
+
+  /* Data Management & Upload Zone Styles */
+  .upload-zone {
+    border: 2px dashed var(--border-strong);
+    border-radius: 16px;
+    padding: 36px 20px;
+    text-align: center;
+    cursor: pointer;
+    background: var(--bg-sunken);
+    transition: all 0.2s ease;
+  }
+  .upload-zone:hover, .upload-zone.drag-over {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+  }
+  .upload-icon {
+    font-size: 38px;
+    margin-bottom: 8px;
+  }
+  .upload-zone h3 { margin: 0 0 6px; font-size: 15px; font-weight: 800; }
+  .upload-zone p { margin: 0; font-size: 12px; color: var(--text-muted); }
+
+  .file-list-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+  }
+  .file-list-item .file-name { font-weight: 700; font-size: 12.5px; }
+  .file-list-item .file-size { font-size: 11px; color: var(--text-muted); }
+  .remove-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-muted);
+    font-size: 16px;
+    padding: 2px 6px;
+    border-radius: 6px;
+  }
+  .remove-btn:hover { background: var(--red-soft); color: var(--red); }
+
+  .pipeline-stages {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .pipeline-stage {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-size: 11.5px;
+    font-weight: 700;
+    background: var(--bg-sunken);
+    border: 1px solid var(--border);
+    opacity: 0.45;
+    transition: all 0.25s;
+  }
+  .pipeline-stage.active {
+    opacity: 1;
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-soft);
+  }
+  .pipeline-stage.done {
+    opacity: 1;
+    border-color: var(--green);
+    color: var(--green);
+    background: var(--green-soft);
+  }
+  .pipeline-arrow { color: var(--text-muted); font-size: 13px; }
+
+  .health-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  .health-table th {
+    background: var(--bg-sunken);
+    padding: 10px 12px;
+    text-align: right;
+    font-weight: 700;
+    border-bottom: 2px solid var(--border);
+  }
+  .health-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .health-table tr:last-child td { border-bottom: none; }
+  .health-bar {
+    height: 6px;
+    background: var(--bg-sunken);
+    border-radius: 99px;
+    overflow: hidden;
+    width: 75px;
+  }
+  .health-bar-fill { height: 100%; border-radius: 99px; }
+
+  .company-name-input {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-size: 13px;
+    background: var(--bg-surface);
+    color: var(--text-main);
+    font-family: var(--font);
+  }
+  .company-name-input:focus {
+    outline: 2px solid var(--accent);
+    border-color: var(--accent);
+  }
+
+  /* Modal Drawer */
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    backdrop-filter: blur(2px);
+    z-index: 100;
+    display: none;
+    place-items: center;
+    padding: 16px;
+  }
+  .modal-overlay.active { display: grid; animation: fadeIn 0.18s ease-out; }
+  .modal-box {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    max-width: 620px;
+    width: 100%;
+    padding: 24px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  }
+
+  /* Print Styles */
+  @media print {
+    header, .demo-banner, .header-actions, .upload-zone, #upload-actions, #file-input { display: none !important; }
+    body { background: #fff !important; color: #000 !important; }
+    .card { border: 1px solid #ccc !important; box-shadow: none !important; }
+  }
+
+  @media (max-width: 900px) {
+    .grid-4, .grid-3, .grid-2 { grid-template-columns: 1fr; }
+    .nav-tabs { overflow-x: auto; max-width: 100%; }
+    header { flex-direction: column; gap: 12px; }
+  }
+</style>
+</head>
+<body data-theme="light">
+
+  <!-- Header -->
+  <header>
+    <div class="brand">
+      <div class="brand-logo">BG</div>
+      <div>
+        <div class="brand-title">BUSINESS GATE · رادار تسرّب الأرباح</div>
+        <div class="brand-sub" id="company-label">النسخة التفاعلية المستقلة لقطاع المالية والإدارة التنفيذية</div>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="nav-tabs">
+      <button class="nav-tab active" onclick="switchTab('tab-command', this)">📊 مركز القيادة</button>
+      <button class="nav-tab" onclick="switchTab('tab-leakage', this)">🔍 كشف تسرّب الأرباح</button>
+      <button class="nav-tab" onclick="switchTab('tab-decisions', this)">⚡ محرك القرارات</button>
+      <button class="nav-tab" onclick="switchTab('tab-warroom', this)">🎯 غرفة العمليات (War Room)</button>
+      <button class="nav-tab" onclick="switchTab('tab-simulator', this)">🧮 حاسبة أرباح الـ CFO</button>
+      <button class="nav-tab" onclick="switchTab('tab-data', this)">📂 رفع البيانات وصحة الجداول</button>
+    </div>
+
+    <div class="header-actions">
+      <button class="btn" onclick="toggleTheme()" title="تبديل الوضع الليلي / النهاري">🌓 المظهر</button>
+      <button class="btn btn-primary" onclick="window.print()">🖨️ طباعة تقرير</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Notice Banner -->
+    <div class="demo-banner">
+      <div>
+        <h3>ملف تفاعلي مستقل 100% · لا يحتاج أي تثبيت أو برامج مساعدة أو اتصال خادم</h3>
+        <p>تم إعداد هذا الملف خصيصًا للفريق المالي لاختبار منطق استرداد الأرباح، محاكاة القرارات، إدارة الجداول ومتابعة التدفقات النقدية المحققة فورًا.</p>
+      </div>
+      <div style="font-weight: 800; font-size: 13px; background: rgba(255,255,255,0.15); padding: 6px 14px; border-radius: 8px;">
+        البيانات: فواتير ومخزون 12 شهرًا
+      </div>
+    </div>
+
+    <!-- ==================== TAB 1: COMMAND CENTER ==================== -->
+    <div id="tab-command" class="view-panel active">
+      
+      <!-- Freshness Indicator -->
+      <div class="freshness-bar">
+        <span style="font-size: 18px;">🕐</span>
+        <div style="flex: 1;">
+          <span style="font-weight: 800; font-size: 12.5px;">حالة تحديث البيانات:</span>
+          <span style="font-size: 12px; margin-right: 6px; color: var(--text-muted);">تمت قراءة وتحليل الجداول منذ <b style="color: var(--green);">3 أيام</b> (بيانات حديثة وموثوقة)</span>
+        </div>
+        <span class="badge badge-green">FRESH · جاهز للقرارات</span>
+        <span style="font-size: 11px; color: var(--text-muted);">المزامنة القادمة بعد 4 أيام</span>
+      </div>
+
+      <div class="grid-4" style="margin-bottom: 20px;">
+        <div class="card" style="border-right: 4px solid var(--red);">
+          <div class="card-header"><span class="card-title">إجمالي الربح المعرّض للخطر</span><span class="badge badge-red">خسارة كامنة</span></div>
+          <div class="kpi-num" style="color: var(--red);">22,729,574 ج.م</div>
+          <div style="font-size: 11.5px; color: var(--text-muted);">أرباح مهددة في الفروع بسبب النفاد والركود</div>
+        </div>
+        <div class="card" style="border-right: 4px solid var(--green);">
+          <div class="card-header"><span class="card-title">الأرباح القابلة للاسترداد فورًا</span><span class="badge badge-green">كاش متاح</span></div>
+          <div class="kpi-num" style="color: var(--green);">7,179,690 ج.م</div>
+          <div style="font-size: 11.5px; color: var(--text-muted);">عائد نقدي مباشر من تنفيذ توصيات الرادار</div>
+        </div>
+        <div class="card" style="border-right: 4px solid var(--amber);">
+          <div class="card-header"><span class="card-title">أصناف مهددة بالنفاد (Stockout)</span><span class="badge badge-amber">مبيعات ضائعة</span></div>
+          <div class="kpi-num" style="color: var(--amber);">44 صنف</div>
+          <div style="font-size: 11.5px; color: var(--text-muted);">مطلوبة في فروع معينة وتتوفر راكدة بفروع أخرى</div>
+        </div>
+        <div class="card" style="border-right: 4px solid var(--accent);">
+          <div class="card-header"><span class="card-title">أصناف فائضة وراكدة (Overstock)</span><span class="badge badge-indigo">كاش محبوس</span></div>
+          <div class="kpi-num" style="color: var(--accent);">80 صنف</div>
+          <div style="font-size: 11.5px; color: var(--text-muted);">تغطي أكثر من 180 يومًا بدون دوران كافٍ</div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">أهم 3 قرارات ذات أولوية قصوى اليوم</span>
+            <span class="badge badge-indigo">جاهزة للتنفيذ</span>
+          </div>
+          <div id="command-decisions">
+            <!-- Injected via JS -->
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">توزيع تسرّب الأرباح السنوي حسب المصدر</span>
+            <span class="badge badge-red">2,088,672 ج.م</span>
+          </div>
+          <div style="padding: 10px 0;">
+            <div class="leak-row">
+              <div class="leak-info"><span>خسائر الجودة والهدر (Quality Loss)</span><span>2,060,710 ج.م (98.7%)</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 98.7%; background: #ef4444;"></div></div>
+            </div>
+            <div class="leak-row">
+              <div class="leak-info"><span>مبيعات ضائعة بسبب نفاد المخزون (Stockouts)</span><span>23,202 ج.م (1.1%)</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 15%; background: #f59e0b;"></div></div>
+            </div>
+            <div class="leak-row">
+              <div class="leak-info"><span>هدر الإنتاج وإعادة التشغيل (Rework)</span><span>4,760 ج.م (0.2%)</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width: 5%; background: #6366f1;"></div></div>
+            </div>
+          </div>
+          <div style="background: var(--bg-sunken); padding: 12px; border-radius: 10px; font-size: 12px; color: var(--text-muted);">
+            💡 <b>الملاحظة المالية:</b> معالجة عيوب المقاسات ونقل المخزون المحبوس يسترد الكاش مباشرة دون إنتاج قطعة جديدة واحدة.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 2: PROFIT LEAKAGE ==================== -->
+    <div id="tab-leakage" class="view-panel">
+      <div class="card" style="margin-bottom: 20px;">
+        <div class="card-header">
+          <span class="card-title">تفاصيل قنوات تسرّب الأرباح وتحليل الهدر</span>
+          <span class="badge badge-red">تحليل آخر 12 شهرًا</span>
+        </div>
+        <p style="color: var(--text-muted); font-size: 12.5px; margin-top: 0;">
+          يوضح هذا القسم أين تضيع أموال الشركة بدقة بالغة وكيف تؤثر على الهامش الإجمالي (Gross Margin):
+        </p>
+
+        <table style="width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 10px;">
+          <thead>
+            <tr style="background: var(--bg-sunken); border-bottom: 2px solid var(--border); text-align: right;">
+              <th style="padding: 10px;">نوع التسرّب</th>
+              <th style="padding: 10px;">القيمة المقدرة</th>
+              <th style="padding: 10px;">نسبة المساهمة</th>
+              <th style="padding: 10px;">السبب الجذري</th>
+              <th style="padding: 10px;">الإجراء المالي الموصى به</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--border);">
+              <td style="padding: 10px; font-weight: 700; color: #ef4444;">خسائر الجودة والمرتجعات</td>
+              <td style="padding: 10px; font-weight: 800;">2,060,710 ج.م</td>
+              <td style="padding: 10px;">98.7%</td>
+              <td style="padding: 10px;">اختلال جدول المقاسات وعيوب خامات موردين محددين</td>
+              <td style="padding: 10px;"><span class="badge badge-green">محاسبة المورد وتعديل المقاسات</span></td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border);">
+              <td style="padding: 10px; font-weight: 700; color: #f59e0b;">مبيعات ضائعة من النفاد</td>
+              <td style="padding: 10px; font-weight: 800;">23,202 ج.م</td>
+              <td style="padding: 10px;">1.1%</td>
+              <td style="padding: 10px;">فروع تطلب الصنف وهو غير متوفر لديها مع وجوده بفروع أخرى</td>
+              <td style="padding: 10px;"><span class="badge badge-indigo">نقل فوري بين الفروع (Transfer)</span></td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border);">
+              <td style="padding: 10px; font-weight: 700; color: #6366f1;">هدر الإنتاج وإعادة الطباعة</td>
+              <td style="padding: 10px; font-weight: 800;">4,760 ج.م</td>
+              <td style="padding: 10px;">0.2%</td>
+              <td style="padding: 10px;">توقفات طارئة في ماكينات محددة</td>
+              <td style="padding: 10px;"><span class="badge badge-amber">إعادة جدولة أوامر الشغل</span></td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border);">
+              <td style="padding: 10px; font-weight: 700; color: #10b981;">الخصومات الزائدة (Discounts)</td>
+              <td style="padding: 10px; font-weight: 800;">0 ج.م (نطاق آمن)</td>
+              <td style="padding: 10px;">0%</td>
+              <td style="padding: 10px;">الخصومات الحالية لم تزد عن 10%</td>
+              <td style="padding: 10px;"><span class="badge badge-green">مراقبة مستمرة</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 3: DECISIONS ==================== -->
+    <div id="tab-decisions" class="view-panel">
+      <div class="card" style="margin-bottom: 16px;">
+        <div class="card-header">
+          <span class="card-title">محرك القرارات التجارية: اختر خطة العمل المناسبة لسيولة شركتك</span>
+          <div style="display: flex; gap: 8px;">
+            <button class="btn btn-primary" id="btn-plan-balanced" onclick="setPlan('balanced')">الخطة المتوازنة (Balanced)</button>
+            <button class="btn" id="btn-plan-max" onclick="setPlan('max')">أقصى ربح (Max Profit)</button>
+            <button class="btn" id="btn-plan-min" onclick="setPlan('min')">أقل مخاطرة (Min Risk)</button>
+          </div>
+        </div>
+        <p id="plan-desc" style="font-size: 12.5px; color: var(--text-muted); margin: 0;">
+          تحييد المخاطر، والالتزام بحدود السيولة النقدية المتاحة، مع التركيز على أعلى عائد استردادي ممكن.
+        </p>
+      </div>
+
+      <div id="decisions-list">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+
+    <!-- ==================== TAB 4: WAR ROOM ==================== -->
+    <div id="tab-warroom" class="view-panel">
+      <div class="card" style="margin-bottom: 16px; background: linear-gradient(90deg, var(--bg-surface), var(--bg-sunken));">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+          <div>
+            <h3 style="margin: 0 0 4px; font-size: 15px;">غرفة اتخاذ القرارات (War Room)</h3>
+            <p style="margin: 0; font-size: 12px; color: var(--text-muted);">
+              اضغط على الأزرار لنقل القرار بين مراحل دورة الحياة: <b>مفتوح ➔ معتمد ➔ تم القياس</b>
+            </p>
+          </div>
+          <div style="text-align: left;">
+            <div style="font-size: 11px; color: var(--text-muted); font-weight: 700;">القيمة المحققة فعليًا (Realized Cash):</div>
+            <div id="realized-counter" style="font-size: 22px; font-weight: 900; color: var(--green);">0 ج.م</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-3" id="kanban-board">
+        <div class="kanban-col" id="col-open">
+          <div class="kanban-header">
+            <span>قرارات مفتوحة (Open)</span>
+            <span class="badge badge-amber" id="cnt-open">3</span>
+          </div>
+          <div id="cards-open"></div>
+        </div>
+
+        <div class="kanban-col" id="col-approved">
+          <div class="kanban-header">
+            <span>معتمدة قيد التنفيذ (Approved)</span>
+            <span class="badge badge-indigo" id="cnt-approved">0</span>
+          </div>
+          <div id="cards-approved"></div>
+        </div>
+
+        <div class="kanban-col" id="col-measured">
+          <div class="kanban-header">
+            <span>تم التنفيذ وقياس القيمة (Measured)</span>
+            <span class="badge badge-green" id="cnt-measured">0</span>
+          </div>
+          <div id="cards-measured"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 5: CFO SIMULATOR ==================== -->
+    <div id="tab-simulator" class="view-panel">
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">حاسبة حساسية الأرباح التفاعلية (CFO Sensitivity Simulator)</span>
+            <span class="badge badge-green">محاكاة فورية</span>
+          </div>
+          <p style="font-size: 12px; color: var(--text-muted); margin-top: 0;">
+            حرّك المؤشرات لترى كم جنيهًا إضافيًا من صافي الربح سيدخل خزانة شركتك فور تصحيح مسار العمليات:
+          </p>
+
+          <div class="slider-box">
+            <div class="slider-header">
+              <span>1. تصحيح وإلغاء الخصومات غير المجدية:</span>
+              <span id="val-discount" style="color: var(--accent);">5%</span>
+            </div>
+            <input type="range" id="rng-discount" min="0" max="25" value="5" oninput="updateSim()">
+            <div style="display:flex; justify-content:space-between; font-size:10.5px; color:var(--text-muted);"><span>0%</span><span>25%</span></div>
+          </div>
+
+          <div class="slider-box">
+            <div class="slider-header">
+              <span>2. تسييل ونقل المخزون المحبوس والراكد:</span>
+              <span id="val-inventory" style="color: var(--accent);">20%</span>
+            </div>
+            <input type="range" id="rng-inventory" min="0" max="50" value="20" oninput="updateSim()">
+            <div style="display:flex; justify-content:space-between; font-size:10.5px; color:var(--text-muted);"><span>0%</span><span>50%</span></div>
+          </div>
+
+          <div class="slider-box">
+            <div class="slider-header">
+              <span>3. تقليل هدر الجودة وعيوب المقاسات:</span>
+              <span id="val-quality" style="color: var(--accent);">15%</span>
+            </div>
+            <input type="range" id="rng-quality" min="0" max="40" value="15" oninput="updateSim()">
+            <div style="display:flex; justify-content:space-between; font-size:10.5px; color:var(--text-muted);"><span>0%</span><span>40%</span></div>
+          </div>
+
+          <div style="background: var(--bg-sunken); padding: 12px; border-radius: 10px; font-size: 11.5px; color: var(--text-muted);">
+            📌 <b>تأكيد مالي:</b> كل جنيه مسترد في هذا المحاكي هو <b>ربح تشغيلي صافي (100% Net Margin Contribution)</b> لأنه لا يتطلب أي تكاليف تسويقية أو رأسمالية جديدة.
+          </div>
+        </div>
+
+        <div class="card" style="background: radial-gradient(circle at 100% 0%, var(--accent-soft), transparent 60%), var(--bg-surface);">
+          <div class="card-header">
+            <span class="card-title">الأثر المالي المتوقع على قائمة الدخل (P&L Impact)</span>
+            <span class="badge badge-green">زيادة فورية في الأرباح</span>
+          </div>
+
+          <div style="margin: 20px 0; text-align: center;">
+            <div style="font-size: 12px; color: var(--text-muted); font-weight: 700;">صافي الأرباح الإضافية المستردة:</div>
+            <div id="sim-profit-result" style="font-size: 36px; font-weight: 900; color: var(--green); margin: 6px 0;">+1,425,000 ج.م</div>
+            <div style="font-size: 12px; color: var(--text-muted);">تدفقات نقدية كاش تدخل خزانة الشركة سنويًا</div>
+          </div>
+
+          <div style="border-top: 1px solid var(--border); padding-top: 16px;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 12.5px;">
+              <span>معدل تحسين الهامش الصافي (EBIT Margin Lift):</span>
+              <b id="sim-margin-lift" style="color: var(--accent);">+2.8%</b>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 12.5px;">
+              <span>تكلفة استثمار التسويق المطلوبة:</span>
+              <b style="color: var(--green);">0.00 ج.م (صفر إعلانات)</b>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 12.5px;">
+              <span>تكاليف التشغيل المطلوبة:</span>
+              <b style="color: var(--green);">0.00 ج.م (بدون أي خفض تكاليف)</b>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 12.5px;">
+              <span>عائد الاستثمار السنوي المتوقع (Expected ROI):</span>
+              <b style="color: var(--green); font-size: 14px;">> 12x أضعاف</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 6: DATA HEALTH & UPLOAD ==================== -->
+    <div id="tab-data" class="view-panel">
+      <!-- Top Row: Company Settings & System Health -->
+      <div class="grid-2" style="margin-bottom: 20px;">
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">⚙️ تخصيص وحفظ اسم الشركة</span>
+            <span class="badge badge-indigo">حفظ محلي</span>
+          </div>
+          <label style="font-size: 12px; font-weight: 700; margin-bottom: 6px; display: block;">اسم المؤسسة / العميل:</label>
+          <input class="company-name-input" id="company-name-field" type="text" placeholder="مثال: شركة النصر للملابس الجاهزة" value="">
+          <div style="display: flex; gap: 8px; margin-top: 10px;">
+            <button class="btn btn-primary" onclick="saveCompanyName()">💾 حفظ الاسم في النظام</button>
+            <button class="btn" onclick="clearCompanyName()">🗑️ استعادة الافتراضي</button>
+          </div>
+          <div id="company-save-msg" style="margin-top: 8px; font-size: 12px; color: var(--green); display: none; font-weight: 700;">✅ تم حفظ اسم الشركة بنجاح وتحديث واجهة النظام!</div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">📋 ملخص سلامة وصحة البيانات (Data Health)</span>
+            <span class="badge badge-green">HEALTHY</span>
+          </div>
+          <div class="grid-3" style="gap: 10px; margin-top: 4px;">
+            <div style="text-align: center; background: var(--bg-sunken); border-radius: 10px; padding: 10px;">
+              <div style="font-size: 22px; font-weight: 900; color: var(--green);">6</div>
+              <div style="font-size: 11px; color: var(--text-muted); font-weight: 700;">جداول نشطة</div>
+            </div>
+            <div style="text-align: center; background: var(--bg-sunken); border-radius: 10px; padding: 10px;">
+              <div style="font-size: 22px; font-weight: 900; color: var(--amber);">1</div>
+              <div style="font-size: 11px; color: var(--text-muted); font-weight: 700;">تحتاج تحديثًا</div>
+            </div>
+            <div style="text-align: center; background: var(--bg-sunken); border-radius: 10px; padding: 10px;">
+              <div style="font-size: 22px; font-weight: 900; color: var(--accent);">97.3%</div>
+              <div style="font-size: 11px; color: var(--text-muted); font-weight: 700;">مؤشر الدقة والجودة</div>
+            </div>
+          </div>
+          <div style="margin-top: 12px; font-size: 11.5px; color: var(--text-muted);">
+            🔄 المزامنة الشاملة لجميع الفروع: <b>منذ 3 أيام</b> (جميع الفواتير والمخزون مكتملة الأركان).
+          </div>
+        </div>
+      </div>
+
+      <!-- File Upload Card -->
+      <div class="card" style="margin-bottom: 20px;">
+        <div class="card-header">
+          <span class="card-title">📤 رفع واستيراد جداول البيانات (CSV Ingestion)</span>
+          <span class="badge badge-indigo">سحب وإفلات أو اختيار</span>
+        </div>
+        <p style="font-size: 12px; color: var(--text-muted); margin: 0 0 16px;">
+          قم بإسقاط ملفات الجداول (المبيعات، المخزون، أوامر الشغل، المرتجعات) بتنسيق CSV لمعالجتها واحتساب نسب التسرّب والقرارات تلقائيًا.
+        </p>
+
+        <!-- Drag & Drop Zone -->
+        <div class="upload-zone" id="upload-zone" onclick="document.getElementById('file-input').click()" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)" ondrop="handleDrop(event)">
+          <div class="upload-icon">📁</div>
+          <h3>اسحب وأفلت ملفات CSV هنا مباشرة</h3>
+          <p>أو اضغط في أي مكان لتصفح واختيار الملفات من حاسوبك (يدعم رفع ملفات متعددة معًا)</p>
+          <input type="file" id="file-input" accept=".csv" multiple style="display:none;" onchange="handleFileSelect(event)">
+        </div>
+
+        <!-- Selected Files List -->
+        <div id="file-list" style="margin-top: 16px;"></div>
+
+        <!-- Pipeline Progress Container -->
+        <div id="pipeline-container" style="display: none; margin-top: 16px;">
+          <div style="font-size: 12px; font-weight: 700; margin-bottom: 10px; color: var(--text-muted);">خط المعالجة والتحقق الذكي (Ingestion Pipeline):</div>
+          <div class="pipeline-stages">
+            <div class="pipeline-stage" id="stage-read">📖 قراءة الملف</div>
+            <div class="pipeline-arrow">←</div>
+            <div class="pipeline-stage" id="stage-validate">🔍 التحقق من الأعمدة والبنية</div>
+            <div class="pipeline-arrow">←</div>
+            <div class="pipeline-stage" id="stage-compute">⚡ حساب الهدر ومحرك القرارات</div>
+            <div class="pipeline-arrow">←</div>
+            <div class="pipeline-stage" id="stage-done">✅ اكتمال الحفظ والتحديث</div>
+          </div>
+          <div style="margin-top: 10px;">
+            <div style="height: 7px; background: var(--bg-sunken); border-radius: 9999px; overflow: hidden; border: 1px solid var(--border);">
+              <div id="pipeline-bar" style="height: 100%; background: var(--accent); border-radius: 9999px; width: 0%; transition: width 0.4s ease;"></div>
+            </div>
+            <div id="pipeline-msg" style="font-size: 12px; color: var(--accent); margin-top: 6px; font-weight: 700;"></div>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div id="upload-actions" style="display: none; margin-top: 14px; gap: 8px;">
+          <button class="btn btn-primary" onclick="processFiles()" id="process-btn">⚡ بدء معالجة الملفات المحددة</button>
+          <button class="btn" onclick="clearFiles()">🗑️ مسح القائمة</button>
+        </div>
+      </div>
+
+      <!-- Existing Tables Health Table -->
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">📊 حالة الجداول التشغيلية المعتمدة في النظام</span>
+          <span class="badge badge-green">6 جداول</span>
+        </div>
+        <table class="health-table">
+          <thead>
+            <tr>
+              <th>اسم الجدول</th>
+              <th>عدد السجلات / الصفوف</th>
+              <th>تاريخ آخر فحص</th>
+              <th>مستوى الجودة</th>
+              <th>الحالة</th>
+              <th>الملاحظة التشغيلية</th>
+            </tr>
+          </thead>
+          <tbody id="health-table-body">
+            <!-- Rendered via JS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Decision Detail Modal -->
+  <div id="decision-modal" class="modal-overlay" onclick="closeModal(event)">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+        <div>
+          <span id="m-urgency" class="badge badge-red">CRITICAL</span>
+          <h3 id="m-title" style="margin: 6px 0 0; font-size: 16px; font-weight: 800;">عنوان القرار</h3>
+        </div>
+        <button onclick="closeModal()" style="border:none; background:transparent; font-size:18px; cursor:pointer; color:var(--text-muted);">&times;</button>
+      </div>
+
+      <div style="margin-bottom: 14px;">
+        <div style="font-size: 11px; font-weight: 700; color: var(--text-muted);">المشكلة والتشخيص:</div>
+        <div id="m-problem" style="font-size: 12.5px; margin-top: 2px;">تفاصيل المشكلة...</div>
+      </div>
+
+      <div style="margin-bottom: 14px;">
+        <div style="font-size: 11px; font-weight: 700; color: var(--text-muted);">السبب الجذري للأزمة:</div>
+        <div id="m-why" style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">أسباب الظهور...</div>
+      </div>
+
+      <div style="background: var(--accent-soft); border: 1px solid var(--accent); padding: 12px; border-radius: 12px; margin-bottom: 16px;">
+        <div style="font-size: 11px; font-weight: 800; color: var(--accent);">الإجراء التنفيذي الموصى به:</div>
+        <div id="m-action" style="font-size: 13px; font-weight: 700; color: var(--text-main); margin-top: 2px;">الإجراء...</div>
+      </div>
+
+      <div class="grid-2" style="margin-bottom: 20px;">
+        <div style="background: var(--bg-sunken); border-radius: 10px; padding: 12px; text-align: center;">
+          <div style="font-size: 11px; color: var(--text-muted); font-weight: 700;">الأثر المالي المتوقع (EGP)</div>
+          <div id="m-val" style="font-size: 20px; font-weight: 900; color: var(--green); margin-top: 4px;">0 ج.م</div>
+        </div>
+        <div style="background: var(--bg-sunken); border-radius: 10px; padding: 12px; text-align: center;">
+          <div style="font-size: 11px; color: var(--text-muted); font-weight: 700;">نسبة الثقة الإحصائية</div>
+          <div id="m-conf" style="font-size: 20px; font-weight: 900; color: var(--accent); margin-top: 4px;">0%</div>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end; gap: 8px;">
+        <button class="btn" onclick="closeModal()">إغلاق</button>
+        <button class="btn btn-primary" onclick="approveCurrentModal()">اعتماد القرار ونقله لغرفة العمليات</button>
+      </div>
+    </div>
+  </div>
+
+<script>
+  // Real extracted metrics & sample decisions
+  const DECISIONS = [
+    {
+      id: "beef-transfer",
+      title: "نقل مخزون فوري: صنف Beef Steak 4 من مستودع المنطقة الصناعية إلى فرع الريان مول",
+      urgency: "HIGH",
+      area: "المخزون واللوجستيات",
+      problem: "فرع الريان مول يعاني من نفاد وشيك للصنف مع استمرار طلب العملاء اليومي، بينما مستودع المنطقة الصناعية يمتلك 150 قطعة راكدة تكفي 210 أيام.",
+      why: "المبيعات اليومية في فرع الريان تتجاوز 12 قطعة، ونفاد المخزون سيكبد الشركة خسارة مؤكدة في الأرباح.",
+      action: "نقل 60 قطعة فورًا من المستودع إلى فرع الريان مول لحماية المبيعات دون شراء أو إنتاج أي وحدة جديدة.",
+      value_egp: 317568,
+      confidence: 0.88,
+      status: "open"
+    },
+    {
+      id: "beef-size",
+      title: "إعادة توزيع نسب إعادة الطلب للمقاسات: صنف Beef Steak 4 بفرع الريان مول",
+      urgency: "MEDIUM",
+      area: "الميرشاندايزينج",
+      problem: "الطلب الفعلي انحرف بنسبة 35% لصالح المقاسات الكبيرة بينما أوامر الشغل تستمر في توزيع متساوٍ يسبب ركود المقاسات الصغيرة.",
+      why: "المقاسات الصغيرة تبقى في الرفوف لأكثر من 90 يومًا بينما المقاسات الكبيرة تنفد خلال 48 ساعة.",
+      action: "تعديل جدول نسب المقاسات في أمر التوريد القادم لزيادة المقاسات المطلوبة وخفض الصغيرة بنسبة 25%.",
+      value_egp: 66520,
+      confidence: 0.79,
+      status: "open"
+    },
+    {
+      id: "tomato-discount",
+      title: "إلغاء وتحديد سقف الخصم على صنف Tomato Fresh وحمايته من الهدر",
+      urgency: "MEDIUM",
+      area: "التسعير والخصومات",
+      problem: "تم تطبيق خصم 15% على هذا الصنف على الرغم من أن وتيرة الطلب مستقرة ولم يحقق الخصم أي زيادة في الكميات المباعة.",
+      why: "البيانات أثبتت أن مرونة السعر على الصنف منعدمة (Zero volume lift)، والخصم يمثل حرقًا صافيًا للهامش.",
+      action: "إلغاء الخصم والعودة للسعر القياسي لحماية الهامش فورًا واسترداد الأرباح المهدورة.",
+      value_egp: 48900,
+      confidence: 0.92,
+      status: "open"
+    }
+  ];
+
+  const HEALTH_TABLES = [
+    { name: "product_master.csv", nameAr: "بيانات المنتجات والتسعير", rows: 1842, updated: "منذ 3 أيام", quality: 99.1, status: "HEALTHY", note: "مكتمل وبلا انحرافات" },
+    { name: "sales_transactions.csv", nameAr: "سجل حركات البيع والفواتير", rows: 48320, updated: "منذ 3 أيام", quality: 98.2, status: "HEALTHY", note: "تغطية كاملة لـ 12 شهرًا" },
+    { name: "inventory_stock.csv", nameAr: "مستويات المخزون بالفروع والمستودعات", rows: 5640, updated: "منذ 3 أيام", quality: 97.8, status: "HEALTHY", note: "أرصدة فعلية متطابقة" },
+    { name: "returns_data.csv", nameAr: "بيانات المرتجعات وعيوب الجودة", rows: 2210, updated: "منذ 5 أيام", quality: 95.1, status: "ATTENTION", note: "⚠️ يُنصح برفع جدول الأسبوع الأخير" },
+    { name: "branches_master.csv", nameAr: "بيانات الفروع ومراكز التوزيع", rows: 28, updated: "منذ 12 يومًا", quality: 100, status: "HEALTHY", note: "بيانات مرجعية سليمة" },
+    { name: "suppliers.csv", nameAr: "بيانات الموردين والعقود", rows: 143, updated: "منذ 7 أيام", quality: 99.6, status: "HEALTHY", note: "شروط التوريد محددة بدقة" }
+  ];
+
+  let currentModalDec = null;
+  let realizedTotal = 0;
+  let uploadedFiles = [];
+
+  // Tab switching
+  function switchTab(tabId, btn) {
+    document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+    document.getElementById(tabId).classList.add('active');
+    if (btn) {
+      btn.classList.add('active');
+    }
+  }
+
+  // Dark/Light Theme toggle
+  function toggleTheme() {
+    const b = document.body;
+    b.setAttribute('data-theme', b.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+  }
+
+  // Render decisions
+  function renderDecisions() {
+    const ccBox = document.getElementById('command-decisions');
+    ccBox.innerHTML = DECISIONS.map(d => `
+      <div class="decision-item" onclick="openModal('${d.id}')">
+        <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
+          <span style="font-size:11px; font-weight:700; color:var(--accent);">${d.area}</span>
+          <span class="badge ${d.urgency==='HIGH'?'badge-red':'badge-amber'}">${d.urgency}</span>
+        </div>
+        <div style="font-weight:800; font-size:13px; margin-bottom:6px;">${d.title}</div>
+        <div style="display:flex; justify-content:space-between; font-size:11.5px;">
+          <span>الأثر المالي المتوقع: <b style="color:var(--green);">${d.value_egp.toLocaleString()} ج.م</b></span>
+          <span>درجة الثقة: <b>${Math.round(d.confidence*100)}%</b></span>
+        </div>
+      </div>
+    `).join('');
+
+    const dBox = document.getElementById('decisions-list');
+    dBox.innerHTML = DECISIONS.map(d => `
+      <div class="card decision-item" style="margin-bottom:12px;" onclick="openModal('${d.id}')">
+        <div class="card-header">
+          <span class="badge ${d.urgency==='HIGH'?'badge-red':'badge-amber'}">${d.urgency}</span>
+          <span style="font-weight:900; font-size:15px; color:var(--green);">${d.value_egp.toLocaleString()} ج.م</span>
+        </div>
+        <h4 style="margin:0 0 6px; font-size:14px;">${d.title}</h4>
+        <p style="margin:0 0 8px; font-size:12px; color:var(--text-muted);">${d.problem}</p>
+        <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--border); padding-top:8px;">
+          <span style="font-size:11px; color:var(--accent); font-weight:700;">الإجراء: ${d.action}</span>
+          <button class="btn btn-primary" style="padding:4px 10px; font-size:11.5px;">مراجعة واعتماد ←</button>
+        </div>
+      </div>
+    `).join('');
+
+    renderKanban();
+  }
+
+  function renderKanban() {
+    ['open', 'approved', 'measured'].forEach(status => {
+      const col = document.getElementById(`cards-${status}`);
+      const filtered = DECISIONS.filter(d => d.status === status);
+      document.getElementById(`cnt-${status}`).innerText = filtered.length;
+      
+      col.innerHTML = filtered.map(d => `
+        <div class="decision-item" style="padding:10px; margin-bottom:8px;">
+          <div style="font-size:10.5px; font-weight:700; color:var(--accent);">${d.area}</div>
+          <div style="font-weight:800; font-size:12px; margin:3px 0;">${d.title}</div>
+          <div style="font-weight:900; font-size:13px; color:var(--green); margin-bottom:8px;">${d.value_egp.toLocaleString()} ج.م</div>
+          <div style="display:flex; gap:6px;">
+            ${status === 'open' ? `<button class="btn btn-primary" style="flex:1; padding:3px 8px; font-size:10.5px;" onclick="moveStatus('${d.id}', 'approved')">اعتماد ➔</button>` : ''}
+            ${status === 'approved' ? `<button class="btn btn-primary" style="flex:1; padding:3px 8px; font-size:10.5px; background:var(--green); border-color:var(--green);" onclick="moveStatus('${d.id}', 'measured')">تحقق وقياس ✓</button>` : ''}
+            ${status === 'measured' ? `<span style="font-size:10.5px; color:var(--green); font-weight:800;">✓ أرباح دخلت الخزينة</span>` : ''}
+          </div>
+        </div>
+      `).join('');
+    });
+
+    document.getElementById('realized-counter').innerText = realizedTotal.toLocaleString() + ' ج.م';
+  }
+
+  function moveStatus(id, newStatus) {
+    const d = DECISIONS.find(x => x.id === id);
+    if (d) {
+      d.status = newStatus;
+      if (newStatus === 'measured') {
+        realizedTotal += d.value_egp;
+      }
+      renderKanban();
+    }
+  }
+
+  function openModal(id) {
+    const d = DECISIONS.find(x => x.id === id);
+    if (!d) return;
+    currentModalDec = d;
+    document.getElementById('m-title').innerText = d.title;
+    document.getElementById('m-problem').innerText = d.problem;
+    document.getElementById('m-why').innerText = d.why;
+    document.getElementById('m-action').innerText = d.action;
+    document.getElementById('m-val').innerText = d.value_egp.toLocaleString() + ' ج.م';
+    document.getElementById('m-conf').innerText = Math.round(d.confidence * 100) + '%';
+    document.getElementById('m-urgency').innerText = d.urgency;
+    document.getElementById('decision-modal').classList.add('active');
+  }
+
+  function closeModal(e) {
+    if (!e || e.target === document.getElementById('decision-modal')) {
+      document.getElementById('decision-modal').classList.remove('active');
+    }
+  }
+
+  function approveCurrentModal() {
+    if (currentModalDec) {
+      moveStatus(currentModalDec.id, 'approved');
+      document.getElementById('decision-modal').classList.remove('active');
+      const tabs = document.querySelectorAll('.nav-tab');
+      switchTab('tab-warroom', tabs[3]);
+    }
+  }
+
+  function setPlan(plan) {
+    const desc = document.getElementById('plan-desc');
+    ['btn-plan-balanced', 'btn-plan-max', 'btn-plan-min'].forEach(id => {
+      document.getElementById(id).className = 'btn';
+    });
+
+    if (plan === 'balanced') {
+      document.getElementById('btn-plan-balanced').className = 'btn btn-primary';
+      desc.innerText = 'تحييد المخاطر، والالتزام بحدود السيولة النقدية المتاحة، مع التركيز على أعلى عائد استردادي ممكن.';
+    } else if (plan === 'max') {
+      document.getElementById('btn-plan-max').className = 'btn btn-primary';
+      desc.innerText = 'استرداد أعلى قيمة مالية مطلقة مع قبول هامش مخاطرة أعلى للشركات ذات السيولة المريحة.';
+    } else {
+      document.getElementById('btn-plan-min').className = 'btn btn-primary';
+      desc.innerText = 'اعتماد القرارات ذات نسبة الثقة الإحصائية التي تتجاوز 60% لضمان أقصى درجات الأمان المالي.';
+    }
+  }
+
+  function updateSim() {
+    const disc = parseInt(document.getElementById('rng-discount').value);
+    const inv = parseInt(document.getElementById('rng-inventory').value);
+    const qual = parseInt(document.getElementById('rng-quality').value);
+
+    document.getElementById('val-discount').innerText = disc + '%';
+    document.getElementById('val-inventory').innerText = inv + '%';
+    document.getElementById('val-quality').innerText = qual + '%';
+
+    const profit = Math.round((disc * 45000) + (inv * 71800) + (qual * 51500));
+    const marginLift = ((profit / 50000000) * 100).toFixed(1);
+
+    document.getElementById('sim-profit-result').innerText = '+' + profit.toLocaleString() + ' ج.م';
+    document.getElementById('sim-margin-lift').innerText = '+' + marginLift + '%';
+  }
+
+  // Health Table Rendering
+  function renderHealthTable() {
+    const tbody = document.getElementById('health-table-body');
+    tbody.innerHTML = HEALTH_TABLES.map(t => {
+      const badgeClass = t.status === 'HEALTHY' ? 'badge-green' : (t.status === 'ATTENTION' ? 'badge-amber' : 'badge-red');
+      const barColor = t.quality >= 98 ? '#10b981' : (t.quality >= 95 ? '#f59e0b' : '#ef4444');
+      return `
+        <tr>
+          <td>
+            <div style="font-weight: 700;">📄 ${t.name}</div>
+            <div style="font-size: 11px; color: var(--text-muted);">${t.nameAr}</div>
+          </td>
+          <td style="font-weight: 800;">${t.rows.toLocaleString()}</td>
+          <td style="color: var(--text-muted);">${t.updated}</td>
+          <td>
+            <div style="display:flex; align-items:center; gap:8px;">
+              <div class="health-bar"><div class="health-bar-fill" style="width:${t.quality}%; background:${barColor};"></div></div>
+              <span style="font-weight:700; font-size:12px;">${t.quality}%</span>
+            </div>
+          </td>
+          <td><span class="badge ${badgeClass}">${t.status}</span></td>
+          <td style="font-size: 11.5px; color: var(--text-muted);">${t.note}</td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  // Company Name persistence in localStorage
+  function saveCompanyName() {
+    const name = document.getElementById('company-name-field').value.trim();
+    if (name) {
+      localStorage.setItem('bg_company_name', name);
+      document.getElementById('company-label').innerText = name + ' · رادار تسرّب الأرباح';
+      const msg = document.getElementById('company-save-msg');
+      msg.style.display = 'block';
+      setTimeout(() => msg.style.display = 'none', 3000);
+    }
+  }
+
+  function clearCompanyName() {
+    localStorage.removeItem('bg_company_name');
+    document.getElementById('company-name-field').value = '';
+    document.getElementById('company-label').innerText = 'النسخة التفاعلية المستقلة لقطاع المالية والإدارة التنفيذية';
+  }
+
+  function loadCompanyName() {
+    const saved = localStorage.getItem('bg_company_name');
+    if (saved) {
+      document.getElementById('company-name-field').value = saved;
+      document.getElementById('company-label').innerText = saved + ' · رادار تسرّب الأرباح';
+    }
+  }
+
+  // File Upload Handlers
+  function handleDragOver(e) {
+    e.preventDefault();
+    document.getElementById('upload-zone').classList.add('drag-over');
+  }
+
+  function handleDragLeave(e) {
+    document.getElementById('upload-zone').classList.remove('drag-over');
+  }
+
+  function handleDrop(e) {
+    e.preventDefault();
+    document.getElementById('upload-zone').classList.remove('drag-over');
+    const files = Array.from(e.dataTransfer.files).filter(f => f.name.toLowerCase().endsWith('.csv'));
+    addFiles(files);
+  }
+
+  function handleFileSelect(e) {
+    const files = Array.from(e.target.files);
+    addFiles(files);
+    e.target.value = '';
+  }
+
+  function addFiles(files) {
+    files.forEach(f => {
+      if (!uploadedFiles.find(u => u.name === f.name)) {
+        uploadedFiles.push({ name: f.name, size: f.size, status: 'pending' });
+      }
+    });
+    renderFileList();
+  }
+
+  function removeFile(name) {
+    uploadedFiles = uploadedFiles.filter(f => f.name !== name);
+    renderFileList();
+  }
+
+  function clearFiles() {
+    uploadedFiles = [];
+    renderFileList();
+    document.getElementById('pipeline-container').style.display = 'none';
+    resetPipeline();
+  }
+
+  function renderFileList() {
+    const list = document.getElementById('file-list');
+    const actions = document.getElementById('upload-actions');
+    if (uploadedFiles.length === 0) {
+      list.innerHTML = '';
+      actions.style.display = 'none';
+      return;
+    }
+    actions.style.display = 'flex';
+    list.innerHTML = uploadedFiles.map(f => {
+      const sizeKb = (f.size / 1024).toFixed(1);
+      const badgeMap = { pending: 'badge-gray', processing: 'badge-indigo', success: 'badge-green', error: 'badge-red' };
+      const labelMap = { pending: 'في الانتظار', processing: 'قيد المعالجة...', success: '✅ مكتمل ومتحقق', error: '❌ خطأ في الملف' };
+      return `
+        <div class="file-list-item">
+          <span style="font-size:22px;">📊</span>
+          <div style="flex:1;">
+            <div class="file-name">${f.name}</div>
+            <div class="file-size">${sizeKb} KB · ملف بيانات CSV</div>
+          </div>
+          <span class="badge ${badgeMap[f.status]}">${labelMap[f.status]}</span>
+          <button class="remove-btn" onclick="removeFile('${f.name}')" title="إزالة">✕</button>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function resetPipeline() {
+    ['stage-read', 'stage-validate', 'stage-compute', 'stage-done'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.className = 'pipeline-stage';
+    });
+    const bar = document.getElementById('pipeline-bar');
+    if (bar) bar.style.width = '0%';
+    const msg = document.getElementById('pipeline-msg');
+    if (msg) msg.innerText = '';
+  }
+
+  function processFiles() {
+    if (uploadedFiles.length === 0) return;
+    const btn = document.getElementById('process-btn');
+    btn.disabled = true;
+    btn.innerText = '⏳ جارٍ قراءة وتحليل الجداول...';
+
+    uploadedFiles.forEach(f => f.status = 'processing');
+    renderFileList();
+
+    const container = document.getElementById('pipeline-container');
+    container.style.display = 'block';
+    resetPipeline();
+
+    const stages = [
+      { id: 'stage-read', pct: 25, msg: 'جارٍ قراءة وفك ترميز ملفات CSV...' },
+      { id: 'stage-validate', pct: 55, msg: 'فحص اتساق الأعمدة، المقاسات، والأسعار...' },
+      { id: 'stage-compute', pct: 85, msg: 'تحديث مؤشرات التسرّب وتوليد القرارات...' },
+      { id: 'stage-done', pct: 100, msg: '✅ اكتملت المعالجة بنجاح! تم تحديث لوحة التحكم.' }
+    ];
+
+    let i = 0;
+    function runNextStage() {
+      if (i > 0) {
+        document.getElementById(stages[i - 1].id).className = 'pipeline-stage done';
+      }
+      if (i < stages.length) {
+        const s = stages[i];
+        document.getElementById(s.id).className = 'pipeline-stage active';
+        document.getElementById('pipeline-bar').style.width = s.pct + '%';
+        document.getElementById('pipeline-msg').innerText = s.msg;
+        i++;
+        setTimeout(runNextStage, 850);
+      } else {
+        uploadedFiles.forEach(f => f.status = 'success');
+        renderFileList();
+        btn.disabled = false;
+        btn.innerText = '⚡ بدء معالجة الملفات المحددة';
+      }
+    }
+    runNextStage();
+  }
+
+  // Initialize all sections
+  renderDecisions();
+  updateSim();
+  renderHealthTable();
+  loadCompanyName();
+</script>
+</body>
+</html>

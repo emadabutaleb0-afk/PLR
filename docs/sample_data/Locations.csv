@@ -1,0 +1,7 @@
+﻿location_id,location_name,city,region,type,area_sqm,manager
+LOC-001,Doha Main Hypermarket,Doha,Doha,Hypermarket,12000,Ahmed Al-Sayed
+LOC-002,Al Rayyan Mall Branch,Al Rayyan,Al Rayyan,Hypermarket,9500,Mohammed Hassan
+LOC-003,Al Wakra Central,Al Wakra,Al Wakra,Hypermarket,7800,Khalid Al-Marri
+LOC-004,Pearl Qatar Branch,Doha,The Pearl,Supermarket,4200,Sara Al-Kuwari
+LOC-005,Lusail City Mall,Lusail,Lusail,Hypermarket,11000,Omar Al-Jaber
+LOC-006,Industrial Area Warehouse,Doha,Industrial,Warehouse,25000,Atef Mahmoud

@@ -35,3 +35,7 @@ chrome/
 BusinessGate-Offline-Package/
 docs/screenshots/temp_profile/
 *.tsbuildinfo
+
+# Allow public sample datasets for demo downloads
+!docs/sample_data/**
+

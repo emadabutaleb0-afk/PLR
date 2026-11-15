@@ -522,7 +522,7 @@
           </div>
         </div>
         <div style="display: flex; gap: 8px; flex-wrap: wrap;" id="scenario-btn-group">
-          <button class="btn btn-primary" id="btn-scen-superstore" onclick="switchScenario('superstore')">
+          <button class="btn" id="btn-scen-superstore" onclick="switchScenario('superstore')">
             🏬 المكان 1: هايبرماركت الدوحة الكبرى <span style="font-size: 10px; opacity: 0.9;">(تلف وركود)</span>
           </button>
           <button class="btn" id="btn-scen-express" onclick="switchScenario('express')">
@@ -554,25 +554,25 @@
       </div>
 
       <div class="grid-4"  style="margin-bottom: 20px;">
-          <div class="card" style="border-right: 4px solid var(--red);">
-            <div class="card-header"><span class="card-title">إجمالي الربح المعرّض للخطر</span><span class="badge badge-red">خسارة كامنة</span></div>
-            <div class="kpi-num" id="kpi-risk-val" style="color: var(--red);">14,850,200 ج.م</div>
-            <div id="kpi-risk-sub" style="font-size: 11.5px; color: var(--text-muted);">أرباح مهددة في الفروع بسبب التلف والركود</div>
+          <div class="card" style="border-right: 4px solid var(--border);">
+            <div class="card-header"><span class="card-title">إجمالي الربح المعرّض للخطر</span><span class="badge badge-gray">في الانتظار</span></div>
+            <div class="kpi-num" id="kpi-risk-val" style="color: var(--text-muted);">-- ج.م</div>
+            <div id="kpi-risk-sub" style="font-size: 11.5px; color: var(--text-muted);">في انتظار رفع البيانات</div>
           </div>
-          <div class="card" style="border-right: 4px solid var(--green);">
-            <div class="card-header"><span class="card-title">الأرباح القابلة للاسترداد فورًا</span><span class="badge badge-green">كاش متاح</span></div>
-            <div class="kpi-num" id="kpi-recoverable-val" style="color: var(--green);">5,420,000 ج.م</div>
-            <div id="kpi-rec-sub" style="font-size: 11.5px; color: var(--text-muted);">عائد نقدي مباشر من تنفيذ توصيات الرادار</div>
+          <div class="card" style="border-right: 4px solid var(--border);">
+            <div class="card-header"><span class="card-title">الأرباح القابلة للاسترداد فورًا</span><span class="badge badge-gray">في الانتظار</span></div>
+            <div class="kpi-num" id="kpi-recoverable-val" style="color: var(--text-muted);">-- ج.م</div>
+            <div id="kpi-rec-sub" style="font-size: 11.5px; color: var(--text-muted);">في انتظار التحليل</div>
           </div>
-          <div class="card" style="border-right: 4px solid var(--amber);">
-            <div class="card-header"><span class="card-title">أصناف مهددة بالنفاد (Stockout)</span><span class="badge badge-amber">مبيعات ضائعة</span></div>
-            <div class="kpi-num" id="kpi-stockout-val" style="color: var(--amber);">12 صنف</div>
-            <div id="kpi-stockout-sub" style="font-size: 11.5px; color: var(--text-muted);">نقص محدود في فروع معينة</div>
+          <div class="card" style="border-right: 4px solid var(--border);">
+            <div class="card-header"><span class="card-title">أصناف مهددة بالنفاد (Stockout)</span><span class="badge badge-gray">في الانتظار</span></div>
+            <div class="kpi-num" id="kpi-stockout-val" style="color: var(--text-muted);">0 صنف</div>
+            <div id="kpi-stockout-sub" style="font-size: 11.5px; color: var(--text-muted);">لا توجد بيانات</div>
           </div>
-          <div class="card" style="border-right: 4px solid var(--accent);">
-            <div class="card-header"><span class="card-title">أصناف فائضة وراكدة (Overstock)</span><span class="badge badge-indigo">كاش محبوس</span></div>
-            <div class="kpi-num" id="kpi-overstock-val" style="color: var(--accent);">68 صنف</div>
-            <div id="kpi-overstock-sub" style="font-size: 11.5px; color: var(--text-muted);">تغطي أكثر من 180 يومًا بدون دوران كافٍ</div>
+          <div class="card" style="border-right: 4px solid var(--border);">
+            <div class="card-header"><span class="card-title">أصناف فائضة وراكدة (Overstock)</span><span class="badge badge-gray">في الانتظار</span></div>
+            <div class="kpi-num" id="kpi-overstock-val" style="color: var(--text-muted);">0 صنف</div>
+            <div id="kpi-overstock-sub" style="font-size: 11.5px; color: var(--text-muted);">لا توجد بيانات</div>
           </div>
         </div>
 
@@ -580,34 +580,32 @@
         <div class="card">
           <div class="card-header">
             <span class="card-title">أهم 3 قرارات ذات أولوية قصوى اليوم</span>
-            <span class="badge badge-indigo">جاهزة للتنفيذ</span>
+            <span class="badge badge-gray">في الانتظار</span>
           </div>
           <div id="command-decisions">
-            <!-- Injected via JS -->
+            <div style="text-align:center; padding: 25px 15px; background: var(--bg-sunken); border-radius: 12px; border: 1px dashed var(--border);">
+              <div style="font-size: 26px; margin-bottom: 6px;">📂</div>
+              <div style="font-weight: 800; font-size: 13px; margin-bottom: 4px;">لا توجد قرارات تجارية مقترحة حتى الآن</div>
+              <div style="font-size: 11.5px; color: var(--text-muted); margin-bottom: 12px;">يتطلب النظام استيراد جداول المبيعات والمخزون والمرتجعات لكشف التسرّب وتوليد التوصيات.</div>
+              <button class="btn btn-primary" onclick="switchTab('tab-data', document.querySelectorAll('.nav-tab')[5])" style="font-size: 11.5px; padding: 5px 12px;">
+                📂 الانتقال لتبويب رفع البيانات ←
+              </button>
+            </div>
           </div>
         </div>
 
         <div class="card">
           <div class="card-header">
             <span class="card-title">توزيع تسرّب الأرباح السنوي حسب المصدر</span>
-            <span class="badge badge-red">2,088,672 ج.م</span>
+            <span class="badge badge-gray" id="leak-total-badge">-- ج.م</span>
           </div>
           <div style="padding: 10px 0;" id="leak-progress-box">
-            <div class="leak-row">
-              <div class="leak-info"><span>خسائر الجودة والهدر (Quality Loss)</span><span>2,060,710 ج.م (98.7%)</span></div>
-              <div class="progress-track"><div class="progress-fill" style="width: 98.7%; background: #ef4444;"></div></div>
-            </div>
-            <div class="leak-row">
-              <div class="leak-info"><span>مبيعات ضائعة بسبب نفاد المخزون (Stockouts)</span><span>23,202 ج.م (1.1%)</span></div>
-              <div class="progress-track"><div class="progress-fill" style="width: 15%; background: #f59e0b;"></div></div>
-            </div>
-            <div class="leak-row">
-              <div class="leak-info"><span>هدر الإنتاج وإعادة التشغيل (Rework)</span><span>4,760 ج.م (0.2%)</span></div>
-              <div class="progress-track"><div class="progress-fill" style="width: 5%; background: #6366f1;"></div></div>
+            <div style="text-align: center; padding: 25px; color: var(--text-muted); font-size: 12px;">
+              📊 في انتظار رفع البيانات لاحتساب مسارات ونسب التسرّب.
             </div>
           </div>
           <div style="background: var(--bg-sunken); padding: 12px; border-radius: 10px; font-size: 12px; color: var(--text-muted);">
-            💡 <b>الملاحظة المالية:</b> معالجة عيوب المقاسات ونقل المخزون المحبوس يسترد الكاش مباشرة دون إنتاج قطعة جديدة واحدة.
+            💡 <b>الملاحظة المالية:</b> تظهر هنا مسارات ونسب تسرّب الأرباح فور استيراد بيانات المتجر أو الفرع.
           </div>
         </div>
       </div>
@@ -1339,7 +1337,28 @@
     const osSub = document.getElementById('kpi-overstock-sub');
     if (osSub) osSub.innerText = 'لا توجد بيانات';
 
-    // Reset Leakage Progress Box in Tab 1
+    // Reset Tab 1 KPI Card borders and badges to gray/border
+    const rCard = document.getElementById('kpi-risk-val')?.closest('.card');
+    if (rCard) rCard.style.borderRight = '4px solid var(--border)';
+    const rcCard = document.getElementById('kpi-recoverable-val')?.closest('.card');
+    if (rcCard) rcCard.style.borderRight = '4px solid var(--border)';
+    const soCard = document.getElementById('kpi-stockout-val')?.closest('.card');
+    if (soCard) soCard.style.borderRight = '4px solid var(--border)';
+    const osCard = document.getElementById('kpi-overstock-val')?.closest('.card');
+    if (osCard) osCard.style.borderRight = '4px solid var(--border)';
+
+    const rBadge = rCard?.querySelector('.badge');
+    if (rBadge) { rBadge.className = 'badge badge-gray'; rBadge.innerText = 'في الانتظار'; }
+    const rcBadge = rcCard?.querySelector('.badge');
+    if (rcBadge) { rcBadge.className = 'badge badge-gray'; rcBadge.innerText = 'في الانتظار'; }
+    const soBadge = soCard?.querySelector('.badge');
+    if (soBadge) { soBadge.className = 'badge badge-gray'; soBadge.innerText = 'في الانتظار'; }
+    const osBadge = osCard?.querySelector('.badge');
+    if (osBadge) { osBadge.className = 'badge badge-gray'; osBadge.innerText = 'في الانتظار'; }
+
+    const tBadge = document.getElementById('leak-total-badge');
+    if (tBadge) { tBadge.className = 'badge badge-gray'; tBadge.innerText = '-- ج.م'; }
+
     const pBox = document.getElementById('leak-progress-box');
     if (pBox) {
       pBox.innerHTML = '<div style="text-align: center; padding: 25px; color: var(--text-muted); font-size: 12px;">📊 في انتظار رفع البيانات لاحتساب مسارات ونسب التسرّب.</div>';
@@ -1479,6 +1498,29 @@
     if (osSub) osSub.innerText = scen.overstockSub;
 
     // 4. Update Progress Bars in Tab 1
+    // Update Tab 1 KPI Card borders to indicate active data
+    const rCard = document.getElementById('kpi-risk-val')?.closest('.card');
+    if (rCard) rCard.style.borderRight = '4px solid var(--red)';
+    const rcCard = document.getElementById('kpi-recoverable-val')?.closest('.card');
+    if (rcCard) rcCard.style.borderRight = '4px solid var(--green)';
+    const soCard = document.getElementById('kpi-stockout-val')?.closest('.card');
+    if (soCard) soCard.style.borderRight = '4px solid var(--amber)';
+    const osCard = document.getElementById('kpi-overstock-val')?.closest('.card');
+    if (osCard) osCard.style.borderRight = '4px solid var(--accent)';
+
+    // Update KPI Card badges
+    const rBadge = rCard?.querySelector('.badge');
+    if (rBadge) { rBadge.className = 'badge badge-red'; rBadge.innerText = 'خسارة كامنة'; }
+    const rcBadge = rcCard?.querySelector('.badge');
+    if (rcBadge) { rcBadge.className = 'badge badge-green'; rcBadge.innerText = 'كاش متاح'; }
+    const soBadge = soCard?.querySelector('.badge');
+    if (soBadge) { soBadge.className = 'badge badge-amber'; soBadge.innerText = 'مبيعات ضائعة'; }
+    const osBadge = osCard?.querySelector('.badge');
+    if (osBadge) { osBadge.className = 'badge badge-indigo'; osBadge.innerText = 'كاش محبوس'; }
+
+    const tBadge = document.getElementById('leak-total-badge');
+    if (tBadge) { tBadge.className = 'badge badge-red'; tBadge.innerText = scen.riskVal; }
+
     const pBox = document.getElementById('leak-progress-box');
     if (pBox) {
       pBox.innerHTML = scen.leakRows.map(r => `
@@ -1515,18 +1557,14 @@
     renderKanban();
   }
 
-  const HEALTH_TABLES = [
-    { name: "product_master.csv", nameAr: "بيانات المنتجات والتسعير", rows: 1842, updated: "منذ 3 أيام", quality: 99.1, status: "HEALTHY", note: "مكتمل وبلا انحرافات" },
-    { name: "sales_transactions.csv", nameAr: "سجل حركات البيع والفواتير", rows: 48320, updated: "منذ 3 أيام", quality: 98.2, status: "HEALTHY", note: "تغطية كاملة لـ 12 شهرًا" },
-    { name: "inventory_stock.csv", nameAr: "مستويات المخزون بالفروع والمستودعات", rows: 5640, updated: "منذ 3 أيام", quality: 97.8, status: "HEALTHY", note: "أرصدة فعلية متطابقة" },
-    { name: "returns_data.csv", nameAr: "بيانات المرتجعات وعيوب الجودة", rows: 2210, updated: "منذ 5 أيام", quality: 95.1, status: "ATTENTION", note: "⚠️ يُنصح برفع جدول الأسبوع الأخير" },
-    { name: "branches_master.csv", nameAr: "بيانات الفروع ومراكز التوزيع", rows: 28, updated: "منذ 12 يومًا", quality: 100, status: "HEALTHY", note: "بيانات مرجعية سليمة" },
-    { name: "suppliers.csv", nameAr: "بيانات الموردين والعقود", rows: 143, updated: "منذ 7 أيام", quality: 99.6, status: "HEALTHY", note: "شروط التوريد محددة بدقة" }
+  const POPULATED_HEALTH_TABLES = [
+    { name: "product_master.csv", nameAr: "بيانات المنتجات والتسعير", rows: 1842, updated: "اليوم", quality: 99.1, status: "HEALTHY", note: "مكتمل وبلا انحرافات" },
+    { name: "sales_transactions.csv", nameAr: "سجل حركات البيع والفواتير", rows: 48320, updated: "اليوم", quality: 98.2, status: "HEALTHY", note: "تغطية كاملة لـ 12 شهرًا" },
+    { name: "inventory_stock.csv", nameAr: "مستويات المخزون بالفروع والمستودعات", rows: 5640, updated: "اليوم", quality: 97.8, status: "HEALTHY", note: "أرصدة فعلية متطابقة" },
+    { name: "returns_data.csv", nameAr: "بيانات المرتجعات وعيوب الجودة", rows: 2210, updated: "اليوم", quality: 99.4, status: "HEALTHY", note: "تم تحديث بيانات الأسبوع الأخير" },
+    { name: "branches_master.csv", nameAr: "بيانات الفروع ومراكز التوزيع", rows: 28, updated: "اليوم", quality: 100, status: "HEALTHY", note: "بيانات مرجعية سليمة" },
+    { name: "suppliers.csv", nameAr: "بيانات الموردين والعقود", rows: 143, updated: "اليوم", quality: 99.6, status: "HEALTHY", note: "شروط التوريد محددة بدقة" }
   ];
-
-  let currentModalDec = null;
-  let realizedTotal = 0;
-  let uploadedFiles = [];
 
   // Tab switching
   function switchTab(tabId, btn) {
@@ -1723,11 +1761,14 @@
   }
 
   function loadCompanyName() {
-    const saved = localStorage.getItem('bg_company_name');
-    if (saved) {
-      document.getElementById('company-name-field').value = saved;
-      document.getElementById('company-label').innerText = saved + ' · رادار تسرّب الأرباح';
-    }
+    // Ensure clean start with NO client name
+    const label = document.getElementById('company-label');
+    if (label) label.innerText = 'النسخة التفاعلية المستقلة لقطاع المالية والإدارة التنفيذية';
+    const field = document.getElementById('company-name-field');
+    if (field) field.value = '';
+    try {
+      localStorage.removeItem('bg_company_name');
+    } catch(e) {}
   }
 
   // File Upload Handlers
@@ -1881,15 +1922,6 @@
     } else if (names.includes('s1') || names.includes('superstore')) {
       switchScenario('superstore');
     }
-  },
-      { name: 'Locations.csv', size: 526, status: 'pending' },
-      { name: 'Customers.csv', size: 374, status: 'pending' },
-      { name: 'Inventory-History.csv', size: 262864, status: 'pending' },
-      { name: 'returns_data.csv', size: 274117, status: 'pending' },
-      { name: 'Sales-Transactions-Sample.csv', size: 2113930, status: 'pending' }
-    ];
-    renderFileList();
-    processFiles();
   }
 
   // Update Health Statistics and Alerts dynamically after processing

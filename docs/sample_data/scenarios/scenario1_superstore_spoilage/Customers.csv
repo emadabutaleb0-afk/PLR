@@ -1,0 +1,6 @@
+﻿customer_id,customer_name,segment,city,type,loyalty_tier
+CUST-001,Retail Walk-in,Retail,Doha,Individual,Standard
+CUST-002,Corporate Catering - Qatar Airways,B2B,Doha,Corporate,Platinum
+CUST-003,Wholesale Distributor,Wholesale,Doha,Corporate,Gold
+CUST-004,E-Commerce Talabat & Snoonu,E-Commerce,Doha,Online,Gold
+CUST-005,HORECA Hotels,HORECA,Doha,Corporate,Platinum

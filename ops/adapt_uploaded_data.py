@@ -220,7 +220,7 @@ def adapt():
     on_hand_rows = inv_clean[inv_clean["movement_type"] == "ON_HAND"]
     on_hand_dict = on_hand_rows.set_index(["location_id", "product_id"])["quantity_on_hand"].to_dict()
 
-    months = sorted(list(set(s_df["month_snap"]) | {"2026-10-01"}))
+    months = sorted(list(set(s_df["month_snap"]) | {"2026-11-01"}))
     inv_records = []
     
     for m in months:
@@ -235,7 +235,7 @@ def adapt():
                 damaged_qty = int(waste_grouped.get((m, lid, pid), 0))
                 
                 base_stock = int(on_hand_dict.get((lid, pid), min_stock * 2))
-                closing_stock = base_stock if m == "2026-10-01" else max(base_stock + min_stock - (sold_qty % 15), 0)
+                closing_stock = base_stock if m == months[-1] else max(base_stock + min_stock - (sold_qty % 15), 0)
                 
                 opening_stock = closing_stock + sold_qty + damaged_qty
                 received_qty = sold_qty + damaged_qty

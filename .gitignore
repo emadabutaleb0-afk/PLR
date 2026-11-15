@@ -38,4 +38,5 @@ docs/screenshots/temp_profile/
 
 # Allow public sample datasets for demo downloads
 !docs/sample_data/**
+!sample_data/**
 

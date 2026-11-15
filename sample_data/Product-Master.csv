@@ -1,0 +1,81 @@
+﻿product_id,product_name,barcode,category,cost_price,selling_price,margin_pct,min_stock,primary_supplier,status
+PRD-0001,Tomato Fresh,6291047523601,Fresh Produce,16.0,22.5,28.9,247,Gulf Foods Trading,ACTIVE
+PRD-0002,Cucumber,6291047728557,Fresh Produce,14.0,19.5,28.2,195,Gulf Foods Trading,ACTIVE
+PRD-0003,Red Apple,6291047360499,Fresh Produce,42.0,58.0,27.6,184,Global Beverages,ACTIVE
+PRD-0004,Banana,6291047190784,Fresh Produce,22.0,32.0,31.2,214,National Meat Co.,ACTIVE
+PRD-0005,Lettuce,6291047501675,Fresh Produce,12.0,18.0,33.3,285,National Meat Co.,ACTIVE
+PRD-0006,Potato,6291047834515,Fresh Produce,13.0,18.5,29.7,287,Fresh Farms Co.,ACTIVE
+PRD-0007,Onion,6291047754227,Fresh Produce,15.0,21.0,28.6,275,Gulf Foods Trading,ACTIVE
+PRD-0008,Chicken Breast,6291047542120,Meat & Poultry,95.0,135.0,29.6,334,Central Bakery,ACTIVE
+PRD-0009,Beef Steak,6291047716989,Meat & Poultry,240.0,320.0,25.0,205,Global Beverages,ACTIVE
+PRD-0010,Lamb Chops,6291047926609,Meat & Poultry,280.0,380.0,26.3,245,Global Beverages,ACTIVE
+PRD-0011,Basmati Rice 5kg,6291047506964,Grocery,125.0,168.0,25.6,370,National Meat Co.,ACTIVE
+PRD-0012,Sunflower Oil 1.5L,6291047322917,Grocery,72.0,95.0,24.2,188,Al Meera Supply,ACTIVE
+PRD-0013,Sugar 2kg,6291047792655,Grocery,38.0,52.0,26.9,195,Global Beverages,ACTIVE
+PRD-0014,Flour 2kg,6291047694453,Grocery,28.0,38.0,26.3,236,Fresh Farms Co.,ACTIVE
+PRD-0015,Milk Full Fat 1L,6291047851493,Dairy,22.0,29.5,25.4,285,National Meat Co.,ACTIVE
+PRD-0016,White Cheese 500g,6291047912094,Dairy,48.0,67.0,28.4,172,Al Meera Supply,ACTIVE
+PRD-0017,Yogurt 1kg,6291047431747,Dairy,24.0,33.0,27.3,253,Fresh Farms Co.,ACTIVE
+PRD-0018,Eggs 30pcs,6291047382485,Dairy,62.0,82.0,24.4,292,Fresh Farms Co.,ACTIVE
+PRD-0019,Arabic Bread Pack,6291047545860,Bakery,4.0,6.0,33.3,202,Qatar Dairy Co.,ACTIVE
+PRD-0020,Croissant 4pcs,6291047660264,Bakery,18.0,26.0,30.8,170,Al Meera Supply,ACTIVE
+PRD-0021,Tomato Fresh 2,6291047643849,Fresh Produce,16.0,22.5,28.9,380,Gulf Foods Trading,ACTIVE
+PRD-0022,Cucumber 2,6291047734922,Fresh Produce,14.0,19.5,28.2,268,Fresh Farms Co.,ACTIVE
+PRD-0023,Red Apple 2,6291047474892,Fresh Produce,42.0,58.0,27.6,183,Gulf Foods Trading,ACTIVE
+PRD-0024,Banana 2,6291047849883,Fresh Produce,22.0,32.0,31.2,191,National Meat Co.,ACTIVE
+PRD-0025,Lettuce 2,6291047930303,Fresh Produce,12.0,18.0,33.3,263,Central Bakery,ACTIVE
+PRD-0026,Potato 2,6291047286253,Fresh Produce,13.0,18.5,29.7,391,Central Bakery,ACTIVE
+PRD-0027,Onion 2,6291047792374,Fresh Produce,15.0,21.0,28.6,195,Fresh Farms Co.,ACTIVE
+PRD-0028,Chicken Breast 2,6291047215125,Meat & Poultry,95.0,135.0,29.6,155,Gulf Foods Trading,ACTIVE
+PRD-0029,Beef Steak 2,6291047596738,Meat & Poultry,240.0,320.0,25.0,325,Global Beverages,ACTIVE
+PRD-0030,Lamb Chops 2,6291047539377,Meat & Poultry,280.0,380.0,26.3,170,Al Meera Supply,ACTIVE
+PRD-0031,Basmati Rice 5kg 2,6291047762715,Grocery,125.0,168.0,25.6,172,Gulf Foods Trading,ACTIVE
+PRD-0032,Sunflower Oil 1.5L 2,6291047424856,Grocery,72.0,95.0,24.2,308,Fresh Farms Co.,ACTIVE
+PRD-0033,Sugar 2kg 2,6291047499571,Grocery,38.0,52.0,26.9,234,Gulf Foods Trading,ACTIVE
+PRD-0034,Flour 2kg 2,6291047648826,Grocery,28.0,38.0,26.3,253,Gulf Foods Trading,ACTIVE
+PRD-0035,Milk Full Fat 1L 2,6291047925455,Dairy,22.0,29.5,25.4,399,Fresh Farms Co.,ACTIVE
+PRD-0036,White Cheese 500g 2,6291047771543,Dairy,48.0,67.0,28.4,204,Al Meera Supply,ACTIVE
+PRD-0037,Yogurt 1kg 2,6291047370088,Dairy,24.0,33.0,27.3,289,Al Meera Supply,ACTIVE
+PRD-0038,Eggs 30pcs 2,6291047965215,Dairy,62.0,82.0,24.4,345,Gulf Foods Trading,ACTIVE
+PRD-0039,Arabic Bread Pack 2,6291047470995,Bakery,4.0,6.0,33.3,390,National Meat Co.,ACTIVE
+PRD-0040,Croissant 4pcs 2,6291047599272,Bakery,18.0,26.0,30.8,386,Fresh Farms Co.,ACTIVE
+PRD-0041,Tomato Fresh 3,6291047237286,Fresh Produce,16.0,22.5,28.9,339,Global Beverages,ACTIVE
+PRD-0042,Cucumber 3,6291047853258,Fresh Produce,14.0,19.5,28.2,303,Global Beverages,ACTIVE
+PRD-0043,Red Apple 3,6291047883518,Fresh Produce,42.0,58.0,27.6,188,Central Bakery,ACTIVE
+PRD-0044,Banana 3,6291047528133,Fresh Produce,22.0,32.0,31.2,181,Fresh Farms Co.,ACTIVE
+PRD-0045,Lettuce 3,6291047224481,Fresh Produce,12.0,18.0,33.3,186,Qatar Dairy Co.,ACTIVE
+PRD-0046,Potato 3,6291047282593,Fresh Produce,13.0,18.5,29.7,195,Al Meera Supply,ACTIVE
+PRD-0047,Onion 3,6291047252579,Fresh Produce,15.0,21.0,28.6,386,Gulf Foods Trading,ACTIVE
+PRD-0048,Chicken Breast 3,6291047688215,Meat & Poultry,95.0,135.0,29.6,231,Global Beverages,ACTIVE
+PRD-0049,Beef Steak 3,6291047623379,Meat & Poultry,240.0,320.0,25.0,354,Gulf Foods Trading,ACTIVE
+PRD-0050,Lamb Chops 3,6291047987226,Meat & Poultry,280.0,380.0,26.3,215,Fresh Farms Co.,ACTIVE
+PRD-0051,Basmati Rice 5kg 3,6291047999537,Grocery,125.0,168.0,25.6,360,Qatar Dairy Co.,ACTIVE
+PRD-0052,Sunflower Oil 1.5L 3,6291047294984,Grocery,72.0,95.0,24.2,323,Fresh Farms Co.,ACTIVE
+PRD-0053,Sugar 2kg 3,6291047625580,Grocery,38.0,52.0,26.9,223,Fresh Farms Co.,ACTIVE
+PRD-0054,Flour 2kg 3,6291047714143,Grocery,28.0,38.0,26.3,363,Fresh Farms Co.,ACTIVE
+PRD-0055,Milk Full Fat 1L 3,6291047453826,Dairy,22.0,29.5,25.4,205,Al Meera Supply,ACTIVE
+PRD-0056,White Cheese 500g 3,6291047518487,Dairy,48.0,67.0,28.4,236,Global Beverages,ACTIVE
+PRD-0057,Yogurt 1kg 3,6291047951833,Dairy,24.0,33.0,27.3,252,Al Meera Supply,ACTIVE
+PRD-0058,Eggs 30pcs 3,6291047534178,Dairy,62.0,82.0,24.4,358,Qatar Dairy Co.,ACTIVE
+PRD-0059,Arabic Bread Pack 3,6291047660325,Bakery,4.0,6.0,33.3,173,Gulf Foods Trading,ACTIVE
+PRD-0060,Croissant 4pcs 3,6291047139418,Bakery,18.0,26.0,30.8,386,Qatar Dairy Co.,ACTIVE
+PRD-0061,Tomato Fresh 4,6291047856715,Fresh Produce,16.0,22.5,28.9,369,Al Meera Supply,ACTIVE
+PRD-0062,Cucumber 4,6291047908265,Fresh Produce,14.0,19.5,28.2,263,Gulf Foods Trading,ACTIVE
+PRD-0063,Red Apple 4,6291047426546,Fresh Produce,42.0,58.0,27.6,368,National Meat Co.,ACTIVE
+PRD-0064,Banana 4,6291047337026,Fresh Produce,22.0,32.0,31.2,317,National Meat Co.,ACTIVE
+PRD-0065,Lettuce 4,6291047425746,Fresh Produce,12.0,18.0,33.3,177,Global Beverages,ACTIVE
+PRD-0066,Potato 4,6291047821296,Fresh Produce,13.0,18.5,29.7,334,Qatar Dairy Co.,ACTIVE
+PRD-0067,Onion 4,6291047329222,Fresh Produce,15.0,21.0,28.6,345,Global Beverages,ACTIVE
+PRD-0068,Chicken Breast 4,6291047846110,Meat & Poultry,95.0,135.0,29.6,322,National Meat Co.,ACTIVE
+PRD-0069,Beef Steak 4,6291047361851,Meat & Poultry,240.0,320.0,25.0,248,Qatar Dairy Co.,ACTIVE
+PRD-0070,Lamb Chops 4,6291047559407,Meat & Poultry,280.0,380.0,26.3,342,Fresh Farms Co.,ACTIVE
+PRD-0071,Basmati Rice 5kg 4,6291047559083,Grocery,125.0,168.0,25.6,257,Qatar Dairy Co.,ACTIVE
+PRD-0072,Sunflower Oil 1.5L 4,6291047173061,Grocery,72.0,95.0,24.2,278,Qatar Dairy Co.,ACTIVE
+PRD-0073,Sugar 2kg 4,6291047818073,Grocery,38.0,52.0,26.9,373,Qatar Dairy Co.,ACTIVE
+PRD-0074,Flour 2kg 4,6291047926491,Grocery,28.0,38.0,26.3,272,Central Bakery,ACTIVE
+PRD-0075,Milk Full Fat 1L 4,6291047233463,Dairy,22.0,29.5,25.4,388,Qatar Dairy Co.,ACTIVE
+PRD-0076,White Cheese 500g 4,6291047551854,Dairy,48.0,67.0,28.4,375,Qatar Dairy Co.,ACTIVE
+PRD-0077,Yogurt 1kg 4,6291047529216,Dairy,24.0,33.0,27.3,397,National Meat Co.,ACTIVE
+PRD-0078,Eggs 30pcs 4,6291047966458,Dairy,62.0,82.0,24.4,306,Gulf Foods Trading,ACTIVE
+PRD-0079,Arabic Bread Pack 4,6291047396003,Bakery,4.0,6.0,33.3,247,National Meat Co.,ACTIVE
+PRD-0080,Croissant 4pcs 4,6291047811301,Bakery,18.0,26.0,30.8,304,Global Beverages,ACTIVE

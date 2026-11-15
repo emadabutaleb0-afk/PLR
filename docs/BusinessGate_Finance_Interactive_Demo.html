@@ -792,7 +792,7 @@
             <span class="badge badge-indigo">حفظ محلي</span>
           </div>
           <label style="font-size: 12px; font-weight: 700; margin-bottom: 6px; display: block;">اسم المؤسسة / العميل:</label>
-          <input class="company-name-input" id="company-name-field" type="text" placeholder="مثال: شركة النصر للملابس الجاهزة" value="">
+          <input class="company-name-input" id="company-name-field" type="text" placeholder="اسم المتجر / الفرع (اختياري)" value="">
           <div style="display: flex; gap: 8px; margin-top: 10px;">
             <button class="btn btn-primary" onclick="saveCompanyName()">💾 حفظ الاسم في النظام</button>
             <button class="btn" onclick="clearCompanyName()">🗑️ استعادة الافتراضي</button>
@@ -1288,6 +1288,8 @@
     });
 
     // Reset Top Banner
+    const bStatus = document.getElementById('banner-data-status');
+    if (bStatus) bStatus.innerHTML = 'حالة النظام: بانتظار رفع البيانات (NO_DATA)';
     const pName = document.getElementById('current-place-name');
     if (pName) {
       pName.innerText = 'لم يتم اختيار فرع بعد (في انتظار رفع البيانات)';
@@ -1471,6 +1473,8 @@
     });
 
     // 2. Update Banner
+    const bStatus = document.getElementById('banner-data-status');
+    if (bStatus) bStatus.innerHTML = 'البيانات: تم استيعاب بيانات ' + scen.name;
     const pName = document.getElementById('current-place-name');
     if (pName) pName.innerText = scen.name;
     const pIssue = document.getElementById('current-place-issue');

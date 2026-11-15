@@ -1,0 +1,1739 @@
+﻿date,product_id,product_name,category,location_id,quantity_on_hand,cost,stock_value,movement_type,supplier
+2026-11-14,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,1216,16.0,19456.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0002,Cucumber,Fresh Produce,LOC-005,766,14.0,10724.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0003,Red Apple,Fresh Produce,LOC-005,1027,42.0,43134.0,ON_HAND,Global Beverages
+2026-11-14,PRD-0004,Banana,Fresh Produce,LOC-005,1227,22.0,26994.0,ON_HAND,National Meat Co.
+2026-11-14,PRD-0005,Lettuce,Fresh Produce,LOC-005,1132,12.0,13584.0,ON_HAND,National Meat Co.
+2026-11-14,PRD-0006,Potato,Fresh Produce,LOC-005,1257,13.0,16341.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0007,Onion,Fresh Produce,LOC-005,1502,15.0,22530.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0008,Chicken Breast,Meat & Poultry,LOC-005,400,95.0,38000.0,ON_HAND,Central Bakery
+2026-11-14,PRD-0009,Beef Steak,Meat & Poultry,LOC-005,760,240.0,182400.0,ON_HAND,Global Beverages
+2026-11-14,PRD-0010,Lamb Chops,Meat & Poultry,LOC-005,1304,280.0,365120.0,ON_HAND,Global Beverages
+2026-11-14,PRD-0011,Basmati Rice 5kg,Grocery,LOC-005,1928,125.0,241000.0,ON_HAND,National Meat Co.
+2026-11-14,PRD-0012,Sunflower Oil 1.5L,Grocery,LOC-005,680,72.0,48960.0,ON_HAND,Al Meera Supply
+2026-11-14,PRD-0013,Sugar 2kg,Grocery,LOC-005,773,38.0,29374.0,ON_HAND,Global Beverages
+2026-11-14,PRD-0014,Flour 2kg,Grocery,LOC-005,283,28.0,7924.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,1409,22.0,30998.0,ON_HAND,National Meat Co.
+2026-11-14,PRD-0016,White Cheese 500g,Dairy,LOC-005,835,48.0,40080.0,ON_HAND,Al Meera Supply
+2026-11-14,PRD-0017,Yogurt 1kg,Dairy,LOC-005,303,24.0,7272.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0018,Eggs 30pcs,Dairy,LOC-005,1316,62.0,81592.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,1188,4.0,4752.0,ON_HAND,Qatar Dairy Co.
+2026-11-14,PRD-0020,Croissant 4pcs,Bakery,LOC-005,962,18.0,17316.0,ON_HAND,Al Meera Supply
+2026-11-14,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,1841,16.0,29456.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,321,14.0,4494.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,687,42.0,28854.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0024,Banana 2,Fresh Produce,LOC-005,1093,22.0,24046.0,ON_HAND,National Meat Co.
+2026-11-14,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,1101,12.0,13212.0,ON_HAND,Central Bakery
+2026-11-14,PRD-0026,Potato 2,Fresh Produce,LOC-005,1529,13.0,19877.0,ON_HAND,Central Bakery
+2026-11-14,PRD-0027,Onion 2,Fresh Produce,LOC-005,920,15.0,13800.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0028,Chicken Breast 2,Meat & Poultry,LOC-005,744,95.0,70680.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0029,Beef Steak 2,Meat & Poultry,LOC-005,1319,240.0,316560.0,ON_HAND,Global Beverages
+2026-11-14,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-005,646,280.0,180880.0,ON_HAND,Al Meera Supply
+2026-11-14,PRD-0031,Basmati Rice 5kg 2,Grocery,LOC-005,661,125.0,82625.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0032,Sunflower Oil 1.5L 2,Grocery,LOC-005,1215,72.0,87480.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0033,Sugar 2kg 2,Grocery,LOC-005,1332,38.0,50616.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0034,Flour 2kg 2,Grocery,LOC-005,303,28.0,8484.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,1856,22.0,40832.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,879,48.0,42192.0,ON_HAND,Al Meera Supply
+2026-11-14,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,1048,24.0,25152.0,ON_HAND,Al Meera Supply
+2026-11-14,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,1908,62.0,118296.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,2000,4.0,8000.0,ON_HAND,National Meat Co.
+2026-11-14,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,1984,18.0,35712.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,1745,16.0,27920.0,ON_HAND,Global Beverages
+2026-11-14,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,1627,14.0,22778.0,ON_HAND,Global Beverages
+2026-11-14,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,1026,42.0,43092.0,ON_HAND,Central Bakery
+2026-11-14,PRD-0044,Banana 3,Fresh Produce,LOC-005,948,22.0,20856.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,1104,12.0,13248.0,ON_HAND,Qatar Dairy Co.
+2026-11-14,PRD-0046,Potato 3,Fresh Produce,LOC-005,828,13.0,10764.0,ON_HAND,Al Meera Supply
+2026-11-14,PRD-0047,Onion 3,Fresh Produce,LOC-005,1397,15.0,20955.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-005,277,95.0,26315.0,ON_HAND,Global Beverages
+2026-11-14,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-005,1776,240.0,426240.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0050,Lamb Chops 3,Meat & Poultry,LOC-005,955,280.0,267400.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-005,2017,125.0,252125.0,ON_HAND,Qatar Dairy Co.
+2026-11-14,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-005,1575,72.0,113400.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0053,Sugar 2kg 3,Grocery,LOC-005,1156,38.0,43928.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0054,Flour 2kg 3,Grocery,LOC-005,1581,28.0,44268.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,840,22.0,18480.0,ON_HAND,Al Meera Supply
+2026-11-14,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,283,48.0,13584.0,ON_HAND,Global Beverages
+2026-11-14,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,974,24.0,23376.0,ON_HAND,Al Meera Supply
+2026-11-14,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,2097,62.0,130014.0,ON_HAND,Qatar Dairy Co.
+2026-11-14,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,922,4.0,3688.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,463,18.0,8334.0,ON_HAND,Qatar Dairy Co.
+2026-11-14,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,1649,16.0,26384.0,ON_HAND,Al Meera Supply
+2026-11-14,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,315,14.0,4410.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,1507,42.0,63294.0,ON_HAND,National Meat Co.
+2026-11-14,PRD-0064,Banana 4,Fresh Produce,LOC-005,1712,22.0,37664.0,ON_HAND,National Meat Co.
+2026-11-14,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,708,12.0,8496.0,ON_HAND,Global Beverages
+2026-11-14,PRD-0066,Potato 4,Fresh Produce,LOC-005,1874,13.0,24362.0,ON_HAND,Qatar Dairy Co.
+2026-11-14,PRD-0067,Onion 4,Fresh Produce,LOC-005,1584,15.0,23760.0,ON_HAND,Global Beverages
+2026-11-14,PRD-0068,Chicken Breast 4,Meat & Poultry,LOC-005,1319,95.0,125305.0,ON_HAND,National Meat Co.
+2026-11-14,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-005,1110,240.0,266400.0,ON_HAND,Qatar Dairy Co.
+2026-11-14,PRD-0070,Lamb Chops 4,Meat & Poultry,LOC-005,1506,280.0,421680.0,ON_HAND,Fresh Farms Co.
+2026-11-14,PRD-0071,Basmati Rice 5kg 4,Grocery,LOC-005,1024,125.0,128000.0,ON_HAND,Qatar Dairy Co.
+2026-11-14,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-005,333,72.0,23976.0,ON_HAND,Qatar Dairy Co.
+2026-11-14,PRD-0073,Sugar 2kg 4,Grocery,LOC-005,1816,38.0,69008.0,ON_HAND,Qatar Dairy Co.
+2026-11-14,PRD-0074,Flour 2kg 4,Grocery,LOC-005,1002,28.0,28056.0,ON_HAND,Central Bakery
+2026-11-14,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,465,22.0,10230.0,ON_HAND,Qatar Dairy Co.
+2026-11-14,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,1899,48.0,91152.0,ON_HAND,Qatar Dairy Co.
+2026-11-14,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,2095,24.0,50280.0,ON_HAND,National Meat Co.
+2026-11-14,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,367,62.0,22754.0,ON_HAND,Gulf Foods Trading
+2026-11-14,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,1028,4.0,4112.0,ON_HAND,National Meat Co.
+2026-11-14,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,364,18.0,6552.0,ON_HAND,Global Beverages
+2026-08-01,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,13,24.0,312.0,WASTE,Al Meera Supply
+2026-08-01,PRD-0046,Potato 3,Fresh Produce,LOC-005,15,13.0,195.0,WASTE,Al Meera Supply
+2026-08-01,PRD-0016,White Cheese 500g,Dairy,LOC-005,15,48.0,720.0,WASTE,Al Meera Supply
+2026-08-01,PRD-0020,Croissant 4pcs,Bakery,LOC-005,5,18.0,90.0,WASTE,Al Meera Supply
+2026-08-01,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,10,4.0,40.0,WASTE,National Meat Co.
+2026-08-01,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,15,4.0,60.0,WASTE,Gulf Foods Trading
+2026-08-01,PRD-0003,Red Apple,Fresh Produce,LOC-005,10,42.0,420.0,WASTE,Global Beverages
+2026-08-01,PRD-0064,Banana 4,Fresh Produce,LOC-005,14,22.0,308.0,WASTE,National Meat Co.
+2026-08-01,PRD-0002,Cucumber,Fresh Produce,LOC-005,6,14.0,84.0,WASTE,Gulf Foods Trading
+2026-08-01,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,13,4.0,52.0,WASTE,Gulf Foods Trading
+2026-08-01,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,14,24.0,336.0,WASTE,Al Meera Supply
+2026-08-01,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,9,18.0,162.0,WASTE,Global Beverages
+2026-08-01,PRD-0066,Potato 4,Fresh Produce,LOC-005,6,13.0,78.0,WASTE,Qatar Dairy Co.
+2026-08-01,PRD-0066,Potato 4,Fresh Produce,LOC-005,5,13.0,65.0,WASTE,Qatar Dairy Co.
+2026-08-01,PRD-0046,Potato 3,Fresh Produce,LOC-005,9,13.0,117.0,WASTE,Al Meera Supply
+2026-08-01,PRD-0004,Banana,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-08-01,PRD-0017,Yogurt 1kg,Dairy,LOC-005,17,24.0,408.0,WASTE,Fresh Farms Co.
+2026-08-01,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,7,12.0,84.0,WASTE,Qatar Dairy Co.
+2026-08-01,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,10,14.0,140.0,WASTE,Gulf Foods Trading
+2026-08-02,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,11,12.0,132.0,WASTE,Qatar Dairy Co.
+2026-08-02,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,9,24.0,216.0,WASTE,Al Meera Supply
+2026-08-02,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,Central Bakery
+2026-08-02,PRD-0005,Lettuce,Fresh Produce,LOC-005,5,12.0,60.0,WASTE,National Meat Co.
+2026-08-02,PRD-0026,Potato 2,Fresh Produce,LOC-005,16,13.0,208.0,WASTE,Central Bakery
+2026-08-02,PRD-0027,Onion 2,Fresh Produce,LOC-005,6,15.0,90.0,WASTE,Fresh Farms Co.
+2026-08-02,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,7,22.0,154.0,WASTE,National Meat Co.
+2026-08-02,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,15,48.0,720.0,WASTE,Global Beverages
+2026-08-02,PRD-0020,Croissant 4pcs,Bakery,LOC-005,13,18.0,234.0,WASTE,Al Meera Supply
+2026-08-02,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,9,22.0,198.0,WASTE,Fresh Farms Co.
+2026-08-02,PRD-0017,Yogurt 1kg,Dairy,LOC-005,15,24.0,360.0,WASTE,Fresh Farms Co.
+2026-08-02,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,10,48.0,480.0,WASTE,Global Beverages
+2026-08-03,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,16,18.0,288.0,WASTE,Fresh Farms Co.
+2026-08-03,PRD-0018,Eggs 30pcs,Dairy,LOC-005,15,62.0,930.0,WASTE,Fresh Farms Co.
+2026-08-03,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,13,22.0,286.0,WASTE,Al Meera Supply
+2026-08-03,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,8,12.0,96.0,WASTE,Global Beverages
+2026-08-03,PRD-0026,Potato 2,Fresh Produce,LOC-005,7,13.0,91.0,WASTE,Central Bakery
+2026-08-03,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,17,22.0,374.0,WASTE,Qatar Dairy Co.
+2026-08-03,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,4,48.0,192.0,WASTE,Qatar Dairy Co.
+2026-08-03,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,5,14.0,70.0,WASTE,Global Beverages
+2026-08-03,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,13,22.0,286.0,WASTE,National Meat Co.
+2026-08-03,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,10,22.0,220.0,WASTE,Qatar Dairy Co.
+2026-08-03,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,17,48.0,816.0,WASTE,Al Meera Supply
+2026-08-03,PRD-0007,Onion,Fresh Produce,LOC-005,10,15.0,150.0,WASTE,Gulf Foods Trading
+2026-08-03,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,16,48.0,768.0,WASTE,Qatar Dairy Co.
+2026-08-03,PRD-0007,Onion,Fresh Produce,LOC-005,15,15.0,225.0,WASTE,Gulf Foods Trading
+2026-08-03,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,9,22.0,198.0,WASTE,Al Meera Supply
+2026-08-03,PRD-0066,Potato 4,Fresh Produce,LOC-005,6,13.0,78.0,WASTE,Qatar Dairy Co.
+2026-08-03,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,16,16.0,256.0,WASTE,Al Meera Supply
+2026-08-04,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,4,62.0,248.0,WASTE,Gulf Foods Trading
+2026-08-04,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,14,48.0,672.0,WASTE,Al Meera Supply
+2026-08-04,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,4,14.0,56.0,WASTE,Fresh Farms Co.
+2026-08-04,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,5,22.0,110.0,WASTE,Fresh Farms Co.
+2026-08-04,PRD-0007,Onion,Fresh Produce,LOC-005,13,15.0,195.0,WASTE,Gulf Foods Trading
+2026-08-04,PRD-0067,Onion 4,Fresh Produce,LOC-005,4,15.0,60.0,WASTE,Global Beverages
+2026-08-04,PRD-0047,Onion 3,Fresh Produce,LOC-005,14,15.0,210.0,WASTE,Gulf Foods Trading
+2026-08-04,PRD-0046,Potato 3,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Al Meera Supply
+2026-08-04,PRD-0064,Banana 4,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-08-04,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,11,24.0,264.0,WASTE,Al Meera Supply
+2026-08-04,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,12,22.0,264.0,WASTE,National Meat Co.
+2026-08-04,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,8,42.0,336.0,WASTE,National Meat Co.
+2026-08-05,PRD-0024,Banana 2,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-08-05,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,4,24.0,96.0,WASTE,Al Meera Supply
+2026-08-05,PRD-0004,Banana,Fresh Produce,LOC-005,16,22.0,352.0,WASTE,National Meat Co.
+2026-08-05,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,13,22.0,286.0,WASTE,National Meat Co.
+2026-08-05,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,6,62.0,372.0,WASTE,Gulf Foods Trading
+2026-08-05,PRD-0046,Potato 3,Fresh Produce,LOC-005,11,13.0,143.0,WASTE,Al Meera Supply
+2026-08-05,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,4,16.0,64.0,WASTE,Al Meera Supply
+2026-08-05,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,16,4.0,64.0,WASTE,National Meat Co.
+2026-08-05,PRD-0044,Banana 3,Fresh Produce,LOC-005,7,22.0,154.0,WASTE,Fresh Farms Co.
+2026-08-05,PRD-0046,Potato 3,Fresh Produce,LOC-005,8,13.0,104.0,WASTE,Al Meera Supply
+2026-08-05,PRD-0006,Potato,Fresh Produce,LOC-005,17,13.0,221.0,WASTE,Fresh Farms Co.
+2026-08-05,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,12,22.0,264.0,WASTE,National Meat Co.
+2026-08-05,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,13,62.0,806.0,WASTE,Gulf Foods Trading
+2026-08-05,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,5,24.0,120.0,WASTE,Al Meera Supply
+2026-08-05,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,10,22.0,220.0,WASTE,Al Meera Supply
+2026-08-05,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,13,18.0,234.0,WASTE,Fresh Farms Co.
+2026-08-05,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,5,14.0,70.0,WASTE,Gulf Foods Trading
+2026-08-05,PRD-0066,Potato 4,Fresh Produce,LOC-005,4,13.0,52.0,WASTE,Qatar Dairy Co.
+2026-08-05,PRD-0027,Onion 2,Fresh Produce,LOC-005,14,15.0,210.0,WASTE,Fresh Farms Co.
+2026-08-06,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,14,16.0,224.0,WASTE,Al Meera Supply
+2026-08-06,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,15,14.0,210.0,WASTE,Gulf Foods Trading
+2026-08-06,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,17,48.0,816.0,WASTE,Qatar Dairy Co.
+2026-08-06,PRD-0007,Onion,Fresh Produce,LOC-005,16,15.0,240.0,WASTE,Gulf Foods Trading
+2026-08-06,PRD-0026,Potato 2,Fresh Produce,LOC-005,4,13.0,52.0,WASTE,Central Bakery
+2026-08-06,PRD-0002,Cucumber,Fresh Produce,LOC-005,12,14.0,168.0,WASTE,Gulf Foods Trading
+2026-08-06,PRD-0066,Potato 4,Fresh Produce,LOC-005,6,13.0,78.0,WASTE,Qatar Dairy Co.
+2026-08-06,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,12,48.0,576.0,WASTE,Global Beverages
+2026-08-06,PRD-0006,Potato,Fresh Produce,LOC-005,7,13.0,91.0,WASTE,Fresh Farms Co.
+2026-08-06,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,14,14.0,196.0,WASTE,Global Beverages
+2026-08-06,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,11,22.0,242.0,WASTE,Fresh Farms Co.
+2026-08-06,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,7,18.0,126.0,WASTE,Global Beverages
+2026-08-06,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,5,22.0,110.0,WASTE,Fresh Farms Co.
+2026-08-07,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,13,16.0,208.0,WASTE,Gulf Foods Trading
+2026-08-07,PRD-0066,Potato 4,Fresh Produce,LOC-005,8,13.0,104.0,WASTE,Qatar Dairy Co.
+2026-08-07,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,5,18.0,90.0,WASTE,Global Beverages
+2026-08-07,PRD-0018,Eggs 30pcs,Dairy,LOC-005,6,62.0,372.0,WASTE,Fresh Farms Co.
+2026-08-07,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,12,4.0,48.0,WASTE,Gulf Foods Trading
+2026-08-07,PRD-0044,Banana 3,Fresh Produce,LOC-005,13,22.0,286.0,WASTE,Fresh Farms Co.
+2026-08-07,PRD-0006,Potato,Fresh Produce,LOC-005,9,13.0,117.0,WASTE,Fresh Farms Co.
+2026-08-07,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,12,48.0,576.0,WASTE,Qatar Dairy Co.
+2026-08-07,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,12,24.0,288.0,WASTE,Al Meera Supply
+2026-08-07,PRD-0064,Banana 4,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-08-07,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,11,4.0,44.0,WASTE,Gulf Foods Trading
+2026-08-07,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,5,14.0,70.0,WASTE,Global Beverages
+2026-08-07,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,15,62.0,930.0,WASTE,Qatar Dairy Co.
+2026-08-07,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,6,14.0,84.0,WASTE,Global Beverages
+2026-08-07,PRD-0004,Banana,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-08-08,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,7,42.0,294.0,WASTE,National Meat Co.
+2026-08-08,PRD-0016,White Cheese 500g,Dairy,LOC-005,12,48.0,576.0,WASTE,Al Meera Supply
+2026-08-08,PRD-0004,Banana,Fresh Produce,LOC-005,15,22.0,330.0,WASTE,National Meat Co.
+2026-08-08,PRD-0006,Potato,Fresh Produce,LOC-005,16,13.0,208.0,WASTE,Fresh Farms Co.
+2026-08-08,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,8,42.0,336.0,WASTE,Central Bakery
+2026-08-08,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,13,42.0,546.0,WASTE,National Meat Co.
+2026-08-08,PRD-0017,Yogurt 1kg,Dairy,LOC-005,9,24.0,216.0,WASTE,Fresh Farms Co.
+2026-08-08,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,15,22.0,330.0,WASTE,Al Meera Supply
+2026-08-08,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,10,18.0,180.0,WASTE,Global Beverages
+2026-08-08,PRD-0067,Onion 4,Fresh Produce,LOC-005,17,15.0,255.0,WASTE,Global Beverages
+2026-08-08,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,14,18.0,252.0,WASTE,Qatar Dairy Co.
+2026-08-08,PRD-0016,White Cheese 500g,Dairy,LOC-005,7,48.0,336.0,WASTE,Al Meera Supply
+2026-08-08,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,12,4.0,48.0,WASTE,National Meat Co.
+2026-08-08,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,13,48.0,624.0,WASTE,Qatar Dairy Co.
+2026-08-08,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,13,4.0,52.0,WASTE,National Meat Co.
+2026-08-08,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,17,18.0,306.0,WASTE,Global Beverages
+2026-08-08,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,15,42.0,630.0,WASTE,Central Bakery
+2026-08-08,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,9,24.0,216.0,WASTE,National Meat Co.
+2026-08-09,PRD-0003,Red Apple,Fresh Produce,LOC-005,17,42.0,714.0,WASTE,Global Beverages
+2026-08-09,PRD-0026,Potato 2,Fresh Produce,LOC-005,6,13.0,78.0,WASTE,Central Bakery
+2026-08-09,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,9,4.0,36.0,WASTE,National Meat Co.
+2026-08-09,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,15,22.0,330.0,WASTE,Qatar Dairy Co.
+2026-08-09,PRD-0005,Lettuce,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,National Meat Co.
+2026-08-09,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,14,18.0,252.0,WASTE,Qatar Dairy Co.
+2026-08-09,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,8,12.0,96.0,WASTE,Qatar Dairy Co.
+2026-08-09,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,12,4.0,48.0,WASTE,National Meat Co.
+2026-08-09,PRD-0002,Cucumber,Fresh Produce,LOC-005,17,14.0,238.0,WASTE,Gulf Foods Trading
+2026-08-09,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,9,22.0,198.0,WASTE,Qatar Dairy Co.
+2026-08-09,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,6,62.0,372.0,WASTE,Gulf Foods Trading
+2026-08-09,PRD-0024,Banana 2,Fresh Produce,LOC-005,16,22.0,352.0,WASTE,National Meat Co.
+2026-08-09,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,13,62.0,806.0,WASTE,Gulf Foods Trading
+2026-08-09,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,13,24.0,312.0,WASTE,Al Meera Supply
+2026-08-10,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,12,42.0,504.0,WASTE,National Meat Co.
+2026-08-10,PRD-0067,Onion 4,Fresh Produce,LOC-005,14,15.0,210.0,WASTE,Global Beverages
+2026-08-10,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,5,62.0,310.0,WASTE,Gulf Foods Trading
+2026-08-10,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,15,18.0,270.0,WASTE,Fresh Farms Co.
+2026-08-10,PRD-0007,Onion,Fresh Produce,LOC-005,5,15.0,75.0,WASTE,Gulf Foods Trading
+2026-08-10,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,4,42.0,168.0,WASTE,Central Bakery
+2026-08-10,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,13,62.0,806.0,WASTE,Gulf Foods Trading
+2026-08-10,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,10,4.0,40.0,WASTE,Qatar Dairy Co.
+2026-08-10,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,15,42.0,630.0,WASTE,Gulf Foods Trading
+2026-08-10,PRD-0027,Onion 2,Fresh Produce,LOC-005,9,15.0,135.0,WASTE,Fresh Farms Co.
+2026-08-10,PRD-0002,Cucumber,Fresh Produce,LOC-005,17,14.0,238.0,WASTE,Gulf Foods Trading
+2026-08-10,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,11,24.0,264.0,WASTE,National Meat Co.
+2026-08-10,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,10,42.0,420.0,WASTE,Central Bakery
+2026-08-10,PRD-0006,Potato,Fresh Produce,LOC-005,7,13.0,91.0,WASTE,Fresh Farms Co.
+2026-08-10,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,16,42.0,672.0,WASTE,National Meat Co.
+2026-08-10,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,4,16.0,64.0,WASTE,Global Beverages
+2026-08-10,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,14,62.0,868.0,WASTE,Gulf Foods Trading
+2026-08-10,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,12,24.0,288.0,WASTE,Al Meera Supply
+2026-08-11,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,5,48.0,240.0,WASTE,Qatar Dairy Co.
+2026-08-11,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,16,16.0,256.0,WASTE,Gulf Foods Trading
+2026-08-11,PRD-0046,Potato 3,Fresh Produce,LOC-005,7,13.0,91.0,WASTE,Al Meera Supply
+2026-08-11,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,15,4.0,60.0,WASTE,National Meat Co.
+2026-08-11,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,17,18.0,306.0,WASTE,Qatar Dairy Co.
+2026-08-11,PRD-0046,Potato 3,Fresh Produce,LOC-005,12,13.0,156.0,WASTE,Al Meera Supply
+2026-08-11,PRD-0017,Yogurt 1kg,Dairy,LOC-005,17,24.0,408.0,WASTE,Fresh Farms Co.
+2026-08-11,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,13,24.0,312.0,WASTE,Al Meera Supply
+2026-08-11,PRD-0066,Potato 4,Fresh Produce,LOC-005,11,13.0,143.0,WASTE,Qatar Dairy Co.
+2026-08-11,PRD-0003,Red Apple,Fresh Produce,LOC-005,5,42.0,210.0,WASTE,Global Beverages
+2026-08-11,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,10,4.0,40.0,WASTE,National Meat Co.
+2026-08-11,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,8,12.0,96.0,WASTE,Qatar Dairy Co.
+2026-08-12,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,7,22.0,154.0,WASTE,Al Meera Supply
+2026-08-12,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,10,14.0,140.0,WASTE,Gulf Foods Trading
+2026-08-12,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,8,42.0,336.0,WASTE,Central Bakery
+2026-08-12,PRD-0066,Potato 4,Fresh Produce,LOC-005,9,13.0,117.0,WASTE,Qatar Dairy Co.
+2026-08-12,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,16,16.0,256.0,WASTE,Gulf Foods Trading
+2026-08-12,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,6,16.0,96.0,WASTE,Global Beverages
+2026-08-12,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,9,22.0,198.0,WASTE,National Meat Co.
+2026-08-12,PRD-0066,Potato 4,Fresh Produce,LOC-005,10,13.0,130.0,WASTE,Qatar Dairy Co.
+2026-08-12,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,16,62.0,992.0,WASTE,Gulf Foods Trading
+2026-08-12,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,7,48.0,336.0,WASTE,Global Beverages
+2026-08-12,PRD-0047,Onion 3,Fresh Produce,LOC-005,15,15.0,225.0,WASTE,Gulf Foods Trading
+2026-08-12,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,11,12.0,132.0,WASTE,Global Beverages
+2026-08-12,PRD-0064,Banana 4,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-08-12,PRD-0017,Yogurt 1kg,Dairy,LOC-005,9,24.0,216.0,WASTE,Fresh Farms Co.
+2026-08-12,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,6,16.0,96.0,WASTE,Global Beverages
+2026-08-12,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,15,24.0,360.0,WASTE,Al Meera Supply
+2026-08-12,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,8,22.0,176.0,WASTE,Qatar Dairy Co.
+2026-08-12,PRD-0018,Eggs 30pcs,Dairy,LOC-005,10,62.0,620.0,WASTE,Fresh Farms Co.
+2026-08-13,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,10,12.0,120.0,WASTE,Qatar Dairy Co.
+2026-08-13,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,13,62.0,806.0,WASTE,Qatar Dairy Co.
+2026-08-13,PRD-0026,Potato 2,Fresh Produce,LOC-005,9,13.0,117.0,WASTE,Central Bakery
+2026-08-13,PRD-0067,Onion 4,Fresh Produce,LOC-005,6,15.0,90.0,WASTE,Global Beverages
+2026-08-13,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,12,48.0,576.0,WASTE,Qatar Dairy Co.
+2026-08-13,PRD-0003,Red Apple,Fresh Produce,LOC-005,5,42.0,210.0,WASTE,Global Beverages
+2026-08-13,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,13,22.0,286.0,WASTE,Fresh Farms Co.
+2026-08-13,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,12,62.0,744.0,WASTE,Gulf Foods Trading
+2026-08-13,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,10,16.0,160.0,WASTE,Gulf Foods Trading
+2026-08-13,PRD-0046,Potato 3,Fresh Produce,LOC-005,4,13.0,52.0,WASTE,Al Meera Supply
+2026-08-13,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,11,18.0,198.0,WASTE,Qatar Dairy Co.
+2026-08-13,PRD-0016,White Cheese 500g,Dairy,LOC-005,16,48.0,768.0,WASTE,Al Meera Supply
+2026-08-13,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,9,14.0,126.0,WASTE,Fresh Farms Co.
+2026-08-13,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,7,24.0,168.0,WASTE,National Meat Co.
+2026-08-13,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,13,16.0,208.0,WASTE,Global Beverages
+2026-08-14,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Fresh Farms Co.
+2026-08-14,PRD-0064,Banana 4,Fresh Produce,LOC-005,16,22.0,352.0,WASTE,National Meat Co.
+2026-08-14,PRD-0007,Onion,Fresh Produce,LOC-005,17,15.0,255.0,WASTE,Gulf Foods Trading
+2026-08-14,PRD-0064,Banana 4,Fresh Produce,LOC-005,10,22.0,220.0,WASTE,National Meat Co.
+2026-08-14,PRD-0004,Banana,Fresh Produce,LOC-005,12,22.0,264.0,WASTE,National Meat Co.
+2026-08-14,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,10,4.0,40.0,WASTE,Gulf Foods Trading
+2026-08-14,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,9,16.0,144.0,WASTE,Al Meera Supply
+2026-08-14,PRD-0006,Potato,Fresh Produce,LOC-005,12,13.0,156.0,WASTE,Fresh Farms Co.
+2026-08-14,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,14,4.0,56.0,WASTE,National Meat Co.
+2026-08-14,PRD-0020,Croissant 4pcs,Bakery,LOC-005,10,18.0,180.0,WASTE,Al Meera Supply
+2026-08-14,PRD-0006,Potato,Fresh Produce,LOC-005,6,13.0,78.0,WASTE,Fresh Farms Co.
+2026-08-14,PRD-0016,White Cheese 500g,Dairy,LOC-005,15,48.0,720.0,WASTE,Al Meera Supply
+2026-08-14,PRD-0067,Onion 4,Fresh Produce,LOC-005,16,15.0,240.0,WASTE,Global Beverages
+2026-08-14,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,9,48.0,432.0,WASTE,Qatar Dairy Co.
+2026-08-14,PRD-0064,Banana 4,Fresh Produce,LOC-005,16,22.0,352.0,WASTE,National Meat Co.
+2026-08-14,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,10,16.0,160.0,WASTE,Al Meera Supply
+2026-08-15,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,10,42.0,420.0,WASTE,National Meat Co.
+2026-08-15,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,12,48.0,576.0,WASTE,Global Beverages
+2026-08-15,PRD-0024,Banana 2,Fresh Produce,LOC-005,17,22.0,374.0,WASTE,National Meat Co.
+2026-08-15,PRD-0024,Banana 2,Fresh Produce,LOC-005,9,22.0,198.0,WASTE,National Meat Co.
+2026-08-15,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,13,16.0,208.0,WASTE,Al Meera Supply
+2026-08-15,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,12,14.0,168.0,WASTE,Gulf Foods Trading
+2026-08-15,PRD-0016,White Cheese 500g,Dairy,LOC-005,10,48.0,480.0,WASTE,Al Meera Supply
+2026-08-15,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,17,18.0,306.0,WASTE,Global Beverages
+2026-08-15,PRD-0064,Banana 4,Fresh Produce,LOC-005,10,22.0,220.0,WASTE,National Meat Co.
+2026-08-15,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,17,18.0,306.0,WASTE,Qatar Dairy Co.
+2026-08-15,PRD-0024,Banana 2,Fresh Produce,LOC-005,8,22.0,176.0,WASTE,National Meat Co.
+2026-08-15,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,10,12.0,120.0,WASTE,Central Bakery
+2026-08-15,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,Gulf Foods Trading
+2026-08-15,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,4,4.0,16.0,WASTE,Gulf Foods Trading
+2026-08-15,PRD-0003,Red Apple,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,Global Beverages
+2026-08-16,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,10,4.0,40.0,WASTE,National Meat Co.
+2026-08-16,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,16,14.0,224.0,WASTE,Gulf Foods Trading
+2026-08-16,PRD-0006,Potato,Fresh Produce,LOC-005,6,13.0,78.0,WASTE,Fresh Farms Co.
+2026-08-16,PRD-0046,Potato 3,Fresh Produce,LOC-005,14,13.0,182.0,WASTE,Al Meera Supply
+2026-08-16,PRD-0005,Lettuce,Fresh Produce,LOC-005,10,12.0,120.0,WASTE,National Meat Co.
+2026-08-16,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,6,22.0,132.0,WASTE,Fresh Farms Co.
+2026-08-16,PRD-0003,Red Apple,Fresh Produce,LOC-005,11,42.0,462.0,WASTE,Global Beverages
+2026-08-16,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,11,62.0,682.0,WASTE,Gulf Foods Trading
+2026-08-16,PRD-0067,Onion 4,Fresh Produce,LOC-005,9,15.0,135.0,WASTE,Global Beverages
+2026-08-16,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,10,16.0,160.0,WASTE,Gulf Foods Trading
+2026-08-16,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,17,16.0,272.0,WASTE,Al Meera Supply
+2026-08-16,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,7,22.0,154.0,WASTE,Al Meera Supply
+2026-08-16,PRD-0026,Potato 2,Fresh Produce,LOC-005,15,13.0,195.0,WASTE,Central Bakery
+2026-08-16,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,15,16.0,240.0,WASTE,Gulf Foods Trading
+2026-08-16,PRD-0002,Cucumber,Fresh Produce,LOC-005,14,14.0,196.0,WASTE,Gulf Foods Trading
+2026-08-16,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,6,24.0,144.0,WASTE,Al Meera Supply
+2026-08-16,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,16,18.0,288.0,WASTE,Qatar Dairy Co.
+2026-08-16,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,16,22.0,352.0,WASTE,Al Meera Supply
+2026-08-16,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,14,42.0,588.0,WASTE,Gulf Foods Trading
+2026-08-17,PRD-0002,Cucumber,Fresh Produce,LOC-005,6,14.0,84.0,WASTE,Gulf Foods Trading
+2026-08-17,PRD-0067,Onion 4,Fresh Produce,LOC-005,9,15.0,135.0,WASTE,Global Beverages
+2026-08-17,PRD-0005,Lettuce,Fresh Produce,LOC-005,14,12.0,168.0,WASTE,National Meat Co.
+2026-08-17,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,5,16.0,80.0,WASTE,Al Meera Supply
+2026-08-17,PRD-0006,Potato,Fresh Produce,LOC-005,7,13.0,91.0,WASTE,Fresh Farms Co.
+2026-08-17,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,Central Bakery
+2026-08-17,PRD-0003,Red Apple,Fresh Produce,LOC-005,15,42.0,630.0,WASTE,Global Beverages
+2026-08-17,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,16,18.0,288.0,WASTE,Global Beverages
+2026-08-17,PRD-0005,Lettuce,Fresh Produce,LOC-005,11,12.0,132.0,WASTE,National Meat Co.
+2026-08-17,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,6,16.0,96.0,WASTE,Gulf Foods Trading
+2026-08-17,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,8,62.0,496.0,WASTE,Qatar Dairy Co.
+2026-08-17,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,10,18.0,180.0,WASTE,Fresh Farms Co.
+2026-08-17,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Gulf Foods Trading
+2026-08-17,PRD-0064,Banana 4,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-08-17,PRD-0027,Onion 2,Fresh Produce,LOC-005,7,15.0,105.0,WASTE,Fresh Farms Co.
+2026-08-17,PRD-0005,Lettuce,Fresh Produce,LOC-005,15,12.0,180.0,WASTE,National Meat Co.
+2026-08-17,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,13,24.0,312.0,WASTE,National Meat Co.
+2026-08-17,PRD-0024,Banana 2,Fresh Produce,LOC-005,5,22.0,110.0,WASTE,National Meat Co.
+2026-08-17,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,6,18.0,108.0,WASTE,Global Beverages
+2026-08-18,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,5,4.0,20.0,WASTE,Gulf Foods Trading
+2026-08-18,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,8,4.0,32.0,WASTE,National Meat Co.
+2026-08-18,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,4,12.0,48.0,WASTE,Central Bakery
+2026-08-18,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,5,48.0,240.0,WASTE,Al Meera Supply
+2026-08-18,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,16,42.0,672.0,WASTE,National Meat Co.
+2026-08-18,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,10,62.0,620.0,WASTE,Qatar Dairy Co.
+2026-08-18,PRD-0044,Banana 3,Fresh Produce,LOC-005,4,22.0,88.0,WASTE,Fresh Farms Co.
+2026-08-18,PRD-0006,Potato,Fresh Produce,LOC-005,16,13.0,208.0,WASTE,Fresh Farms Co.
+2026-08-18,PRD-0027,Onion 2,Fresh Produce,LOC-005,5,15.0,75.0,WASTE,Fresh Farms Co.
+2026-08-18,PRD-0020,Croissant 4pcs,Bakery,LOC-005,4,18.0,72.0,WASTE,Al Meera Supply
+2026-08-18,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,National Meat Co.
+2026-08-18,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,10,22.0,220.0,WASTE,Fresh Farms Co.
+2026-08-18,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,7,16.0,112.0,WASTE,Gulf Foods Trading
+2026-08-19,PRD-0027,Onion 2,Fresh Produce,LOC-005,11,15.0,165.0,WASTE,Fresh Farms Co.
+2026-08-19,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,11,42.0,462.0,WASTE,National Meat Co.
+2026-08-19,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,11,4.0,44.0,WASTE,Qatar Dairy Co.
+2026-08-19,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,Central Bakery
+2026-08-19,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,9,62.0,558.0,WASTE,Gulf Foods Trading
+2026-08-19,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,15,4.0,60.0,WASTE,National Meat Co.
+2026-08-19,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,15,22.0,330.0,WASTE,Qatar Dairy Co.
+2026-08-19,PRD-0027,Onion 2,Fresh Produce,LOC-005,13,15.0,195.0,WASTE,Fresh Farms Co.
+2026-08-19,PRD-0047,Onion 3,Fresh Produce,LOC-005,12,15.0,180.0,WASTE,Gulf Foods Trading
+2026-08-19,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,15,4.0,60.0,WASTE,Gulf Foods Trading
+2026-08-19,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,16,12.0,192.0,WASTE,Qatar Dairy Co.
+2026-08-19,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,10,62.0,620.0,WASTE,Gulf Foods Trading
+2026-08-19,PRD-0018,Eggs 30pcs,Dairy,LOC-005,5,62.0,310.0,WASTE,Fresh Farms Co.
+2026-08-19,PRD-0006,Potato,Fresh Produce,LOC-005,9,13.0,117.0,WASTE,Fresh Farms Co.
+2026-08-19,PRD-0005,Lettuce,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,National Meat Co.
+2026-08-19,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,17,62.0,1054.0,WASTE,Gulf Foods Trading
+2026-08-20,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,10,18.0,180.0,WASTE,Qatar Dairy Co.
+2026-08-20,PRD-0067,Onion 4,Fresh Produce,LOC-005,14,15.0,210.0,WASTE,Global Beverages
+2026-08-20,PRD-0002,Cucumber,Fresh Produce,LOC-005,17,14.0,238.0,WASTE,Gulf Foods Trading
+2026-08-20,PRD-0016,White Cheese 500g,Dairy,LOC-005,14,48.0,672.0,WASTE,Al Meera Supply
+2026-08-20,PRD-0024,Banana 2,Fresh Produce,LOC-005,4,22.0,88.0,WASTE,National Meat Co.
+2026-08-20,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,8,12.0,96.0,WASTE,Central Bakery
+2026-08-20,PRD-0003,Red Apple,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,Global Beverages
+2026-08-20,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,9,22.0,198.0,WASTE,Fresh Farms Co.
+2026-08-20,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,5,18.0,90.0,WASTE,Qatar Dairy Co.
+2026-08-20,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,7,16.0,112.0,WASTE,Global Beverages
+2026-08-20,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,9,4.0,36.0,WASTE,National Meat Co.
+2026-08-20,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,8,18.0,144.0,WASTE,Qatar Dairy Co.
+2026-08-20,PRD-0018,Eggs 30pcs,Dairy,LOC-005,4,62.0,248.0,WASTE,Fresh Farms Co.
+2026-08-21,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,16,16.0,256.0,WASTE,Gulf Foods Trading
+2026-08-21,PRD-0006,Potato,Fresh Produce,LOC-005,10,13.0,130.0,WASTE,Fresh Farms Co.
+2026-08-21,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,16,14.0,224.0,WASTE,Global Beverages
+2026-08-21,PRD-0007,Onion,Fresh Produce,LOC-005,13,15.0,195.0,WASTE,Gulf Foods Trading
+2026-08-21,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,11,22.0,242.0,WASTE,Al Meera Supply
+2026-08-21,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,14,62.0,868.0,WASTE,Gulf Foods Trading
+2026-08-21,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,9,14.0,126.0,WASTE,Fresh Farms Co.
+2026-08-21,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,10,16.0,160.0,WASTE,Al Meera Supply
+2026-08-21,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,13,16.0,208.0,WASTE,Gulf Foods Trading
+2026-08-21,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,6,18.0,108.0,WASTE,Global Beverages
+2026-08-21,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,7,24.0,168.0,WASTE,Al Meera Supply
+2026-08-21,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,17,16.0,272.0,WASTE,Al Meera Supply
+2026-08-21,PRD-0006,Potato,Fresh Produce,LOC-005,16,13.0,208.0,WASTE,Fresh Farms Co.
+2026-08-21,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,16,42.0,672.0,WASTE,Gulf Foods Trading
+2026-08-21,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,10,4.0,40.0,WASTE,Qatar Dairy Co.
+2026-08-22,PRD-0020,Croissant 4pcs,Bakery,LOC-005,17,18.0,306.0,WASTE,Al Meera Supply
+2026-08-22,PRD-0044,Banana 3,Fresh Produce,LOC-005,9,22.0,198.0,WASTE,Fresh Farms Co.
+2026-08-22,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,15,22.0,330.0,WASTE,Qatar Dairy Co.
+2026-08-22,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,8,42.0,336.0,WASTE,Central Bakery
+2026-08-22,PRD-0007,Onion,Fresh Produce,LOC-005,17,15.0,255.0,WASTE,Gulf Foods Trading
+2026-08-22,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,12,14.0,168.0,WASTE,Fresh Farms Co.
+2026-08-22,PRD-0027,Onion 2,Fresh Produce,LOC-005,15,15.0,225.0,WASTE,Fresh Farms Co.
+2026-08-22,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,5,22.0,110.0,WASTE,Al Meera Supply
+2026-08-22,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,12,4.0,48.0,WASTE,Qatar Dairy Co.
+2026-08-22,PRD-0066,Potato 4,Fresh Produce,LOC-005,15,13.0,195.0,WASTE,Qatar Dairy Co.
+2026-08-22,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,15,48.0,720.0,WASTE,Qatar Dairy Co.
+2026-08-22,PRD-0044,Banana 3,Fresh Produce,LOC-005,7,22.0,154.0,WASTE,Fresh Farms Co.
+2026-08-22,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,17,16.0,272.0,WASTE,Al Meera Supply
+2026-08-22,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,12,18.0,216.0,WASTE,Qatar Dairy Co.
+2026-08-22,PRD-0004,Banana,Fresh Produce,LOC-005,14,22.0,308.0,WASTE,National Meat Co.
+2026-08-22,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,4,18.0,72.0,WASTE,Global Beverages
+2026-08-23,PRD-0016,White Cheese 500g,Dairy,LOC-005,13,48.0,624.0,WASTE,Al Meera Supply
+2026-08-23,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,15,16.0,240.0,WASTE,Gulf Foods Trading
+2026-08-23,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,12,18.0,216.0,WASTE,Global Beverages
+2026-08-23,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,Gulf Foods Trading
+2026-08-23,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,17,22.0,374.0,WASTE,Al Meera Supply
+2026-08-23,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,13,42.0,546.0,WASTE,Gulf Foods Trading
+2026-08-23,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,15,62.0,930.0,WASTE,Qatar Dairy Co.
+2026-08-23,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,8,22.0,176.0,WASTE,Qatar Dairy Co.
+2026-08-23,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,16,4.0,64.0,WASTE,National Meat Co.
+2026-08-23,PRD-0006,Potato,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Fresh Farms Co.
+2026-08-23,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,15,42.0,630.0,WASTE,National Meat Co.
+2026-08-23,PRD-0004,Banana,Fresh Produce,LOC-005,7,22.0,154.0,WASTE,National Meat Co.
+2026-08-23,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,11,16.0,176.0,WASTE,Gulf Foods Trading
+2026-08-23,PRD-0024,Banana 2,Fresh Produce,LOC-005,14,22.0,308.0,WASTE,National Meat Co.
+2026-08-23,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,12,22.0,264.0,WASTE,Fresh Farms Co.
+2026-08-23,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,13,14.0,182.0,WASTE,Gulf Foods Trading
+2026-08-23,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,4,14.0,56.0,WASTE,Gulf Foods Trading
+2026-08-23,PRD-0018,Eggs 30pcs,Dairy,LOC-005,5,62.0,310.0,WASTE,Fresh Farms Co.
+2026-08-24,PRD-0002,Cucumber,Fresh Produce,LOC-005,12,14.0,168.0,WASTE,Gulf Foods Trading
+2026-08-24,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,9,14.0,126.0,WASTE,Fresh Farms Co.
+2026-08-24,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,4,42.0,168.0,WASTE,Central Bakery
+2026-08-24,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,15,12.0,180.0,WASTE,Central Bakery
+2026-08-24,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,7,22.0,154.0,WASTE,Al Meera Supply
+2026-08-24,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,13,48.0,624.0,WASTE,Al Meera Supply
+2026-08-24,PRD-0047,Onion 3,Fresh Produce,LOC-005,8,15.0,120.0,WASTE,Gulf Foods Trading
+2026-08-24,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,8,16.0,128.0,WASTE,Gulf Foods Trading
+2026-08-24,PRD-0007,Onion,Fresh Produce,LOC-005,16,15.0,240.0,WASTE,Gulf Foods Trading
+2026-08-24,PRD-0046,Potato 3,Fresh Produce,LOC-005,15,13.0,195.0,WASTE,Al Meera Supply
+2026-08-24,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,12,12.0,144.0,WASTE,Qatar Dairy Co.
+2026-08-24,PRD-0005,Lettuce,Fresh Produce,LOC-005,17,12.0,204.0,WASTE,National Meat Co.
+2026-08-24,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,6,4.0,24.0,WASTE,National Meat Co.
+2026-08-24,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,7,62.0,434.0,WASTE,Qatar Dairy Co.
+2026-08-25,PRD-0017,Yogurt 1kg,Dairy,LOC-005,14,24.0,336.0,WASTE,Fresh Farms Co.
+2026-08-25,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,10,12.0,120.0,WASTE,Qatar Dairy Co.
+2026-08-25,PRD-0064,Banana 4,Fresh Produce,LOC-005,14,22.0,308.0,WASTE,National Meat Co.
+2026-08-25,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,13,22.0,286.0,WASTE,Al Meera Supply
+2026-08-25,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,4,22.0,88.0,WASTE,Qatar Dairy Co.
+2026-08-25,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,17,24.0,408.0,WASTE,Al Meera Supply
+2026-08-25,PRD-0046,Potato 3,Fresh Produce,LOC-005,10,13.0,130.0,WASTE,Al Meera Supply
+2026-08-25,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,7,16.0,112.0,WASTE,Global Beverages
+2026-08-25,PRD-0017,Yogurt 1kg,Dairy,LOC-005,17,24.0,408.0,WASTE,Fresh Farms Co.
+2026-08-25,PRD-0064,Banana 4,Fresh Produce,LOC-005,5,22.0,110.0,WASTE,National Meat Co.
+2026-08-25,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,15,42.0,630.0,WASTE,Gulf Foods Trading
+2026-08-25,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,5,18.0,90.0,WASTE,Qatar Dairy Co.
+2026-08-25,PRD-0018,Eggs 30pcs,Dairy,LOC-005,10,62.0,620.0,WASTE,Fresh Farms Co.
+2026-08-25,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,15,48.0,720.0,WASTE,Global Beverages
+2026-08-25,PRD-0047,Onion 3,Fresh Produce,LOC-005,5,15.0,75.0,WASTE,Gulf Foods Trading
+2026-08-25,PRD-0004,Banana,Fresh Produce,LOC-005,15,22.0,330.0,WASTE,National Meat Co.
+2026-08-26,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,11,12.0,132.0,WASTE,Qatar Dairy Co.
+2026-08-26,PRD-0024,Banana 2,Fresh Produce,LOC-005,4,22.0,88.0,WASTE,National Meat Co.
+2026-08-26,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,13,12.0,156.0,WASTE,Qatar Dairy Co.
+2026-08-26,PRD-0064,Banana 4,Fresh Produce,LOC-005,14,22.0,308.0,WASTE,National Meat Co.
+2026-08-26,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,10,24.0,240.0,WASTE,National Meat Co.
+2026-08-26,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,10,22.0,220.0,WASTE,Al Meera Supply
+2026-08-26,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,15,4.0,60.0,WASTE,National Meat Co.
+2026-08-26,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Fresh Farms Co.
+2026-08-26,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,7,22.0,154.0,WASTE,National Meat Co.
+2026-08-26,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,5,4.0,20.0,WASTE,Qatar Dairy Co.
+2026-08-26,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,11,12.0,132.0,WASTE,Central Bakery
+2026-08-26,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,11,48.0,528.0,WASTE,Qatar Dairy Co.
+2026-08-26,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,17,16.0,272.0,WASTE,Al Meera Supply
+2026-08-26,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,16,24.0,384.0,WASTE,National Meat Co.
+2026-08-26,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,8,42.0,336.0,WASTE,Central Bakery
+2026-08-26,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,12,48.0,576.0,WASTE,Qatar Dairy Co.
+2026-08-26,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,4,22.0,88.0,WASTE,Qatar Dairy Co.
+2026-08-26,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,10,24.0,240.0,WASTE,Al Meera Supply
+2026-08-26,PRD-0007,Onion,Fresh Produce,LOC-005,14,15.0,210.0,WASTE,Gulf Foods Trading
+2026-08-27,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,14,42.0,588.0,WASTE,Gulf Foods Trading
+2026-08-27,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,4,62.0,248.0,WASTE,Gulf Foods Trading
+2026-08-27,PRD-0046,Potato 3,Fresh Produce,LOC-005,14,13.0,182.0,WASTE,Al Meera Supply
+2026-08-27,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,14,16.0,224.0,WASTE,Global Beverages
+2026-08-27,PRD-0002,Cucumber,Fresh Produce,LOC-005,9,14.0,126.0,WASTE,Gulf Foods Trading
+2026-08-27,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,14,48.0,672.0,WASTE,Global Beverages
+2026-08-27,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,5,18.0,90.0,WASTE,Global Beverages
+2026-08-27,PRD-0064,Banana 4,Fresh Produce,LOC-005,17,22.0,374.0,WASTE,National Meat Co.
+2026-08-27,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,16,12.0,192.0,WASTE,Qatar Dairy Co.
+2026-08-27,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,6,22.0,132.0,WASTE,Qatar Dairy Co.
+2026-08-27,PRD-0017,Yogurt 1kg,Dairy,LOC-005,14,24.0,336.0,WASTE,Fresh Farms Co.
+2026-08-27,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,17,48.0,816.0,WASTE,Qatar Dairy Co.
+2026-08-27,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,12,14.0,168.0,WASTE,Global Beverages
+2026-08-27,PRD-0020,Croissant 4pcs,Bakery,LOC-005,4,18.0,72.0,WASTE,Al Meera Supply
+2026-08-27,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,8,48.0,384.0,WASTE,Al Meera Supply
+2026-08-27,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,8,48.0,384.0,WASTE,Global Beverages
+2026-08-28,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,16,14.0,224.0,WASTE,Fresh Farms Co.
+2026-08-28,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,6,18.0,108.0,WASTE,Fresh Farms Co.
+2026-08-28,PRD-0024,Banana 2,Fresh Produce,LOC-005,13,22.0,286.0,WASTE,National Meat Co.
+2026-08-28,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,Gulf Foods Trading
+2026-08-28,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,5,18.0,90.0,WASTE,Qatar Dairy Co.
+2026-08-28,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,6,48.0,288.0,WASTE,Qatar Dairy Co.
+2026-08-28,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,11,4.0,44.0,WASTE,National Meat Co.
+2026-08-28,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,9,62.0,558.0,WASTE,Gulf Foods Trading
+2026-08-28,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,8,16.0,128.0,WASTE,Al Meera Supply
+2026-08-28,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,11,22.0,242.0,WASTE,Al Meera Supply
+2026-08-28,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,13,22.0,286.0,WASTE,National Meat Co.
+2026-08-28,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,6,24.0,144.0,WASTE,National Meat Co.
+2026-08-28,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,6,22.0,132.0,WASTE,Qatar Dairy Co.
+2026-08-28,PRD-0067,Onion 4,Fresh Produce,LOC-005,4,15.0,60.0,WASTE,Global Beverages
+2026-08-28,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,15,48.0,720.0,WASTE,Qatar Dairy Co.
+2026-08-28,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,5,48.0,240.0,WASTE,Al Meera Supply
+2026-08-28,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,12,18.0,216.0,WASTE,Global Beverages
+2026-08-28,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,8,62.0,496.0,WASTE,Gulf Foods Trading
+2026-08-28,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,17,42.0,714.0,WASTE,Gulf Foods Trading
+2026-08-29,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,12,48.0,576.0,WASTE,Global Beverages
+2026-08-29,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,11,62.0,682.0,WASTE,Gulf Foods Trading
+2026-08-29,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,4,18.0,72.0,WASTE,Fresh Farms Co.
+2026-08-29,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,13,16.0,208.0,WASTE,Global Beverages
+2026-08-29,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,6,62.0,372.0,WASTE,Gulf Foods Trading
+2026-08-29,PRD-0047,Onion 3,Fresh Produce,LOC-005,17,15.0,255.0,WASTE,Gulf Foods Trading
+2026-08-29,PRD-0046,Potato 3,Fresh Produce,LOC-005,14,13.0,182.0,WASTE,Al Meera Supply
+2026-08-29,PRD-0020,Croissant 4pcs,Bakery,LOC-005,10,18.0,180.0,WASTE,Al Meera Supply
+2026-08-29,PRD-0024,Banana 2,Fresh Produce,LOC-005,14,22.0,308.0,WASTE,National Meat Co.
+2026-08-29,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,7,4.0,28.0,WASTE,National Meat Co.
+2026-08-29,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,17,62.0,1054.0,WASTE,Qatar Dairy Co.
+2026-08-29,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,16,16.0,256.0,WASTE,Global Beverages
+2026-08-29,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,8,22.0,176.0,WASTE,National Meat Co.
+2026-08-30,PRD-0066,Potato 4,Fresh Produce,LOC-005,17,13.0,221.0,WASTE,Qatar Dairy Co.
+2026-08-30,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,13,62.0,806.0,WASTE,Gulf Foods Trading
+2026-08-30,PRD-0016,White Cheese 500g,Dairy,LOC-005,6,48.0,288.0,WASTE,Al Meera Supply
+2026-08-30,PRD-0005,Lettuce,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,National Meat Co.
+2026-08-30,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,14,42.0,588.0,WASTE,Gulf Foods Trading
+2026-08-30,PRD-0026,Potato 2,Fresh Produce,LOC-005,15,13.0,195.0,WASTE,Central Bakery
+2026-08-30,PRD-0046,Potato 3,Fresh Produce,LOC-005,6,13.0,78.0,WASTE,Al Meera Supply
+2026-08-30,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,17,4.0,68.0,WASTE,National Meat Co.
+2026-08-30,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,6,48.0,288.0,WASTE,Al Meera Supply
+2026-08-30,PRD-0024,Banana 2,Fresh Produce,LOC-005,15,22.0,330.0,WASTE,National Meat Co.
+2026-08-30,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,6,22.0,132.0,WASTE,Qatar Dairy Co.
+2026-08-30,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,16,4.0,64.0,WASTE,Gulf Foods Trading
+2026-08-30,PRD-0046,Potato 3,Fresh Produce,LOC-005,6,13.0,78.0,WASTE,Al Meera Supply
+2026-08-30,PRD-0007,Onion,Fresh Produce,LOC-005,5,15.0,75.0,WASTE,Gulf Foods Trading
+2026-08-30,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,14,4.0,56.0,WASTE,Gulf Foods Trading
+2026-08-30,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,4,48.0,192.0,WASTE,Global Beverages
+2026-08-30,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,9,24.0,216.0,WASTE,Al Meera Supply
+2026-08-31,PRD-0004,Banana,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-08-31,PRD-0066,Potato 4,Fresh Produce,LOC-005,8,13.0,104.0,WASTE,Qatar Dairy Co.
+2026-08-31,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,4,12.0,48.0,WASTE,Global Beverages
+2026-08-31,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,15,4.0,60.0,WASTE,National Meat Co.
+2026-08-31,PRD-0026,Potato 2,Fresh Produce,LOC-005,14,13.0,182.0,WASTE,Central Bakery
+2026-08-31,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,10,4.0,40.0,WASTE,Qatar Dairy Co.
+2026-08-31,PRD-0020,Croissant 4pcs,Bakery,LOC-005,10,18.0,180.0,WASTE,Al Meera Supply
+2026-08-31,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,6,16.0,96.0,WASTE,Gulf Foods Trading
+2026-08-31,PRD-0007,Onion,Fresh Produce,LOC-005,17,15.0,255.0,WASTE,Gulf Foods Trading
+2026-08-31,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,4,4.0,16.0,WASTE,Qatar Dairy Co.
+2026-08-31,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,6,4.0,24.0,WASTE,National Meat Co.
+2026-08-31,PRD-0064,Banana 4,Fresh Produce,LOC-005,9,22.0,198.0,WASTE,National Meat Co.
+2026-08-31,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,9,16.0,144.0,WASTE,Gulf Foods Trading
+2026-09-01,PRD-0006,Potato,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Fresh Farms Co.
+2026-09-01,PRD-0066,Potato 4,Fresh Produce,LOC-005,14,13.0,182.0,WASTE,Qatar Dairy Co.
+2026-09-01,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,13,16.0,208.0,WASTE,Gulf Foods Trading
+2026-09-01,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,10,22.0,220.0,WASTE,Fresh Farms Co.
+2026-09-01,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,8,24.0,192.0,WASTE,National Meat Co.
+2026-09-01,PRD-0018,Eggs 30pcs,Dairy,LOC-005,6,62.0,372.0,WASTE,Fresh Farms Co.
+2026-09-01,PRD-0064,Banana 4,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-09-01,PRD-0002,Cucumber,Fresh Produce,LOC-005,14,14.0,196.0,WASTE,Gulf Foods Trading
+2026-09-01,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,17,18.0,306.0,WASTE,Qatar Dairy Co.
+2026-09-01,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,7,18.0,126.0,WASTE,Qatar Dairy Co.
+2026-09-01,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,13,48.0,624.0,WASTE,Global Beverages
+2026-09-01,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,8,18.0,144.0,WASTE,Fresh Farms Co.
+2026-09-01,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,16,62.0,992.0,WASTE,Gulf Foods Trading
+2026-09-01,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,14,42.0,588.0,WASTE,Gulf Foods Trading
+2026-09-01,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,9,62.0,558.0,WASTE,Qatar Dairy Co.
+2026-09-01,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,10,4.0,40.0,WASTE,Gulf Foods Trading
+2026-09-01,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,16,12.0,192.0,WASTE,Central Bakery
+2026-09-01,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,5,62.0,310.0,WASTE,Gulf Foods Trading
+2026-09-01,PRD-0006,Potato,Fresh Produce,LOC-005,16,13.0,208.0,WASTE,Fresh Farms Co.
+2026-09-02,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,9,16.0,144.0,WASTE,Gulf Foods Trading
+2026-09-02,PRD-0002,Cucumber,Fresh Produce,LOC-005,15,14.0,210.0,WASTE,Gulf Foods Trading
+2026-09-02,PRD-0016,White Cheese 500g,Dairy,LOC-005,11,48.0,528.0,WASTE,Al Meera Supply
+2026-09-02,PRD-0044,Banana 3,Fresh Produce,LOC-005,15,22.0,330.0,WASTE,Fresh Farms Co.
+2026-09-02,PRD-0005,Lettuce,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,National Meat Co.
+2026-09-02,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,10,22.0,220.0,WASTE,National Meat Co.
+2026-09-02,PRD-0017,Yogurt 1kg,Dairy,LOC-005,17,24.0,408.0,WASTE,Fresh Farms Co.
+2026-09-02,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,9,4.0,36.0,WASTE,National Meat Co.
+2026-09-02,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,15,42.0,630.0,WASTE,Gulf Foods Trading
+2026-09-02,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,12,14.0,168.0,WASTE,Fresh Farms Co.
+2026-09-02,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,13,12.0,156.0,WASTE,Central Bakery
+2026-09-02,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,14,42.0,588.0,WASTE,Gulf Foods Trading
+2026-09-02,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,10,24.0,240.0,WASTE,National Meat Co.
+2026-09-02,PRD-0020,Croissant 4pcs,Bakery,LOC-005,16,18.0,288.0,WASTE,Al Meera Supply
+2026-09-02,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,16,62.0,992.0,WASTE,Gulf Foods Trading
+2026-09-02,PRD-0016,White Cheese 500g,Dairy,LOC-005,13,48.0,624.0,WASTE,Al Meera Supply
+2026-09-02,PRD-0018,Eggs 30pcs,Dairy,LOC-005,13,62.0,806.0,WASTE,Fresh Farms Co.
+2026-09-03,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,11,22.0,242.0,WASTE,Al Meera Supply
+2026-09-03,PRD-0003,Red Apple,Fresh Produce,LOC-005,4,42.0,168.0,WASTE,Global Beverages
+2026-09-03,PRD-0002,Cucumber,Fresh Produce,LOC-005,15,14.0,210.0,WASTE,Gulf Foods Trading
+2026-09-03,PRD-0027,Onion 2,Fresh Produce,LOC-005,14,15.0,210.0,WASTE,Fresh Farms Co.
+2026-09-03,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,11,42.0,462.0,WASTE,National Meat Co.
+2026-09-03,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,12,14.0,168.0,WASTE,Global Beverages
+2026-09-03,PRD-0044,Banana 3,Fresh Produce,LOC-005,4,22.0,88.0,WASTE,Fresh Farms Co.
+2026-09-03,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,10,22.0,220.0,WASTE,Al Meera Supply
+2026-09-03,PRD-0046,Potato 3,Fresh Produce,LOC-005,17,13.0,221.0,WASTE,Al Meera Supply
+2026-09-03,PRD-0007,Onion,Fresh Produce,LOC-005,15,15.0,225.0,WASTE,Gulf Foods Trading
+2026-09-03,PRD-0047,Onion 3,Fresh Produce,LOC-005,15,15.0,225.0,WASTE,Gulf Foods Trading
+2026-09-03,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,17,22.0,374.0,WASTE,Qatar Dairy Co.
+2026-09-03,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,15,12.0,180.0,WASTE,Qatar Dairy Co.
+2026-09-04,PRD-0020,Croissant 4pcs,Bakery,LOC-005,13,18.0,234.0,WASTE,Al Meera Supply
+2026-09-04,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,National Meat Co.
+2026-09-04,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,16,48.0,768.0,WASTE,Qatar Dairy Co.
+2026-09-04,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,10,4.0,40.0,WASTE,Gulf Foods Trading
+2026-09-04,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,7,16.0,112.0,WASTE,Al Meera Supply
+2026-09-04,PRD-0026,Potato 2,Fresh Produce,LOC-005,11,13.0,143.0,WASTE,Central Bakery
+2026-09-04,PRD-0017,Yogurt 1kg,Dairy,LOC-005,16,24.0,384.0,WASTE,Fresh Farms Co.
+2026-09-04,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,12,18.0,216.0,WASTE,Global Beverages
+2026-09-04,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,14,24.0,336.0,WASTE,National Meat Co.
+2026-09-04,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,15,4.0,60.0,WASTE,Qatar Dairy Co.
+2026-09-04,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,14,4.0,56.0,WASTE,National Meat Co.
+2026-09-04,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,15,16.0,240.0,WASTE,Gulf Foods Trading
+2026-09-04,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,7,62.0,434.0,WASTE,Qatar Dairy Co.
+2026-09-04,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,16,22.0,352.0,WASTE,Qatar Dairy Co.
+2026-09-04,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,4,42.0,168.0,WASTE,National Meat Co.
+2026-09-04,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,4,16.0,64.0,WASTE,Gulf Foods Trading
+2026-09-05,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,6,18.0,108.0,WASTE,Fresh Farms Co.
+2026-09-05,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,9,18.0,162.0,WASTE,Qatar Dairy Co.
+2026-09-05,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,6,4.0,24.0,WASTE,National Meat Co.
+2026-09-05,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,9,22.0,198.0,WASTE,Qatar Dairy Co.
+2026-09-05,PRD-0002,Cucumber,Fresh Produce,LOC-005,17,14.0,238.0,WASTE,Gulf Foods Trading
+2026-09-05,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,12,48.0,576.0,WASTE,Qatar Dairy Co.
+2026-09-05,PRD-0002,Cucumber,Fresh Produce,LOC-005,14,14.0,196.0,WASTE,Gulf Foods Trading
+2026-09-05,PRD-0044,Banana 3,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,Fresh Farms Co.
+2026-09-05,PRD-0046,Potato 3,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Al Meera Supply
+2026-09-05,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,12,14.0,168.0,WASTE,Fresh Farms Co.
+2026-09-05,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,13,22.0,286.0,WASTE,Al Meera Supply
+2026-09-05,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,13,62.0,806.0,WASTE,Gulf Foods Trading
+2026-09-05,PRD-0017,Yogurt 1kg,Dairy,LOC-005,6,24.0,144.0,WASTE,Fresh Farms Co.
+2026-09-05,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,12,24.0,288.0,WASTE,National Meat Co.
+2026-09-05,PRD-0002,Cucumber,Fresh Produce,LOC-005,4,14.0,56.0,WASTE,Gulf Foods Trading
+2026-09-05,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,13,24.0,312.0,WASTE,Al Meera Supply
+2026-09-05,PRD-0024,Banana 2,Fresh Produce,LOC-005,7,22.0,154.0,WASTE,National Meat Co.
+2026-09-05,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,9,48.0,432.0,WASTE,Al Meera Supply
+2026-09-06,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,14,14.0,196.0,WASTE,Gulf Foods Trading
+2026-09-06,PRD-0026,Potato 2,Fresh Produce,LOC-005,4,13.0,52.0,WASTE,Central Bakery
+2026-09-06,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,10,24.0,240.0,WASTE,Al Meera Supply
+2026-09-06,PRD-0047,Onion 3,Fresh Produce,LOC-005,7,15.0,105.0,WASTE,Gulf Foods Trading
+2026-09-06,PRD-0024,Banana 2,Fresh Produce,LOC-005,5,22.0,110.0,WASTE,National Meat Co.
+2026-09-06,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,17,18.0,306.0,WASTE,Qatar Dairy Co.
+2026-09-06,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,4,62.0,248.0,WASTE,Gulf Foods Trading
+2026-09-06,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,9,22.0,198.0,WASTE,National Meat Co.
+2026-09-06,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,12,42.0,504.0,WASTE,Gulf Foods Trading
+2026-09-06,PRD-0006,Potato,Fresh Produce,LOC-005,14,13.0,182.0,WASTE,Fresh Farms Co.
+2026-09-06,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,17,14.0,238.0,WASTE,Global Beverages
+2026-09-06,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,6,4.0,24.0,WASTE,Qatar Dairy Co.
+2026-09-06,PRD-0002,Cucumber,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Gulf Foods Trading
+2026-09-06,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,8,62.0,496.0,WASTE,Gulf Foods Trading
+2026-09-06,PRD-0024,Banana 2,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-09-06,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,13,16.0,208.0,WASTE,Gulf Foods Trading
+2026-09-06,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,4,62.0,248.0,WASTE,Gulf Foods Trading
+2026-09-07,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,9,4.0,36.0,WASTE,National Meat Co.
+2026-09-07,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,13,14.0,182.0,WASTE,Global Beverages
+2026-09-07,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,7,14.0,98.0,WASTE,Global Beverages
+2026-09-07,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,11,42.0,462.0,WASTE,Gulf Foods Trading
+2026-09-07,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,6,62.0,372.0,WASTE,Gulf Foods Trading
+2026-09-07,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,6,24.0,144.0,WASTE,Al Meera Supply
+2026-09-07,PRD-0046,Potato 3,Fresh Produce,LOC-005,12,13.0,156.0,WASTE,Al Meera Supply
+2026-09-07,PRD-0046,Potato 3,Fresh Produce,LOC-005,5,13.0,65.0,WASTE,Al Meera Supply
+2026-09-07,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,11,12.0,132.0,WASTE,Central Bakery
+2026-09-07,PRD-0005,Lettuce,Fresh Produce,LOC-005,7,12.0,84.0,WASTE,National Meat Co.
+2026-09-07,PRD-0064,Banana 4,Fresh Produce,LOC-005,16,22.0,352.0,WASTE,National Meat Co.
+2026-09-07,PRD-0044,Banana 3,Fresh Produce,LOC-005,14,22.0,308.0,WASTE,Fresh Farms Co.
+2026-09-07,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,11,62.0,682.0,WASTE,Qatar Dairy Co.
+2026-09-08,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,5,24.0,120.0,WASTE,Al Meera Supply
+2026-09-08,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,10,62.0,620.0,WASTE,Gulf Foods Trading
+2026-09-08,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,13,22.0,286.0,WASTE,National Meat Co.
+2026-09-08,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,8,4.0,32.0,WASTE,National Meat Co.
+2026-09-08,PRD-0020,Croissant 4pcs,Bakery,LOC-005,10,18.0,180.0,WASTE,Al Meera Supply
+2026-09-08,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,12,42.0,504.0,WASTE,Gulf Foods Trading
+2026-09-08,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,14,18.0,252.0,WASTE,Fresh Farms Co.
+2026-09-08,PRD-0018,Eggs 30pcs,Dairy,LOC-005,14,62.0,868.0,WASTE,Fresh Farms Co.
+2026-09-08,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,11,42.0,462.0,WASTE,National Meat Co.
+2026-09-08,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,8,14.0,112.0,WASTE,Fresh Farms Co.
+2026-09-08,PRD-0044,Banana 3,Fresh Produce,LOC-005,14,22.0,308.0,WASTE,Fresh Farms Co.
+2026-09-08,PRD-0003,Red Apple,Fresh Produce,LOC-005,11,42.0,462.0,WASTE,Global Beverages
+2026-09-08,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,9,22.0,198.0,WASTE,Al Meera Supply
+2026-09-08,PRD-0066,Potato 4,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Qatar Dairy Co.
+2026-09-08,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,7,22.0,154.0,WASTE,National Meat Co.
+2026-09-08,PRD-0027,Onion 2,Fresh Produce,LOC-005,17,15.0,255.0,WASTE,Fresh Farms Co.
+2026-09-08,PRD-0002,Cucumber,Fresh Produce,LOC-005,13,14.0,182.0,WASTE,Gulf Foods Trading
+2026-09-08,PRD-0006,Potato,Fresh Produce,LOC-005,7,13.0,91.0,WASTE,Fresh Farms Co.
+2026-09-09,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,Gulf Foods Trading
+2026-09-09,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,9,4.0,36.0,WASTE,Gulf Foods Trading
+2026-09-09,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,8,4.0,32.0,WASTE,Gulf Foods Trading
+2026-09-09,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,11,16.0,176.0,WASTE,Gulf Foods Trading
+2026-09-09,PRD-0016,White Cheese 500g,Dairy,LOC-005,12,48.0,576.0,WASTE,Al Meera Supply
+2026-09-09,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,15,12.0,180.0,WASTE,Central Bakery
+2026-09-09,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,16,16.0,256.0,WASTE,Gulf Foods Trading
+2026-09-09,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,14,62.0,868.0,WASTE,Gulf Foods Trading
+2026-09-09,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,15,62.0,930.0,WASTE,Gulf Foods Trading
+2026-09-09,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,17,24.0,408.0,WASTE,National Meat Co.
+2026-09-09,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,11,4.0,44.0,WASTE,National Meat Co.
+2026-09-09,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,4,42.0,168.0,WASTE,National Meat Co.
+2026-09-09,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,17,14.0,238.0,WASTE,Global Beverages
+2026-09-09,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,12,48.0,576.0,WASTE,Al Meera Supply
+2026-09-09,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,17,48.0,816.0,WASTE,Global Beverages
+2026-09-09,PRD-0024,Banana 2,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-09-09,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,16,42.0,672.0,WASTE,Gulf Foods Trading
+2026-09-10,PRD-0027,Onion 2,Fresh Produce,LOC-005,9,15.0,135.0,WASTE,Fresh Farms Co.
+2026-09-10,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,17,22.0,374.0,WASTE,Al Meera Supply
+2026-09-10,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,6,4.0,24.0,WASTE,National Meat Co.
+2026-09-10,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,15,18.0,270.0,WASTE,Fresh Farms Co.
+2026-09-10,PRD-0002,Cucumber,Fresh Produce,LOC-005,17,14.0,238.0,WASTE,Gulf Foods Trading
+2026-09-10,PRD-0018,Eggs 30pcs,Dairy,LOC-005,16,62.0,992.0,WASTE,Fresh Farms Co.
+2026-09-10,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,12,16.0,192.0,WASTE,Global Beverages
+2026-09-10,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,5,18.0,90.0,WASTE,Global Beverages
+2026-09-10,PRD-0020,Croissant 4pcs,Bakery,LOC-005,16,18.0,288.0,WASTE,Al Meera Supply
+2026-09-10,PRD-0027,Onion 2,Fresh Produce,LOC-005,15,15.0,225.0,WASTE,Fresh Farms Co.
+2026-09-10,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,7,24.0,168.0,WASTE,Al Meera Supply
+2026-09-10,PRD-0027,Onion 2,Fresh Produce,LOC-005,4,15.0,60.0,WASTE,Fresh Farms Co.
+2026-09-10,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,14,16.0,224.0,WASTE,Gulf Foods Trading
+2026-09-10,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,14,4.0,56.0,WASTE,National Meat Co.
+2026-09-10,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,15,18.0,270.0,WASTE,Global Beverages
+2026-09-10,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,10,62.0,620.0,WASTE,Gulf Foods Trading
+2026-09-10,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,16,14.0,224.0,WASTE,Global Beverages
+2026-09-11,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,6,48.0,288.0,WASTE,Al Meera Supply
+2026-09-11,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,14,12.0,168.0,WASTE,Global Beverages
+2026-09-11,PRD-0004,Banana,Fresh Produce,LOC-005,12,22.0,264.0,WASTE,National Meat Co.
+2026-09-11,PRD-0018,Eggs 30pcs,Dairy,LOC-005,16,62.0,992.0,WASTE,Fresh Farms Co.
+2026-09-11,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,16,48.0,768.0,WASTE,Al Meera Supply
+2026-09-11,PRD-0024,Banana 2,Fresh Produce,LOC-005,16,22.0,352.0,WASTE,National Meat Co.
+2026-09-11,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,11,24.0,264.0,WASTE,Al Meera Supply
+2026-09-11,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,16,22.0,352.0,WASTE,Fresh Farms Co.
+2026-09-11,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,7,12.0,84.0,WASTE,Qatar Dairy Co.
+2026-09-11,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,7,12.0,84.0,WASTE,Qatar Dairy Co.
+2026-09-11,PRD-0047,Onion 3,Fresh Produce,LOC-005,8,15.0,120.0,WASTE,Gulf Foods Trading
+2026-09-11,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,12,12.0,144.0,WASTE,Central Bakery
+2026-09-11,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,16,42.0,672.0,WASTE,Central Bakery
+2026-09-11,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,13,4.0,52.0,WASTE,Qatar Dairy Co.
+2026-09-11,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,12,48.0,576.0,WASTE,Global Beverages
+2026-09-12,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,17,12.0,204.0,WASTE,Global Beverages
+2026-09-12,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,9,4.0,36.0,WASTE,Qatar Dairy Co.
+2026-09-12,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,4,48.0,192.0,WASTE,Global Beverages
+2026-09-12,PRD-0020,Croissant 4pcs,Bakery,LOC-005,7,18.0,126.0,WASTE,Al Meera Supply
+2026-09-12,PRD-0047,Onion 3,Fresh Produce,LOC-005,11,15.0,165.0,WASTE,Gulf Foods Trading
+2026-09-12,PRD-0006,Potato,Fresh Produce,LOC-005,5,13.0,65.0,WASTE,Fresh Farms Co.
+2026-09-12,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,12,14.0,168.0,WASTE,Gulf Foods Trading
+2026-09-12,PRD-0026,Potato 2,Fresh Produce,LOC-005,17,13.0,221.0,WASTE,Central Bakery
+2026-09-12,PRD-0066,Potato 4,Fresh Produce,LOC-005,8,13.0,104.0,WASTE,Qatar Dairy Co.
+2026-09-12,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,4,18.0,72.0,WASTE,Fresh Farms Co.
+2026-09-12,PRD-0027,Onion 2,Fresh Produce,LOC-005,4,15.0,60.0,WASTE,Fresh Farms Co.
+2026-09-12,PRD-0024,Banana 2,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-09-12,PRD-0044,Banana 3,Fresh Produce,LOC-005,10,22.0,220.0,WASTE,Fresh Farms Co.
+2026-09-12,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,11,12.0,132.0,WASTE,Global Beverages
+2026-09-12,PRD-0046,Potato 3,Fresh Produce,LOC-005,8,13.0,104.0,WASTE,Al Meera Supply
+2026-09-12,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,17,42.0,714.0,WASTE,Central Bakery
+2026-09-12,PRD-0016,White Cheese 500g,Dairy,LOC-005,16,48.0,768.0,WASTE,Al Meera Supply
+2026-09-13,PRD-0024,Banana 2,Fresh Produce,LOC-005,17,22.0,374.0,WASTE,National Meat Co.
+2026-09-13,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,10,4.0,40.0,WASTE,National Meat Co.
+2026-09-13,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,National Meat Co.
+2026-09-13,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,14,16.0,224.0,WASTE,Gulf Foods Trading
+2026-09-13,PRD-0047,Onion 3,Fresh Produce,LOC-005,11,15.0,165.0,WASTE,Gulf Foods Trading
+2026-09-13,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,12,22.0,264.0,WASTE,Qatar Dairy Co.
+2026-09-13,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,9,16.0,144.0,WASTE,Gulf Foods Trading
+2026-09-13,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,7,14.0,98.0,WASTE,Global Beverages
+2026-09-13,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,12,4.0,48.0,WASTE,National Meat Co.
+2026-09-13,PRD-0027,Onion 2,Fresh Produce,LOC-005,17,15.0,255.0,WASTE,Fresh Farms Co.
+2026-09-13,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,8,22.0,176.0,WASTE,Qatar Dairy Co.
+2026-09-13,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,4,48.0,192.0,WASTE,Al Meera Supply
+2026-09-13,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,7,4.0,28.0,WASTE,National Meat Co.
+2026-09-13,PRD-0002,Cucumber,Fresh Produce,LOC-005,7,14.0,98.0,WASTE,Gulf Foods Trading
+2026-09-13,PRD-0006,Potato,Fresh Produce,LOC-005,14,13.0,182.0,WASTE,Fresh Farms Co.
+2026-09-13,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,14,16.0,224.0,WASTE,Global Beverages
+2026-09-14,PRD-0064,Banana 4,Fresh Produce,LOC-005,16,22.0,352.0,WASTE,National Meat Co.
+2026-09-14,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,11,22.0,242.0,WASTE,Fresh Farms Co.
+2026-09-14,PRD-0044,Banana 3,Fresh Produce,LOC-005,16,22.0,352.0,WASTE,Fresh Farms Co.
+2026-09-14,PRD-0005,Lettuce,Fresh Produce,LOC-005,11,12.0,132.0,WASTE,National Meat Co.
+2026-09-14,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,5,42.0,210.0,WASTE,National Meat Co.
+2026-09-14,PRD-0005,Lettuce,Fresh Produce,LOC-005,13,12.0,156.0,WASTE,National Meat Co.
+2026-09-14,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,4,24.0,96.0,WASTE,Al Meera Supply
+2026-09-14,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,15,62.0,930.0,WASTE,Gulf Foods Trading
+2026-09-14,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,5,16.0,80.0,WASTE,Gulf Foods Trading
+2026-09-14,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,11,62.0,682.0,WASTE,Gulf Foods Trading
+2026-09-14,PRD-0003,Red Apple,Fresh Produce,LOC-005,15,42.0,630.0,WASTE,Global Beverages
+2026-09-14,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,9,18.0,162.0,WASTE,Global Beverages
+2026-09-14,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,13,62.0,806.0,WASTE,Gulf Foods Trading
+2026-09-14,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,11,18.0,198.0,WASTE,Qatar Dairy Co.
+2026-09-14,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,13,24.0,312.0,WASTE,Al Meera Supply
+2026-09-15,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,16,16.0,256.0,WASTE,Gulf Foods Trading
+2026-09-15,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,17,48.0,816.0,WASTE,Qatar Dairy Co.
+2026-09-15,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,15,12.0,180.0,WASTE,Global Beverages
+2026-09-15,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,9,18.0,162.0,WASTE,Fresh Farms Co.
+2026-09-15,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,10,24.0,240.0,WASTE,Al Meera Supply
+2026-09-15,PRD-0047,Onion 3,Fresh Produce,LOC-005,4,15.0,60.0,WASTE,Gulf Foods Trading
+2026-09-15,PRD-0006,Potato,Fresh Produce,LOC-005,12,13.0,156.0,WASTE,Fresh Farms Co.
+2026-09-15,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,7,14.0,98.0,WASTE,Global Beverages
+2026-09-15,PRD-0017,Yogurt 1kg,Dairy,LOC-005,8,24.0,192.0,WASTE,Fresh Farms Co.
+2026-09-15,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,4,22.0,88.0,WASTE,Fresh Farms Co.
+2026-09-15,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,13,12.0,156.0,WASTE,Qatar Dairy Co.
+2026-09-15,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,9,4.0,36.0,WASTE,Qatar Dairy Co.
+2026-09-15,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,Qatar Dairy Co.
+2026-09-15,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,5,16.0,80.0,WASTE,Gulf Foods Trading
+2026-09-15,PRD-0046,Potato 3,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Al Meera Supply
+2026-09-15,PRD-0007,Onion,Fresh Produce,LOC-005,16,15.0,240.0,WASTE,Gulf Foods Trading
+2026-09-16,PRD-0046,Potato 3,Fresh Produce,LOC-005,4,13.0,52.0,WASTE,Al Meera Supply
+2026-09-16,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Gulf Foods Trading
+2026-09-16,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,5,22.0,110.0,WASTE,Al Meera Supply
+2026-09-16,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,11,42.0,462.0,WASTE,Gulf Foods Trading
+2026-09-16,PRD-0005,Lettuce,Fresh Produce,LOC-005,17,12.0,204.0,WASTE,National Meat Co.
+2026-09-16,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,8,18.0,144.0,WASTE,Global Beverages
+2026-09-16,PRD-0018,Eggs 30pcs,Dairy,LOC-005,8,62.0,496.0,WASTE,Fresh Farms Co.
+2026-09-16,PRD-0067,Onion 4,Fresh Produce,LOC-005,4,15.0,60.0,WASTE,Global Beverages
+2026-09-16,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,4,12.0,48.0,WASTE,Global Beverages
+2026-09-16,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,13,24.0,312.0,WASTE,Al Meera Supply
+2026-09-16,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,13,4.0,52.0,WASTE,National Meat Co.
+2026-09-16,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,14,18.0,252.0,WASTE,Global Beverages
+2026-09-16,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,5,4.0,20.0,WASTE,National Meat Co.
+2026-09-16,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,9,62.0,558.0,WASTE,Qatar Dairy Co.
+2026-09-16,PRD-0026,Potato 2,Fresh Produce,LOC-005,17,13.0,221.0,WASTE,Central Bakery
+2026-09-16,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,11,4.0,44.0,WASTE,National Meat Co.
+2026-09-16,PRD-0007,Onion,Fresh Produce,LOC-005,6,15.0,90.0,WASTE,Gulf Foods Trading
+2026-09-17,PRD-0005,Lettuce,Fresh Produce,LOC-005,17,12.0,204.0,WASTE,National Meat Co.
+2026-09-17,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,10,12.0,120.0,WASTE,Global Beverages
+2026-09-17,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,8,22.0,176.0,WASTE,Al Meera Supply
+2026-09-17,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,17,48.0,816.0,WASTE,Global Beverages
+2026-09-17,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,6,18.0,108.0,WASTE,Global Beverages
+2026-09-17,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,10,12.0,120.0,WASTE,Qatar Dairy Co.
+2026-09-17,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,12,16.0,192.0,WASTE,Gulf Foods Trading
+2026-09-17,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,15,14.0,210.0,WASTE,Fresh Farms Co.
+2026-09-17,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,11,12.0,132.0,WASTE,Central Bakery
+2026-09-17,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,12,16.0,192.0,WASTE,Gulf Foods Trading
+2026-09-17,PRD-0020,Croissant 4pcs,Bakery,LOC-005,7,18.0,126.0,WASTE,Al Meera Supply
+2026-09-17,PRD-0016,White Cheese 500g,Dairy,LOC-005,4,48.0,192.0,WASTE,Al Meera Supply
+2026-09-18,PRD-0004,Banana,Fresh Produce,LOC-005,17,22.0,374.0,WASTE,National Meat Co.
+2026-09-18,PRD-0004,Banana,Fresh Produce,LOC-005,10,22.0,220.0,WASTE,National Meat Co.
+2026-09-18,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,5,48.0,240.0,WASTE,Global Beverages
+2026-09-18,PRD-0016,White Cheese 500g,Dairy,LOC-005,16,48.0,768.0,WASTE,Al Meera Supply
+2026-09-18,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,12,24.0,288.0,WASTE,National Meat Co.
+2026-09-18,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,12,4.0,48.0,WASTE,Gulf Foods Trading
+2026-09-18,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,13,48.0,624.0,WASTE,Global Beverages
+2026-09-18,PRD-0006,Potato,Fresh Produce,LOC-005,7,13.0,91.0,WASTE,Fresh Farms Co.
+2026-09-18,PRD-0026,Potato 2,Fresh Produce,LOC-005,17,13.0,221.0,WASTE,Central Bakery
+2026-09-18,PRD-0004,Banana,Fresh Produce,LOC-005,4,22.0,88.0,WASTE,National Meat Co.
+2026-09-18,PRD-0004,Banana,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-09-18,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,10,24.0,240.0,WASTE,Al Meera Supply
+2026-09-19,PRD-0046,Potato 3,Fresh Produce,LOC-005,4,13.0,52.0,WASTE,Al Meera Supply
+2026-09-19,PRD-0064,Banana 4,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-09-19,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,12,62.0,744.0,WASTE,Gulf Foods Trading
+2026-09-19,PRD-0006,Potato,Fresh Produce,LOC-005,7,13.0,91.0,WASTE,Fresh Farms Co.
+2026-09-19,PRD-0067,Onion 4,Fresh Produce,LOC-005,15,15.0,225.0,WASTE,Global Beverages
+2026-09-19,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,15,22.0,330.0,WASTE,Qatar Dairy Co.
+2026-09-19,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,National Meat Co.
+2026-09-19,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Global Beverages
+2026-09-19,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,6,22.0,132.0,WASTE,Al Meera Supply
+2026-09-19,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,7,22.0,154.0,WASTE,Al Meera Supply
+2026-09-19,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,5,18.0,90.0,WASTE,Global Beverages
+2026-09-19,PRD-0004,Banana,Fresh Produce,LOC-005,10,22.0,220.0,WASTE,National Meat Co.
+2026-09-20,PRD-0003,Red Apple,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,Global Beverages
+2026-09-20,PRD-0006,Potato,Fresh Produce,LOC-005,11,13.0,143.0,WASTE,Fresh Farms Co.
+2026-09-20,PRD-0020,Croissant 4pcs,Bakery,LOC-005,7,18.0,126.0,WASTE,Al Meera Supply
+2026-09-20,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,14,16.0,224.0,WASTE,Al Meera Supply
+2026-09-20,PRD-0016,White Cheese 500g,Dairy,LOC-005,5,48.0,240.0,WASTE,Al Meera Supply
+2026-09-20,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,8,4.0,32.0,WASTE,National Meat Co.
+2026-09-20,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,9,4.0,36.0,WASTE,National Meat Co.
+2026-09-20,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,13,12.0,156.0,WASTE,Central Bakery
+2026-09-20,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,10,14.0,140.0,WASTE,Fresh Farms Co.
+2026-09-20,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,11,48.0,528.0,WASTE,Global Beverages
+2026-09-20,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,10,16.0,160.0,WASTE,Gulf Foods Trading
+2026-09-20,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,16,22.0,352.0,WASTE,National Meat Co.
+2026-09-20,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,Central Bakery
+2026-09-20,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,7,14.0,98.0,WASTE,Fresh Farms Co.
+2026-09-20,PRD-0003,Red Apple,Fresh Produce,LOC-005,12,42.0,504.0,WASTE,Global Beverages
+2026-09-20,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,Gulf Foods Trading
+2026-09-21,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,15,62.0,930.0,WASTE,Gulf Foods Trading
+2026-09-21,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,7,4.0,28.0,WASTE,National Meat Co.
+2026-09-21,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,14,42.0,588.0,WASTE,Central Bakery
+2026-09-21,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,10,14.0,140.0,WASTE,Gulf Foods Trading
+2026-09-21,PRD-0005,Lettuce,Fresh Produce,LOC-005,16,12.0,192.0,WASTE,National Meat Co.
+2026-09-21,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,12,18.0,216.0,WASTE,Qatar Dairy Co.
+2026-09-21,PRD-0027,Onion 2,Fresh Produce,LOC-005,6,15.0,90.0,WASTE,Fresh Farms Co.
+2026-09-21,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,4,18.0,72.0,WASTE,Fresh Farms Co.
+2026-09-21,PRD-0046,Potato 3,Fresh Produce,LOC-005,9,13.0,117.0,WASTE,Al Meera Supply
+2026-09-21,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,13,4.0,52.0,WASTE,National Meat Co.
+2026-09-21,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,10,62.0,620.0,WASTE,Gulf Foods Trading
+2026-09-21,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,8,24.0,192.0,WASTE,Al Meera Supply
+2026-09-21,PRD-0024,Banana 2,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-09-21,PRD-0064,Banana 4,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-09-21,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,6,14.0,84.0,WASTE,Gulf Foods Trading
+2026-09-21,PRD-0046,Potato 3,Fresh Produce,LOC-005,10,13.0,130.0,WASTE,Al Meera Supply
+2026-09-22,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,7,14.0,98.0,WASTE,Fresh Farms Co.
+2026-09-22,PRD-0066,Potato 4,Fresh Produce,LOC-005,8,13.0,104.0,WASTE,Qatar Dairy Co.
+2026-09-22,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,5,4.0,20.0,WASTE,Gulf Foods Trading
+2026-09-22,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,17,14.0,238.0,WASTE,Fresh Farms Co.
+2026-09-22,PRD-0067,Onion 4,Fresh Produce,LOC-005,5,15.0,75.0,WASTE,Global Beverages
+2026-09-22,PRD-0026,Potato 2,Fresh Produce,LOC-005,17,13.0,221.0,WASTE,Central Bakery
+2026-09-22,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,5,42.0,210.0,WASTE,Central Bakery
+2026-09-22,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,14,22.0,308.0,WASTE,Fresh Farms Co.
+2026-09-22,PRD-0066,Potato 4,Fresh Produce,LOC-005,8,13.0,104.0,WASTE,Qatar Dairy Co.
+2026-09-22,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,17,18.0,306.0,WASTE,Qatar Dairy Co.
+2026-09-22,PRD-0020,Croissant 4pcs,Bakery,LOC-005,17,18.0,306.0,WASTE,Al Meera Supply
+2026-09-22,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,17,22.0,374.0,WASTE,Fresh Farms Co.
+2026-09-22,PRD-0064,Banana 4,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-09-22,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,16,18.0,288.0,WASTE,Qatar Dairy Co.
+2026-09-22,PRD-0024,Banana 2,Fresh Produce,LOC-005,15,22.0,330.0,WASTE,National Meat Co.
+2026-09-22,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,14,16.0,224.0,WASTE,Global Beverages
+2026-09-23,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,7,62.0,434.0,WASTE,Qatar Dairy Co.
+2026-09-23,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,10,12.0,120.0,WASTE,Qatar Dairy Co.
+2026-09-23,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,16,22.0,352.0,WASTE,Fresh Farms Co.
+2026-09-23,PRD-0007,Onion,Fresh Produce,LOC-005,6,15.0,90.0,WASTE,Gulf Foods Trading
+2026-09-23,PRD-0024,Banana 2,Fresh Produce,LOC-005,7,22.0,154.0,WASTE,National Meat Co.
+2026-09-23,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,12,48.0,576.0,WASTE,Al Meera Supply
+2026-09-23,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,13,48.0,624.0,WASTE,Qatar Dairy Co.
+2026-09-23,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,8,18.0,144.0,WASTE,Global Beverages
+2026-09-23,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,9,62.0,558.0,WASTE,Gulf Foods Trading
+2026-09-23,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,16,16.0,256.0,WASTE,Gulf Foods Trading
+2026-09-23,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,Global Beverages
+2026-09-23,PRD-0026,Potato 2,Fresh Produce,LOC-005,10,13.0,130.0,WASTE,Central Bakery
+2026-09-24,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,6,18.0,108.0,WASTE,Qatar Dairy Co.
+2026-09-24,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Global Beverages
+2026-09-24,PRD-0020,Croissant 4pcs,Bakery,LOC-005,4,18.0,72.0,WASTE,Al Meera Supply
+2026-09-24,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,17,12.0,204.0,WASTE,Central Bakery
+2026-09-24,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,4,24.0,96.0,WASTE,Al Meera Supply
+2026-09-24,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,13,12.0,156.0,WASTE,Qatar Dairy Co.
+2026-09-24,PRD-0003,Red Apple,Fresh Produce,LOC-005,11,42.0,462.0,WASTE,Global Beverages
+2026-09-24,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,10,22.0,220.0,WASTE,Qatar Dairy Co.
+2026-09-24,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,Qatar Dairy Co.
+2026-09-24,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,6,14.0,84.0,WASTE,Global Beverages
+2026-09-24,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,6,4.0,24.0,WASTE,Qatar Dairy Co.
+2026-09-24,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,6,12.0,72.0,WASTE,Global Beverages
+2026-09-24,PRD-0003,Red Apple,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,Global Beverages
+2026-09-24,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,6,62.0,372.0,WASTE,Gulf Foods Trading
+2026-09-24,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,17,18.0,306.0,WASTE,Global Beverages
+2026-09-24,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,9,18.0,162.0,WASTE,Fresh Farms Co.
+2026-09-24,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,5,22.0,110.0,WASTE,Al Meera Supply
+2026-09-25,PRD-0024,Banana 2,Fresh Produce,LOC-005,13,22.0,286.0,WASTE,National Meat Co.
+2026-09-25,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,10,16.0,160.0,WASTE,Al Meera Supply
+2026-09-25,PRD-0007,Onion,Fresh Produce,LOC-005,7,15.0,105.0,WASTE,Gulf Foods Trading
+2026-09-25,PRD-0002,Cucumber,Fresh Produce,LOC-005,10,14.0,140.0,WASTE,Gulf Foods Trading
+2026-09-25,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,7,48.0,336.0,WASTE,Al Meera Supply
+2026-09-25,PRD-0017,Yogurt 1kg,Dairy,LOC-005,6,24.0,144.0,WASTE,Fresh Farms Co.
+2026-09-25,PRD-0047,Onion 3,Fresh Produce,LOC-005,16,15.0,240.0,WASTE,Gulf Foods Trading
+2026-09-25,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,6,18.0,108.0,WASTE,Fresh Farms Co.
+2026-09-25,PRD-0005,Lettuce,Fresh Produce,LOC-005,15,12.0,180.0,WASTE,National Meat Co.
+2026-09-25,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,7,16.0,112.0,WASTE,Gulf Foods Trading
+2026-09-25,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,6,18.0,108.0,WASTE,Fresh Farms Co.
+2026-09-25,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,12,16.0,192.0,WASTE,Gulf Foods Trading
+2026-09-25,PRD-0017,Yogurt 1kg,Dairy,LOC-005,5,24.0,120.0,WASTE,Fresh Farms Co.
+2026-09-25,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,15,48.0,720.0,WASTE,Qatar Dairy Co.
+2026-09-25,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,12,42.0,504.0,WASTE,Gulf Foods Trading
+2026-09-25,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,17,62.0,1054.0,WASTE,Qatar Dairy Co.
+2026-09-26,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,13,12.0,156.0,WASTE,Central Bakery
+2026-09-26,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,4,62.0,248.0,WASTE,Gulf Foods Trading
+2026-09-26,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,5,4.0,20.0,WASTE,Qatar Dairy Co.
+2026-09-26,PRD-0044,Banana 3,Fresh Produce,LOC-005,4,22.0,88.0,WASTE,Fresh Farms Co.
+2026-09-26,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,8,24.0,192.0,WASTE,National Meat Co.
+2026-09-26,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,5,24.0,120.0,WASTE,National Meat Co.
+2026-09-26,PRD-0067,Onion 4,Fresh Produce,LOC-005,10,15.0,150.0,WASTE,Global Beverages
+2026-09-26,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,7,12.0,84.0,WASTE,Global Beverages
+2026-09-26,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,15,48.0,720.0,WASTE,Al Meera Supply
+2026-09-26,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,9,16.0,144.0,WASTE,Gulf Foods Trading
+2026-09-26,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,12,16.0,192.0,WASTE,Al Meera Supply
+2026-09-26,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,9,14.0,126.0,WASTE,Gulf Foods Trading
+2026-09-26,PRD-0046,Potato 3,Fresh Produce,LOC-005,15,13.0,195.0,WASTE,Al Meera Supply
+2026-09-26,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,4,12.0,48.0,WASTE,Central Bakery
+2026-09-26,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,Global Beverages
+2026-09-26,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,9,48.0,432.0,WASTE,Qatar Dairy Co.
+2026-09-26,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,15,18.0,270.0,WASTE,Global Beverages
+2026-09-26,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,16,16.0,256.0,WASTE,Gulf Foods Trading
+2026-09-26,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,7,22.0,154.0,WASTE,Qatar Dairy Co.
+2026-09-27,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,8,16.0,128.0,WASTE,Global Beverages
+2026-09-27,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,7,12.0,84.0,WASTE,Global Beverages
+2026-09-27,PRD-0066,Potato 4,Fresh Produce,LOC-005,5,13.0,65.0,WASTE,Qatar Dairy Co.
+2026-09-27,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,17,14.0,238.0,WASTE,Global Beverages
+2026-09-27,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,8,48.0,384.0,WASTE,Global Beverages
+2026-09-27,PRD-0017,Yogurt 1kg,Dairy,LOC-005,16,24.0,384.0,WASTE,Fresh Farms Co.
+2026-09-27,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,12,12.0,144.0,WASTE,Qatar Dairy Co.
+2026-09-27,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,16,4.0,64.0,WASTE,National Meat Co.
+2026-09-27,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,14,18.0,252.0,WASTE,Global Beverages
+2026-09-27,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,6,16.0,96.0,WASTE,Global Beverages
+2026-09-27,PRD-0016,White Cheese 500g,Dairy,LOC-005,11,48.0,528.0,WASTE,Al Meera Supply
+2026-09-27,PRD-0067,Onion 4,Fresh Produce,LOC-005,11,15.0,165.0,WASTE,Global Beverages
+2026-09-27,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,12,4.0,48.0,WASTE,Gulf Foods Trading
+2026-09-27,PRD-0018,Eggs 30pcs,Dairy,LOC-005,15,62.0,930.0,WASTE,Fresh Farms Co.
+2026-09-27,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,11,22.0,242.0,WASTE,Fresh Farms Co.
+2026-09-28,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,11,62.0,682.0,WASTE,Qatar Dairy Co.
+2026-09-28,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,6,4.0,24.0,WASTE,National Meat Co.
+2026-09-28,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,12,4.0,48.0,WASTE,Gulf Foods Trading
+2026-09-28,PRD-0024,Banana 2,Fresh Produce,LOC-005,12,22.0,264.0,WASTE,National Meat Co.
+2026-09-28,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,9,18.0,162.0,WASTE,Fresh Farms Co.
+2026-09-28,PRD-0004,Banana,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-09-28,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,13,14.0,182.0,WASTE,Fresh Farms Co.
+2026-09-28,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,8,62.0,496.0,WASTE,Qatar Dairy Co.
+2026-09-28,PRD-0024,Banana 2,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-09-28,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,8,62.0,496.0,WASTE,Gulf Foods Trading
+2026-09-28,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Global Beverages
+2026-09-28,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,17,22.0,374.0,WASTE,Fresh Farms Co.
+2026-09-28,PRD-0027,Onion 2,Fresh Produce,LOC-005,10,15.0,150.0,WASTE,Fresh Farms Co.
+2026-09-28,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,7,22.0,154.0,WASTE,Al Meera Supply
+2026-09-28,PRD-0020,Croissant 4pcs,Bakery,LOC-005,5,18.0,90.0,WASTE,Al Meera Supply
+2026-09-28,PRD-0017,Yogurt 1kg,Dairy,LOC-005,9,24.0,216.0,WASTE,Fresh Farms Co.
+2026-09-28,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,11,18.0,198.0,WASTE,Qatar Dairy Co.
+2026-09-28,PRD-0020,Croissant 4pcs,Bakery,LOC-005,17,18.0,306.0,WASTE,Al Meera Supply
+2026-09-29,PRD-0007,Onion,Fresh Produce,LOC-005,10,15.0,150.0,WASTE,Gulf Foods Trading
+2026-09-29,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,15,4.0,60.0,WASTE,National Meat Co.
+2026-09-29,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,11,62.0,682.0,WASTE,Gulf Foods Trading
+2026-09-29,PRD-0005,Lettuce,Fresh Produce,LOC-005,14,12.0,168.0,WASTE,National Meat Co.
+2026-09-29,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,14,62.0,868.0,WASTE,Gulf Foods Trading
+2026-09-29,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,16,42.0,672.0,WASTE,National Meat Co.
+2026-09-29,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,12,12.0,144.0,WASTE,Central Bakery
+2026-09-29,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,11,24.0,264.0,WASTE,National Meat Co.
+2026-09-29,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,8,4.0,32.0,WASTE,National Meat Co.
+2026-09-29,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,5,12.0,60.0,WASTE,Central Bakery
+2026-09-29,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,13,12.0,156.0,WASTE,Global Beverages
+2026-09-29,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,13,22.0,286.0,WASTE,National Meat Co.
+2026-09-29,PRD-0024,Banana 2,Fresh Produce,LOC-005,14,22.0,308.0,WASTE,National Meat Co.
+2026-09-29,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,13,4.0,52.0,WASTE,Qatar Dairy Co.
+2026-09-30,PRD-0018,Eggs 30pcs,Dairy,LOC-005,10,62.0,620.0,WASTE,Fresh Farms Co.
+2026-09-30,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,9,18.0,162.0,WASTE,Fresh Farms Co.
+2026-09-30,PRD-0067,Onion 4,Fresh Produce,LOC-005,8,15.0,120.0,WASTE,Global Beverages
+2026-09-30,PRD-0067,Onion 4,Fresh Produce,LOC-005,13,15.0,195.0,WASTE,Global Beverages
+2026-09-30,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,8,18.0,144.0,WASTE,Fresh Farms Co.
+2026-09-30,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,11,4.0,44.0,WASTE,National Meat Co.
+2026-09-30,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,15,22.0,330.0,WASTE,Qatar Dairy Co.
+2026-09-30,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,15,16.0,240.0,WASTE,Gulf Foods Trading
+2026-09-30,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,15,4.0,60.0,WASTE,Gulf Foods Trading
+2026-09-30,PRD-0024,Banana 2,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-09-30,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,6,16.0,96.0,WASTE,Gulf Foods Trading
+2026-09-30,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,15,18.0,270.0,WASTE,Global Beverages
+2026-09-30,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,16,16.0,256.0,WASTE,Gulf Foods Trading
+2026-09-30,PRD-0024,Banana 2,Fresh Produce,LOC-005,7,22.0,154.0,WASTE,National Meat Co.
+2026-09-30,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,13,42.0,546.0,WASTE,Gulf Foods Trading
+2026-09-30,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,17,22.0,374.0,WASTE,Fresh Farms Co.
+2026-09-30,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,7,62.0,434.0,WASTE,Qatar Dairy Co.
+2026-10-01,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-10-01,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,13,4.0,52.0,WASTE,Gulf Foods Trading
+2026-10-01,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,8,14.0,112.0,WASTE,Gulf Foods Trading
+2026-10-01,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,7,62.0,434.0,WASTE,Gulf Foods Trading
+2026-10-01,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,13,4.0,52.0,WASTE,National Meat Co.
+2026-10-01,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,11,48.0,528.0,WASTE,Global Beverages
+2026-10-01,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,16,16.0,256.0,WASTE,Gulf Foods Trading
+2026-10-01,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,10,18.0,180.0,WASTE,Fresh Farms Co.
+2026-10-01,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,16,22.0,352.0,WASTE,Qatar Dairy Co.
+2026-10-01,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,6,62.0,372.0,WASTE,Gulf Foods Trading
+2026-10-01,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,16,4.0,64.0,WASTE,National Meat Co.
+2026-10-01,PRD-0047,Onion 3,Fresh Produce,LOC-005,12,15.0,180.0,WASTE,Gulf Foods Trading
+2026-10-01,PRD-0044,Banana 3,Fresh Produce,LOC-005,8,22.0,176.0,WASTE,Fresh Farms Co.
+2026-10-01,PRD-0007,Onion,Fresh Produce,LOC-005,14,15.0,210.0,WASTE,Gulf Foods Trading
+2026-10-01,PRD-0004,Banana,Fresh Produce,LOC-005,12,22.0,264.0,WASTE,National Meat Co.
+2026-10-01,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,4,24.0,96.0,WASTE,Al Meera Supply
+2026-10-01,PRD-0004,Banana,Fresh Produce,LOC-005,17,22.0,374.0,WASTE,National Meat Co.
+2026-10-01,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,12,48.0,576.0,WASTE,Qatar Dairy Co.
+2026-10-02,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,4,14.0,56.0,WASTE,Global Beverages
+2026-10-02,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,5,18.0,90.0,WASTE,Global Beverages
+2026-10-02,PRD-0027,Onion 2,Fresh Produce,LOC-005,15,15.0,225.0,WASTE,Fresh Farms Co.
+2026-10-02,PRD-0066,Potato 4,Fresh Produce,LOC-005,10,13.0,130.0,WASTE,Qatar Dairy Co.
+2026-10-02,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,6,4.0,24.0,WASTE,National Meat Co.
+2026-10-02,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,11,16.0,176.0,WASTE,Al Meera Supply
+2026-10-02,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,15,16.0,240.0,WASTE,Global Beverages
+2026-10-02,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,4,18.0,72.0,WASTE,Fresh Farms Co.
+2026-10-02,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,11,24.0,264.0,WASTE,Al Meera Supply
+2026-10-02,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,15,14.0,210.0,WASTE,Fresh Farms Co.
+2026-10-02,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,14,48.0,672.0,WASTE,Qatar Dairy Co.
+2026-10-02,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,14,62.0,868.0,WASTE,Gulf Foods Trading
+2026-10-02,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,14,24.0,336.0,WASTE,National Meat Co.
+2026-10-02,PRD-0005,Lettuce,Fresh Produce,LOC-005,17,12.0,204.0,WASTE,National Meat Co.
+2026-10-02,PRD-0003,Red Apple,Fresh Produce,LOC-005,15,42.0,630.0,WASTE,Global Beverages
+2026-10-02,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,14,22.0,308.0,WASTE,Fresh Farms Co.
+2026-10-03,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,13,12.0,156.0,WASTE,Qatar Dairy Co.
+2026-10-03,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,5,14.0,70.0,WASTE,Fresh Farms Co.
+2026-10-03,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,13,42.0,546.0,WASTE,Central Bakery
+2026-10-03,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,17,48.0,816.0,WASTE,Global Beverages
+2026-10-03,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,National Meat Co.
+2026-10-03,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,10,4.0,40.0,WASTE,National Meat Co.
+2026-10-03,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,6,18.0,108.0,WASTE,Qatar Dairy Co.
+2026-10-03,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,8,24.0,192.0,WASTE,Al Meera Supply
+2026-10-03,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,6,18.0,108.0,WASTE,Fresh Farms Co.
+2026-10-03,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,5,4.0,20.0,WASTE,National Meat Co.
+2026-10-03,PRD-0003,Red Apple,Fresh Produce,LOC-005,7,42.0,294.0,WASTE,Global Beverages
+2026-10-03,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,Central Bakery
+2026-10-04,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,7,4.0,28.0,WASTE,National Meat Co.
+2026-10-04,PRD-0006,Potato,Fresh Produce,LOC-005,14,13.0,182.0,WASTE,Fresh Farms Co.
+2026-10-04,PRD-0026,Potato 2,Fresh Produce,LOC-005,15,13.0,195.0,WASTE,Central Bakery
+2026-10-04,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,13,24.0,312.0,WASTE,Al Meera Supply
+2026-10-04,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,4,48.0,192.0,WASTE,Global Beverages
+2026-10-04,PRD-0016,White Cheese 500g,Dairy,LOC-005,13,48.0,624.0,WASTE,Al Meera Supply
+2026-10-04,PRD-0046,Potato 3,Fresh Produce,LOC-005,4,13.0,52.0,WASTE,Al Meera Supply
+2026-10-04,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,15,22.0,330.0,WASTE,Qatar Dairy Co.
+2026-10-04,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,7,14.0,98.0,WASTE,Gulf Foods Trading
+2026-10-04,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,8,48.0,384.0,WASTE,Qatar Dairy Co.
+2026-10-04,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,6,62.0,372.0,WASTE,Qatar Dairy Co.
+2026-10-04,PRD-0064,Banana 4,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-10-04,PRD-0064,Banana 4,Fresh Produce,LOC-005,9,22.0,198.0,WASTE,National Meat Co.
+2026-10-04,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,12,12.0,144.0,WASTE,Central Bakery
+2026-10-04,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,16,62.0,992.0,WASTE,Qatar Dairy Co.
+2026-10-04,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,7,22.0,154.0,WASTE,Qatar Dairy Co.
+2026-10-04,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,7,16.0,112.0,WASTE,Gulf Foods Trading
+2026-10-04,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,13,14.0,182.0,WASTE,Fresh Farms Co.
+2026-10-05,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,16,12.0,192.0,WASTE,Global Beverages
+2026-10-05,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,13,4.0,52.0,WASTE,National Meat Co.
+2026-10-05,PRD-0046,Potato 3,Fresh Produce,LOC-005,16,13.0,208.0,WASTE,Al Meera Supply
+2026-10-05,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,4,24.0,96.0,WASTE,National Meat Co.
+2026-10-05,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,15,18.0,270.0,WASTE,Global Beverages
+2026-10-05,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,9,18.0,162.0,WASTE,Fresh Farms Co.
+2026-10-05,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,17,48.0,816.0,WASTE,Al Meera Supply
+2026-10-05,PRD-0005,Lettuce,Fresh Produce,LOC-005,10,12.0,120.0,WASTE,National Meat Co.
+2026-10-05,PRD-0027,Onion 2,Fresh Produce,LOC-005,11,15.0,165.0,WASTE,Fresh Farms Co.
+2026-10-05,PRD-0003,Red Apple,Fresh Produce,LOC-005,10,42.0,420.0,WASTE,Global Beverages
+2026-10-05,PRD-0017,Yogurt 1kg,Dairy,LOC-005,5,24.0,120.0,WASTE,Fresh Farms Co.
+2026-10-05,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,7,14.0,98.0,WASTE,Global Beverages
+2026-10-05,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,14,22.0,308.0,WASTE,Al Meera Supply
+2026-10-05,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,17,22.0,374.0,WASTE,Al Meera Supply
+2026-10-05,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,4,16.0,64.0,WASTE,Al Meera Supply
+2026-10-05,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,5,42.0,210.0,WASTE,National Meat Co.
+2026-10-05,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,17,4.0,68.0,WASTE,National Meat Co.
+2026-10-05,PRD-0067,Onion 4,Fresh Produce,LOC-005,14,15.0,210.0,WASTE,Global Beverages
+2026-10-06,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,15,22.0,330.0,WASTE,National Meat Co.
+2026-10-06,PRD-0002,Cucumber,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Gulf Foods Trading
+2026-10-06,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,4,14.0,56.0,WASTE,Gulf Foods Trading
+2026-10-06,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,9,16.0,144.0,WASTE,Global Beverages
+2026-10-06,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,7,48.0,336.0,WASTE,Global Beverages
+2026-10-06,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,8,16.0,128.0,WASTE,Gulf Foods Trading
+2026-10-06,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,9,16.0,144.0,WASTE,Gulf Foods Trading
+2026-10-06,PRD-0044,Banana 3,Fresh Produce,LOC-005,4,22.0,88.0,WASTE,Fresh Farms Co.
+2026-10-06,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,5,18.0,90.0,WASTE,Fresh Farms Co.
+2026-10-06,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,10,12.0,120.0,WASTE,Central Bakery
+2026-10-06,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,11,48.0,528.0,WASTE,Qatar Dairy Co.
+2026-10-06,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,11,12.0,132.0,WASTE,Global Beverages
+2026-10-06,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,7,62.0,434.0,WASTE,Gulf Foods Trading
+2026-10-07,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,7,12.0,84.0,WASTE,Global Beverages
+2026-10-07,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,12,22.0,264.0,WASTE,National Meat Co.
+2026-10-07,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,14,4.0,56.0,WASTE,Qatar Dairy Co.
+2026-10-07,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,6,62.0,372.0,WASTE,Qatar Dairy Co.
+2026-10-07,PRD-0024,Banana 2,Fresh Produce,LOC-005,4,22.0,88.0,WASTE,National Meat Co.
+2026-10-07,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,10,4.0,40.0,WASTE,National Meat Co.
+2026-10-07,PRD-0016,White Cheese 500g,Dairy,LOC-005,5,48.0,240.0,WASTE,Al Meera Supply
+2026-10-07,PRD-0002,Cucumber,Fresh Produce,LOC-005,14,14.0,196.0,WASTE,Gulf Foods Trading
+2026-10-07,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,14,42.0,588.0,WASTE,Central Bakery
+2026-10-07,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,7,14.0,98.0,WASTE,Gulf Foods Trading
+2026-10-07,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,9,22.0,198.0,WASTE,Qatar Dairy Co.
+2026-10-07,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,4,62.0,248.0,WASTE,Gulf Foods Trading
+2026-10-08,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,4,48.0,192.0,WASTE,Al Meera Supply
+2026-10-08,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,Global Beverages
+2026-10-08,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,9,18.0,162.0,WASTE,Fresh Farms Co.
+2026-10-08,PRD-0047,Onion 3,Fresh Produce,LOC-005,8,15.0,120.0,WASTE,Gulf Foods Trading
+2026-10-08,PRD-0003,Red Apple,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,Global Beverages
+2026-10-08,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,National Meat Co.
+2026-10-08,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,14,16.0,224.0,WASTE,Gulf Foods Trading
+2026-10-08,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,12,16.0,192.0,WASTE,Global Beverages
+2026-10-08,PRD-0007,Onion,Fresh Produce,LOC-005,9,15.0,135.0,WASTE,Gulf Foods Trading
+2026-10-08,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,10,12.0,120.0,WASTE,Global Beverages
+2026-10-08,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,8,18.0,144.0,WASTE,Fresh Farms Co.
+2026-10-08,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,8,22.0,176.0,WASTE,Fresh Farms Co.
+2026-10-08,PRD-0017,Yogurt 1kg,Dairy,LOC-005,11,24.0,264.0,WASTE,Fresh Farms Co.
+2026-10-08,PRD-0003,Red Apple,Fresh Produce,LOC-005,11,42.0,462.0,WASTE,Global Beverages
+2026-10-08,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,10,62.0,620.0,WASTE,Qatar Dairy Co.
+2026-10-08,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,5,12.0,60.0,WASTE,Central Bakery
+2026-10-09,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,17,22.0,374.0,WASTE,National Meat Co.
+2026-10-09,PRD-0026,Potato 2,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Central Bakery
+2026-10-09,PRD-0044,Banana 3,Fresh Produce,LOC-005,9,22.0,198.0,WASTE,Fresh Farms Co.
+2026-10-09,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,8,14.0,112.0,WASTE,Global Beverages
+2026-10-09,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,15,62.0,930.0,WASTE,Qatar Dairy Co.
+2026-10-09,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,5,62.0,310.0,WASTE,Gulf Foods Trading
+2026-10-09,PRD-0064,Banana 4,Fresh Produce,LOC-005,9,22.0,198.0,WASTE,National Meat Co.
+2026-10-09,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,5,42.0,210.0,WASTE,Gulf Foods Trading
+2026-10-09,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,13,48.0,624.0,WASTE,Qatar Dairy Co.
+2026-10-09,PRD-0018,Eggs 30pcs,Dairy,LOC-005,4,62.0,248.0,WASTE,Fresh Farms Co.
+2026-10-09,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,8,18.0,144.0,WASTE,Fresh Farms Co.
+2026-10-09,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,13,42.0,546.0,WASTE,Central Bakery
+2026-10-09,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,9,48.0,432.0,WASTE,Global Beverages
+2026-10-09,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,4,22.0,88.0,WASTE,National Meat Co.
+2026-10-09,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,6,18.0,108.0,WASTE,Fresh Farms Co.
+2026-10-09,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,12,12.0,144.0,WASTE,Central Bakery
+2026-10-09,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Gulf Foods Trading
+2026-10-10,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,13,16.0,208.0,WASTE,Gulf Foods Trading
+2026-10-10,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,8,62.0,496.0,WASTE,Gulf Foods Trading
+2026-10-10,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,6,4.0,24.0,WASTE,National Meat Co.
+2026-10-10,PRD-0027,Onion 2,Fresh Produce,LOC-005,7,15.0,105.0,WASTE,Fresh Farms Co.
+2026-10-10,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,13,22.0,286.0,WASTE,National Meat Co.
+2026-10-10,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,14,12.0,168.0,WASTE,Central Bakery
+2026-10-10,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,13,12.0,156.0,WASTE,Qatar Dairy Co.
+2026-10-10,PRD-0046,Potato 3,Fresh Produce,LOC-005,12,13.0,156.0,WASTE,Al Meera Supply
+2026-10-10,PRD-0024,Banana 2,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-10-10,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Fresh Farms Co.
+2026-10-10,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,14,62.0,868.0,WASTE,Qatar Dairy Co.
+2026-10-10,PRD-0007,Onion,Fresh Produce,LOC-005,7,15.0,105.0,WASTE,Gulf Foods Trading
+2026-10-10,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,5,18.0,90.0,WASTE,Fresh Farms Co.
+2026-10-10,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Fresh Farms Co.
+2026-10-10,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,8,18.0,144.0,WASTE,Global Beverages
+2026-10-10,PRD-0024,Banana 2,Fresh Produce,LOC-005,5,22.0,110.0,WASTE,National Meat Co.
+2026-10-10,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,6,22.0,132.0,WASTE,Qatar Dairy Co.
+2026-10-11,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,9,62.0,558.0,WASTE,Gulf Foods Trading
+2026-10-11,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,5,24.0,120.0,WASTE,Al Meera Supply
+2026-10-11,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,6,18.0,108.0,WASTE,Fresh Farms Co.
+2026-10-11,PRD-0006,Potato,Fresh Produce,LOC-005,9,13.0,117.0,WASTE,Fresh Farms Co.
+2026-10-11,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,12,14.0,168.0,WASTE,Global Beverages
+2026-10-11,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,8,22.0,176.0,WASTE,Fresh Farms Co.
+2026-10-11,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,8,22.0,176.0,WASTE,Qatar Dairy Co.
+2026-10-11,PRD-0004,Banana,Fresh Produce,LOC-005,13,22.0,286.0,WASTE,National Meat Co.
+2026-10-11,PRD-0002,Cucumber,Fresh Produce,LOC-005,14,14.0,196.0,WASTE,Gulf Foods Trading
+2026-10-11,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,11,16.0,176.0,WASTE,Al Meera Supply
+2026-10-11,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,10,22.0,220.0,WASTE,Al Meera Supply
+2026-10-11,PRD-0005,Lettuce,Fresh Produce,LOC-005,14,12.0,168.0,WASTE,National Meat Co.
+2026-10-11,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,12,22.0,264.0,WASTE,National Meat Co.
+2026-10-12,PRD-0007,Onion,Fresh Produce,LOC-005,17,15.0,255.0,WASTE,Gulf Foods Trading
+2026-10-12,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,17,4.0,68.0,WASTE,National Meat Co.
+2026-10-12,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,13,42.0,546.0,WASTE,Gulf Foods Trading
+2026-10-12,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,7,48.0,336.0,WASTE,Global Beverages
+2026-10-12,PRD-0026,Potato 2,Fresh Produce,LOC-005,6,13.0,78.0,WASTE,Central Bakery
+2026-10-12,PRD-0047,Onion 3,Fresh Produce,LOC-005,13,15.0,195.0,WASTE,Gulf Foods Trading
+2026-10-12,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,5,48.0,240.0,WASTE,Al Meera Supply
+2026-10-12,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,8,12.0,96.0,WASTE,Global Beverages
+2026-10-12,PRD-0018,Eggs 30pcs,Dairy,LOC-005,11,62.0,682.0,WASTE,Fresh Farms Co.
+2026-10-12,PRD-0064,Banana 4,Fresh Produce,LOC-005,13,22.0,286.0,WASTE,National Meat Co.
+2026-10-12,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,11,12.0,132.0,WASTE,Global Beverages
+2026-10-12,PRD-0027,Onion 2,Fresh Produce,LOC-005,13,15.0,195.0,WASTE,Fresh Farms Co.
+2026-10-12,PRD-0003,Red Apple,Fresh Produce,LOC-005,16,42.0,672.0,WASTE,Global Beverages
+2026-10-12,PRD-0024,Banana 2,Fresh Produce,LOC-005,17,22.0,374.0,WASTE,National Meat Co.
+2026-10-12,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,8,22.0,176.0,WASTE,Al Meera Supply
+2026-10-13,PRD-0047,Onion 3,Fresh Produce,LOC-005,10,15.0,150.0,WASTE,Gulf Foods Trading
+2026-10-13,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,National Meat Co.
+2026-10-13,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,Gulf Foods Trading
+2026-10-13,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,16,12.0,192.0,WASTE,Qatar Dairy Co.
+2026-10-13,PRD-0067,Onion 4,Fresh Produce,LOC-005,13,15.0,195.0,WASTE,Global Beverages
+2026-10-13,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,4,48.0,192.0,WASTE,Qatar Dairy Co.
+2026-10-13,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,8,18.0,144.0,WASTE,Global Beverages
+2026-10-13,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,15,14.0,210.0,WASTE,Gulf Foods Trading
+2026-10-13,PRD-0044,Banana 3,Fresh Produce,LOC-005,10,22.0,220.0,WASTE,Fresh Farms Co.
+2026-10-13,PRD-0044,Banana 3,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,Fresh Farms Co.
+2026-10-13,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,Qatar Dairy Co.
+2026-10-13,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,4,48.0,192.0,WASTE,Qatar Dairy Co.
+2026-10-14,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,13,14.0,182.0,WASTE,Global Beverages
+2026-10-14,PRD-0002,Cucumber,Fresh Produce,LOC-005,6,14.0,84.0,WASTE,Gulf Foods Trading
+2026-10-14,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,13,18.0,234.0,WASTE,Global Beverages
+2026-10-14,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,15,42.0,630.0,WASTE,National Meat Co.
+2026-10-14,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,13,24.0,312.0,WASTE,Al Meera Supply
+2026-10-14,PRD-0026,Potato 2,Fresh Produce,LOC-005,8,13.0,104.0,WASTE,Central Bakery
+2026-10-14,PRD-0005,Lettuce,Fresh Produce,LOC-005,5,12.0,60.0,WASTE,National Meat Co.
+2026-10-14,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,14,14.0,196.0,WASTE,Gulf Foods Trading
+2026-10-14,PRD-0017,Yogurt 1kg,Dairy,LOC-005,5,24.0,120.0,WASTE,Fresh Farms Co.
+2026-10-14,PRD-0027,Onion 2,Fresh Produce,LOC-005,4,15.0,60.0,WASTE,Fresh Farms Co.
+2026-10-14,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,7,62.0,434.0,WASTE,Gulf Foods Trading
+2026-10-14,PRD-0066,Potato 4,Fresh Produce,LOC-005,16,13.0,208.0,WASTE,Qatar Dairy Co.
+2026-10-14,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,15,22.0,330.0,WASTE,Qatar Dairy Co.
+2026-10-14,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,10,22.0,220.0,WASTE,Al Meera Supply
+2026-10-14,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,17,22.0,374.0,WASTE,Qatar Dairy Co.
+2026-10-14,PRD-0007,Onion,Fresh Produce,LOC-005,10,15.0,150.0,WASTE,Gulf Foods Trading
+2026-10-15,PRD-0064,Banana 4,Fresh Produce,LOC-005,8,22.0,176.0,WASTE,National Meat Co.
+2026-10-15,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,9,14.0,126.0,WASTE,Fresh Farms Co.
+2026-10-15,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,10,18.0,180.0,WASTE,Fresh Farms Co.
+2026-10-15,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,14,4.0,56.0,WASTE,National Meat Co.
+2026-10-15,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,17,62.0,1054.0,WASTE,Gulf Foods Trading
+2026-10-15,PRD-0026,Potato 2,Fresh Produce,LOC-005,17,13.0,221.0,WASTE,Central Bakery
+2026-10-15,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,13,48.0,624.0,WASTE,Qatar Dairy Co.
+2026-10-15,PRD-0024,Banana 2,Fresh Produce,LOC-005,17,22.0,374.0,WASTE,National Meat Co.
+2026-10-15,PRD-0064,Banana 4,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-10-15,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,4,62.0,248.0,WASTE,Gulf Foods Trading
+2026-10-15,PRD-0006,Potato,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Fresh Farms Co.
+2026-10-15,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,13,12.0,156.0,WASTE,Central Bakery
+2026-10-15,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,5,42.0,210.0,WASTE,Central Bakery
+2026-10-15,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,16,62.0,992.0,WASTE,Gulf Foods Trading
+2026-10-15,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,13,62.0,806.0,WASTE,Gulf Foods Trading
+2026-10-16,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,15,4.0,60.0,WASTE,Gulf Foods Trading
+2026-10-16,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,12,22.0,264.0,WASTE,National Meat Co.
+2026-10-16,PRD-0066,Potato 4,Fresh Produce,LOC-005,5,13.0,65.0,WASTE,Qatar Dairy Co.
+2026-10-16,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,17,12.0,204.0,WASTE,Central Bakery
+2026-10-16,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,11,62.0,682.0,WASTE,Gulf Foods Trading
+2026-10-16,PRD-0066,Potato 4,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Qatar Dairy Co.
+2026-10-16,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,16,16.0,256.0,WASTE,Gulf Foods Trading
+2026-10-16,PRD-0002,Cucumber,Fresh Produce,LOC-005,16,14.0,224.0,WASTE,Gulf Foods Trading
+2026-10-16,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,Global Beverages
+2026-10-16,PRD-0017,Yogurt 1kg,Dairy,LOC-005,5,24.0,120.0,WASTE,Fresh Farms Co.
+2026-10-16,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,12,22.0,264.0,WASTE,Fresh Farms Co.
+2026-10-16,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,5,24.0,120.0,WASTE,Al Meera Supply
+2026-10-17,PRD-0046,Potato 3,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Al Meera Supply
+2026-10-17,PRD-0044,Banana 3,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,Fresh Farms Co.
+2026-10-17,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,6,24.0,144.0,WASTE,National Meat Co.
+2026-10-17,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,10,14.0,140.0,WASTE,Fresh Farms Co.
+2026-10-17,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-10-17,PRD-0020,Croissant 4pcs,Bakery,LOC-005,4,18.0,72.0,WASTE,Al Meera Supply
+2026-10-17,PRD-0064,Banana 4,Fresh Produce,LOC-005,5,22.0,110.0,WASTE,National Meat Co.
+2026-10-17,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,17,12.0,204.0,WASTE,Qatar Dairy Co.
+2026-10-17,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,12,62.0,744.0,WASTE,Gulf Foods Trading
+2026-10-17,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,7,12.0,84.0,WASTE,Qatar Dairy Co.
+2026-10-17,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,12,12.0,144.0,WASTE,Central Bakery
+2026-10-17,PRD-0044,Banana 3,Fresh Produce,LOC-005,16,22.0,352.0,WASTE,Fresh Farms Co.
+2026-10-17,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,12,24.0,288.0,WASTE,Al Meera Supply
+2026-10-17,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,4,62.0,248.0,WASTE,Gulf Foods Trading
+2026-10-17,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,6,48.0,288.0,WASTE,Qatar Dairy Co.
+2026-10-17,PRD-0047,Onion 3,Fresh Produce,LOC-005,8,15.0,120.0,WASTE,Gulf Foods Trading
+2026-10-17,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,16,18.0,288.0,WASTE,Fresh Farms Co.
+2026-10-17,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,7,42.0,294.0,WASTE,Central Bakery
+2026-10-17,PRD-0018,Eggs 30pcs,Dairy,LOC-005,15,62.0,930.0,WASTE,Fresh Farms Co.
+2026-10-18,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,6,48.0,288.0,WASTE,Qatar Dairy Co.
+2026-10-18,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,12,48.0,576.0,WASTE,Al Meera Supply
+2026-10-18,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,13,48.0,624.0,WASTE,Global Beverages
+2026-10-18,PRD-0046,Potato 3,Fresh Produce,LOC-005,4,13.0,52.0,WASTE,Al Meera Supply
+2026-10-18,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,15,12.0,180.0,WASTE,Qatar Dairy Co.
+2026-10-18,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,7,4.0,28.0,WASTE,Qatar Dairy Co.
+2026-10-18,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,14,14.0,196.0,WASTE,Global Beverages
+2026-10-18,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,15,42.0,630.0,WASTE,Gulf Foods Trading
+2026-10-18,PRD-0005,Lettuce,Fresh Produce,LOC-005,16,12.0,192.0,WASTE,National Meat Co.
+2026-10-18,PRD-0046,Potato 3,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Al Meera Supply
+2026-10-18,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,10,22.0,220.0,WASTE,Al Meera Supply
+2026-10-18,PRD-0047,Onion 3,Fresh Produce,LOC-005,7,15.0,105.0,WASTE,Gulf Foods Trading
+2026-10-18,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,14,24.0,336.0,WASTE,Al Meera Supply
+2026-10-18,PRD-0002,Cucumber,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Gulf Foods Trading
+2026-10-19,PRD-0046,Potato 3,Fresh Produce,LOC-005,4,13.0,52.0,WASTE,Al Meera Supply
+2026-10-19,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,15,22.0,330.0,WASTE,Qatar Dairy Co.
+2026-10-19,PRD-0003,Red Apple,Fresh Produce,LOC-005,14,42.0,588.0,WASTE,Global Beverages
+2026-10-19,PRD-0067,Onion 4,Fresh Produce,LOC-005,17,15.0,255.0,WASTE,Global Beverages
+2026-10-19,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,4,18.0,72.0,WASTE,Global Beverages
+2026-10-19,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,8,16.0,128.0,WASTE,Al Meera Supply
+2026-10-19,PRD-0047,Onion 3,Fresh Produce,LOC-005,7,15.0,105.0,WASTE,Gulf Foods Trading
+2026-10-19,PRD-0005,Lettuce,Fresh Produce,LOC-005,6,12.0,72.0,WASTE,National Meat Co.
+2026-10-19,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,13,42.0,546.0,WASTE,Gulf Foods Trading
+2026-10-19,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,12,42.0,504.0,WASTE,National Meat Co.
+2026-10-19,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,15,12.0,180.0,WASTE,Qatar Dairy Co.
+2026-10-19,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,6,48.0,288.0,WASTE,Qatar Dairy Co.
+2026-10-20,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,9,16.0,144.0,WASTE,Gulf Foods Trading
+2026-10-20,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,15,12.0,180.0,WASTE,Global Beverages
+2026-10-20,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,9,24.0,216.0,WASTE,Al Meera Supply
+2026-10-20,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,4,4.0,16.0,WASTE,National Meat Co.
+2026-10-20,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,14,22.0,308.0,WASTE,National Meat Co.
+2026-10-20,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,5,18.0,90.0,WASTE,Qatar Dairy Co.
+2026-10-20,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,16,18.0,288.0,WASTE,Global Beverages
+2026-10-20,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,16,4.0,64.0,WASTE,National Meat Co.
+2026-10-20,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,15,16.0,240.0,WASTE,Global Beverages
+2026-10-20,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,10,18.0,180.0,WASTE,Fresh Farms Co.
+2026-10-20,PRD-0047,Onion 3,Fresh Produce,LOC-005,6,15.0,90.0,WASTE,Gulf Foods Trading
+2026-10-20,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,14,22.0,308.0,WASTE,Qatar Dairy Co.
+2026-10-20,PRD-0024,Banana 2,Fresh Produce,LOC-005,8,22.0,176.0,WASTE,National Meat Co.
+2026-10-20,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,11,62.0,682.0,WASTE,Gulf Foods Trading
+2026-10-21,PRD-0047,Onion 3,Fresh Produce,LOC-005,16,15.0,240.0,WASTE,Gulf Foods Trading
+2026-10-21,PRD-0024,Banana 2,Fresh Produce,LOC-005,12,22.0,264.0,WASTE,National Meat Co.
+2026-10-21,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,12,48.0,576.0,WASTE,Al Meera Supply
+2026-10-21,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,5,4.0,20.0,WASTE,Qatar Dairy Co.
+2026-10-21,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,11,4.0,44.0,WASTE,Qatar Dairy Co.
+2026-10-21,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,13,42.0,546.0,WASTE,Central Bakery
+2026-10-21,PRD-0018,Eggs 30pcs,Dairy,LOC-005,7,62.0,434.0,WASTE,Fresh Farms Co.
+2026-10-21,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,8,22.0,176.0,WASTE,Qatar Dairy Co.
+2026-10-21,PRD-0046,Potato 3,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Al Meera Supply
+2026-10-21,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,9,48.0,432.0,WASTE,Al Meera Supply
+2026-10-21,PRD-0017,Yogurt 1kg,Dairy,LOC-005,12,24.0,288.0,WASTE,Fresh Farms Co.
+2026-10-21,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,Central Bakery
+2026-10-21,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,11,16.0,176.0,WASTE,Al Meera Supply
+2026-10-21,PRD-0026,Potato 2,Fresh Produce,LOC-005,17,13.0,221.0,WASTE,Central Bakery
+2026-10-21,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,8,18.0,144.0,WASTE,Fresh Farms Co.
+2026-10-21,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,8,62.0,496.0,WASTE,Gulf Foods Trading
+2026-10-21,PRD-0066,Potato 4,Fresh Produce,LOC-005,11,13.0,143.0,WASTE,Qatar Dairy Co.
+2026-10-21,PRD-0018,Eggs 30pcs,Dairy,LOC-005,13,62.0,806.0,WASTE,Fresh Farms Co.
+2026-10-21,PRD-0005,Lettuce,Fresh Produce,LOC-005,16,12.0,192.0,WASTE,National Meat Co.
+2026-10-22,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,14,62.0,868.0,WASTE,Gulf Foods Trading
+2026-10-22,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,4,48.0,192.0,WASTE,Global Beverages
+2026-10-22,PRD-0002,Cucumber,Fresh Produce,LOC-005,4,14.0,56.0,WASTE,Gulf Foods Trading
+2026-10-22,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,8,42.0,336.0,WASTE,National Meat Co.
+2026-10-22,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,16,48.0,768.0,WASTE,Qatar Dairy Co.
+2026-10-22,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,10,22.0,220.0,WASTE,Qatar Dairy Co.
+2026-10-22,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,16,48.0,768.0,WASTE,Qatar Dairy Co.
+2026-10-22,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,5,22.0,110.0,WASTE,Al Meera Supply
+2026-10-22,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,5,48.0,240.0,WASTE,Global Beverages
+2026-10-22,PRD-0018,Eggs 30pcs,Dairy,LOC-005,15,62.0,930.0,WASTE,Fresh Farms Co.
+2026-10-22,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,10,18.0,180.0,WASTE,Global Beverages
+2026-10-22,PRD-0026,Potato 2,Fresh Produce,LOC-005,17,13.0,221.0,WASTE,Central Bakery
+2026-10-22,PRD-0026,Potato 2,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Central Bakery
+2026-10-22,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,13,62.0,806.0,WASTE,Qatar Dairy Co.
+2026-10-23,PRD-0018,Eggs 30pcs,Dairy,LOC-005,13,62.0,806.0,WASTE,Fresh Farms Co.
+2026-10-23,PRD-0044,Banana 3,Fresh Produce,LOC-005,7,22.0,154.0,WASTE,Fresh Farms Co.
+2026-10-23,PRD-0002,Cucumber,Fresh Produce,LOC-005,17,14.0,238.0,WASTE,Gulf Foods Trading
+2026-10-23,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,5,12.0,60.0,WASTE,Qatar Dairy Co.
+2026-10-23,PRD-0006,Potato,Fresh Produce,LOC-005,16,13.0,208.0,WASTE,Fresh Farms Co.
+2026-10-23,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,11,4.0,44.0,WASTE,National Meat Co.
+2026-10-23,PRD-0064,Banana 4,Fresh Produce,LOC-005,17,22.0,374.0,WASTE,National Meat Co.
+2026-10-23,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,16,4.0,64.0,WASTE,National Meat Co.
+2026-10-23,PRD-0024,Banana 2,Fresh Produce,LOC-005,5,22.0,110.0,WASTE,National Meat Co.
+2026-10-23,PRD-0005,Lettuce,Fresh Produce,LOC-005,14,12.0,168.0,WASTE,National Meat Co.
+2026-10-23,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,11,42.0,462.0,WASTE,Central Bakery
+2026-10-23,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,17,14.0,238.0,WASTE,Global Beverages
+2026-10-23,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,8,42.0,336.0,WASTE,Gulf Foods Trading
+2026-10-23,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,14,4.0,56.0,WASTE,National Meat Co.
+2026-10-24,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,12,42.0,504.0,WASTE,National Meat Co.
+2026-10-24,PRD-0047,Onion 3,Fresh Produce,LOC-005,8,15.0,120.0,WASTE,Gulf Foods Trading
+2026-10-24,PRD-0005,Lettuce,Fresh Produce,LOC-005,10,12.0,120.0,WASTE,National Meat Co.
+2026-10-24,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,11,48.0,528.0,WASTE,Al Meera Supply
+2026-10-24,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,9,18.0,162.0,WASTE,Qatar Dairy Co.
+2026-10-24,PRD-0006,Potato,Fresh Produce,LOC-005,14,13.0,182.0,WASTE,Fresh Farms Co.
+2026-10-24,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,8,62.0,496.0,WASTE,Gulf Foods Trading
+2026-10-24,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,13,24.0,312.0,WASTE,Al Meera Supply
+2026-10-24,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,Central Bakery
+2026-10-24,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,7,16.0,112.0,WASTE,Gulf Foods Trading
+2026-10-24,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,10,22.0,220.0,WASTE,Al Meera Supply
+2026-10-24,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,11,48.0,528.0,WASTE,Qatar Dairy Co.
+2026-10-24,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,9,16.0,144.0,WASTE,Gulf Foods Trading
+2026-10-24,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,6,62.0,372.0,WASTE,Gulf Foods Trading
+2026-10-24,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,4,22.0,88.0,WASTE,National Meat Co.
+2026-10-24,PRD-0002,Cucumber,Fresh Produce,LOC-005,4,14.0,56.0,WASTE,Gulf Foods Trading
+2026-10-25,PRD-0047,Onion 3,Fresh Produce,LOC-005,13,15.0,195.0,WASTE,Gulf Foods Trading
+2026-10-25,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,5,18.0,90.0,WASTE,Qatar Dairy Co.
+2026-10-25,PRD-0006,Potato,Fresh Produce,LOC-005,6,13.0,78.0,WASTE,Fresh Farms Co.
+2026-10-25,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,15,14.0,210.0,WASTE,Global Beverages
+2026-10-25,PRD-0027,Onion 2,Fresh Produce,LOC-005,13,15.0,195.0,WASTE,Fresh Farms Co.
+2026-10-25,PRD-0006,Potato,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Fresh Farms Co.
+2026-10-25,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,12,42.0,504.0,WASTE,Gulf Foods Trading
+2026-10-25,PRD-0003,Red Apple,Fresh Produce,LOC-005,10,42.0,420.0,WASTE,Global Beverages
+2026-10-25,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,13,14.0,182.0,WASTE,Fresh Farms Co.
+2026-10-25,PRD-0007,Onion,Fresh Produce,LOC-005,13,15.0,195.0,WASTE,Gulf Foods Trading
+2026-10-25,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,9,48.0,432.0,WASTE,Qatar Dairy Co.
+2026-10-25,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,Central Bakery
+2026-10-25,PRD-0016,White Cheese 500g,Dairy,LOC-005,12,48.0,576.0,WASTE,Al Meera Supply
+2026-10-25,PRD-0024,Banana 2,Fresh Produce,LOC-005,8,22.0,176.0,WASTE,National Meat Co.
+2026-10-26,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,Global Beverages
+2026-10-26,PRD-0005,Lettuce,Fresh Produce,LOC-005,15,12.0,180.0,WASTE,National Meat Co.
+2026-10-26,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,6,48.0,288.0,WASTE,Qatar Dairy Co.
+2026-10-26,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,9,14.0,126.0,WASTE,Fresh Farms Co.
+2026-10-26,PRD-0016,White Cheese 500g,Dairy,LOC-005,6,48.0,288.0,WASTE,Al Meera Supply
+2026-10-26,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,7,16.0,112.0,WASTE,Al Meera Supply
+2026-10-26,PRD-0046,Potato 3,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Al Meera Supply
+2026-10-26,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,8,48.0,384.0,WASTE,Al Meera Supply
+2026-10-26,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,5,48.0,240.0,WASTE,Global Beverages
+2026-10-26,PRD-0003,Red Apple,Fresh Produce,LOC-005,12,42.0,504.0,WASTE,Global Beverages
+2026-10-26,PRD-0026,Potato 2,Fresh Produce,LOC-005,16,13.0,208.0,WASTE,Central Bakery
+2026-10-26,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,5,4.0,20.0,WASTE,Gulf Foods Trading
+2026-10-26,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,6,4.0,24.0,WASTE,Qatar Dairy Co.
+2026-10-26,PRD-0067,Onion 4,Fresh Produce,LOC-005,17,15.0,255.0,WASTE,Global Beverages
+2026-10-26,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,16,24.0,384.0,WASTE,Al Meera Supply
+2026-10-26,PRD-0064,Banana 4,Fresh Produce,LOC-005,8,22.0,176.0,WASTE,National Meat Co.
+2026-10-27,PRD-0027,Onion 2,Fresh Produce,LOC-005,17,15.0,255.0,WASTE,Fresh Farms Co.
+2026-10-27,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,8,4.0,32.0,WASTE,Gulf Foods Trading
+2026-10-27,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,17,24.0,408.0,WASTE,Al Meera Supply
+2026-10-27,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,10,4.0,40.0,WASTE,National Meat Co.
+2026-10-27,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,12,24.0,288.0,WASTE,National Meat Co.
+2026-10-27,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,12,24.0,288.0,WASTE,National Meat Co.
+2026-10-27,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,13,24.0,312.0,WASTE,Al Meera Supply
+2026-10-27,PRD-0064,Banana 4,Fresh Produce,LOC-005,7,22.0,154.0,WASTE,National Meat Co.
+2026-10-27,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,8,18.0,144.0,WASTE,Qatar Dairy Co.
+2026-10-27,PRD-0016,White Cheese 500g,Dairy,LOC-005,17,48.0,816.0,WASTE,Al Meera Supply
+2026-10-27,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,4,24.0,96.0,WASTE,Al Meera Supply
+2026-10-27,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,15,42.0,630.0,WASTE,Gulf Foods Trading
+2026-10-27,PRD-0002,Cucumber,Fresh Produce,LOC-005,4,14.0,56.0,WASTE,Gulf Foods Trading
+2026-10-27,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,14,18.0,252.0,WASTE,Global Beverages
+2026-10-27,PRD-0020,Croissant 4pcs,Bakery,LOC-005,11,18.0,198.0,WASTE,Al Meera Supply
+2026-10-28,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,12,4.0,48.0,WASTE,Gulf Foods Trading
+2026-10-28,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,9,62.0,558.0,WASTE,Gulf Foods Trading
+2026-10-28,PRD-0007,Onion,Fresh Produce,LOC-005,7,15.0,105.0,WASTE,Gulf Foods Trading
+2026-10-28,PRD-0020,Croissant 4pcs,Bakery,LOC-005,16,18.0,288.0,WASTE,Al Meera Supply
+2026-10-28,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,15,42.0,630.0,WASTE,National Meat Co.
+2026-10-28,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,10,16.0,160.0,WASTE,Gulf Foods Trading
+2026-10-28,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,5,22.0,110.0,WASTE,Fresh Farms Co.
+2026-10-28,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,16,22.0,352.0,WASTE,Qatar Dairy Co.
+2026-10-28,PRD-0018,Eggs 30pcs,Dairy,LOC-005,4,62.0,248.0,WASTE,Fresh Farms Co.
+2026-10-28,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,5,22.0,110.0,WASTE,Qatar Dairy Co.
+2026-10-28,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,5,16.0,80.0,WASTE,Al Meera Supply
+2026-10-28,PRD-0026,Potato 2,Fresh Produce,LOC-005,9,13.0,117.0,WASTE,Central Bakery
+2026-10-28,PRD-0007,Onion,Fresh Produce,LOC-005,17,15.0,255.0,WASTE,Gulf Foods Trading
+2026-10-28,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,5,18.0,90.0,WASTE,Qatar Dairy Co.
+2026-10-28,PRD-0064,Banana 4,Fresh Produce,LOC-005,4,22.0,88.0,WASTE,National Meat Co.
+2026-10-28,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,16,18.0,288.0,WASTE,Fresh Farms Co.
+2026-10-28,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,6,4.0,24.0,WASTE,Gulf Foods Trading
+2026-10-29,PRD-0006,Potato,Fresh Produce,LOC-005,15,13.0,195.0,WASTE,Fresh Farms Co.
+2026-10-29,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,4,48.0,192.0,WASTE,Global Beverages
+2026-10-29,PRD-0064,Banana 4,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,National Meat Co.
+2026-10-29,PRD-0064,Banana 4,Fresh Produce,LOC-005,7,22.0,154.0,WASTE,National Meat Co.
+2026-10-29,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,7,48.0,336.0,WASTE,Al Meera Supply
+2026-10-29,PRD-0005,Lettuce,Fresh Produce,LOC-005,6,12.0,72.0,WASTE,National Meat Co.
+2026-10-29,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,6,48.0,288.0,WASTE,Qatar Dairy Co.
+2026-10-29,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,8,24.0,192.0,WASTE,Al Meera Supply
+2026-10-29,PRD-0020,Croissant 4pcs,Bakery,LOC-005,10,18.0,180.0,WASTE,Al Meera Supply
+2026-10-29,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,9,22.0,198.0,WASTE,Al Meera Supply
+2026-10-29,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,16,18.0,288.0,WASTE,Global Beverages
+2026-10-29,PRD-0027,Onion 2,Fresh Produce,LOC-005,7,15.0,105.0,WASTE,Fresh Farms Co.
+2026-10-29,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,11,22.0,242.0,WASTE,Al Meera Supply
+2026-10-30,PRD-0003,Red Apple,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,Global Beverages
+2026-10-30,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,15,14.0,210.0,WASTE,Gulf Foods Trading
+2026-10-30,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,13,4.0,52.0,WASTE,Gulf Foods Trading
+2026-10-30,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,16,18.0,288.0,WASTE,Fresh Farms Co.
+2026-10-30,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,6,4.0,24.0,WASTE,Qatar Dairy Co.
+2026-10-30,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,11,4.0,44.0,WASTE,National Meat Co.
+2026-10-30,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,9,22.0,198.0,WASTE,Al Meera Supply
+2026-10-30,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,14,42.0,588.0,WASTE,Central Bakery
+2026-10-30,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,11,24.0,264.0,WASTE,Al Meera Supply
+2026-10-30,PRD-0020,Croissant 4pcs,Bakery,LOC-005,12,18.0,216.0,WASTE,Al Meera Supply
+2026-10-30,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,4,22.0,88.0,WASTE,Fresh Farms Co.
+2026-10-30,PRD-0046,Potato 3,Fresh Produce,LOC-005,7,13.0,91.0,WASTE,Al Meera Supply
+2026-10-30,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,8,14.0,112.0,WASTE,Global Beverages
+2026-10-30,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,13,24.0,312.0,WASTE,National Meat Co.
+2026-10-30,PRD-0047,Onion 3,Fresh Produce,LOC-005,13,15.0,195.0,WASTE,Gulf Foods Trading
+2026-10-30,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,13,48.0,624.0,WASTE,Al Meera Supply
+2026-10-31,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,9,18.0,162.0,WASTE,Fresh Farms Co.
+2026-10-31,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,14,22.0,308.0,WASTE,National Meat Co.
+2026-10-31,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,8,24.0,192.0,WASTE,Al Meera Supply
+2026-10-31,PRD-0017,Yogurt 1kg,Dairy,LOC-005,5,24.0,120.0,WASTE,Fresh Farms Co.
+2026-10-31,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,5,16.0,80.0,WASTE,Gulf Foods Trading
+2026-10-31,PRD-0005,Lettuce,Fresh Produce,LOC-005,10,12.0,120.0,WASTE,National Meat Co.
+2026-10-31,PRD-0064,Banana 4,Fresh Produce,LOC-005,15,22.0,330.0,WASTE,National Meat Co.
+2026-10-31,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,9,4.0,36.0,WASTE,Qatar Dairy Co.
+2026-10-31,PRD-0024,Banana 2,Fresh Produce,LOC-005,5,22.0,110.0,WASTE,National Meat Co.
+2026-10-31,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,5,22.0,110.0,WASTE,Fresh Farms Co.
+2026-10-31,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,7,18.0,126.0,WASTE,Fresh Farms Co.
+2026-10-31,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,8,4.0,32.0,WASTE,National Meat Co.
+2026-10-31,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,11,18.0,198.0,WASTE,Global Beverages
+2026-10-31,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,4,16.0,64.0,WASTE,Gulf Foods Trading
+2026-10-31,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,15,42.0,630.0,WASTE,Central Bakery
+2026-10-31,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,15,48.0,720.0,WASTE,Global Beverages
+2026-10-31,PRD-0018,Eggs 30pcs,Dairy,LOC-005,15,62.0,930.0,WASTE,Fresh Farms Co.
+2026-10-31,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,13,24.0,312.0,WASTE,Al Meera Supply
+2026-11-01,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,13,16.0,208.0,WASTE,Gulf Foods Trading
+2026-11-01,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,10,48.0,480.0,WASTE,Global Beverages
+2026-11-01,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,4,16.0,64.0,WASTE,Al Meera Supply
+2026-11-01,PRD-0026,Potato 2,Fresh Produce,LOC-005,4,13.0,52.0,WASTE,Central Bakery
+2026-11-01,PRD-0007,Onion,Fresh Produce,LOC-005,15,15.0,225.0,WASTE,Gulf Foods Trading
+2026-11-01,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,10,24.0,240.0,WASTE,National Meat Co.
+2026-11-01,PRD-0027,Onion 2,Fresh Produce,LOC-005,11,15.0,165.0,WASTE,Fresh Farms Co.
+2026-11-01,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,14,14.0,196.0,WASTE,Fresh Farms Co.
+2026-11-01,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,13,18.0,234.0,WASTE,Fresh Farms Co.
+2026-11-01,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,4,14.0,56.0,WASTE,Global Beverages
+2026-11-01,PRD-0026,Potato 2,Fresh Produce,LOC-005,16,13.0,208.0,WASTE,Central Bakery
+2026-11-01,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,11,4.0,44.0,WASTE,Qatar Dairy Co.
+2026-11-01,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-11-01,PRD-0027,Onion 2,Fresh Produce,LOC-005,12,15.0,180.0,WASTE,Fresh Farms Co.
+2026-11-01,PRD-0064,Banana 4,Fresh Produce,LOC-005,14,22.0,308.0,WASTE,National Meat Co.
+2026-11-01,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,Qatar Dairy Co.
+2026-11-01,PRD-0026,Potato 2,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Central Bakery
+2026-11-01,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,10,22.0,220.0,WASTE,National Meat Co.
+2026-11-02,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,17,4.0,68.0,WASTE,Gulf Foods Trading
+2026-11-02,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,6,48.0,288.0,WASTE,Qatar Dairy Co.
+2026-11-02,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,4,16.0,64.0,WASTE,Gulf Foods Trading
+2026-11-02,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,17,48.0,816.0,WASTE,Al Meera Supply
+2026-11-02,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,15,4.0,60.0,WASTE,Qatar Dairy Co.
+2026-11-02,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,4,4.0,16.0,WASTE,National Meat Co.
+2026-11-02,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,11,12.0,132.0,WASTE,Global Beverages
+2026-11-02,PRD-0067,Onion 4,Fresh Produce,LOC-005,10,15.0,150.0,WASTE,Global Beverages
+2026-11-02,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,4,48.0,192.0,WASTE,Qatar Dairy Co.
+2026-11-02,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,10,24.0,240.0,WASTE,Al Meera Supply
+2026-11-02,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,12,18.0,216.0,WASTE,Fresh Farms Co.
+2026-11-02,PRD-0004,Banana,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-11-03,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,7,48.0,336.0,WASTE,Global Beverages
+2026-11-03,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,8,42.0,336.0,WASTE,National Meat Co.
+2026-11-03,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,4,48.0,192.0,WASTE,Global Beverages
+2026-11-03,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,9,48.0,432.0,WASTE,Qatar Dairy Co.
+2026-11-03,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,13,62.0,806.0,WASTE,Gulf Foods Trading
+2026-11-03,PRD-0004,Banana,Fresh Produce,LOC-005,14,22.0,308.0,WASTE,National Meat Co.
+2026-11-03,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,15,12.0,180.0,WASTE,Central Bakery
+2026-11-03,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,4,4.0,16.0,WASTE,Gulf Foods Trading
+2026-11-03,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,5,16.0,80.0,WASTE,Al Meera Supply
+2026-11-03,PRD-0066,Potato 4,Fresh Produce,LOC-005,14,13.0,182.0,WASTE,Qatar Dairy Co.
+2026-11-03,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,11,48.0,528.0,WASTE,Global Beverages
+2026-11-03,PRD-0018,Eggs 30pcs,Dairy,LOC-005,14,62.0,868.0,WASTE,Fresh Farms Co.
+2026-11-03,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,4,12.0,48.0,WASTE,Global Beverages
+2026-11-03,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,13,16.0,208.0,WASTE,Gulf Foods Trading
+2026-11-03,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,11,62.0,682.0,WASTE,Gulf Foods Trading
+2026-11-03,PRD-0002,Cucumber,Fresh Produce,LOC-005,11,14.0,154.0,WASTE,Gulf Foods Trading
+2026-11-03,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,15,24.0,360.0,WASTE,Al Meera Supply
+2026-11-04,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,12,48.0,576.0,WASTE,Global Beverages
+2026-11-04,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,12,12.0,144.0,WASTE,Global Beverages
+2026-11-04,PRD-0043,Red Apple 3,Fresh Produce,LOC-005,14,42.0,588.0,WASTE,Central Bakery
+2026-11-04,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,5,16.0,80.0,WASTE,Gulf Foods Trading
+2026-11-04,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,6,12.0,72.0,WASTE,Qatar Dairy Co.
+2026-11-04,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,16,14.0,224.0,WASTE,Global Beverages
+2026-11-04,PRD-0017,Yogurt 1kg,Dairy,LOC-005,10,24.0,240.0,WASTE,Fresh Farms Co.
+2026-11-04,PRD-0002,Cucumber,Fresh Produce,LOC-005,6,14.0,84.0,WASTE,Gulf Foods Trading
+2026-11-04,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,14,42.0,588.0,WASTE,Gulf Foods Trading
+2026-11-04,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,9,4.0,36.0,WASTE,Gulf Foods Trading
+2026-11-04,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,17,4.0,68.0,WASTE,Qatar Dairy Co.
+2026-11-04,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,12,4.0,48.0,WASTE,Qatar Dairy Co.
+2026-11-04,PRD-0066,Potato 4,Fresh Produce,LOC-005,6,13.0,78.0,WASTE,Qatar Dairy Co.
+2026-11-05,PRD-0018,Eggs 30pcs,Dairy,LOC-005,17,62.0,1054.0,WASTE,Fresh Farms Co.
+2026-11-05,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,9,48.0,432.0,WASTE,Al Meera Supply
+2026-11-05,PRD-0024,Banana 2,Fresh Produce,LOC-005,7,22.0,154.0,WASTE,National Meat Co.
+2026-11-05,PRD-0002,Cucumber,Fresh Produce,LOC-005,9,14.0,126.0,WASTE,Gulf Foods Trading
+2026-11-05,PRD-0015,Milk Full Fat 1L,Dairy,LOC-005,16,22.0,352.0,WASTE,National Meat Co.
+2026-11-05,PRD-0027,Onion 2,Fresh Produce,LOC-005,13,15.0,195.0,WASTE,Fresh Farms Co.
+2026-11-05,PRD-0002,Cucumber,Fresh Produce,LOC-005,16,14.0,224.0,WASTE,Gulf Foods Trading
+2026-11-05,PRD-0026,Potato 2,Fresh Produce,LOC-005,11,13.0,143.0,WASTE,Central Bakery
+2026-11-05,PRD-0066,Potato 4,Fresh Produce,LOC-005,14,13.0,182.0,WASTE,Qatar Dairy Co.
+2026-11-05,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,17,18.0,306.0,WASTE,Qatar Dairy Co.
+2026-11-05,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,16,12.0,192.0,WASTE,Central Bakery
+2026-11-05,PRD-0016,White Cheese 500g,Dairy,LOC-005,4,48.0,192.0,WASTE,Al Meera Supply
+2026-11-05,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,11,4.0,44.0,WASTE,Qatar Dairy Co.
+2026-11-05,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,6,16.0,96.0,WASTE,Global Beverages
+2026-11-05,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,16,4.0,64.0,WASTE,Gulf Foods Trading
+2026-11-05,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,7,48.0,336.0,WASTE,Global Beverages
+2026-11-05,PRD-0020,Croissant 4pcs,Bakery,LOC-005,6,18.0,108.0,WASTE,Al Meera Supply
+2026-11-06,PRD-0020,Croissant 4pcs,Bakery,LOC-005,6,18.0,108.0,WASTE,Al Meera Supply
+2026-11-06,PRD-0065,Lettuce 4,Fresh Produce,LOC-005,5,12.0,60.0,WASTE,Global Beverages
+2026-11-06,PRD-0066,Potato 4,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Qatar Dairy Co.
+2026-11-06,PRD-0017,Yogurt 1kg,Dairy,LOC-005,4,24.0,96.0,WASTE,Fresh Farms Co.
+2026-11-06,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,10,14.0,140.0,WASTE,Fresh Farms Co.
+2026-11-06,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,6,18.0,108.0,WASTE,Global Beverages
+2026-11-06,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,16,22.0,352.0,WASTE,Qatar Dairy Co.
+2026-11-06,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,17,42.0,714.0,WASTE,National Meat Co.
+2026-11-06,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,14,48.0,672.0,WASTE,Qatar Dairy Co.
+2026-11-06,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,7,22.0,154.0,WASTE,Fresh Farms Co.
+2026-11-06,PRD-0044,Banana 3,Fresh Produce,LOC-005,8,22.0,176.0,WASTE,Fresh Farms Co.
+2026-11-06,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,15,48.0,720.0,WASTE,Qatar Dairy Co.
+2026-11-06,PRD-0064,Banana 4,Fresh Produce,LOC-005,10,22.0,220.0,WASTE,National Meat Co.
+2026-11-06,PRD-0026,Potato 2,Fresh Produce,LOC-005,9,13.0,117.0,WASTE,Central Bakery
+2026-11-06,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,17,12.0,204.0,WASTE,Central Bakery
+2026-11-06,PRD-0005,Lettuce,Fresh Produce,LOC-005,7,12.0,84.0,WASTE,National Meat Co.
+2026-11-06,PRD-0066,Potato 4,Fresh Produce,LOC-005,11,13.0,143.0,WASTE,Qatar Dairy Co.
+2026-11-06,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,10,22.0,220.0,WASTE,Qatar Dairy Co.
+2026-11-06,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,14,22.0,308.0,WASTE,Qatar Dairy Co.
+2026-11-07,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,12,18.0,216.0,WASTE,Qatar Dairy Co.
+2026-11-07,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,12,42.0,504.0,WASTE,National Meat Co.
+2026-11-07,PRD-0002,Cucumber,Fresh Produce,LOC-005,16,14.0,224.0,WASTE,Gulf Foods Trading
+2026-11-07,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,14,14.0,196.0,WASTE,Gulf Foods Trading
+2026-11-07,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,17,16.0,272.0,WASTE,Gulf Foods Trading
+2026-11-07,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,13,12.0,156.0,WASTE,Qatar Dairy Co.
+2026-11-07,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,13,4.0,52.0,WASTE,National Meat Co.
+2026-11-07,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,15,24.0,360.0,WASTE,National Meat Co.
+2026-11-07,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,4,48.0,192.0,WASTE,Qatar Dairy Co.
+2026-11-07,PRD-0060,Croissant 4pcs 3,Bakery,LOC-005,5,18.0,90.0,WASTE,Qatar Dairy Co.
+2026-11-07,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,9,24.0,216.0,WASTE,Al Meera Supply
+2026-11-07,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,10,62.0,620.0,WASTE,Qatar Dairy Co.
+2026-11-07,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,11,18.0,198.0,WASTE,Fresh Farms Co.
+2026-11-07,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,12,16.0,192.0,WASTE,Gulf Foods Trading
+2026-11-08,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,15,4.0,60.0,WASTE,National Meat Co.
+2026-11-08,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,7,18.0,126.0,WASTE,Global Beverages
+2026-11-08,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,7,14.0,98.0,WASTE,Global Beverages
+2026-11-08,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,15,4.0,60.0,WASTE,Gulf Foods Trading
+2026-11-08,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,16,14.0,224.0,WASTE,Gulf Foods Trading
+2026-11-08,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,5,18.0,90.0,WASTE,Fresh Farms Co.
+2026-11-08,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,6,42.0,252.0,WASTE,Gulf Foods Trading
+2026-11-08,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,7,18.0,126.0,WASTE,Fresh Farms Co.
+2026-11-08,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,9,16.0,144.0,WASTE,Global Beverages
+2026-11-08,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,11,16.0,176.0,WASTE,Global Beverages
+2026-11-08,PRD-0026,Potato 2,Fresh Produce,LOC-005,6,13.0,78.0,WASTE,Central Bakery
+2026-11-08,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,4,14.0,56.0,WASTE,Global Beverages
+2026-11-08,PRD-0078,Eggs 30pcs 4,Dairy,LOC-005,7,62.0,434.0,WASTE,Gulf Foods Trading
+2026-11-08,PRD-0006,Potato,Fresh Produce,LOC-005,7,13.0,91.0,WASTE,Fresh Farms Co.
+2026-11-08,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,12,16.0,192.0,WASTE,Al Meera Supply
+2026-11-08,PRD-0016,White Cheese 500g,Dairy,LOC-005,17,48.0,816.0,WASTE,Al Meera Supply
+2026-11-08,PRD-0056,White Cheese 500g 3,Dairy,LOC-005,8,48.0,384.0,WASTE,Global Beverages
+2026-11-08,PRD-0064,Banana 4,Fresh Produce,LOC-005,9,22.0,198.0,WASTE,National Meat Co.
+2026-11-09,PRD-0067,Onion 4,Fresh Produce,LOC-005,8,15.0,120.0,WASTE,Global Beverages
+2026-11-09,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,15,12.0,180.0,WASTE,Central Bakery
+2026-11-09,PRD-0024,Banana 2,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,National Meat Co.
+2026-11-09,PRD-0057,Yogurt 1kg 3,Dairy,LOC-005,11,24.0,264.0,WASTE,Al Meera Supply
+2026-11-09,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,12,22.0,264.0,WASTE,Qatar Dairy Co.
+2026-11-09,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,11,22.0,242.0,WASTE,Al Meera Supply
+2026-11-09,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,9,22.0,198.0,WASTE,Qatar Dairy Co.
+2026-11-09,PRD-0040,Croissant 4pcs 2,Bakery,LOC-005,5,18.0,90.0,WASTE,Fresh Farms Co.
+2026-11-09,PRD-0044,Banana 3,Fresh Produce,LOC-005,16,22.0,352.0,WASTE,Fresh Farms Co.
+2026-11-09,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,11,4.0,44.0,WASTE,Qatar Dairy Co.
+2026-11-09,PRD-0062,Cucumber 4,Fresh Produce,LOC-005,6,14.0,84.0,WASTE,Gulf Foods Trading
+2026-11-09,PRD-0046,Potato 3,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Al Meera Supply
+2026-11-09,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,15,22.0,330.0,WASTE,Al Meera Supply
+2026-11-09,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,13,48.0,624.0,WASTE,Qatar Dairy Co.
+2026-11-09,PRD-0005,Lettuce,Fresh Produce,LOC-005,5,12.0,60.0,WASTE,National Meat Co.
+2026-11-09,PRD-0003,Red Apple,Fresh Produce,LOC-005,5,42.0,210.0,WASTE,Global Beverages
+2026-11-09,PRD-0017,Yogurt 1kg,Dairy,LOC-005,14,24.0,336.0,WASTE,Fresh Farms Co.
+2026-11-09,PRD-0046,Potato 3,Fresh Produce,LOC-005,12,13.0,156.0,WASTE,Al Meera Supply
+2026-11-09,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-005,6,4.0,24.0,WASTE,National Meat Co.
+2026-11-10,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,4,16.0,64.0,WASTE,Global Beverages
+2026-11-10,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,9,62.0,558.0,WASTE,Qatar Dairy Co.
+2026-11-10,PRD-0044,Banana 3,Fresh Produce,LOC-005,12,22.0,264.0,WASTE,Fresh Farms Co.
+2026-11-10,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,6,22.0,132.0,WASTE,Qatar Dairy Co.
+2026-11-10,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-005,14,16.0,224.0,WASTE,Global Beverages
+2026-11-10,PRD-0025,Lettuce 2,Fresh Produce,LOC-005,17,12.0,204.0,WASTE,Central Bakery
+2026-11-10,PRD-0080,Croissant 4pcs 4,Bakery,LOC-005,10,18.0,180.0,WASTE,Global Beverages
+2026-11-10,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,13,22.0,286.0,WASTE,Al Meera Supply
+2026-11-10,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,8,4.0,32.0,WASTE,National Meat Co.
+2026-11-10,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,4,12.0,48.0,WASTE,Qatar Dairy Co.
+2026-11-10,PRD-0006,Potato,Fresh Produce,LOC-005,17,13.0,221.0,WASTE,Fresh Farms Co.
+2026-11-10,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,5,4.0,20.0,WASTE,Qatar Dairy Co.
+2026-11-11,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,4,22.0,88.0,WASTE,Qatar Dairy Co.
+2026-11-11,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,6,22.0,132.0,WASTE,Qatar Dairy Co.
+2026-11-11,PRD-0007,Onion,Fresh Produce,LOC-005,16,15.0,240.0,WASTE,Gulf Foods Trading
+2026-11-11,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,10,22.0,220.0,WASTE,Al Meera Supply
+2026-11-11,PRD-0024,Banana 2,Fresh Produce,LOC-005,8,22.0,176.0,WASTE,National Meat Co.
+2026-11-11,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,National Meat Co.
+2026-11-11,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,13,22.0,286.0,WASTE,Al Meera Supply
+2026-11-11,PRD-0016,White Cheese 500g,Dairy,LOC-005,9,48.0,432.0,WASTE,Al Meera Supply
+2026-11-11,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,13,16.0,208.0,WASTE,Gulf Foods Trading
+2026-11-11,PRD-0024,Banana 2,Fresh Produce,LOC-005,9,22.0,198.0,WASTE,National Meat Co.
+2026-11-11,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,16,4.0,64.0,WASTE,Qatar Dairy Co.
+2026-11-11,PRD-0004,Banana,Fresh Produce,LOC-005,14,22.0,308.0,WASTE,National Meat Co.
+2026-11-11,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,7,42.0,294.0,WASTE,Gulf Foods Trading
+2026-11-11,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,4,4.0,16.0,WASTE,National Meat Co.
+2026-11-12,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,7,12.0,84.0,WASTE,Qatar Dairy Co.
+2026-11-12,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-005,17,16.0,272.0,WASTE,Al Meera Supply
+2026-11-12,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-005,12,22.0,264.0,WASTE,Qatar Dairy Co.
+2026-11-12,PRD-0020,Croissant 4pcs,Bakery,LOC-005,16,18.0,288.0,WASTE,Al Meera Supply
+2026-11-12,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,15,4.0,60.0,WASTE,Qatar Dairy Co.
+2026-11-12,PRD-0067,Onion 4,Fresh Produce,LOC-005,5,15.0,75.0,WASTE,Global Beverages
+2026-11-12,PRD-0007,Onion,Fresh Produce,LOC-005,7,15.0,105.0,WASTE,Gulf Foods Trading
+2026-11-12,PRD-0024,Banana 2,Fresh Produce,LOC-005,12,22.0,264.0,WASTE,National Meat Co.
+2026-11-12,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,16,42.0,672.0,WASTE,Gulf Foods Trading
+2026-11-12,PRD-0006,Potato,Fresh Produce,LOC-005,8,13.0,104.0,WASTE,Fresh Farms Co.
+2026-11-12,PRD-0005,Lettuce,Fresh Produce,LOC-005,16,12.0,192.0,WASTE,National Meat Co.
+2026-11-12,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-005,6,16.0,96.0,WASTE,Gulf Foods Trading
+2026-11-12,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-005,7,4.0,28.0,WASTE,National Meat Co.
+2026-11-12,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-005,15,22.0,330.0,WASTE,Al Meera Supply
+2026-11-12,PRD-0067,Onion 4,Fresh Produce,LOC-005,15,15.0,225.0,WASTE,Global Beverages
+2026-11-12,PRD-0017,Yogurt 1kg,Dairy,LOC-005,5,24.0,120.0,WASTE,Fresh Farms Co.
+2026-11-13,PRD-0024,Banana 2,Fresh Produce,LOC-005,12,22.0,264.0,WASTE,National Meat Co.
+2026-11-13,PRD-0007,Onion,Fresh Produce,LOC-005,4,15.0,60.0,WASTE,Gulf Foods Trading
+2026-11-13,PRD-0047,Onion 3,Fresh Produce,LOC-005,6,15.0,90.0,WASTE,Gulf Foods Trading
+2026-11-13,PRD-0046,Potato 3,Fresh Produce,LOC-005,6,13.0,78.0,WASTE,Al Meera Supply
+2026-11-13,PRD-0024,Banana 2,Fresh Produce,LOC-005,9,22.0,198.0,WASTE,National Meat Co.
+2026-11-13,PRD-0038,Eggs 30pcs 2,Dairy,LOC-005,12,62.0,744.0,WASTE,Gulf Foods Trading
+2026-11-13,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,5,42.0,210.0,WASTE,National Meat Co.
+2026-11-13,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-005,12,22.0,264.0,WASTE,Fresh Farms Co.
+2026-11-13,PRD-0037,Yogurt 1kg 2,Dairy,LOC-005,16,24.0,384.0,WASTE,Al Meera Supply
+2026-11-13,PRD-0063,Red Apple 4,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,National Meat Co.
+2026-11-13,PRD-0066,Potato 4,Fresh Produce,LOC-005,9,13.0,117.0,WASTE,Qatar Dairy Co.
+2026-11-13,PRD-0067,Onion 4,Fresh Produce,LOC-005,16,15.0,240.0,WASTE,Global Beverages
+2026-11-13,PRD-0066,Potato 4,Fresh Produce,LOC-005,13,13.0,169.0,WASTE,Qatar Dairy Co.
+2026-11-13,PRD-0019,Arabic Bread Pack,Bakery,LOC-005,4,4.0,16.0,WASTE,Qatar Dairy Co.
+2026-11-13,PRD-0044,Banana 3,Fresh Produce,LOC-005,6,22.0,132.0,WASTE,Fresh Farms Co.
+2026-11-13,PRD-0023,Red Apple 2,Fresh Produce,LOC-005,9,42.0,378.0,WASTE,Gulf Foods Trading
+2026-11-13,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,7,14.0,98.0,WASTE,Fresh Farms Co.
+2026-11-13,PRD-0024,Banana 2,Fresh Produce,LOC-005,15,22.0,330.0,WASTE,National Meat Co.
+2026-11-14,PRD-0036,White Cheese 500g 2,Dairy,LOC-005,14,48.0,672.0,WASTE,Al Meera Supply
+2026-11-14,PRD-0026,Potato 2,Fresh Produce,LOC-005,5,13.0,65.0,WASTE,Central Bakery
+2026-11-14,PRD-0022,Cucumber 2,Fresh Produce,LOC-005,17,14.0,238.0,WASTE,Fresh Farms Co.
+2026-11-14,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,15,16.0,240.0,WASTE,Gulf Foods Trading
+2026-11-14,PRD-0002,Cucumber,Fresh Produce,LOC-005,6,14.0,84.0,WASTE,Gulf Foods Trading
+2026-11-14,PRD-0042,Cucumber 3,Fresh Produce,LOC-005,10,14.0,140.0,WASTE,Global Beverages
+2026-11-14,PRD-0004,Banana,Fresh Produce,LOC-005,7,22.0,154.0,WASTE,National Meat Co.
+2026-11-14,PRD-0001,Tomato Fresh,Fresh Produce,LOC-005,14,16.0,224.0,WASTE,Gulf Foods Trading
+2026-11-14,PRD-0066,Potato 4,Fresh Produce,LOC-005,7,13.0,91.0,WASTE,Qatar Dairy Co.
+2026-11-14,PRD-0058,Eggs 30pcs 3,Dairy,LOC-005,15,62.0,930.0,WASTE,Qatar Dairy Co.
+2026-11-14,PRD-0045,Lettuce 3,Fresh Produce,LOC-005,9,12.0,108.0,WASTE,Qatar Dairy Co.
+2026-11-14,PRD-0044,Banana 3,Fresh Produce,LOC-005,11,22.0,242.0,WASTE,Fresh Farms Co.
+2026-11-14,PRD-0004,Banana,Fresh Produce,LOC-005,14,22.0,308.0,WASTE,National Meat Co.
+2026-11-14,PRD-0005,Lettuce,Fresh Produce,LOC-005,4,12.0,48.0,WASTE,National Meat Co.
+2026-11-14,PRD-0027,Onion 2,Fresh Produce,LOC-005,7,15.0,105.0,WASTE,Fresh Farms Co.
+2026-11-14,PRD-0076,White Cheese 500g 4,Dairy,LOC-005,10,48.0,480.0,WASTE,Qatar Dairy Co.
+2026-11-14,PRD-0077,Yogurt 1kg 4,Dairy,LOC-005,4,24.0,96.0,WASTE,National Meat Co.
+2026-11-14,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-005,15,4.0,60.0,WASTE,Gulf Foods Trading

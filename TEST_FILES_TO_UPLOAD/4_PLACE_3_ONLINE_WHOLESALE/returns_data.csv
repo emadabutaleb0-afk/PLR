@@ -1,0 +1,991 @@
+﻿return_id,return_date,transaction_id,product_id,product_name,category,location_id,customer_id,return_reason,quantity,refund_amount,quality_issue
+RET-S3-70001,2026-08-01,TXN-S3-140001,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,3,54.0,Yes
+RET-S3-70002,2026-08-01,TXN-S3-140002,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,19.5,Yes
+RET-S3-70003,2026-08-01,TXN-S3-140003,PRD-0018,Eggs 30pcs,Dairy,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,246.0,Yes
+RET-S3-70004,2026-08-01,TXN-S3-140004,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-006,CUST-003,Wrong Item Delivered,3,88.5,Yes
+RET-S3-70005,2026-08-01,TXN-S3-140005,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,3,55.5,Yes
+RET-S3-70006,2026-08-01,TXN-S3-140006,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-003,Damaged in Shipping,3,1140.0,Yes
+RET-S3-70007,2026-08-01,TXN-S3-140007,PRD-0031,Basmati Rice 5kg 2,Grocery,LOC-006,CUST-004,Quality Below Standard,3,504.0,Yes
+RET-S3-70008,2026-08-01,TXN-S3-140008,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,640.0,Yes
+RET-S3-70009,2026-08-01,TXN-S3-140009,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,3,55.5,Yes
+RET-S3-70010,2026-08-01,TXN-S3-140010,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-003,Wrong Item Delivered,1,320.0,Yes
+RET-S3-70011,2026-08-01,TXN-S3-140011,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-002,Damaged in Shipping,2,52.0,Yes
+RET-S3-70012,2026-08-01,TXN-S3-140012,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,114.0,Yes
+RET-S3-70013,2026-08-01,TXN-S3-140013,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-004,Wrong Item Delivered,3,96.0,Yes
+RET-S3-70014,2026-08-02,TXN-S3-140014,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-006,CUST-003,Quality Below Standard,2,59.0,Yes
+RET-S3-70015,2026-08-02,TXN-S3-140015,PRD-0037,Yogurt 1kg 2,Dairy,LOC-006,CUST-005,Damaged in Shipping,1,33.0,Yes
+RET-S3-70016,2026-08-02,TXN-S3-140016,PRD-0032,Sunflower Oil 1.5L 2,Grocery,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,285.0,Yes
+RET-S3-70017,2026-08-02,TXN-S3-140017,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,190.0,Yes
+RET-S3-70018,2026-08-02,TXN-S3-140018,PRD-0070,Lamb Chops 4,Meat & Poultry,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,1140.0,Yes
+RET-S3-70019,2026-08-02,TXN-S3-140019,PRD-0070,Lamb Chops 4,Meat & Poultry,LOC-006,CUST-003,Wrong Item Delivered,3,1140.0,Yes
+RET-S3-70020,2026-08-02,TXN-S3-140020,PRD-0036,White Cheese 500g 2,Dairy,LOC-006,CUST-003,Wrong Item Delivered,2,134.0,Yes
+RET-S3-70021,2026-08-03,TXN-S3-140021,PRD-0064,Banana 4,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,96.0,Yes
+RET-S3-70022,2026-08-03,TXN-S3-140022,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,2,64.0,Yes
+RET-S3-70023,2026-08-03,TXN-S3-140023,PRD-0031,Basmati Rice 5kg 2,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,336.0,Yes
+RET-S3-70024,2026-08-03,TXN-S3-140024,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-002,Wrong Item Delivered,3,99.0,Yes
+RET-S3-70025,2026-08-03,TXN-S3-140025,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-002,Quality Below Standard,2,59.0,Yes
+RET-S3-70026,2026-08-03,TXN-S3-140026,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-003,Wrong Item Delivered,3,1140.0,Yes
+RET-S3-70027,2026-08-03,TXN-S3-140027,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-004,Quality Below Standard,1,33.0,Yes
+RET-S3-70028,2026-08-03,TXN-S3-140028,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,1,22.5,Yes
+RET-S3-70029,2026-08-03,TXN-S3-140029,PRD-0037,Yogurt 1kg 2,Dairy,LOC-006,CUST-005,Quality Below Standard,1,33.0,Yes
+RET-S3-70030,2026-08-03,TXN-S3-140030,PRD-0078,Eggs 30pcs 4,Dairy,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,246.0,Yes
+RET-S3-70031,2026-08-04,TXN-S3-140031,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,2,36.0,Yes
+RET-S3-70032,2026-08-04,TXN-S3-140032,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,2,36.0,Yes
+RET-S3-70033,2026-08-04,TXN-S3-140033,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,32.0,Yes
+RET-S3-70034,2026-08-04,TXN-S3-140034,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,1,22.5,Yes
+RET-S3-70035,2026-08-04,TXN-S3-140035,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-003,Wrong Item Delivered,2,640.0,Yes
+RET-S3-70036,2026-08-04,TXN-S3-140036,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-006,CUST-003,Wrong Item Delivered,1,29.5,Yes
+RET-S3-70037,2026-08-04,TXN-S3-140037,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,3,96.0,Yes
+RET-S3-70038,2026-08-04,TXN-S3-140038,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-005,Wrong Item Delivered,2,760.0,Yes
+RET-S3-70039,2026-08-05,TXN-S3-140039,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-004,Wrong Item Delivered,1,29.5,Yes
+RET-S3-70040,2026-08-05,TXN-S3-140040,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,37.0,Yes
+RET-S3-70041,2026-08-05,TXN-S3-140041,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-002,Wrong Item Delivered,2,39.0,Yes
+RET-S3-70042,2026-08-05,TXN-S3-140042,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-001,Wrong Item Delivered,2,52.0,Yes
+RET-S3-70043,2026-08-05,TXN-S3-140043,PRD-0065,Lettuce 4,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,18.0,Yes
+RET-S3-70044,2026-08-05,TXN-S3-140044,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-003,Quality Below Standard,3,156.0,Yes
+RET-S3-70045,2026-08-05,TXN-S3-140045,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,2,39.0,Yes
+RET-S3-70046,2026-08-05,TXN-S3-140046,PRD-0040,Croissant 4pcs 2,Bakery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,52.0,Yes
+RET-S3-70047,2026-08-05,TXN-S3-140047,PRD-0050,Lamb Chops 3,Meat & Poultry,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,760.0,Yes
+RET-S3-70048,2026-08-06,TXN-S3-140048,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,960.0,Yes
+RET-S3-70049,2026-08-06,TXN-S3-140049,PRD-0053,Sugar 2kg 3,Grocery,LOC-006,CUST-004,Wrong Item Delivered,1,52.0,Yes
+RET-S3-70050,2026-08-06,TXN-S3-140050,PRD-0037,Yogurt 1kg 2,Dairy,LOC-006,CUST-002,Wrong Item Delivered,1,33.0,Yes
+RET-S3-70051,2026-08-06,TXN-S3-140051,PRD-0053,Sugar 2kg 3,Grocery,LOC-006,CUST-003,Damaged in Shipping,1,52.0,Yes
+RET-S3-70052,2026-08-06,TXN-S3-140052,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-002,Damaged in Shipping,1,52.0,Yes
+RET-S3-70053,2026-08-06,TXN-S3-140053,PRD-0036,White Cheese 500g 2,Dairy,LOC-006,CUST-001,Wrong Item Delivered,1,67.0,Yes
+RET-S3-70054,2026-08-06,TXN-S3-140054,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-006,CUST-002,Damaged in Shipping,2,760.0,Yes
+RET-S3-70055,2026-08-07,TXN-S3-140055,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-002,Wrong Item Delivered,2,270.0,Yes
+RET-S3-70056,2026-08-07,TXN-S3-140056,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,54.0,Yes
+RET-S3-70057,2026-08-07,TXN-S3-140057,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-005,Damaged in Shipping,1,82.0,Yes
+RET-S3-70058,2026-08-07,TXN-S3-140058,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,59.0,Yes
+RET-S3-70059,2026-08-07,TXN-S3-140059,PRD-0019,Arabic Bread Pack,Bakery,LOC-006,CUST-001,Damaged in Shipping,2,12.0,Yes
+RET-S3-70060,2026-08-07,TXN-S3-140060,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,3,54.0,Yes
+RET-S3-70061,2026-08-07,TXN-S3-140061,PRD-0011,Basmati Rice 5kg,Grocery,LOC-006,CUST-005,Damaged in Shipping,2,336.0,Yes
+RET-S3-70062,2026-08-07,TXN-S3-140062,PRD-0068,Chicken Breast 4,Meat & Poultry,LOC-006,CUST-003,Damaged in Shipping,2,270.0,Yes
+RET-S3-70063,2026-08-07,TXN-S3-140063,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-002,Damaged in Shipping,2,190.0,Yes
+RET-S3-70064,2026-08-07,TXN-S3-140064,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-002,Wrong Item Delivered,3,156.0,Yes
+RET-S3-70065,2026-08-08,TXN-S3-140065,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,3,96.0,Yes
+RET-S3-70066,2026-08-08,TXN-S3-140066,PRD-0023,Red Apple 2,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,3,174.0,Yes
+RET-S3-70067,2026-08-08,TXN-S3-140067,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-005,Quality Below Standard,2,164.0,Yes
+RET-S3-70068,2026-08-08,TXN-S3-140068,PRD-0031,Basmati Rice 5kg 2,Grocery,LOC-006,CUST-004,Wrong Item Delivered,3,504.0,Yes
+RET-S3-70069,2026-08-08,TXN-S3-140069,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,1,22.5,Yes
+RET-S3-70070,2026-08-08,TXN-S3-140070,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-002,Damaged in Shipping,1,52.0,Yes
+RET-S3-70071,2026-08-08,TXN-S3-140071,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-003,Wrong Item Delivered,3,246.0,Yes
+RET-S3-70072,2026-08-08,TXN-S3-140072,PRD-0043,Red Apple 3,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,2,116.0,Yes
+RET-S3-70073,2026-08-08,TXN-S3-140073,PRD-0029,Beef Steak 2,Meat & Poultry,LOC-006,CUST-005,Wrong Item Delivered,3,960.0,Yes
+RET-S3-70074,2026-08-08,TXN-S3-140074,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,1,21.0,Yes
+RET-S3-70075,2026-08-08,TXN-S3-140075,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-002,Quality Below Standard,2,270.0,Yes
+RET-S3-70076,2026-08-08,TXN-S3-140076,PRD-0053,Sugar 2kg 3,Grocery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,104.0,Yes
+RET-S3-70077,2026-08-09,TXN-S3-140077,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-001,Damaged in Shipping,2,59.0,Yes
+RET-S3-70078,2026-08-09,TXN-S3-140078,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-002,Quality Below Standard,3,246.0,Yes
+RET-S3-70079,2026-08-09,TXN-S3-140079,PRD-0025,Lettuce 2,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,18.0,Yes
+RET-S3-70080,2026-08-09,TXN-S3-140080,PRD-0065,Lettuce 4,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,3,54.0,Yes
+RET-S3-70081,2026-08-09,TXN-S3-140081,PRD-0037,Yogurt 1kg 2,Dairy,LOC-006,CUST-005,Damaged in Shipping,1,33.0,Yes
+RET-S3-70082,2026-08-09,TXN-S3-140082,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,33.0,Yes
+RET-S3-70083,2026-08-09,TXN-S3-140083,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,320.0,Yes
+RET-S3-70084,2026-08-09,TXN-S3-140084,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,2,116.0,Yes
+RET-S3-70085,2026-08-10,TXN-S3-140085,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-001,Damaged in Shipping,2,104.0,Yes
+RET-S3-70086,2026-08-10,TXN-S3-140086,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,3,54.0,Yes
+RET-S3-70087,2026-08-10,TXN-S3-140087,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,2,64.0,Yes
+RET-S3-70088,2026-08-10,TXN-S3-140088,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-003,Wrong Item Delivered,3,99.0,Yes
+RET-S3-70089,2026-08-10,TXN-S3-140089,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,54.0,Yes
+RET-S3-70090,2026-08-10,TXN-S3-140090,PRD-0025,Lettuce 2,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,36.0,Yes
+RET-S3-70091,2026-08-10,TXN-S3-140091,PRD-0037,Yogurt 1kg 2,Dairy,LOC-006,CUST-003,Quality Below Standard,3,99.0,Yes
+RET-S3-70092,2026-08-10,TXN-S3-140092,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-005,Damaged in Shipping,1,29.5,Yes
+RET-S3-70093,2026-08-10,TXN-S3-140093,PRD-0018,Eggs 30pcs,Dairy,LOC-006,CUST-004,Damaged in Shipping,1,82.0,Yes
+RET-S3-70094,2026-08-11,TXN-S3-140094,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,405.0,Yes
+RET-S3-70095,2026-08-11,TXN-S3-140095,PRD-0078,Eggs 30pcs 4,Dairy,LOC-006,CUST-003,Wrong Item Delivered,2,164.0,Yes
+RET-S3-70096,2026-08-11,TXN-S3-140096,PRD-0002,Cucumber,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,1,19.5,Yes
+RET-S3-70097,2026-08-11,TXN-S3-140097,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,3,174.0,Yes
+RET-S3-70098,2026-08-11,TXN-S3-140098,PRD-0019,Arabic Bread Pack,Bakery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,18.0,Yes
+RET-S3-70099,2026-08-11,TXN-S3-140099,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-003,Wrong Item Delivered,1,33.0,Yes
+RET-S3-70100,2026-08-11,TXN-S3-140100,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,67.0,Yes
+RET-S3-70101,2026-08-11,TXN-S3-140101,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,760.0,Yes
+RET-S3-70102,2026-08-12,TXN-S3-140102,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,32.0,Yes
+RET-S3-70103,2026-08-12,TXN-S3-140103,PRD-0028,Chicken Breast 2,Meat & Poultry,LOC-006,CUST-002,Damaged in Shipping,3,405.0,Yes
+RET-S3-70104,2026-08-12,TXN-S3-140104,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,3,55.5,Yes
+RET-S3-70105,2026-08-12,TXN-S3-140105,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-005,Wrong Item Delivered,2,66.0,Yes
+RET-S3-70106,2026-08-12,TXN-S3-140106,PRD-0032,Sunflower Oil 1.5L 2,Grocery,LOC-006,CUST-004,Damaged in Shipping,1,95.0,Yes
+RET-S3-70107,2026-08-12,TXN-S3-140107,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-004,Wrong Item Delivered,2,640.0,Yes
+RET-S3-70108,2026-08-12,TXN-S3-140108,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-004,Quality Below Standard,2,59.0,Yes
+RET-S3-70109,2026-08-12,TXN-S3-140109,PRD-0011,Basmati Rice 5kg,Grocery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,168.0,Yes
+RET-S3-70110,2026-08-12,TXN-S3-140110,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-005,Wrong Item Delivered,3,201.0,Yes
+RET-S3-70111,2026-08-12,TXN-S3-140111,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-003,Wrong Item Delivered,1,135.0,Yes
+RET-S3-70112,2026-08-13,TXN-S3-140112,PRD-0070,Lamb Chops 4,Meat & Poultry,LOC-006,CUST-005,Quality Below Standard,2,760.0,Yes
+RET-S3-70113,2026-08-13,TXN-S3-140113,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,38.0,Yes
+RET-S3-70114,2026-08-13,TXN-S3-140114,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-004,Damaged in Shipping,1,95.0,Yes
+RET-S3-70115,2026-08-13,TXN-S3-140115,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-005,Wrong Item Delivered,2,52.0,Yes
+RET-S3-70116,2026-08-13,TXN-S3-140116,PRD-0078,Eggs 30pcs 4,Dairy,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,164.0,Yes
+RET-S3-70117,2026-08-13,TXN-S3-140117,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,1,32.0,Yes
+RET-S3-70118,2026-08-13,TXN-S3-140118,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,1,32.0,Yes
+RET-S3-70119,2026-08-13,TXN-S3-140119,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-001,Quality Below Standard,1,82.0,Yes
+RET-S3-70120,2026-08-13,TXN-S3-140120,PRD-0074,Flour 2kg 4,Grocery,LOC-006,CUST-004,Quality Below Standard,1,38.0,Yes
+RET-S3-70121,2026-08-13,TXN-S3-140121,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-002,Quality Below Standard,1,82.0,Yes
+RET-S3-70122,2026-08-14,TXN-S3-140122,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,3,54.0,Yes
+RET-S3-70123,2026-08-14,TXN-S3-140123,PRD-0054,Flour 2kg 3,Grocery,LOC-006,CUST-001,Quality Below Standard,1,38.0,Yes
+RET-S3-70124,2026-08-14,TXN-S3-140124,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-004,Wrong Item Delivered,3,78.0,Yes
+RET-S3-70125,2026-08-14,TXN-S3-140125,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-006,CUST-001,Damaged in Shipping,3,18.0,Yes
+RET-S3-70126,2026-08-14,TXN-S3-140126,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,67.5,Yes
+RET-S3-70127,2026-08-14,TXN-S3-140127,PRD-0025,Lettuce 2,Fresh Produce,LOC-006,CUST-002,Wrong Item Delivered,2,36.0,Yes
+RET-S3-70128,2026-08-14,TXN-S3-140128,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-004,Quality Below Standard,2,104.0,Yes
+RET-S3-70129,2026-08-15,TXN-S3-140129,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,1,135.0,Yes
+RET-S3-70130,2026-08-15,TXN-S3-140130,PRD-0011,Basmati Rice 5kg,Grocery,LOC-006,CUST-003,Damaged in Shipping,3,504.0,Yes
+RET-S3-70131,2026-08-15,TXN-S3-140131,PRD-0012,Sunflower Oil 1.5L,Grocery,LOC-006,CUST-001,Quality Below Standard,1,95.0,Yes
+RET-S3-70132,2026-08-15,TXN-S3-140132,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-002,Wrong Item Delivered,1,38.0,Yes
+RET-S3-70133,2026-08-15,TXN-S3-140133,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,3,63.0,Yes
+RET-S3-70134,2026-08-15,TXN-S3-140134,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-003,Damaged in Shipping,3,78.0,Yes
+RET-S3-70135,2026-08-15,TXN-S3-140135,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-002,Wrong Item Delivered,2,66.0,Yes
+RET-S3-70136,2026-08-16,TXN-S3-140136,PRD-0058,Eggs 30pcs 3,Dairy,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,82.0,Yes
+RET-S3-70137,2026-08-16,TXN-S3-140137,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-001,Wrong Item Delivered,1,52.0,Yes
+RET-S3-70138,2026-08-16,TXN-S3-140138,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,78.0,Yes
+RET-S3-70139,2026-08-16,TXN-S3-140139,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,1,22.5,Yes
+RET-S3-70140,2026-08-16,TXN-S3-140140,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,3,55.5,Yes
+RET-S3-70141,2026-08-16,TXN-S3-140141,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-005,Damaged in Shipping,1,135.0,Yes
+RET-S3-70142,2026-08-16,TXN-S3-140142,PRD-0007,Onion,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,1,21.0,Yes
+RET-S3-70143,2026-08-16,TXN-S3-140143,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,52.0,Yes
+RET-S3-70144,2026-08-16,TXN-S3-140144,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-005,Quality Below Standard,2,52.0,Yes
+RET-S3-70145,2026-08-16,TXN-S3-140145,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,36.0,Yes
+RET-S3-70146,2026-08-17,TXN-S3-140146,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-006,CUST-002,Damaged in Shipping,3,18.0,Yes
+RET-S3-70147,2026-08-17,TXN-S3-140147,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-001,Wrong Item Delivered,1,29.5,Yes
+RET-S3-70148,2026-08-17,TXN-S3-140148,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-005,Quality Below Standard,1,95.0,Yes
+RET-S3-70149,2026-08-17,TXN-S3-140149,PRD-0070,Lamb Chops 4,Meat & Poultry,LOC-006,CUST-002,Quality Below Standard,2,760.0,Yes
+RET-S3-70150,2026-08-17,TXN-S3-140150,PRD-0058,Eggs 30pcs 3,Dairy,LOC-006,CUST-002,Wrong Item Delivered,2,164.0,Yes
+RET-S3-70151,2026-08-17,TXN-S3-140151,PRD-0002,Cucumber,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,3,58.5,Yes
+RET-S3-70152,2026-08-18,TXN-S3-140152,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,164.0,Yes
+RET-S3-70153,2026-08-18,TXN-S3-140153,PRD-0007,Onion,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,2,42.0,Yes
+RET-S3-70154,2026-08-18,TXN-S3-140154,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-001,Quality Below Standard,3,88.5,Yes
+RET-S3-70155,2026-08-18,TXN-S3-140155,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,1,32.0,Yes
+RET-S3-70156,2026-08-18,TXN-S3-140156,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,45.0,Yes
+RET-S3-70157,2026-08-18,TXN-S3-140157,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,2,36.0,Yes
+RET-S3-70158,2026-08-18,TXN-S3-140158,PRD-0029,Beef Steak 2,Meat & Poultry,LOC-006,CUST-001,Quality Below Standard,2,640.0,Yes
+RET-S3-70159,2026-08-18,TXN-S3-140159,PRD-0068,Chicken Breast 4,Meat & Poultry,LOC-006,CUST-005,Wrong Item Delivered,2,270.0,Yes
+RET-S3-70160,2026-08-19,TXN-S3-140160,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,59.0,Yes
+RET-S3-70161,2026-08-19,TXN-S3-140161,PRD-0046,Potato 3,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,1,18.5,Yes
+RET-S3-70162,2026-08-19,TXN-S3-140162,PRD-0068,Chicken Breast 4,Meat & Poultry,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,270.0,Yes
+RET-S3-70163,2026-08-19,TXN-S3-140163,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,2,45.0,Yes
+RET-S3-70164,2026-08-19,TXN-S3-140164,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-003,Wrong Item Delivered,3,99.0,Yes
+RET-S3-70165,2026-08-19,TXN-S3-140165,PRD-0027,Onion 2,Fresh Produce,LOC-006,CUST-002,Wrong Item Delivered,1,21.0,Yes
+RET-S3-70166,2026-08-19,TXN-S3-140166,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,3,67.5,Yes
+RET-S3-70167,2026-08-19,TXN-S3-140167,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-004,Damaged in Shipping,1,33.0,Yes
+RET-S3-70168,2026-08-19,TXN-S3-140168,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-001,Wrong Item Delivered,3,99.0,Yes
+RET-S3-70169,2026-08-19,TXN-S3-140169,PRD-0078,Eggs 30pcs 4,Dairy,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,164.0,Yes
+RET-S3-70170,2026-08-19,TXN-S3-140170,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-005,Damaged in Shipping,1,6.0,Yes
+RET-S3-70171,2026-08-19,TXN-S3-140171,PRD-0037,Yogurt 1kg 2,Dairy,LOC-006,CUST-003,Quality Below Standard,3,99.0,Yes
+RET-S3-70172,2026-08-19,TXN-S3-140172,PRD-0011,Basmati Rice 5kg,Grocery,LOC-006,CUST-003,Damaged in Shipping,2,336.0,Yes
+RET-S3-70173,2026-08-20,TXN-S3-140173,PRD-0074,Flour 2kg 4,Grocery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,76.0,Yes
+RET-S3-70174,2026-08-20,TXN-S3-140174,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,2,116.0,Yes
+RET-S3-70175,2026-08-20,TXN-S3-140175,PRD-0012,Sunflower Oil 1.5L,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,95.0,Yes
+RET-S3-70176,2026-08-20,TXN-S3-140176,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-001,Wrong Item Delivered,1,38.0,Yes
+RET-S3-70177,2026-08-20,TXN-S3-140177,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-006,CUST-003,Wrong Item Delivered,2,336.0,Yes
+RET-S3-70178,2026-08-20,TXN-S3-140178,PRD-0062,Cucumber 4,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,1,19.5,Yes
+RET-S3-70179,2026-08-20,TXN-S3-140179,PRD-0007,Onion,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,3,63.0,Yes
+RET-S3-70180,2026-08-20,TXN-S3-140180,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,114.0,Yes
+RET-S3-70181,2026-08-20,TXN-S3-140181,PRD-0006,Potato,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,1,18.5,Yes
+RET-S3-70182,2026-08-20,TXN-S3-140182,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-005,Damaged in Shipping,2,190.0,Yes
+RET-S3-70183,2026-08-20,TXN-S3-140183,PRD-0002,Cucumber,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,39.0,Yes
+RET-S3-70184,2026-08-20,TXN-S3-140184,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,2,42.0,Yes
+RET-S3-70185,2026-08-21,TXN-S3-140185,PRD-0062,Cucumber 4,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,1,19.5,Yes
+RET-S3-70186,2026-08-21,TXN-S3-140186,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,3,55.5,Yes
+RET-S3-70187,2026-08-21,TXN-S3-140187,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-002,Wrong Item Delivered,2,12.0,Yes
+RET-S3-70188,2026-08-21,TXN-S3-140188,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-002,Damaged in Shipping,3,156.0,Yes
+RET-S3-70189,2026-08-21,TXN-S3-140189,PRD-0065,Lettuce 4,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,54.0,Yes
+RET-S3-70190,2026-08-21,TXN-S3-140190,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-001,Wrong Item Delivered,1,95.0,Yes
+RET-S3-70191,2026-08-21,TXN-S3-140191,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,18.0,Yes
+RET-S3-70192,2026-08-22,TXN-S3-140192,PRD-0001,Tomato Fresh,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,2,45.0,Yes
+RET-S3-70193,2026-08-22,TXN-S3-140193,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,2,64.0,Yes
+RET-S3-70194,2026-08-22,TXN-S3-140194,PRD-0028,Chicken Breast 2,Meat & Poultry,LOC-006,CUST-005,Quality Below Standard,1,135.0,Yes
+RET-S3-70195,2026-08-22,TXN-S3-140195,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,38.0,Yes
+RET-S3-70196,2026-08-22,TXN-S3-140196,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,2,116.0,Yes
+RET-S3-70197,2026-08-22,TXN-S3-140197,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,270.0,Yes
+RET-S3-70198,2026-08-22,TXN-S3-140198,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,2,42.0,Yes
+RET-S3-70199,2026-08-22,TXN-S3-140199,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,1,32.0,Yes
+RET-S3-70200,2026-08-22,TXN-S3-140200,PRD-0006,Potato,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,3,55.5,Yes
+RET-S3-70201,2026-08-22,TXN-S3-140201,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,3,174.0,Yes
+RET-S3-70202,2026-08-23,TXN-S3-140202,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-004,Quality Below Standard,3,285.0,Yes
+RET-S3-70203,2026-08-23,TXN-S3-140203,PRD-0063,Red Apple 4,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,1,58.0,Yes
+RET-S3-70204,2026-08-23,TXN-S3-140204,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,2,39.0,Yes
+RET-S3-70205,2026-08-23,TXN-S3-140205,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-005,Quality Below Standard,1,52.0,Yes
+RET-S3-70206,2026-08-23,TXN-S3-140206,PRD-0046,Potato 3,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,1,18.5,Yes
+RET-S3-70207,2026-08-23,TXN-S3-140207,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-004,Damaged in Shipping,3,405.0,Yes
+RET-S3-70208,2026-08-23,TXN-S3-140208,PRD-0032,Sunflower Oil 1.5L 2,Grocery,LOC-006,CUST-003,Damaged in Shipping,2,190.0,Yes
+RET-S3-70209,2026-08-23,TXN-S3-140209,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-003,Wrong Item Delivered,2,270.0,Yes
+RET-S3-70210,2026-08-23,TXN-S3-140210,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-006,CUST-003,Quality Below Standard,3,18.0,Yes
+RET-S3-70211,2026-08-23,TXN-S3-140211,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-002,Wrong Item Delivered,1,52.0,Yes
+RET-S3-70212,2026-08-24,TXN-S3-140212,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,960.0,Yes
+RET-S3-70213,2026-08-24,TXN-S3-140213,PRD-0056,White Cheese 500g 3,Dairy,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,1,67.0,Yes
+RET-S3-70214,2026-08-24,TXN-S3-140214,PRD-0028,Chicken Breast 2,Meat & Poultry,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,135.0,Yes
+RET-S3-70215,2026-08-24,TXN-S3-140215,PRD-0078,Eggs 30pcs 4,Dairy,LOC-006,CUST-002,Quality Below Standard,1,82.0,Yes
+RET-S3-70216,2026-08-24,TXN-S3-140216,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-005,Quality Below Standard,1,38.0,Yes
+RET-S3-70217,2026-08-24,TXN-S3-140217,PRD-0032,Sunflower Oil 1.5L 2,Grocery,LOC-006,CUST-002,Quality Below Standard,3,285.0,Yes
+RET-S3-70218,2026-08-25,TXN-S3-140218,PRD-0050,Lamb Chops 3,Meat & Poultry,LOC-006,CUST-005,Quality Below Standard,3,1140.0,Yes
+RET-S3-70219,2026-08-25,TXN-S3-140219,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,380.0,Yes
+RET-S3-70220,2026-08-25,TXN-S3-140220,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,2,39.0,Yes
+RET-S3-70221,2026-08-25,TXN-S3-140221,PRD-0007,Onion,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,1,21.0,Yes
+RET-S3-70222,2026-08-25,TXN-S3-140222,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-005,Quality Below Standard,3,88.5,Yes
+RET-S3-70223,2026-08-25,TXN-S3-140223,PRD-0063,Red Apple 4,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,1,58.0,Yes
+RET-S3-70224,2026-08-25,TXN-S3-140224,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-002,Wrong Item Delivered,3,1140.0,Yes
+RET-S3-70225,2026-08-25,TXN-S3-140225,PRD-0054,Flour 2kg 3,Grocery,LOC-006,CUST-005,Quality Below Standard,1,38.0,Yes
+RET-S3-70226,2026-08-25,TXN-S3-140226,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-001,Quality Below Standard,1,320.0,Yes
+RET-S3-70227,2026-08-25,TXN-S3-140227,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-001,Wrong Item Delivered,1,52.0,Yes
+RET-S3-70228,2026-08-26,TXN-S3-140228,PRD-0074,Flour 2kg 4,Grocery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,76.0,Yes
+RET-S3-70229,2026-08-26,TXN-S3-140229,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-002,Damaged in Shipping,3,88.5,Yes
+RET-S3-70230,2026-08-26,TXN-S3-140230,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,2,37.0,Yes
+RET-S3-70231,2026-08-26,TXN-S3-140231,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-002,Wrong Item Delivered,1,29.5,Yes
+RET-S3-70232,2026-08-26,TXN-S3-140232,PRD-0002,Cucumber,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,1,19.5,Yes
+RET-S3-70233,2026-08-26,TXN-S3-140233,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-006,CUST-004,Damaged in Shipping,2,760.0,Yes
+RET-S3-70234,2026-08-26,TXN-S3-140234,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,3,174.0,Yes
+RET-S3-70235,2026-08-26,TXN-S3-140235,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,2,39.0,Yes
+RET-S3-70236,2026-08-26,TXN-S3-140236,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,2,36.0,Yes
+RET-S3-70237,2026-08-26,TXN-S3-140237,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,32.0,Yes
+RET-S3-70238,2026-08-26,TXN-S3-140238,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-001,Quality Below Standard,1,320.0,Yes
+RET-S3-70239,2026-08-27,TXN-S3-140239,PRD-0058,Eggs 30pcs 3,Dairy,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,246.0,Yes
+RET-S3-70240,2026-08-27,TXN-S3-140240,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-003,Damaged in Shipping,2,640.0,Yes
+RET-S3-70241,2026-08-27,TXN-S3-140241,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-006,CUST-004,Quality Below Standard,2,12.0,Yes
+RET-S3-70242,2026-08-27,TXN-S3-140242,PRD-0056,White Cheese 500g 3,Dairy,LOC-006,CUST-002,Damaged in Shipping,3,201.0,Yes
+RET-S3-70243,2026-08-27,TXN-S3-140243,PRD-0065,Lettuce 4,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,2,36.0,Yes
+RET-S3-70244,2026-08-27,TXN-S3-140244,PRD-0058,Eggs 30pcs 3,Dairy,LOC-006,CUST-003,Quality Below Standard,1,82.0,Yes
+RET-S3-70245,2026-08-27,TXN-S3-140245,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-005,Damaged in Shipping,2,190.0,Yes
+RET-S3-70246,2026-08-27,TXN-S3-140246,PRD-0078,Eggs 30pcs 4,Dairy,LOC-006,CUST-003,Quality Below Standard,2,164.0,Yes
+RET-S3-70247,2026-08-27,TXN-S3-140247,PRD-0027,Onion 2,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,21.0,Yes
+RET-S3-70248,2026-08-28,TXN-S3-140248,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-003,Wrong Item Delivered,3,156.0,Yes
+RET-S3-70249,2026-08-28,TXN-S3-140249,PRD-0067,Onion 4,Fresh Produce,LOC-006,CUST-004,Wrong Item Delivered,3,63.0,Yes
+RET-S3-70250,2026-08-28,TXN-S3-140250,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,201.0,Yes
+RET-S3-70251,2026-08-28,TXN-S3-140251,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-004,Wrong Item Delivered,2,36.0,Yes
+RET-S3-70252,2026-08-28,TXN-S3-140252,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-002,Damaged in Shipping,3,246.0,Yes
+RET-S3-70253,2026-08-28,TXN-S3-140253,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-003,Damaged in Shipping,3,156.0,Yes
+RET-S3-70254,2026-08-28,TXN-S3-140254,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,18.5,Yes
+RET-S3-70255,2026-08-29,TXN-S3-140255,PRD-0064,Banana 4,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,1,32.0,Yes
+RET-S3-70256,2026-08-29,TXN-S3-140256,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,64.0,Yes
+RET-S3-70257,2026-08-29,TXN-S3-140257,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-003,Wrong Item Delivered,1,320.0,Yes
+RET-S3-70258,2026-08-29,TXN-S3-140258,PRD-0071,Basmati Rice 5kg 4,Grocery,LOC-006,CUST-005,Damaged in Shipping,1,168.0,Yes
+RET-S3-70259,2026-08-29,TXN-S3-140259,PRD-0019,Arabic Bread Pack,Bakery,LOC-006,CUST-003,Damaged in Shipping,1,6.0,Yes
+RET-S3-70260,2026-08-29,TXN-S3-140260,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-005,Quality Below Standard,3,405.0,Yes
+RET-S3-70261,2026-08-29,TXN-S3-140261,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-006,CUST-002,Wrong Item Delivered,2,336.0,Yes
+RET-S3-70262,2026-08-29,TXN-S3-140262,PRD-0067,Onion 4,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,3,63.0,Yes
+RET-S3-70263,2026-08-30,TXN-S3-140263,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,18.0,Yes
+RET-S3-70264,2026-08-30,TXN-S3-140264,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-006,CUST-005,Damaged in Shipping,1,168.0,Yes
+RET-S3-70265,2026-08-30,TXN-S3-140265,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-005,Quality Below Standard,1,320.0,Yes
+RET-S3-70266,2026-08-30,TXN-S3-140266,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-002,Wrong Item Delivered,2,59.0,Yes
+RET-S3-70267,2026-08-30,TXN-S3-140267,PRD-0065,Lettuce 4,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,54.0,Yes
+RET-S3-70268,2026-08-30,TXN-S3-140268,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,2,64.0,Yes
+RET-S3-70269,2026-08-30,TXN-S3-140269,PRD-0078,Eggs 30pcs 4,Dairy,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,82.0,Yes
+RET-S3-70270,2026-08-31,TXN-S3-140270,PRD-0076,White Cheese 500g 4,Dairy,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,201.0,Yes
+RET-S3-70271,2026-08-31,TXN-S3-140271,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-005,Quality Below Standard,2,640.0,Yes
+RET-S3-70272,2026-08-31,TXN-S3-140272,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,52.0,Yes
+RET-S3-70273,2026-08-31,TXN-S3-140273,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,3,285.0,Yes
+RET-S3-70274,2026-08-31,TXN-S3-140274,PRD-0001,Tomato Fresh,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,1,22.5,Yes
+RET-S3-70275,2026-08-31,TXN-S3-140275,PRD-0076,White Cheese 500g 4,Dairy,LOC-006,CUST-003,Damaged in Shipping,3,201.0,Yes
+RET-S3-70276,2026-08-31,TXN-S3-140276,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-001,Wrong Item Delivered,1,320.0,Yes
+RET-S3-70277,2026-08-31,TXN-S3-140277,PRD-0023,Red Apple 2,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,2,116.0,Yes
+RET-S3-70278,2026-08-31,TXN-S3-140278,PRD-0063,Red Apple 4,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,3,174.0,Yes
+RET-S3-70279,2026-08-31,TXN-S3-140279,PRD-0028,Chicken Breast 2,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,3,405.0,Yes
+RET-S3-70280,2026-08-31,TXN-S3-140280,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,2,116.0,Yes
+RET-S3-70281,2026-09-01,TXN-S3-140281,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-004,Quality Below Standard,3,99.0,Yes
+RET-S3-70282,2026-09-01,TXN-S3-140282,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-005,Damaged in Shipping,1,52.0,Yes
+RET-S3-70283,2026-09-01,TXN-S3-140283,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,3,63.0,Yes
+RET-S3-70284,2026-09-01,TXN-S3-140284,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-004,Wrong Item Delivered,2,76.0,Yes
+RET-S3-70285,2026-09-01,TXN-S3-140285,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,1,32.0,Yes
+RET-S3-70286,2026-09-01,TXN-S3-140286,PRD-0040,Croissant 4pcs 2,Bakery,LOC-006,CUST-001,Quality Below Standard,1,26.0,Yes
+RET-S3-70287,2026-09-01,TXN-S3-140287,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,26.0,Yes
+RET-S3-70288,2026-09-01,TXN-S3-140288,PRD-0066,Potato 4,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,2,37.0,Yes
+RET-S3-70289,2026-09-01,TXN-S3-140289,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,3,67.5,Yes
+RET-S3-70290,2026-09-02,TXN-S3-140290,PRD-0063,Red Apple 4,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,3,174.0,Yes
+RET-S3-70291,2026-09-02,TXN-S3-140291,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-005,Quality Below Standard,2,104.0,Yes
+RET-S3-70292,2026-09-02,TXN-S3-140292,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,3,58.5,Yes
+RET-S3-70293,2026-09-02,TXN-S3-140293,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,3,174.0,Yes
+RET-S3-70294,2026-09-02,TXN-S3-140294,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-004,Damaged in Shipping,3,78.0,Yes
+RET-S3-70295,2026-09-02,TXN-S3-140295,PRD-0077,Yogurt 1kg 4,Dairy,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,99.0,Yes
+RET-S3-70296,2026-09-02,TXN-S3-140296,PRD-0053,Sugar 2kg 3,Grocery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,104.0,Yes
+RET-S3-70297,2026-09-02,TXN-S3-140297,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-001,Quality Below Standard,2,190.0,Yes
+RET-S3-70298,2026-09-02,TXN-S3-140298,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,156.0,Yes
+RET-S3-70299,2026-09-02,TXN-S3-140299,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,3,67.5,Yes
+RET-S3-70300,2026-09-03,TXN-S3-140300,PRD-0011,Basmati Rice 5kg,Grocery,LOC-006,CUST-003,Wrong Item Delivered,3,504.0,Yes
+RET-S3-70301,2026-09-03,TXN-S3-140301,PRD-0077,Yogurt 1kg 4,Dairy,LOC-006,CUST-001,Wrong Item Delivered,2,66.0,Yes
+RET-S3-70302,2026-09-03,TXN-S3-140302,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-003,Wrong Item Delivered,3,405.0,Yes
+RET-S3-70303,2026-09-03,TXN-S3-140303,PRD-0025,Lettuce 2,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,1,18.0,Yes
+RET-S3-70304,2026-09-03,TXN-S3-140304,PRD-0018,Eggs 30pcs,Dairy,LOC-006,CUST-004,Wrong Item Delivered,3,246.0,Yes
+RET-S3-70305,2026-09-03,TXN-S3-140305,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-002,Quality Below Standard,2,12.0,Yes
+RET-S3-70306,2026-09-04,TXN-S3-140306,PRD-0046,Potato 3,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,2,37.0,Yes
+RET-S3-70307,2026-09-04,TXN-S3-140307,PRD-0036,White Cheese 500g 2,Dairy,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,67.0,Yes
+RET-S3-70308,2026-09-04,TXN-S3-140308,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,38.0,Yes
+RET-S3-70309,2026-09-04,TXN-S3-140309,PRD-0071,Basmati Rice 5kg 4,Grocery,LOC-006,CUST-005,Wrong Item Delivered,2,336.0,Yes
+RET-S3-70310,2026-09-04,TXN-S3-140310,PRD-0067,Onion 4,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,1,21.0,Yes
+RET-S3-70311,2026-09-04,TXN-S3-140311,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-003,Wrong Item Delivered,1,6.0,Yes
+RET-S3-70312,2026-09-04,TXN-S3-140312,PRD-0067,Onion 4,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,3,63.0,Yes
+RET-S3-70313,2026-09-05,TXN-S3-140313,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-002,Wrong Item Delivered,3,99.0,Yes
+RET-S3-70314,2026-09-05,TXN-S3-140314,PRD-0012,Sunflower Oil 1.5L,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,3,285.0,Yes
+RET-S3-70315,2026-09-05,TXN-S3-140315,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,1,22.5,Yes
+RET-S3-70316,2026-09-05,TXN-S3-140316,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-003,Wrong Item Delivered,3,156.0,Yes
+RET-S3-70317,2026-09-05,TXN-S3-140317,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,22.5,Yes
+RET-S3-70318,2026-09-05,TXN-S3-140318,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,3,58.5,Yes
+RET-S3-70319,2026-09-05,TXN-S3-140319,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,640.0,Yes
+RET-S3-70320,2026-09-05,TXN-S3-140320,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,3,63.0,Yes
+RET-S3-70321,2026-09-05,TXN-S3-140321,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-006,CUST-004,Wrong Item Delivered,3,67.5,Yes
+RET-S3-70322,2026-09-06,TXN-S3-140322,PRD-0020,Croissant 4pcs,Bakery,LOC-006,CUST-005,Quality Below Standard,1,26.0,Yes
+RET-S3-70323,2026-09-06,TXN-S3-140323,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,270.0,Yes
+RET-S3-70324,2026-09-06,TXN-S3-140324,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-004,Damaged in Shipping,3,405.0,Yes
+RET-S3-70325,2026-09-06,TXN-S3-140325,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-001,Damaged in Shipping,1,67.0,Yes
+RET-S3-70326,2026-09-06,TXN-S3-140326,PRD-0006,Potato,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,37.0,Yes
+RET-S3-70327,2026-09-06,TXN-S3-140327,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-006,CUST-004,Damaged in Shipping,1,29.5,Yes
+RET-S3-70328,2026-09-07,TXN-S3-140328,PRD-0071,Basmati Rice 5kg 4,Grocery,LOC-006,CUST-002,Damaged in Shipping,1,168.0,Yes
+RET-S3-70329,2026-09-07,TXN-S3-140329,PRD-0076,White Cheese 500g 4,Dairy,LOC-006,CUST-001,Quality Below Standard,3,201.0,Yes
+RET-S3-70330,2026-09-07,TXN-S3-140330,PRD-0036,White Cheese 500g 2,Dairy,LOC-006,CUST-003,Damaged in Shipping,1,67.0,Yes
+RET-S3-70331,2026-09-07,TXN-S3-140331,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-002,Wrong Item Delivered,1,52.0,Yes
+RET-S3-70332,2026-09-07,TXN-S3-140332,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-005,Wrong Item Delivered,1,38.0,Yes
+RET-S3-70333,2026-09-07,TXN-S3-140333,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-002,Wrong Item Delivered,2,640.0,Yes
+RET-S3-70334,2026-09-07,TXN-S3-140334,PRD-0074,Flour 2kg 4,Grocery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,114.0,Yes
+RET-S3-70335,2026-09-07,TXN-S3-140335,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-001,Wrong Item Delivered,3,99.0,Yes
+RET-S3-70336,2026-09-07,TXN-S3-140336,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-001,Quality Below Standard,1,33.0,Yes
+RET-S3-70337,2026-09-07,TXN-S3-140337,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-002,Wrong Item Delivered,2,270.0,Yes
+RET-S3-70338,2026-09-07,TXN-S3-140338,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-004,Damaged in Shipping,3,99.0,Yes
+RET-S3-70339,2026-09-07,TXN-S3-140339,PRD-0023,Red Apple 2,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,3,174.0,Yes
+RET-S3-70340,2026-09-08,TXN-S3-140340,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-001,Damaged in Shipping,3,99.0,Yes
+RET-S3-70341,2026-09-08,TXN-S3-140341,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-006,CUST-001,Quality Below Standard,2,336.0,Yes
+RET-S3-70342,2026-09-08,TXN-S3-140342,PRD-0001,Tomato Fresh,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,22.5,Yes
+RET-S3-70343,2026-09-08,TXN-S3-140343,PRD-0001,Tomato Fresh,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,1,22.5,Yes
+RET-S3-70344,2026-09-08,TXN-S3-140344,PRD-0065,Lettuce 4,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,3,54.0,Yes
+RET-S3-70345,2026-09-08,TXN-S3-140345,PRD-0077,Yogurt 1kg 4,Dairy,LOC-006,CUST-002,Quality Below Standard,1,33.0,Yes
+RET-S3-70346,2026-09-08,TXN-S3-140346,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-001,Wrong Item Delivered,3,285.0,Yes
+RET-S3-70347,2026-09-08,TXN-S3-140347,PRD-0070,Lamb Chops 4,Meat & Poultry,LOC-006,CUST-001,Wrong Item Delivered,3,1140.0,Yes
+RET-S3-70348,2026-09-08,TXN-S3-140348,PRD-0027,Onion 2,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,63.0,Yes
+RET-S3-70349,2026-09-08,TXN-S3-140349,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-006,CUST-004,Quality Below Standard,1,29.5,Yes
+RET-S3-70350,2026-09-09,TXN-S3-140350,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,2,45.0,Yes
+RET-S3-70351,2026-09-09,TXN-S3-140351,PRD-0066,Potato 4,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,2,37.0,Yes
+RET-S3-70352,2026-09-09,TXN-S3-140352,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-004,Quality Below Standard,3,285.0,Yes
+RET-S3-70353,2026-09-09,TXN-S3-140353,PRD-0074,Flour 2kg 4,Grocery,LOC-006,CUST-005,Wrong Item Delivered,2,76.0,Yes
+RET-S3-70354,2026-09-09,TXN-S3-140354,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,59.0,Yes
+RET-S3-70355,2026-09-09,TXN-S3-140355,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,29.5,Yes
+RET-S3-70356,2026-09-09,TXN-S3-140356,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,45.0,Yes
+RET-S3-70357,2026-09-09,TXN-S3-140357,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-001,Wrong Item Delivered,3,156.0,Yes
+RET-S3-70358,2026-09-09,TXN-S3-140358,PRD-0002,Cucumber,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,1,19.5,Yes
+RET-S3-70359,2026-09-09,TXN-S3-140359,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-005,Wrong Item Delivered,1,320.0,Yes
+RET-S3-70360,2026-09-09,TXN-S3-140360,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,1,22.5,Yes
+RET-S3-70361,2026-09-09,TXN-S3-140361,PRD-0002,Cucumber,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,1,19.5,Yes
+RET-S3-70362,2026-09-09,TXN-S3-140362,PRD-0050,Lamb Chops 3,Meat & Poultry,LOC-006,CUST-002,Quality Below Standard,1,380.0,Yes
+RET-S3-70363,2026-09-10,TXN-S3-140363,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-004,Wrong Item Delivered,2,76.0,Yes
+RET-S3-70364,2026-09-10,TXN-S3-140364,PRD-0036,White Cheese 500g 2,Dairy,LOC-006,CUST-004,Wrong Item Delivered,3,201.0,Yes
+RET-S3-70365,2026-09-10,TXN-S3-140365,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,1,19.5,Yes
+RET-S3-70366,2026-09-10,TXN-S3-140366,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-002,Quality Below Standard,2,52.0,Yes
+RET-S3-70367,2026-09-10,TXN-S3-140367,PRD-0043,Red Apple 3,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,3,174.0,Yes
+RET-S3-70368,2026-09-10,TXN-S3-140368,PRD-0071,Basmati Rice 5kg 4,Grocery,LOC-006,CUST-004,Quality Below Standard,1,168.0,Yes
+RET-S3-70369,2026-09-10,TXN-S3-140369,PRD-0074,Flour 2kg 4,Grocery,LOC-006,CUST-005,Damaged in Shipping,1,38.0,Yes
+RET-S3-70370,2026-09-10,TXN-S3-140370,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-006,CUST-002,Wrong Item Delivered,1,168.0,Yes
+RET-S3-70371,2026-09-10,TXN-S3-140371,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,2,39.0,Yes
+RET-S3-70372,2026-09-10,TXN-S3-140372,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,3,1140.0,Yes
+RET-S3-70373,2026-09-10,TXN-S3-140373,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-004,Wrong Item Delivered,3,88.5,Yes
+RET-S3-70374,2026-09-10,TXN-S3-140374,PRD-0058,Eggs 30pcs 3,Dairy,LOC-006,CUST-004,Quality Below Standard,3,246.0,Yes
+RET-S3-70375,2026-09-10,TXN-S3-140375,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-001,Damaged in Shipping,3,156.0,Yes
+RET-S3-70376,2026-09-11,TXN-S3-140376,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-006,CUST-004,Quality Below Standard,3,88.5,Yes
+RET-S3-70377,2026-09-11,TXN-S3-140377,PRD-0071,Basmati Rice 5kg 4,Grocery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,336.0,Yes
+RET-S3-70378,2026-09-11,TXN-S3-140378,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-006,CUST-005,Wrong Item Delivered,2,336.0,Yes
+RET-S3-70379,2026-09-11,TXN-S3-140379,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-001,Quality Below Standard,1,135.0,Yes
+RET-S3-70380,2026-09-11,TXN-S3-140380,PRD-0027,Onion 2,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,42.0,Yes
+RET-S3-70381,2026-09-11,TXN-S3-140381,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,190.0,Yes
+RET-S3-70382,2026-09-12,TXN-S3-140382,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,1,19.5,Yes
+RET-S3-70383,2026-09-12,TXN-S3-140383,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-004,Damaged in Shipping,1,67.0,Yes
+RET-S3-70384,2026-09-12,TXN-S3-140384,PRD-0012,Sunflower Oil 1.5L,Grocery,LOC-006,CUST-005,Damaged in Shipping,2,190.0,Yes
+RET-S3-70385,2026-09-12,TXN-S3-140385,PRD-0070,Lamb Chops 4,Meat & Poultry,LOC-006,CUST-001,Damaged in Shipping,2,760.0,Yes
+RET-S3-70386,2026-09-12,TXN-S3-140386,PRD-0018,Eggs 30pcs,Dairy,LOC-006,CUST-002,Damaged in Shipping,2,164.0,Yes
+RET-S3-70387,2026-09-12,TXN-S3-140387,PRD-0025,Lettuce 2,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,36.0,Yes
+RET-S3-70388,2026-09-12,TXN-S3-140388,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,1140.0,Yes
+RET-S3-70389,2026-09-12,TXN-S3-140389,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,1,22.5,Yes
+RET-S3-70390,2026-09-12,TXN-S3-140390,PRD-0028,Chicken Breast 2,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,270.0,Yes
+RET-S3-70391,2026-09-12,TXN-S3-140391,PRD-0074,Flour 2kg 4,Grocery,LOC-006,CUST-005,Quality Below Standard,3,114.0,Yes
+RET-S3-70392,2026-09-12,TXN-S3-140392,PRD-0056,White Cheese 500g 3,Dairy,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,201.0,Yes
+RET-S3-70393,2026-09-13,TXN-S3-140393,PRD-0036,White Cheese 500g 2,Dairy,LOC-006,CUST-003,Damaged in Shipping,2,134.0,Yes
+RET-S3-70394,2026-09-13,TXN-S3-140394,PRD-0001,Tomato Fresh,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,3,67.5,Yes
+RET-S3-70395,2026-09-13,TXN-S3-140395,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-006,CUST-001,Damaged in Shipping,2,12.0,Yes
+RET-S3-70396,2026-09-13,TXN-S3-140396,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-002,Quality Below Standard,3,156.0,Yes
+RET-S3-70397,2026-09-13,TXN-S3-140397,PRD-0001,Tomato Fresh,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,1,22.5,Yes
+RET-S3-70398,2026-09-13,TXN-S3-140398,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,2,39.0,Yes
+RET-S3-70399,2026-09-13,TXN-S3-140399,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,2,64.0,Yes
+RET-S3-70400,2026-09-13,TXN-S3-140400,PRD-0011,Basmati Rice 5kg,Grocery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,336.0,Yes
+RET-S3-70401,2026-09-13,TXN-S3-140401,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-003,Wrong Item Delivered,1,29.5,Yes
+RET-S3-70402,2026-09-13,TXN-S3-140402,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-006,CUST-002,Wrong Item Delivered,1,6.0,Yes
+RET-S3-70403,2026-09-13,TXN-S3-140403,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,1,135.0,Yes
+RET-S3-70404,2026-09-14,TXN-S3-140404,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,104.0,Yes
+RET-S3-70405,2026-09-14,TXN-S3-140405,PRD-0006,Potato,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,3,55.5,Yes
+RET-S3-70406,2026-09-14,TXN-S3-140406,PRD-0046,Potato 3,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,37.0,Yes
+RET-S3-70407,2026-09-14,TXN-S3-140407,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-002,Damaged in Shipping,1,320.0,Yes
+RET-S3-70408,2026-09-14,TXN-S3-140408,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-001,Damaged in Shipping,3,18.0,Yes
+RET-S3-70409,2026-09-14,TXN-S3-140409,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,42.0,Yes
+RET-S3-70410,2026-09-15,TXN-S3-140410,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,59.0,Yes
+RET-S3-70411,2026-09-15,TXN-S3-140411,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-002,Damaged in Shipping,2,59.0,Yes
+RET-S3-70412,2026-09-15,TXN-S3-140412,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,1,135.0,Yes
+RET-S3-70413,2026-09-15,TXN-S3-140413,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-006,CUST-001,Wrong Item Delivered,2,12.0,Yes
+RET-S3-70414,2026-09-15,TXN-S3-140414,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,1,22.5,Yes
+RET-S3-70415,2026-09-15,TXN-S3-140415,PRD-0025,Lettuce 2,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,2,36.0,Yes
+RET-S3-70416,2026-09-15,TXN-S3-140416,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,104.0,Yes
+RET-S3-70417,2026-09-15,TXN-S3-140417,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-002,Wrong Item Delivered,2,270.0,Yes
+RET-S3-70418,2026-09-15,TXN-S3-140418,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,32.0,Yes
+RET-S3-70419,2026-09-16,TXN-S3-140419,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-002,Damaged in Shipping,3,78.0,Yes
+RET-S3-70420,2026-09-16,TXN-S3-140420,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-002,Wrong Item Delivered,2,104.0,Yes
+RET-S3-70421,2026-09-16,TXN-S3-140421,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,36.0,Yes
+RET-S3-70422,2026-09-16,TXN-S3-140422,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,760.0,Yes
+RET-S3-70423,2026-09-16,TXN-S3-140423,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-006,CUST-001,Damaged in Shipping,3,18.0,Yes
+RET-S3-70424,2026-09-16,TXN-S3-140424,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-004,Damaged in Shipping,1,29.5,Yes
+RET-S3-70425,2026-09-17,TXN-S3-140425,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,1,18.0,Yes
+RET-S3-70426,2026-09-17,TXN-S3-140426,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,58.5,Yes
+RET-S3-70427,2026-09-17,TXN-S3-140427,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-002,Quality Below Standard,2,66.0,Yes
+RET-S3-70428,2026-09-17,TXN-S3-140428,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-003,Wrong Item Delivered,3,18.0,Yes
+RET-S3-70429,2026-09-17,TXN-S3-140429,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-002,Wrong Item Delivered,2,104.0,Yes
+RET-S3-70430,2026-09-17,TXN-S3-140430,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-002,Damaged in Shipping,2,66.0,Yes
+RET-S3-70431,2026-09-18,TXN-S3-140431,PRD-0063,Red Apple 4,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,2,116.0,Yes
+RET-S3-70432,2026-09-18,TXN-S3-140432,PRD-0023,Red Apple 2,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,1,58.0,Yes
+RET-S3-70433,2026-09-18,TXN-S3-140433,PRD-0027,Onion 2,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,3,63.0,Yes
+RET-S3-70434,2026-09-18,TXN-S3-140434,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,3,67.5,Yes
+RET-S3-70435,2026-09-18,TXN-S3-140435,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-002,Damaged in Shipping,2,640.0,Yes
+RET-S3-70436,2026-09-18,TXN-S3-140436,PRD-0019,Arabic Bread Pack,Bakery,LOC-006,CUST-001,Damaged in Shipping,3,18.0,Yes
+RET-S3-70437,2026-09-18,TXN-S3-140437,PRD-0023,Red Apple 2,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,3,174.0,Yes
+RET-S3-70438,2026-09-18,TXN-S3-140438,PRD-0053,Sugar 2kg 3,Grocery,LOC-006,CUST-005,Quality Below Standard,3,156.0,Yes
+RET-S3-70439,2026-09-18,TXN-S3-140439,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,64.0,Yes
+RET-S3-70440,2026-09-18,TXN-S3-140440,PRD-0056,White Cheese 500g 3,Dairy,LOC-006,CUST-005,Quality Below Standard,2,134.0,Yes
+RET-S3-70441,2026-09-19,TXN-S3-140441,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-001,Wrong Item Delivered,2,190.0,Yes
+RET-S3-70442,2026-09-19,TXN-S3-140442,PRD-0076,White Cheese 500g 4,Dairy,LOC-006,CUST-003,Wrong Item Delivered,1,67.0,Yes
+RET-S3-70443,2026-09-19,TXN-S3-140443,PRD-0070,Lamb Chops 4,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,380.0,Yes
+RET-S3-70444,2026-09-19,TXN-S3-140444,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-003,Wrong Item Delivered,3,1140.0,Yes
+RET-S3-70445,2026-09-19,TXN-S3-140445,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,59.0,Yes
+RET-S3-70446,2026-09-19,TXN-S3-140446,PRD-0071,Basmati Rice 5kg 4,Grocery,LOC-006,CUST-003,Quality Below Standard,1,168.0,Yes
+RET-S3-70447,2026-09-19,TXN-S3-140447,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,2,64.0,Yes
+RET-S3-70448,2026-09-20,TXN-S3-140448,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-006,CUST-001,Quality Below Standard,1,29.5,Yes
+RET-S3-70449,2026-09-20,TXN-S3-140449,PRD-0018,Eggs 30pcs,Dairy,LOC-006,CUST-004,Quality Below Standard,1,82.0,Yes
+RET-S3-70450,2026-09-20,TXN-S3-140450,PRD-0011,Basmati Rice 5kg,Grocery,LOC-006,CUST-001,Damaged in Shipping,1,168.0,Yes
+RET-S3-70451,2026-09-20,TXN-S3-140451,PRD-0078,Eggs 30pcs 4,Dairy,LOC-006,CUST-004,Wrong Item Delivered,3,246.0,Yes
+RET-S3-70452,2026-09-20,TXN-S3-140452,PRD-0064,Banana 4,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,3,96.0,Yes
+RET-S3-70453,2026-09-20,TXN-S3-140453,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,58.5,Yes
+RET-S3-70454,2026-09-20,TXN-S3-140454,PRD-0028,Chicken Breast 2,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,270.0,Yes
+RET-S3-70455,2026-09-20,TXN-S3-140455,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,78.0,Yes
+RET-S3-70456,2026-09-20,TXN-S3-140456,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-003,Damaged in Shipping,1,38.0,Yes
+RET-S3-70457,2026-09-20,TXN-S3-140457,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-003,Quality Below Standard,1,26.0,Yes
+RET-S3-70458,2026-09-20,TXN-S3-140458,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-004,Quality Below Standard,3,18.0,Yes
+RET-S3-70459,2026-09-21,TXN-S3-140459,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,3,174.0,Yes
+RET-S3-70460,2026-09-21,TXN-S3-140460,PRD-0067,Onion 4,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,2,42.0,Yes
+RET-S3-70461,2026-09-21,TXN-S3-140461,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-001,Wrong Item Delivered,3,156.0,Yes
+RET-S3-70462,2026-09-21,TXN-S3-140462,PRD-0011,Basmati Rice 5kg,Grocery,LOC-006,CUST-002,Quality Below Standard,3,504.0,Yes
+RET-S3-70463,2026-09-21,TXN-S3-140463,PRD-0036,White Cheese 500g 2,Dairy,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,201.0,Yes
+RET-S3-70464,2026-09-21,TXN-S3-140464,PRD-0056,White Cheese 500g 3,Dairy,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,134.0,Yes
+RET-S3-70465,2026-09-21,TXN-S3-140465,PRD-0078,Eggs 30pcs 4,Dairy,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,246.0,Yes
+RET-S3-70466,2026-09-21,TXN-S3-140466,PRD-0031,Basmati Rice 5kg 2,Grocery,LOC-006,CUST-005,Damaged in Shipping,1,168.0,Yes
+RET-S3-70467,2026-09-21,TXN-S3-140467,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,760.0,Yes
+RET-S3-70468,2026-09-21,TXN-S3-140468,PRD-0068,Chicken Breast 4,Meat & Poultry,LOC-006,CUST-004,Wrong Item Delivered,2,270.0,Yes
+RET-S3-70469,2026-09-22,TXN-S3-140469,PRD-0020,Croissant 4pcs,Bakery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,52.0,Yes
+RET-S3-70470,2026-09-22,TXN-S3-140470,PRD-0031,Basmati Rice 5kg 2,Grocery,LOC-006,CUST-005,Damaged in Shipping,2,336.0,Yes
+RET-S3-70471,2026-09-22,TXN-S3-140471,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,3,201.0,Yes
+RET-S3-70472,2026-09-22,TXN-S3-140472,PRD-0064,Banana 4,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,2,64.0,Yes
+RET-S3-70473,2026-09-22,TXN-S3-140473,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-006,CUST-003,Wrong Item Delivered,1,29.5,Yes
+RET-S3-70474,2026-09-22,TXN-S3-140474,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-002,Quality Below Standard,3,156.0,Yes
+RET-S3-70475,2026-09-22,TXN-S3-140475,PRD-0076,White Cheese 500g 4,Dairy,LOC-006,CUST-004,Wrong Item Delivered,3,201.0,Yes
+RET-S3-70476,2026-09-22,TXN-S3-140476,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,12.0,Yes
+RET-S3-70477,2026-09-22,TXN-S3-140477,PRD-0019,Arabic Bread Pack,Bakery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,6.0,Yes
+RET-S3-70478,2026-09-22,TXN-S3-140478,PRD-0070,Lamb Chops 4,Meat & Poultry,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,380.0,Yes
+RET-S3-70479,2026-09-22,TXN-S3-140479,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,2,42.0,Yes
+RET-S3-70480,2026-09-22,TXN-S3-140480,PRD-0068,Chicken Breast 4,Meat & Poultry,LOC-006,CUST-005,Damaged in Shipping,1,135.0,Yes
+RET-S3-70481,2026-09-22,TXN-S3-140481,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-004,Damaged in Shipping,1,95.0,Yes
+RET-S3-70482,2026-09-23,TXN-S3-140482,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,135.0,Yes
+RET-S3-70483,2026-09-23,TXN-S3-140483,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,76.0,Yes
+RET-S3-70484,2026-09-23,TXN-S3-140484,PRD-0012,Sunflower Oil 1.5L,Grocery,LOC-006,CUST-003,Wrong Item Delivered,2,190.0,Yes
+RET-S3-70485,2026-09-23,TXN-S3-140485,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-005,Wrong Item Delivered,3,1140.0,Yes
+RET-S3-70486,2026-09-23,TXN-S3-140486,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,405.0,Yes
+RET-S3-70487,2026-09-23,TXN-S3-140487,PRD-0067,Onion 4,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,1,21.0,Yes
+RET-S3-70488,2026-09-23,TXN-S3-140488,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,1,19.5,Yes
+RET-S3-70489,2026-09-24,TXN-S3-140489,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-004,Wrong Item Delivered,2,104.0,Yes
+RET-S3-70490,2026-09-24,TXN-S3-140490,PRD-0067,Onion 4,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,63.0,Yes
+RET-S3-70491,2026-09-24,TXN-S3-140491,PRD-0050,Lamb Chops 3,Meat & Poultry,LOC-006,CUST-003,Quality Below Standard,3,1140.0,Yes
+RET-S3-70492,2026-09-24,TXN-S3-140492,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-003,Wrong Item Delivered,2,76.0,Yes
+RET-S3-70493,2026-09-24,TXN-S3-140493,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,1,32.0,Yes
+RET-S3-70494,2026-09-24,TXN-S3-140494,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,3,55.5,Yes
+RET-S3-70495,2026-09-24,TXN-S3-140495,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-003,Quality Below Standard,3,88.5,Yes
+RET-S3-70496,2026-09-24,TXN-S3-140496,PRD-0046,Potato 3,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,3,55.5,Yes
+RET-S3-70497,2026-09-25,TXN-S3-140497,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-006,CUST-001,Quality Below Standard,3,504.0,Yes
+RET-S3-70498,2026-09-25,TXN-S3-140498,PRD-0032,Sunflower Oil 1.5L 2,Grocery,LOC-006,CUST-004,Damaged in Shipping,1,95.0,Yes
+RET-S3-70499,2026-09-25,TXN-S3-140499,PRD-0032,Sunflower Oil 1.5L 2,Grocery,LOC-006,CUST-001,Wrong Item Delivered,1,95.0,Yes
+RET-S3-70500,2026-09-25,TXN-S3-140500,PRD-0066,Potato 4,Fresh Produce,LOC-006,CUST-004,Wrong Item Delivered,2,37.0,Yes
+RET-S3-70501,2026-09-25,TXN-S3-140501,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-004,Quality Below Standard,2,190.0,Yes
+RET-S3-70502,2026-09-25,TXN-S3-140502,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,96.0,Yes
+RET-S3-70503,2026-09-25,TXN-S3-140503,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-004,Wrong Item Delivered,1,320.0,Yes
+RET-S3-70504,2026-09-25,TXN-S3-140504,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,640.0,Yes
+RET-S3-70505,2026-09-25,TXN-S3-140505,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,33.0,Yes
+RET-S3-70506,2026-09-26,TXN-S3-140506,PRD-0067,Onion 4,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,2,42.0,Yes
+RET-S3-70507,2026-09-26,TXN-S3-140507,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-002,Damaged in Shipping,2,104.0,Yes
+RET-S3-70508,2026-09-26,TXN-S3-140508,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,12.0,Yes
+RET-S3-70509,2026-09-26,TXN-S3-140509,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,59.0,Yes
+RET-S3-70510,2026-09-26,TXN-S3-140510,PRD-0076,White Cheese 500g 4,Dairy,LOC-006,CUST-005,Quality Below Standard,3,201.0,Yes
+RET-S3-70511,2026-09-26,TXN-S3-140511,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-003,Wrong Item Delivered,1,320.0,Yes
+RET-S3-70512,2026-09-26,TXN-S3-140512,PRD-0020,Croissant 4pcs,Bakery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,26.0,Yes
+RET-S3-70513,2026-09-26,TXN-S3-140513,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,1,6.0,Yes
+RET-S3-70514,2026-09-27,TXN-S3-140514,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-003,Wrong Item Delivered,2,104.0,Yes
+RET-S3-70515,2026-09-27,TXN-S3-140515,PRD-0002,Cucumber,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,1,19.5,Yes
+RET-S3-70516,2026-09-27,TXN-S3-140516,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,3,96.0,Yes
+RET-S3-70517,2026-09-27,TXN-S3-140517,PRD-0066,Potato 4,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,1,18.5,Yes
+RET-S3-70518,2026-09-27,TXN-S3-140518,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-001,Wrong Item Delivered,2,52.0,Yes
+RET-S3-70519,2026-09-27,TXN-S3-140519,PRD-0023,Red Apple 2,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,3,174.0,Yes
+RET-S3-70520,2026-09-27,TXN-S3-140520,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-006,CUST-005,Quality Below Standard,2,59.0,Yes
+RET-S3-70521,2026-09-27,TXN-S3-140521,PRD-0011,Basmati Rice 5kg,Grocery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,504.0,Yes
+RET-S3-70522,2026-09-27,TXN-S3-140522,PRD-0068,Chicken Breast 4,Meat & Poultry,LOC-006,CUST-001,Damaged in Shipping,3,405.0,Yes
+RET-S3-70523,2026-09-27,TXN-S3-140523,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,78.0,Yes
+RET-S3-70524,2026-09-27,TXN-S3-140524,PRD-0029,Beef Steak 2,Meat & Poultry,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,640.0,Yes
+RET-S3-70525,2026-09-27,TXN-S3-140525,PRD-0043,Red Apple 3,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,58.0,Yes
+RET-S3-70526,2026-09-27,TXN-S3-140526,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,3,96.0,Yes
+RET-S3-70527,2026-09-28,TXN-S3-140527,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,52.0,Yes
+RET-S3-70528,2026-09-28,TXN-S3-140528,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-003,Quality Below Standard,2,270.0,Yes
+RET-S3-70529,2026-09-28,TXN-S3-140529,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,18.5,Yes
+RET-S3-70530,2026-09-28,TXN-S3-140530,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-002,Wrong Item Delivered,2,52.0,Yes
+RET-S3-70531,2026-09-28,TXN-S3-140531,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-002,Wrong Item Delivered,2,37.0,Yes
+RET-S3-70532,2026-09-28,TXN-S3-140532,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-003,Quality Below Standard,2,190.0,Yes
+RET-S3-70533,2026-09-28,TXN-S3-140533,PRD-0037,Yogurt 1kg 2,Dairy,LOC-006,CUST-004,Wrong Item Delivered,3,99.0,Yes
+RET-S3-70534,2026-09-29,TXN-S3-140534,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,3,67.5,Yes
+RET-S3-70535,2026-09-29,TXN-S3-140535,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-002,Quality Below Standard,3,99.0,Yes
+RET-S3-70536,2026-09-29,TXN-S3-140536,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,2,64.0,Yes
+RET-S3-70537,2026-09-29,TXN-S3-140537,PRD-0029,Beef Steak 2,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,1,320.0,Yes
+RET-S3-70538,2026-09-29,TXN-S3-140538,PRD-0012,Sunflower Oil 1.5L,Grocery,LOC-006,CUST-003,Damaged in Shipping,2,190.0,Yes
+RET-S3-70539,2026-09-29,TXN-S3-140539,PRD-0043,Red Apple 3,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,116.0,Yes
+RET-S3-70540,2026-09-29,TXN-S3-140540,PRD-0074,Flour 2kg 4,Grocery,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,114.0,Yes
+RET-S3-70541,2026-09-29,TXN-S3-140541,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,1,32.0,Yes
+RET-S3-70542,2026-09-30,TXN-S3-140542,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-003,Wrong Item Delivered,2,76.0,Yes
+RET-S3-70543,2026-09-30,TXN-S3-140543,PRD-0036,White Cheese 500g 2,Dairy,LOC-006,CUST-005,Wrong Item Delivered,2,134.0,Yes
+RET-S3-70544,2026-09-30,TXN-S3-140544,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-006,CUST-002,Damaged in Shipping,3,88.5,Yes
+RET-S3-70545,2026-09-30,TXN-S3-140545,PRD-0018,Eggs 30pcs,Dairy,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,164.0,Yes
+RET-S3-70546,2026-09-30,TXN-S3-140546,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,1,18.0,Yes
+RET-S3-70547,2026-09-30,TXN-S3-140547,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,2,36.0,Yes
+RET-S3-70548,2026-09-30,TXN-S3-140548,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,95.0,Yes
+RET-S3-70549,2026-09-30,TXN-S3-140549,PRD-0046,Potato 3,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,3,55.5,Yes
+RET-S3-70550,2026-09-30,TXN-S3-140550,PRD-0036,White Cheese 500g 2,Dairy,LOC-006,CUST-005,Wrong Item Delivered,1,67.0,Yes
+RET-S3-70551,2026-09-30,TXN-S3-140551,PRD-0032,Sunflower Oil 1.5L 2,Grocery,LOC-006,CUST-003,Wrong Item Delivered,3,285.0,Yes
+RET-S3-70552,2026-10-01,TXN-S3-140552,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,134.0,Yes
+RET-S3-70553,2026-10-01,TXN-S3-140553,PRD-0076,White Cheese 500g 4,Dairy,LOC-006,CUST-004,Damaged in Shipping,1,67.0,Yes
+RET-S3-70554,2026-10-01,TXN-S3-140554,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,156.0,Yes
+RET-S3-70555,2026-10-01,TXN-S3-140555,PRD-0037,Yogurt 1kg 2,Dairy,LOC-006,CUST-001,Quality Below Standard,2,66.0,Yes
+RET-S3-70556,2026-10-01,TXN-S3-140556,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-004,Damaged in Shipping,2,59.0,Yes
+RET-S3-70557,2026-10-01,TXN-S3-140557,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,2,64.0,Yes
+RET-S3-70558,2026-10-01,TXN-S3-140558,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-001,Quality Below Standard,1,95.0,Yes
+RET-S3-70559,2026-10-01,TXN-S3-140559,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,21.0,Yes
+RET-S3-70560,2026-10-01,TXN-S3-140560,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-006,CUST-002,Quality Below Standard,3,88.5,Yes
+RET-S3-70561,2026-10-01,TXN-S3-140561,PRD-0056,White Cheese 500g 3,Dairy,LOC-006,CUST-003,Wrong Item Delivered,2,134.0,Yes
+RET-S3-70562,2026-10-02,TXN-S3-140562,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,760.0,Yes
+RET-S3-70563,2026-10-02,TXN-S3-140563,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-003,Damaged in Shipping,2,190.0,Yes
+RET-S3-70564,2026-10-02,TXN-S3-140564,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-001,Damaged in Shipping,2,12.0,Yes
+RET-S3-70565,2026-10-02,TXN-S3-140565,PRD-0068,Chicken Breast 4,Meat & Poultry,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,270.0,Yes
+RET-S3-70566,2026-10-02,TXN-S3-140566,PRD-0062,Cucumber 4,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,1,19.5,Yes
+RET-S3-70567,2026-10-02,TXN-S3-140567,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-004,Quality Below Standard,2,66.0,Yes
+RET-S3-70568,2026-10-03,TXN-S3-140568,PRD-0050,Lamb Chops 3,Meat & Poultry,LOC-006,CUST-003,Quality Below Standard,2,760.0,Yes
+RET-S3-70569,2026-10-03,TXN-S3-140569,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-006,CUST-005,Quality Below Standard,3,18.0,Yes
+RET-S3-70570,2026-10-03,TXN-S3-140570,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,3,96.0,Yes
+RET-S3-70571,2026-10-03,TXN-S3-140571,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,1,22.5,Yes
+RET-S3-70572,2026-10-03,TXN-S3-140572,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-004,Damaged in Shipping,2,134.0,Yes
+RET-S3-70573,2026-10-03,TXN-S3-140573,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,76.0,Yes
+RET-S3-70574,2026-10-03,TXN-S3-140574,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,2,116.0,Yes
+RET-S3-70575,2026-10-03,TXN-S3-140575,PRD-0043,Red Apple 3,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,3,174.0,Yes
+RET-S3-70576,2026-10-03,TXN-S3-140576,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-005,Damaged in Shipping,3,88.5,Yes
+RET-S3-70577,2026-10-03,TXN-S3-140577,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,2,116.0,Yes
+RET-S3-70578,2026-10-03,TXN-S3-140578,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-004,Wrong Item Delivered,2,104.0,Yes
+RET-S3-70579,2026-10-03,TXN-S3-140579,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-005,Damaged in Shipping,2,270.0,Yes
+RET-S3-70580,2026-10-04,TXN-S3-140580,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-005,Quality Below Standard,2,640.0,Yes
+RET-S3-70581,2026-10-04,TXN-S3-140581,PRD-0006,Potato,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,18.5,Yes
+RET-S3-70582,2026-10-04,TXN-S3-140582,PRD-0019,Arabic Bread Pack,Bakery,LOC-006,CUST-004,Quality Below Standard,3,18.0,Yes
+RET-S3-70583,2026-10-04,TXN-S3-140583,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-002,Damaged in Shipping,2,76.0,Yes
+RET-S3-70584,2026-10-04,TXN-S3-140584,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-004,Wrong Item Delivered,1,19.5,Yes
+RET-S3-70585,2026-10-04,TXN-S3-140585,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-005,Quality Below Standard,1,52.0,Yes
+RET-S3-70586,2026-10-04,TXN-S3-140586,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,29.5,Yes
+RET-S3-70587,2026-10-04,TXN-S3-140587,PRD-0064,Banana 4,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,96.0,Yes
+RET-S3-70588,2026-10-04,TXN-S3-140588,PRD-0046,Potato 3,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,18.5,Yes
+RET-S3-70589,2026-10-04,TXN-S3-140589,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-006,CUST-001,Quality Below Standard,2,59.0,Yes
+RET-S3-70590,2026-10-04,TXN-S3-140590,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-004,Damaged in Shipping,1,320.0,Yes
+RET-S3-70591,2026-10-04,TXN-S3-140591,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-003,Damaged in Shipping,3,18.0,Yes
+RET-S3-70592,2026-10-05,TXN-S3-140592,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,39.0,Yes
+RET-S3-70593,2026-10-05,TXN-S3-140593,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,3,67.5,Yes
+RET-S3-70594,2026-10-05,TXN-S3-140594,PRD-0050,Lamb Chops 3,Meat & Poultry,LOC-006,CUST-001,Quality Below Standard,2,760.0,Yes
+RET-S3-70595,2026-10-05,TXN-S3-140595,PRD-0025,Lettuce 2,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,54.0,Yes
+RET-S3-70596,2026-10-05,TXN-S3-140596,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-006,CUST-001,Wrong Item Delivered,3,88.5,Yes
+RET-S3-70597,2026-10-05,TXN-S3-140597,PRD-0029,Beef Steak 2,Meat & Poultry,LOC-006,CUST-005,Quality Below Standard,3,960.0,Yes
+RET-S3-70598,2026-10-06,TXN-S3-140598,PRD-0046,Potato 3,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,2,37.0,Yes
+RET-S3-70599,2026-10-06,TXN-S3-140599,PRD-0071,Basmati Rice 5kg 4,Grocery,LOC-006,CUST-005,Quality Below Standard,1,168.0,Yes
+RET-S3-70600,2026-10-06,TXN-S3-140600,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,2,760.0,Yes
+RET-S3-70601,2026-10-06,TXN-S3-140601,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-001,Wrong Item Delivered,1,26.0,Yes
+RET-S3-70602,2026-10-06,TXN-S3-140602,PRD-0046,Potato 3,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,1,18.5,Yes
+RET-S3-70603,2026-10-06,TXN-S3-140603,PRD-0029,Beef Steak 2,Meat & Poultry,LOC-006,CUST-003,Wrong Item Delivered,2,640.0,Yes
+RET-S3-70604,2026-10-06,TXN-S3-140604,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-002,Quality Below Standard,3,156.0,Yes
+RET-S3-70605,2026-10-06,TXN-S3-140605,PRD-0001,Tomato Fresh,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,22.5,Yes
+RET-S3-70606,2026-10-06,TXN-S3-140606,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-003,Quality Below Standard,3,99.0,Yes
+RET-S3-70607,2026-10-06,TXN-S3-140607,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-004,Damaged in Shipping,2,76.0,Yes
+RET-S3-70608,2026-10-06,TXN-S3-140608,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-005,Damaged in Shipping,2,760.0,Yes
+RET-S3-70609,2026-10-06,TXN-S3-140609,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,52.0,Yes
+RET-S3-70610,2026-10-07,TXN-S3-140610,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,246.0,Yes
+RET-S3-70611,2026-10-07,TXN-S3-140611,PRD-0076,White Cheese 500g 4,Dairy,LOC-006,CUST-005,Damaged in Shipping,3,201.0,Yes
+RET-S3-70612,2026-10-07,TXN-S3-140612,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,88.5,Yes
+RET-S3-70613,2026-10-07,TXN-S3-140613,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-004,Quality Below Standard,3,201.0,Yes
+RET-S3-70614,2026-10-07,TXN-S3-140614,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-004,Damaged in Shipping,1,320.0,Yes
+RET-S3-70615,2026-10-07,TXN-S3-140615,PRD-0025,Lettuce 2,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,2,36.0,Yes
+RET-S3-70616,2026-10-07,TXN-S3-140616,PRD-0054,Flour 2kg 3,Grocery,LOC-006,CUST-005,Wrong Item Delivered,3,114.0,Yes
+RET-S3-70617,2026-10-07,TXN-S3-140617,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-002,Damaged in Shipping,3,88.5,Yes
+RET-S3-70618,2026-10-07,TXN-S3-140618,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-002,Damaged in Shipping,2,59.0,Yes
+RET-S3-70619,2026-10-07,TXN-S3-140619,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,55.5,Yes
+RET-S3-70620,2026-10-08,TXN-S3-140620,PRD-0064,Banana 4,Fresh Produce,LOC-006,CUST-002,Wrong Item Delivered,2,64.0,Yes
+RET-S3-70621,2026-10-08,TXN-S3-140621,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,3,96.0,Yes
+RET-S3-70622,2026-10-08,TXN-S3-140622,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-003,Wrong Item Delivered,3,405.0,Yes
+RET-S3-70623,2026-10-08,TXN-S3-140623,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-006,CUST-003,Quality Below Standard,1,6.0,Yes
+RET-S3-70624,2026-10-08,TXN-S3-140624,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-001,Damaged in Shipping,1,38.0,Yes
+RET-S3-70625,2026-10-08,TXN-S3-140625,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-001,Wrong Item Delivered,3,99.0,Yes
+RET-S3-70626,2026-10-08,TXN-S3-140626,PRD-0053,Sugar 2kg 3,Grocery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,156.0,Yes
+RET-S3-70627,2026-10-08,TXN-S3-140627,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,2,36.0,Yes
+RET-S3-70628,2026-10-08,TXN-S3-140628,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-002,Wrong Item Delivered,2,36.0,Yes
+RET-S3-70629,2026-10-08,TXN-S3-140629,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-005,Damaged in Shipping,1,26.0,Yes
+RET-S3-70630,2026-10-08,TXN-S3-140630,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,3,58.5,Yes
+RET-S3-70631,2026-10-08,TXN-S3-140631,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,2,64.0,Yes
+RET-S3-70632,2026-10-08,TXN-S3-140632,PRD-0019,Arabic Bread Pack,Bakery,LOC-006,CUST-002,Damaged in Shipping,2,12.0,Yes
+RET-S3-70633,2026-10-09,TXN-S3-140633,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,1140.0,Yes
+RET-S3-70634,2026-10-09,TXN-S3-140634,PRD-0076,White Cheese 500g 4,Dairy,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,134.0,Yes
+RET-S3-70635,2026-10-09,TXN-S3-140635,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-002,Damaged in Shipping,1,29.5,Yes
+RET-S3-70636,2026-10-09,TXN-S3-140636,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,3,63.0,Yes
+RET-S3-70637,2026-10-09,TXN-S3-140637,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,67.0,Yes
+RET-S3-70638,2026-10-09,TXN-S3-140638,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,114.0,Yes
+RET-S3-70639,2026-10-09,TXN-S3-140639,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-004,Damaged in Shipping,2,190.0,Yes
+RET-S3-70640,2026-10-09,TXN-S3-140640,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,99.0,Yes
+RET-S3-70641,2026-10-10,TXN-S3-140641,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,36.0,Yes
+RET-S3-70642,2026-10-10,TXN-S3-140642,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,3,1140.0,Yes
+RET-S3-70643,2026-10-10,TXN-S3-140643,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,67.5,Yes
+RET-S3-70644,2026-10-10,TXN-S3-140644,PRD-0067,Onion 4,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,42.0,Yes
+RET-S3-70645,2026-10-10,TXN-S3-140645,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-004,Damaged in Shipping,1,67.0,Yes
+RET-S3-70646,2026-10-10,TXN-S3-140646,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,2,45.0,Yes
+RET-S3-70647,2026-10-10,TXN-S3-140647,PRD-0043,Red Apple 3,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,174.0,Yes
+RET-S3-70648,2026-10-10,TXN-S3-140648,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-006,CUST-001,Damaged in Shipping,2,12.0,Yes
+RET-S3-70649,2026-10-10,TXN-S3-140649,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,2,39.0,Yes
+RET-S3-70650,2026-10-11,TXN-S3-140650,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-004,Wrong Item Delivered,3,58.5,Yes
+RET-S3-70651,2026-10-11,TXN-S3-140651,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,2,37.0,Yes
+RET-S3-70652,2026-10-11,TXN-S3-140652,PRD-0064,Banana 4,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,64.0,Yes
+RET-S3-70653,2026-10-11,TXN-S3-140653,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-003,Damaged in Shipping,1,82.0,Yes
+RET-S3-70654,2026-10-11,TXN-S3-140654,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-003,Wrong Item Delivered,2,52.0,Yes
+RET-S3-70655,2026-10-11,TXN-S3-140655,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,3,67.5,Yes
+RET-S3-70656,2026-10-11,TXN-S3-140656,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,45.0,Yes
+RET-S3-70657,2026-10-11,TXN-S3-140657,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-001,Damaged in Shipping,1,135.0,Yes
+RET-S3-70658,2026-10-11,TXN-S3-140658,PRD-0023,Red Apple 2,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,116.0,Yes
+RET-S3-70659,2026-10-12,TXN-S3-140659,PRD-0002,Cucumber,Fresh Produce,LOC-006,CUST-002,Wrong Item Delivered,2,39.0,Yes
+RET-S3-70660,2026-10-12,TXN-S3-140660,PRD-0040,Croissant 4pcs 2,Bakery,LOC-006,CUST-004,Wrong Item Delivered,1,26.0,Yes
+RET-S3-70661,2026-10-12,TXN-S3-140661,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,36.0,Yes
+RET-S3-70662,2026-10-12,TXN-S3-140662,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-006,CUST-001,Quality Below Standard,3,18.0,Yes
+RET-S3-70663,2026-10-12,TXN-S3-140663,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,95.0,Yes
+RET-S3-70664,2026-10-12,TXN-S3-140664,PRD-0077,Yogurt 1kg 4,Dairy,LOC-006,CUST-001,Wrong Item Delivered,2,66.0,Yes
+RET-S3-70665,2026-10-12,TXN-S3-140665,PRD-0063,Red Apple 4,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,1,58.0,Yes
+RET-S3-70666,2026-10-12,TXN-S3-140666,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-005,Quality Below Standard,2,59.0,Yes
+RET-S3-70667,2026-10-12,TXN-S3-140667,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,504.0,Yes
+RET-S3-70668,2026-10-12,TXN-S3-140668,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-005,Wrong Item Delivered,2,104.0,Yes
+RET-S3-70669,2026-10-13,TXN-S3-140669,PRD-0040,Croissant 4pcs 2,Bakery,LOC-006,CUST-005,Wrong Item Delivered,3,78.0,Yes
+RET-S3-70670,2026-10-13,TXN-S3-140670,PRD-0031,Basmati Rice 5kg 2,Grocery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,168.0,Yes
+RET-S3-70671,2026-10-13,TXN-S3-140671,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,3,67.5,Yes
+RET-S3-70672,2026-10-13,TXN-S3-140672,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-004,Damaged in Shipping,1,52.0,Yes
+RET-S3-70673,2026-10-13,TXN-S3-140673,PRD-0070,Lamb Chops 4,Meat & Poultry,LOC-006,CUST-005,Damaged in Shipping,1,380.0,Yes
+RET-S3-70674,2026-10-13,TXN-S3-140674,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,1,32.0,Yes
+RET-S3-70675,2026-10-13,TXN-S3-140675,PRD-0037,Yogurt 1kg 2,Dairy,LOC-006,CUST-003,Damaged in Shipping,1,33.0,Yes
+RET-S3-70676,2026-10-13,TXN-S3-140676,PRD-0068,Chicken Breast 4,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,135.0,Yes
+RET-S3-70677,2026-10-13,TXN-S3-140677,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,3,54.0,Yes
+RET-S3-70678,2026-10-13,TXN-S3-140678,PRD-0025,Lettuce 2,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,2,36.0,Yes
+RET-S3-70679,2026-10-14,TXN-S3-140679,PRD-0067,Onion 4,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,2,42.0,Yes
+RET-S3-70680,2026-10-14,TXN-S3-140680,PRD-0058,Eggs 30pcs 3,Dairy,LOC-006,CUST-002,Quality Below Standard,3,246.0,Yes
+RET-S3-70681,2026-10-14,TXN-S3-140681,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,26.0,Yes
+RET-S3-70682,2026-10-14,TXN-S3-140682,PRD-0053,Sugar 2kg 3,Grocery,LOC-006,CUST-003,Damaged in Shipping,2,104.0,Yes
+RET-S3-70683,2026-10-14,TXN-S3-140683,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,3,96.0,Yes
+RET-S3-70684,2026-10-14,TXN-S3-140684,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,1,19.5,Yes
+RET-S3-70685,2026-10-14,TXN-S3-140685,PRD-0036,White Cheese 500g 2,Dairy,LOC-006,CUST-003,Quality Below Standard,2,134.0,Yes
+RET-S3-70686,2026-10-14,TXN-S3-140686,PRD-0019,Arabic Bread Pack,Bakery,LOC-006,CUST-003,Wrong Item Delivered,3,18.0,Yes
+RET-S3-70687,2026-10-14,TXN-S3-140687,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-003,Quality Below Standard,2,164.0,Yes
+RET-S3-70688,2026-10-14,TXN-S3-140688,PRD-0058,Eggs 30pcs 3,Dairy,LOC-006,CUST-002,Quality Below Standard,1,82.0,Yes
+RET-S3-70689,2026-10-15,TXN-S3-140689,PRD-0040,Croissant 4pcs 2,Bakery,LOC-006,CUST-001,Wrong Item Delivered,2,52.0,Yes
+RET-S3-70690,2026-10-15,TXN-S3-140690,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,52.0,Yes
+RET-S3-70691,2026-10-15,TXN-S3-140691,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-005,Damaged in Shipping,1,29.5,Yes
+RET-S3-70692,2026-10-15,TXN-S3-140692,PRD-0020,Croissant 4pcs,Bakery,LOC-006,CUST-001,Quality Below Standard,3,78.0,Yes
+RET-S3-70693,2026-10-15,TXN-S3-140693,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,320.0,Yes
+RET-S3-70694,2026-10-15,TXN-S3-140694,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,3,96.0,Yes
+RET-S3-70695,2026-10-15,TXN-S3-140695,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-004,Wrong Item Delivered,3,114.0,Yes
+RET-S3-70696,2026-10-15,TXN-S3-140696,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-003,Quality Below Standard,1,38.0,Yes
+RET-S3-70697,2026-10-15,TXN-S3-140697,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,2,45.0,Yes
+RET-S3-70698,2026-10-15,TXN-S3-140698,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,134.0,Yes
+RET-S3-70699,2026-10-15,TXN-S3-140699,PRD-0006,Potato,Fresh Produce,LOC-006,CUST-002,Wrong Item Delivered,1,18.5,Yes
+RET-S3-70700,2026-10-15,TXN-S3-140700,PRD-0046,Potato 3,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,2,37.0,Yes
+RET-S3-70701,2026-10-15,TXN-S3-140701,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-001,Wrong Item Delivered,3,156.0,Yes
+RET-S3-70702,2026-10-16,TXN-S3-140702,PRD-0033,Sugar 2kg 2,Grocery,LOC-006,CUST-001,Quality Below Standard,1,52.0,Yes
+RET-S3-70703,2026-10-16,TXN-S3-140703,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,6.0,Yes
+RET-S3-70704,2026-10-16,TXN-S3-140704,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,58.5,Yes
+RET-S3-70705,2026-10-16,TXN-S3-140705,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-006,CUST-001,Wrong Item Delivered,3,504.0,Yes
+RET-S3-70706,2026-10-16,TXN-S3-140706,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,67.5,Yes
+RET-S3-70707,2026-10-16,TXN-S3-140707,PRD-0064,Banana 4,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,2,64.0,Yes
+RET-S3-70708,2026-10-16,TXN-S3-140708,PRD-0037,Yogurt 1kg 2,Dairy,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,33.0,Yes
+RET-S3-70709,2026-10-16,TXN-S3-140709,PRD-0077,Yogurt 1kg 4,Dairy,LOC-006,CUST-003,Damaged in Shipping,2,66.0,Yes
+RET-S3-70710,2026-10-16,TXN-S3-140710,PRD-0020,Croissant 4pcs,Bakery,LOC-006,CUST-001,Quality Below Standard,1,26.0,Yes
+RET-S3-70711,2026-10-16,TXN-S3-140711,PRD-0027,Onion 2,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,1,21.0,Yes
+RET-S3-70712,2026-10-17,TXN-S3-140712,PRD-0064,Banana 4,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,1,32.0,Yes
+RET-S3-70713,2026-10-17,TXN-S3-140713,PRD-0078,Eggs 30pcs 4,Dairy,LOC-006,CUST-003,Quality Below Standard,3,246.0,Yes
+RET-S3-70714,2026-10-17,TXN-S3-140714,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,2,270.0,Yes
+RET-S3-70715,2026-10-17,TXN-S3-140715,PRD-0018,Eggs 30pcs,Dairy,LOC-006,CUST-003,Damaged in Shipping,3,246.0,Yes
+RET-S3-70716,2026-10-17,TXN-S3-140716,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,26.0,Yes
+RET-S3-70717,2026-10-17,TXN-S3-140717,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,52.0,Yes
+RET-S3-70718,2026-10-17,TXN-S3-140718,PRD-0027,Onion 2,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,63.0,Yes
+RET-S3-70719,2026-10-17,TXN-S3-140719,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-002,Wrong Item Delivered,2,12.0,Yes
+RET-S3-70720,2026-10-17,TXN-S3-140720,PRD-0031,Basmati Rice 5kg 2,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,168.0,Yes
+RET-S3-70721,2026-10-17,TXN-S3-140721,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-003,Quality Below Standard,2,760.0,Yes
+RET-S3-70722,2026-10-17,TXN-S3-140722,PRD-0020,Croissant 4pcs,Bakery,LOC-006,CUST-004,Wrong Item Delivered,1,26.0,Yes
+RET-S3-70723,2026-10-17,TXN-S3-140723,PRD-0023,Red Apple 2,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,3,174.0,Yes
+RET-S3-70724,2026-10-18,TXN-S3-140724,PRD-0020,Croissant 4pcs,Bakery,LOC-006,CUST-001,Quality Below Standard,2,52.0,Yes
+RET-S3-70725,2026-10-18,TXN-S3-140725,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,18.0,Yes
+RET-S3-70726,2026-10-18,TXN-S3-140726,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,88.5,Yes
+RET-S3-70727,2026-10-18,TXN-S3-140727,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-002,Damaged in Shipping,1,135.0,Yes
+RET-S3-70728,2026-10-18,TXN-S3-140728,PRD-0012,Sunflower Oil 1.5L,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,190.0,Yes
+RET-S3-70729,2026-10-18,TXN-S3-140729,PRD-0054,Flour 2kg 3,Grocery,LOC-006,CUST-005,Wrong Item Delivered,1,38.0,Yes
+RET-S3-70730,2026-10-18,TXN-S3-140730,PRD-0064,Banana 4,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,2,64.0,Yes
+RET-S3-70731,2026-10-18,TXN-S3-140731,PRD-0036,White Cheese 500g 2,Dairy,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,67.0,Yes
+RET-S3-70732,2026-10-18,TXN-S3-140732,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,64.0,Yes
+RET-S3-70733,2026-10-18,TXN-S3-140733,PRD-0068,Chicken Breast 4,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,3,405.0,Yes
+RET-S3-70734,2026-10-19,TXN-S3-140734,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-001,Damaged in Shipping,3,960.0,Yes
+RET-S3-70735,2026-10-19,TXN-S3-140735,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,3,55.5,Yes
+RET-S3-70736,2026-10-19,TXN-S3-140736,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-002,Damaged in Shipping,3,99.0,Yes
+RET-S3-70737,2026-10-19,TXN-S3-140737,PRD-0067,Onion 4,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,42.0,Yes
+RET-S3-70738,2026-10-19,TXN-S3-140738,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,76.0,Yes
+RET-S3-70739,2026-10-19,TXN-S3-140739,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-006,CUST-002,Wrong Item Delivered,2,59.0,Yes
+RET-S3-70740,2026-10-19,TXN-S3-140740,PRD-0062,Cucumber 4,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,2,39.0,Yes
+RET-S3-70741,2026-10-19,TXN-S3-140741,PRD-0025,Lettuce 2,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,2,36.0,Yes
+RET-S3-70742,2026-10-20,TXN-S3-140742,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-002,Wrong Item Delivered,2,164.0,Yes
+RET-S3-70743,2026-10-20,TXN-S3-140743,PRD-0020,Croissant 4pcs,Bakery,LOC-006,CUST-003,Damaged in Shipping,3,78.0,Yes
+RET-S3-70744,2026-10-20,TXN-S3-140744,PRD-0018,Eggs 30pcs,Dairy,LOC-006,CUST-003,Wrong Item Delivered,2,164.0,Yes
+RET-S3-70745,2026-10-20,TXN-S3-140745,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,2,64.0,Yes
+RET-S3-70746,2026-10-20,TXN-S3-140746,PRD-0053,Sugar 2kg 3,Grocery,LOC-006,CUST-004,Damaged in Shipping,2,104.0,Yes
+RET-S3-70747,2026-10-20,TXN-S3-140747,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-006,CUST-005,Quality Below Standard,1,29.5,Yes
+RET-S3-70748,2026-10-20,TXN-S3-140748,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,3,58.5,Yes
+RET-S3-70749,2026-10-20,TXN-S3-140749,PRD-0011,Basmati Rice 5kg,Grocery,LOC-006,CUST-005,Damaged in Shipping,1,168.0,Yes
+RET-S3-70750,2026-10-20,TXN-S3-140750,PRD-0001,Tomato Fresh,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,3,67.5,Yes
+RET-S3-70751,2026-10-20,TXN-S3-140751,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,3,58.5,Yes
+RET-S3-70752,2026-10-20,TXN-S3-140752,PRD-0070,Lamb Chops 4,Meat & Poultry,LOC-006,CUST-002,Damaged in Shipping,1,380.0,Yes
+RET-S3-70753,2026-10-20,TXN-S3-140753,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-004,Wrong Item Delivered,1,33.0,Yes
+RET-S3-70754,2026-10-21,TXN-S3-140754,PRD-0012,Sunflower Oil 1.5L,Grocery,LOC-006,CUST-004,Quality Below Standard,1,95.0,Yes
+RET-S3-70755,2026-10-21,TXN-S3-140755,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,3,96.0,Yes
+RET-S3-70756,2026-10-21,TXN-S3-140756,PRD-0071,Basmati Rice 5kg 4,Grocery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,168.0,Yes
+RET-S3-70757,2026-10-21,TXN-S3-140757,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,3,55.5,Yes
+RET-S3-70758,2026-10-21,TXN-S3-140758,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-002,Wrong Item Delivered,2,36.0,Yes
+RET-S3-70759,2026-10-21,TXN-S3-140759,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-005,Damaged in Shipping,2,66.0,Yes
+RET-S3-70760,2026-10-21,TXN-S3-140760,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,1,18.5,Yes
+RET-S3-70761,2026-10-21,TXN-S3-140761,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-002,Quality Below Standard,2,52.0,Yes
+RET-S3-70762,2026-10-21,TXN-S3-140762,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,58.0,Yes
+RET-S3-70763,2026-10-22,TXN-S3-140763,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,3,55.5,Yes
+RET-S3-70764,2026-10-22,TXN-S3-140764,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,19.5,Yes
+RET-S3-70765,2026-10-22,TXN-S3-140765,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,2,39.0,Yes
+RET-S3-70766,2026-10-22,TXN-S3-140766,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,66.0,Yes
+RET-S3-70767,2026-10-22,TXN-S3-140767,PRD-0074,Flour 2kg 4,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,38.0,Yes
+RET-S3-70768,2026-10-22,TXN-S3-140768,PRD-0025,Lettuce 2,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,2,36.0,Yes
+RET-S3-70769,2026-10-22,TXN-S3-140769,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,33.0,Yes
+RET-S3-70770,2026-10-22,TXN-S3-140770,PRD-0071,Basmati Rice 5kg 4,Grocery,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,504.0,Yes
+RET-S3-70771,2026-10-22,TXN-S3-140771,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,960.0,Yes
+RET-S3-70772,2026-10-22,TXN-S3-140772,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-005,Wrong Item Delivered,3,88.5,Yes
+RET-S3-70773,2026-10-22,TXN-S3-140773,PRD-0006,Potato,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,18.5,Yes
+RET-S3-70774,2026-10-22,TXN-S3-140774,PRD-0006,Potato,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,2,37.0,Yes
+RET-S3-70775,2026-10-22,TXN-S3-140775,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-001,Damaged in Shipping,2,640.0,Yes
+RET-S3-70776,2026-10-23,TXN-S3-140776,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-005,Quality Below Standard,3,99.0,Yes
+RET-S3-70777,2026-10-23,TXN-S3-140777,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,52.0,Yes
+RET-S3-70778,2026-10-23,TXN-S3-140778,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-003,Quality Below Standard,1,95.0,Yes
+RET-S3-70779,2026-10-23,TXN-S3-140779,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-006,CUST-001,Wrong Item Delivered,1,29.5,Yes
+RET-S3-70780,2026-10-23,TXN-S3-140780,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-002,Damaged in Shipping,2,270.0,Yes
+RET-S3-70781,2026-10-23,TXN-S3-140781,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,2,270.0,Yes
+RET-S3-70782,2026-10-23,TXN-S3-140782,PRD-0025,Lettuce 2,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,1,18.0,Yes
+RET-S3-70783,2026-10-23,TXN-S3-140783,PRD-0066,Potato 4,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,2,37.0,Yes
+RET-S3-70784,2026-10-23,TXN-S3-140784,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-006,CUST-004,Quality Below Standard,2,336.0,Yes
+RET-S3-70785,2026-10-23,TXN-S3-140785,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-003,Damaged in Shipping,1,320.0,Yes
+RET-S3-70786,2026-10-23,TXN-S3-140786,PRD-0011,Basmati Rice 5kg,Grocery,LOC-006,CUST-001,Damaged in Shipping,1,168.0,Yes
+RET-S3-70787,2026-10-24,TXN-S3-140787,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-003,Damaged in Shipping,1,29.5,Yes
+RET-S3-70788,2026-10-24,TXN-S3-140788,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,2,36.0,Yes
+RET-S3-70789,2026-10-24,TXN-S3-140789,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-001,Damaged in Shipping,2,640.0,Yes
+RET-S3-70790,2026-10-24,TXN-S3-140790,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-004,Damaged in Shipping,2,640.0,Yes
+RET-S3-70791,2026-10-24,TXN-S3-140791,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,2,36.0,Yes
+RET-S3-70792,2026-10-24,TXN-S3-140792,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,3,54.0,Yes
+RET-S3-70793,2026-10-24,TXN-S3-140793,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-006,CUST-001,Damaged in Shipping,2,12.0,Yes
+RET-S3-70794,2026-10-24,TXN-S3-140794,PRD-0007,Onion,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,3,63.0,Yes
+RET-S3-70795,2026-10-24,TXN-S3-140795,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,190.0,Yes
+RET-S3-70796,2026-10-24,TXN-S3-140796,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,2,270.0,Yes
+RET-S3-70797,2026-10-24,TXN-S3-140797,PRD-0011,Basmati Rice 5kg,Grocery,LOC-006,CUST-003,Wrong Item Delivered,2,336.0,Yes
+RET-S3-70798,2026-10-24,TXN-S3-140798,PRD-0065,Lettuce 4,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,1,18.0,Yes
+RET-S3-70799,2026-10-25,TXN-S3-140799,PRD-0031,Basmati Rice 5kg 2,Grocery,LOC-006,CUST-004,Quality Below Standard,3,504.0,Yes
+RET-S3-70800,2026-10-25,TXN-S3-140800,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,760.0,Yes
+RET-S3-70801,2026-10-25,TXN-S3-140801,PRD-0050,Lamb Chops 3,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,1,380.0,Yes
+RET-S3-70802,2026-10-25,TXN-S3-140802,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-002,Damaged in Shipping,2,270.0,Yes
+RET-S3-70803,2026-10-25,TXN-S3-140803,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,3,58.5,Yes
+RET-S3-70804,2026-10-25,TXN-S3-140804,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,3,960.0,Yes
+RET-S3-70805,2026-10-26,TXN-S3-140805,PRD-0031,Basmati Rice 5kg 2,Grocery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,336.0,Yes
+RET-S3-70806,2026-10-26,TXN-S3-140806,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,1,22.5,Yes
+RET-S3-70807,2026-10-26,TXN-S3-140807,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-005,Quality Below Standard,3,960.0,Yes
+RET-S3-70808,2026-10-26,TXN-S3-140808,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,1,82.0,Yes
+RET-S3-70809,2026-10-26,TXN-S3-140809,PRD-0020,Croissant 4pcs,Bakery,LOC-006,CUST-001,Damaged in Shipping,3,78.0,Yes
+RET-S3-70810,2026-10-26,TXN-S3-140810,PRD-0068,Chicken Breast 4,Meat & Poultry,LOC-006,CUST-001,Wrong Item Delivered,2,270.0,Yes
+RET-S3-70811,2026-10-26,TXN-S3-140811,PRD-0065,Lettuce 4,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,2,36.0,Yes
+RET-S3-70812,2026-10-26,TXN-S3-140812,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-004,Quality Below Standard,3,114.0,Yes
+RET-S3-70813,2026-10-26,TXN-S3-140813,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-001,Wrong Item Delivered,2,640.0,Yes
+RET-S3-70814,2026-10-27,TXN-S3-140814,PRD-0018,Eggs 30pcs,Dairy,LOC-006,CUST-001,Damaged in Shipping,2,164.0,Yes
+RET-S3-70815,2026-10-27,TXN-S3-140815,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-004,Wrong Item Delivered,3,1140.0,Yes
+RET-S3-70816,2026-10-27,TXN-S3-140816,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,52.0,Yes
+RET-S3-70817,2026-10-27,TXN-S3-140817,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-002,Wrong Item Delivered,1,32.0,Yes
+RET-S3-70818,2026-10-27,TXN-S3-140818,PRD-0029,Beef Steak 2,Meat & Poultry,LOC-006,CUST-002,Damaged in Shipping,2,640.0,Yes
+RET-S3-70819,2026-10-27,TXN-S3-140819,PRD-0065,Lettuce 4,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,18.0,Yes
+RET-S3-70820,2026-10-27,TXN-S3-140820,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-004,Wrong Item Delivered,2,640.0,Yes
+RET-S3-70821,2026-10-27,TXN-S3-140821,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-002,Quality Below Standard,2,52.0,Yes
+RET-S3-70822,2026-10-28,TXN-S3-140822,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,1,21.0,Yes
+RET-S3-70823,2026-10-28,TXN-S3-140823,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,78.0,Yes
+RET-S3-70824,2026-10-28,TXN-S3-140824,PRD-0050,Lamb Chops 3,Meat & Poultry,LOC-006,CUST-005,Wrong Item Delivered,2,760.0,Yes
+RET-S3-70825,2026-10-28,TXN-S3-140825,PRD-0012,Sunflower Oil 1.5L,Grocery,LOC-006,CUST-004,Quality Below Standard,1,95.0,Yes
+RET-S3-70826,2026-10-28,TXN-S3-140826,PRD-0054,Flour 2kg 3,Grocery,LOC-006,CUST-002,Damaged in Shipping,2,76.0,Yes
+RET-S3-70827,2026-10-28,TXN-S3-140827,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-006,CUST-003,Quality Below Standard,1,380.0,Yes
+RET-S3-70828,2026-10-28,TXN-S3-140828,PRD-0070,Lamb Chops 4,Meat & Poultry,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,760.0,Yes
+RET-S3-70829,2026-10-28,TXN-S3-140829,PRD-0077,Yogurt 1kg 4,Dairy,LOC-006,CUST-002,Wrong Item Delivered,2,66.0,Yes
+RET-S3-70830,2026-10-28,TXN-S3-140830,PRD-0020,Croissant 4pcs,Bakery,LOC-006,CUST-004,Quality Below Standard,2,52.0,Yes
+RET-S3-70831,2026-10-28,TXN-S3-140831,PRD-0002,Cucumber,Fresh Produce,LOC-006,CUST-001,Damaged in Shipping,1,19.5,Yes
+RET-S3-70832,2026-10-29,TXN-S3-140832,PRD-0037,Yogurt 1kg 2,Dairy,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,33.0,Yes
+RET-S3-70833,2026-10-29,TXN-S3-140833,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,2,45.0,Yes
+RET-S3-70834,2026-10-29,TXN-S3-140834,PRD-0042,Cucumber 3,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,1,19.5,Yes
+RET-S3-70835,2026-10-29,TXN-S3-140835,PRD-0008,Chicken Breast,Meat & Poultry,LOC-006,CUST-001,Damaged in Shipping,3,405.0,Yes
+RET-S3-70836,2026-10-29,TXN-S3-140836,PRD-0054,Flour 2kg 3,Grocery,LOC-006,CUST-002,Damaged in Shipping,2,76.0,Yes
+RET-S3-70837,2026-10-29,TXN-S3-140837,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-004,Wrong Item Delivered,3,54.0,Yes
+RET-S3-70838,2026-10-29,TXN-S3-140838,PRD-0027,Onion 2,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,2,42.0,Yes
+RET-S3-70839,2026-10-29,TXN-S3-140839,PRD-0012,Sunflower Oil 1.5L,Grocery,LOC-006,CUST-003,Wrong Item Delivered,2,190.0,Yes
+RET-S3-70840,2026-10-30,TXN-S3-140840,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,3,54.0,Yes
+RET-S3-70841,2026-10-30,TXN-S3-140841,PRD-0056,White Cheese 500g 3,Dairy,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,201.0,Yes
+RET-S3-70842,2026-10-30,TXN-S3-140842,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,3,174.0,Yes
+RET-S3-70843,2026-10-30,TXN-S3-140843,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,1,32.0,Yes
+RET-S3-70844,2026-10-30,TXN-S3-140844,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,3,18.0,Yes
+RET-S3-70845,2026-10-30,TXN-S3-140845,PRD-0073,Sugar 2kg 4,Grocery,LOC-006,CUST-004,Wrong Item Delivered,2,104.0,Yes
+RET-S3-70846,2026-10-30,TXN-S3-140846,PRD-0028,Chicken Breast 2,Meat & Poultry,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,135.0,Yes
+RET-S3-70847,2026-10-31,TXN-S3-140847,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,3,58.5,Yes
+RET-S3-70848,2026-10-31,TXN-S3-140848,PRD-0007,Onion,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,2,42.0,Yes
+RET-S3-70849,2026-10-31,TXN-S3-140849,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,640.0,Yes
+RET-S3-70850,2026-10-31,TXN-S3-140850,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-002,Quality Below Standard,2,190.0,Yes
+RET-S3-70851,2026-10-31,TXN-S3-140851,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,2,45.0,Yes
+RET-S3-70852,2026-10-31,TXN-S3-140852,PRD-0007,Onion,Fresh Produce,LOC-006,CUST-003,Damaged in Shipping,1,21.0,Yes
+RET-S3-70853,2026-11-01,TXN-S3-140853,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-006,CUST-004,Wrong Item Delivered,1,380.0,Yes
+RET-S3-70854,2026-11-01,TXN-S3-140854,PRD-0044,Banana 3,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,96.0,Yes
+RET-S3-70855,2026-11-01,TXN-S3-140855,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,1,320.0,Yes
+RET-S3-70856,2026-11-01,TXN-S3-140856,PRD-0062,Cucumber 4,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,3,58.5,Yes
+RET-S3-70857,2026-11-01,TXN-S3-140857,PRD-0036,White Cheese 500g 2,Dairy,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,134.0,Yes
+RET-S3-70858,2026-11-01,TXN-S3-140858,PRD-0072,Sunflower Oil 1.5L 4,Grocery,LOC-006,CUST-005,Wrong Item Delivered,2,190.0,Yes
+RET-S3-70859,2026-11-01,TXN-S3-140859,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-002,Damaged in Shipping,3,405.0,Yes
+RET-S3-70860,2026-11-01,TXN-S3-140860,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,1,32.0,Yes
+RET-S3-70861,2026-11-01,TXN-S3-140861,PRD-0036,White Cheese 500g 2,Dairy,LOC-006,CUST-004,Damaged in Shipping,2,134.0,Yes
+RET-S3-70862,2026-11-02,TXN-S3-140862,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-002,Damaged in Shipping,3,201.0,Yes
+RET-S3-70863,2026-11-02,TXN-S3-140863,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,2,36.0,Yes
+RET-S3-70864,2026-11-02,TXN-S3-140864,PRD-0063,Red Apple 4,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,3,174.0,Yes
+RET-S3-70865,2026-11-02,TXN-S3-140865,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-005,Damaged in Shipping,3,114.0,Yes
+RET-S3-70866,2026-11-02,TXN-S3-140866,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-004,Damaged in Shipping,3,1140.0,Yes
+RET-S3-70867,2026-11-02,TXN-S3-140867,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-002,Damaged in Shipping,3,78.0,Yes
+RET-S3-70868,2026-11-02,TXN-S3-140868,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-006,CUST-005,Wrong Item Delivered,1,29.5,Yes
+RET-S3-70869,2026-11-02,TXN-S3-140869,PRD-0015,Milk Full Fat 1L,Dairy,LOC-006,CUST-003,Quality Below Standard,1,29.5,Yes
+RET-S3-70870,2026-11-02,TXN-S3-140870,PRD-0065,Lettuce 4,Fresh Produce,LOC-006,CUST-004,Wrong Item Delivered,2,36.0,Yes
+RET-S3-70871,2026-11-02,TXN-S3-140871,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,42.0,Yes
+RET-S3-70872,2026-11-03,TXN-S3-140872,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,18.0,Yes
+RET-S3-70873,2026-11-03,TXN-S3-140873,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-002,Wrong Item Delivered,1,19.5,Yes
+RET-S3-70874,2026-11-03,TXN-S3-140874,PRD-0001,Tomato Fresh,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,1,22.5,Yes
+RET-S3-70875,2026-11-03,TXN-S3-140875,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-004,Wrong Item Delivered,1,19.5,Yes
+RET-S3-70876,2026-11-03,TXN-S3-140876,PRD-0012,Sunflower Oil 1.5L,Grocery,LOC-006,CUST-002,Quality Below Standard,2,190.0,Yes
+RET-S3-70877,2026-11-03,TXN-S3-140877,PRD-0020,Croissant 4pcs,Bakery,LOC-006,CUST-004,Wrong Item Delivered,1,26.0,Yes
+RET-S3-70878,2026-11-03,TXN-S3-140878,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-002,Damaged in Shipping,1,320.0,Yes
+RET-S3-70879,2026-11-03,TXN-S3-140879,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,36.0,Yes
+RET-S3-70880,2026-11-03,TXN-S3-140880,PRD-0020,Croissant 4pcs,Bakery,LOC-006,CUST-001,Quality Below Standard,2,52.0,Yes
+RET-S3-70881,2026-11-03,TXN-S3-140881,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,270.0,Yes
+RET-S3-70882,2026-11-03,TXN-S3-140882,PRD-0050,Lamb Chops 3,Meat & Poultry,LOC-006,CUST-003,Quality Below Standard,2,760.0,Yes
+RET-S3-70883,2026-11-04,TXN-S3-140883,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-006,CUST-005,Wrong Item Delivered,1,168.0,Yes
+RET-S3-70884,2026-11-04,TXN-S3-140884,PRD-0002,Cucumber,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,58.5,Yes
+RET-S3-70885,2026-11-04,TXN-S3-140885,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,3,156.0,Yes
+RET-S3-70886,2026-11-04,TXN-S3-140886,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,3,54.0,Yes
+RET-S3-70887,2026-11-04,TXN-S3-140887,PRD-0064,Banana 4,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,3,96.0,Yes
+RET-S3-70888,2026-11-04,TXN-S3-140888,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-006,CUST-003,Wrong Item Delivered,1,6.0,Yes
+RET-S3-70889,2026-11-05,TXN-S3-140889,PRD-0027,Onion 2,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,1,21.0,Yes
+RET-S3-70890,2026-11-05,TXN-S3-140890,PRD-0023,Red Apple 2,Fresh Produce,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,3,174.0,Yes
+RET-S3-70891,2026-11-05,TXN-S3-140891,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-003,Quality Below Standard,3,99.0,Yes
+RET-S3-70892,2026-11-05,TXN-S3-140892,PRD-0027,Onion 2,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,63.0,Yes
+RET-S3-70893,2026-11-05,TXN-S3-140893,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-005,Damaged in Shipping,2,76.0,Yes
+RET-S3-70894,2026-11-05,TXN-S3-140894,PRD-0062,Cucumber 4,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,1,19.5,Yes
+RET-S3-70895,2026-11-05,TXN-S3-140895,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-005,Damaged in Shipping,1,320.0,Yes
+RET-S3-70896,2026-11-05,TXN-S3-140896,PRD-0001,Tomato Fresh,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,2,45.0,Yes
+RET-S3-70897,2026-11-05,TXN-S3-140897,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,82.0,Yes
+RET-S3-70898,2026-11-05,TXN-S3-140898,PRD-0024,Banana 2,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,3,96.0,Yes
+RET-S3-70899,2026-11-05,TXN-S3-140899,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-003,Quality Below Standard,2,36.0,Yes
+RET-S3-70900,2026-11-05,TXN-S3-140900,PRD-0056,White Cheese 500g 3,Dairy,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,201.0,Yes
+RET-S3-70901,2026-11-06,TXN-S3-140901,PRD-0058,Eggs 30pcs 3,Dairy,LOC-006,CUST-004,Wrong Item Delivered,3,246.0,Yes
+RET-S3-70902,2026-11-06,TXN-S3-140902,PRD-0004,Banana,Fresh Produce,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,1,32.0,Yes
+RET-S3-70903,2026-11-06,TXN-S3-140903,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,3,174.0,Yes
+RET-S3-70904,2026-11-06,TXN-S3-140904,PRD-0061,Tomato Fresh 4,Fresh Produce,LOC-006,CUST-005,Wrong Item Delivered,3,67.5,Yes
+RET-S3-70905,2026-11-06,TXN-S3-140905,PRD-0050,Lamb Chops 3,Meat & Poultry,LOC-006,CUST-005,Quality Below Standard,1,380.0,Yes
+RET-S3-70906,2026-11-06,TXN-S3-140906,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,1,6.0,Yes
+RET-S3-70907,2026-11-06,TXN-S3-140907,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,3,246.0,Yes
+RET-S3-70908,2026-11-06,TXN-S3-140908,PRD-0006,Potato,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,3,55.5,Yes
+RET-S3-70909,2026-11-06,TXN-S3-140909,PRD-0065,Lettuce 4,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,3,54.0,Yes
+RET-S3-70910,2026-11-07,TXN-S3-140910,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-005,Quality Below Standard,1,95.0,Yes
+RET-S3-70911,2026-11-07,TXN-S3-140911,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-006,CUST-002,Wrong Item Delivered,1,168.0,Yes
+RET-S3-70912,2026-11-07,TXN-S3-140912,PRD-0045,Lettuce 3,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,3,54.0,Yes
+RET-S3-70913,2026-11-07,TXN-S3-140913,PRD-0029,Beef Steak 2,Meat & Poultry,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,1,320.0,Yes
+RET-S3-70914,2026-11-07,TXN-S3-140914,PRD-0051,Basmati Rice 5kg 3,Grocery,LOC-006,CUST-004,Quality Below Standard,1,168.0,Yes
+RET-S3-70915,2026-11-07,TXN-S3-140915,PRD-0063,Red Apple 4,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,2,116.0,Yes
+RET-S3-70916,2026-11-07,TXN-S3-140916,PRD-0031,Basmati Rice 5kg 2,Grocery,LOC-006,CUST-001,Damaged in Shipping,2,336.0,Yes
+RET-S3-70917,2026-11-07,TXN-S3-140917,PRD-0070,Lamb Chops 4,Meat & Poultry,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,760.0,Yes
+RET-S3-70918,2026-11-08,TXN-S3-140918,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,66.0,Yes
+RET-S3-70919,2026-11-08,TXN-S3-140919,PRD-0011,Basmati Rice 5kg,Grocery,LOC-006,CUST-001,Damaged in Shipping,1,168.0,Yes
+RET-S3-70920,2026-11-08,TXN-S3-140920,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-002,Wrong Item Delivered,2,59.0,Yes
+RET-S3-70921,2026-11-08,TXN-S3-140921,PRD-0028,Chicken Breast 2,Meat & Poultry,LOC-006,CUST-001,Quality Below Standard,2,270.0,Yes
+RET-S3-70922,2026-11-08,TXN-S3-140922,PRD-0016,White Cheese 500g,Dairy,LOC-006,CUST-004,Delivery Delayed / Order Cancelled,2,134.0,Yes
+RET-S3-70923,2026-11-08,TXN-S3-140923,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-005,Damaged in Shipping,1,82.0,Yes
+RET-S3-70924,2026-11-08,TXN-S3-140924,PRD-0003,Red Apple,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,3,174.0,Yes
+RET-S3-70925,2026-11-08,TXN-S3-140925,PRD-0066,Potato 4,Fresh Produce,LOC-006,CUST-005,Quality Below Standard,3,55.5,Yes
+RET-S3-70926,2026-11-08,TXN-S3-140926,PRD-0020,Croissant 4pcs,Bakery,LOC-006,CUST-005,Quality Below Standard,3,78.0,Yes
+RET-S3-70927,2026-11-08,TXN-S3-140927,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-003,Damaged in Shipping,2,270.0,Yes
+RET-S3-70928,2026-11-08,TXN-S3-140928,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-001,Quality Below Standard,1,38.0,Yes
+RET-S3-70929,2026-11-08,TXN-S3-140929,PRD-0043,Red Apple 3,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,2,116.0,Yes
+RET-S3-70930,2026-11-08,TXN-S3-140930,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-006,CUST-003,Damaged in Shipping,2,59.0,Yes
+RET-S3-70931,2026-11-09,TXN-S3-140931,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-001,Damaged in Shipping,1,38.0,Yes
+RET-S3-70932,2026-11-09,TXN-S3-140932,PRD-0063,Red Apple 4,Fresh Produce,LOC-006,CUST-004,Damaged in Shipping,1,58.0,Yes
+RET-S3-70933,2026-11-09,TXN-S3-140933,PRD-0065,Lettuce 4,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,3,54.0,Yes
+RET-S3-70934,2026-11-09,TXN-S3-140934,PRD-0034,Flour 2kg 2,Grocery,LOC-006,CUST-003,Quality Below Standard,3,114.0,Yes
+RET-S3-70935,2026-11-09,TXN-S3-140935,PRD-0018,Eggs 30pcs,Dairy,LOC-006,CUST-005,Quality Below Standard,3,246.0,Yes
+RET-S3-70936,2026-11-09,TXN-S3-140936,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,2,190.0,Yes
+RET-S3-70937,2026-11-09,TXN-S3-140937,PRD-0053,Sugar 2kg 3,Grocery,LOC-006,CUST-002,Wrong Item Delivered,1,52.0,Yes
+RET-S3-70938,2026-11-09,TXN-S3-140938,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-006,CUST-002,Wrong Item Delivered,3,88.5,Yes
+RET-S3-70939,2026-11-09,TXN-S3-140939,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,3,960.0,Yes
+RET-S3-70940,2026-11-09,TXN-S3-140940,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-004,Quality Below Standard,1,320.0,Yes
+RET-S3-70941,2026-11-09,TXN-S3-140941,PRD-0071,Basmati Rice 5kg 4,Grocery,LOC-006,CUST-005,Quality Below Standard,3,504.0,Yes
+RET-S3-70942,2026-11-09,TXN-S3-140942,PRD-0038,Eggs 30pcs 2,Dairy,LOC-006,CUST-002,Wrong Item Delivered,1,82.0,Yes
+RET-S3-70943,2026-11-09,TXN-S3-140943,PRD-0057,Yogurt 1kg 3,Dairy,LOC-006,CUST-002,Damaged in Shipping,1,33.0,Yes
+RET-S3-70944,2026-11-10,TXN-S3-140944,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-001,Wrong Item Delivered,3,88.5,Yes
+RET-S3-70945,2026-11-10,TXN-S3-140945,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-005,Damaged in Shipping,2,52.0,Yes
+RET-S3-70946,2026-11-10,TXN-S3-140946,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-002,Damaged in Shipping,1,21.0,Yes
+RET-S3-70947,2026-11-10,TXN-S3-140947,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-004,Damaged in Shipping,3,156.0,Yes
+RET-S3-70948,2026-11-10,TXN-S3-140948,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-006,CUST-004,Quality Below Standard,1,6.0,Yes
+RET-S3-70949,2026-11-10,TXN-S3-140949,PRD-0022,Cucumber 2,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,2,39.0,Yes
+RET-S3-70950,2026-11-10,TXN-S3-140950,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,104.0,Yes
+RET-S3-70951,2026-11-10,TXN-S3-140951,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-006,CUST-004,Quality Below Standard,3,18.0,Yes
+RET-S3-70952,2026-11-10,TXN-S3-140952,PRD-0064,Banana 4,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,3,96.0,Yes
+RET-S3-70953,2026-11-10,TXN-S3-140953,PRD-0014,Flour 2kg,Grocery,LOC-006,CUST-001,Quality Below Standard,1,38.0,Yes
+RET-S3-70954,2026-11-10,TXN-S3-140954,PRD-0047,Onion 3,Fresh Produce,LOC-006,CUST-004,Quality Below Standard,2,42.0,Yes
+RET-S3-70955,2026-11-11,TXN-S3-140955,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,3,54.0,Yes
+RET-S3-70956,2026-11-11,TXN-S3-140956,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-006,CUST-003,Wrong Item Delivered,2,640.0,Yes
+RET-S3-70957,2026-11-11,TXN-S3-140957,PRD-0013,Sugar 2kg,Grocery,LOC-006,CUST-004,Quality Below Standard,1,52.0,Yes
+RET-S3-70958,2026-11-11,TXN-S3-140958,PRD-0063,Red Apple 4,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,3,174.0,Yes
+RET-S3-70959,2026-11-11,TXN-S3-140959,PRD-0001,Tomato Fresh,Fresh Produce,LOC-006,CUST-001,Quality Below Standard,3,67.5,Yes
+RET-S3-70960,2026-11-11,TXN-S3-140960,PRD-0023,Red Apple 2,Fresh Produce,LOC-006,CUST-004,Wrong Item Delivered,2,116.0,Yes
+RET-S3-70961,2026-11-11,TXN-S3-140961,PRD-0025,Lettuce 2,Fresh Produce,LOC-006,CUST-005,Damaged in Shipping,3,54.0,Yes
+RET-S3-70962,2026-11-11,TXN-S3-140962,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-006,CUST-001,Damaged in Shipping,2,760.0,Yes
+RET-S3-70963,2026-11-11,TXN-S3-140963,PRD-0080,Croissant 4pcs 4,Bakery,LOC-006,CUST-004,Damaged in Shipping,2,52.0,Yes
+RET-S3-70964,2026-11-12,TXN-S3-140964,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-004,Wrong Item Delivered,2,640.0,Yes
+RET-S3-70965,2026-11-12,TXN-S3-140965,PRD-0039,Arabic Bread Pack 2,Bakery,LOC-006,CUST-003,Delivery Delayed / Order Cancelled,1,6.0,Yes
+RET-S3-70966,2026-11-12,TXN-S3-140966,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-006,CUST-002,Quality Below Standard,2,45.0,Yes
+RET-S3-70967,2026-11-12,TXN-S3-140967,PRD-0017,Yogurt 1kg,Dairy,LOC-006,CUST-002,Quality Below Standard,2,66.0,Yes
+RET-S3-70968,2026-11-12,TXN-S3-140968,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-006,CUST-005,Quality Below Standard,2,59.0,Yes
+RET-S3-70969,2026-11-12,TXN-S3-140969,PRD-0041,Tomato Fresh 3,Fresh Produce,LOC-006,CUST-002,Delivery Delayed / Order Cancelled,2,45.0,Yes
+RET-S3-70970,2026-11-12,TXN-S3-140970,PRD-0046,Potato 3,Fresh Produce,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,37.0,Yes
+RET-S3-70971,2026-11-12,TXN-S3-140971,PRD-0005,Lettuce,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,3,54.0,Yes
+RET-S3-70972,2026-11-12,TXN-S3-140972,PRD-0010,Lamb Chops,Meat & Poultry,LOC-006,CUST-005,Damaged in Shipping,2,760.0,Yes
+RET-S3-70973,2026-11-13,TXN-S3-140973,PRD-0001,Tomato Fresh,Fresh Produce,LOC-006,CUST-004,Wrong Item Delivered,1,22.5,Yes
+RET-S3-70974,2026-11-13,TXN-S3-140974,PRD-0049,Beef Steak 3,Meat & Poultry,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,1,320.0,Yes
+RET-S3-70975,2026-11-13,TXN-S3-140975,PRD-0018,Eggs 30pcs,Dairy,LOC-006,CUST-005,Damaged in Shipping,1,82.0,Yes
+RET-S3-70976,2026-11-13,TXN-S3-140976,PRD-0030,Lamb Chops 2,Meat & Poultry,LOC-006,CUST-004,Damaged in Shipping,3,1140.0,Yes
+RET-S3-70977,2026-11-13,TXN-S3-140977,PRD-0075,Milk Full Fat 1L 4,Dairy,LOC-006,CUST-003,Wrong Item Delivered,1,29.5,Yes
+RET-S3-70978,2026-11-13,TXN-S3-140978,PRD-0002,Cucumber,Fresh Produce,LOC-006,CUST-001,Wrong Item Delivered,2,39.0,Yes
+RET-S3-70979,2026-11-13,TXN-S3-140979,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-001,Wrong Item Delivered,2,270.0,Yes
+RET-S3-70980,2026-11-13,TXN-S3-140980,PRD-0040,Croissant 4pcs 2,Bakery,LOC-006,CUST-001,Delivery Delayed / Order Cancelled,2,52.0,Yes
+RET-S3-70981,2026-11-13,TXN-S3-140981,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-006,CUST-005,Wrong Item Delivered,1,6.0,Yes
+RET-S3-70982,2026-11-14,TXN-S3-140982,PRD-0054,Flour 2kg 3,Grocery,LOC-006,CUST-002,Wrong Item Delivered,2,76.0,Yes
+RET-S3-70983,2026-11-14,TXN-S3-140983,PRD-0012,Sunflower Oil 1.5L,Grocery,LOC-006,CUST-003,Wrong Item Delivered,1,95.0,Yes
+RET-S3-70984,2026-11-14,TXN-S3-140984,PRD-0009,Beef Steak,Meat & Poultry,LOC-006,CUST-005,Wrong Item Delivered,1,320.0,Yes
+RET-S3-70985,2026-11-14,TXN-S3-140985,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-006,CUST-003,Damaged in Shipping,3,405.0,Yes
+RET-S3-70986,2026-11-14,TXN-S3-140986,PRD-0026,Potato 2,Fresh Produce,LOC-006,CUST-005,Delivery Delayed / Order Cancelled,2,37.0,Yes
+RET-S3-70987,2026-11-14,TXN-S3-140987,PRD-0074,Flour 2kg 4,Grocery,LOC-006,CUST-004,Damaged in Shipping,3,114.0,Yes
+RET-S3-70988,2026-11-14,TXN-S3-140988,PRD-0060,Croissant 4pcs 3,Bakery,LOC-006,CUST-003,Damaged in Shipping,2,52.0,Yes
+RET-S3-70989,2026-11-14,TXN-S3-140989,PRD-0021,Tomato Fresh 2,Fresh Produce,LOC-006,CUST-003,Wrong Item Delivered,2,45.0,Yes
+RET-S3-70990,2026-11-14,TXN-S3-140990,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-006,CUST-005,Wrong Item Delivered,1,29.5,Yes

@@ -1,0 +1,43 @@
+﻿return_id,return_date,transaction_id,product_id,product_name,category,location_id,customer_id,return_reason,quantity,refund_amount,quality_issue
+RET-S2-60001,2026-08-04,TXN-S2-120001,PRD-0004,Banana,Fresh Produce,LOC-003,CUST-003,Customer Changed Mind,1,32.0,No
+RET-S2-60002,2026-08-08,TXN-S2-120002,PRD-0071,Basmati Rice 5kg 4,Grocery,LOC-003,CUST-004,Customer Changed Mind,1,168.0,No
+RET-S2-60003,2026-08-10,TXN-S2-120003,PRD-0025,Lettuce 2,Fresh Produce,LOC-003,CUST-005,Customer Changed Mind,1,18.0,No
+RET-S2-60004,2026-08-11,TXN-S2-120004,PRD-0001,Tomato Fresh,Fresh Produce,LOC-003,CUST-004,Customer Changed Mind,1,22.5,No
+RET-S2-60005,2026-08-12,TXN-S2-120005,PRD-0020,Croissant 4pcs,Bakery,LOC-003,CUST-003,Customer Changed Mind,1,26.0,No
+RET-S2-60006,2026-08-13,TXN-S2-120006,PRD-0047,Onion 3,Fresh Produce,LOC-003,CUST-003,Customer Changed Mind,1,21.0,No
+RET-S2-60007,2026-08-17,TXN-S2-120007,PRD-0060,Croissant 4pcs 3,Bakery,LOC-003,CUST-004,Customer Changed Mind,1,26.0,No
+RET-S2-60008,2026-08-18,TXN-S2-120008,PRD-0069,Beef Steak 4,Meat & Poultry,LOC-003,CUST-003,Customer Changed Mind,1,320.0,No
+RET-S2-60009,2026-08-19,TXN-S2-120009,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-003,CUST-003,Customer Changed Mind,1,29.5,No
+RET-S2-60010,2026-08-20,TXN-S2-120010,PRD-0071,Basmati Rice 5kg 4,Grocery,LOC-003,CUST-004,Customer Changed Mind,1,168.0,No
+RET-S2-60011,2026-08-21,TXN-S2-120011,PRD-0011,Basmati Rice 5kg,Grocery,LOC-003,CUST-001,Customer Changed Mind,1,168.0,No
+RET-S2-60012,2026-08-22,TXN-S2-120012,PRD-0043,Red Apple 3,Fresh Produce,LOC-003,CUST-005,Customer Changed Mind,1,58.0,No
+RET-S2-60013,2026-08-24,TXN-S2-120013,PRD-0008,Chicken Breast,Meat & Poultry,LOC-003,CUST-004,Customer Changed Mind,1,135.0,No
+RET-S2-60014,2026-08-26,TXN-S2-120014,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-003,CUST-004,Customer Changed Mind,1,6.0,No
+RET-S2-60015,2026-08-30,TXN-S2-120015,PRD-0080,Croissant 4pcs 4,Bakery,LOC-003,CUST-002,Customer Changed Mind,1,26.0,No
+RET-S2-60016,2026-08-31,TXN-S2-120016,PRD-0055,Milk Full Fat 1L 3,Dairy,LOC-003,CUST-002,Customer Changed Mind,1,29.5,No
+RET-S2-60017,2026-09-01,TXN-S2-120017,PRD-0026,Potato 2,Fresh Produce,LOC-003,CUST-004,Customer Changed Mind,1,18.5,No
+RET-S2-60018,2026-09-02,TXN-S2-120018,PRD-0026,Potato 2,Fresh Produce,LOC-003,CUST-003,Customer Changed Mind,1,18.5,No
+RET-S2-60019,2026-09-04,TXN-S2-120019,PRD-0079,Arabic Bread Pack 4,Bakery,LOC-003,CUST-005,Customer Changed Mind,1,6.0,No
+RET-S2-60020,2026-09-06,TXN-S2-120020,PRD-0076,White Cheese 500g 4,Dairy,LOC-003,CUST-004,Customer Changed Mind,1,67.0,No
+RET-S2-60021,2026-09-12,TXN-S2-120021,PRD-0048,Chicken Breast 3,Meat & Poultry,LOC-003,CUST-004,Customer Changed Mind,1,135.0,No
+RET-S2-60022,2026-09-13,TXN-S2-120022,PRD-0014,Flour 2kg,Grocery,LOC-003,CUST-001,Customer Changed Mind,1,38.0,No
+RET-S2-60023,2026-09-14,TXN-S2-120023,PRD-0009,Beef Steak,Meat & Poultry,LOC-003,CUST-004,Customer Changed Mind,1,320.0,No
+RET-S2-60024,2026-09-19,TXN-S2-120024,PRD-0040,Croissant 4pcs 2,Bakery,LOC-003,CUST-005,Customer Changed Mind,1,26.0,No
+RET-S2-60025,2026-09-21,TXN-S2-120025,PRD-0067,Onion 4,Fresh Produce,LOC-003,CUST-004,Customer Changed Mind,1,21.0,No
+RET-S2-60026,2026-09-23,TXN-S2-120026,PRD-0063,Red Apple 4,Fresh Produce,LOC-003,CUST-004,Customer Changed Mind,1,58.0,No
+RET-S2-60027,2026-09-25,TXN-S2-120027,PRD-0052,Sunflower Oil 1.5L 3,Grocery,LOC-003,CUST-004,Customer Changed Mind,1,95.0,No
+RET-S2-60028,2026-09-27,TXN-S2-120028,PRD-0038,Eggs 30pcs 2,Dairy,LOC-003,CUST-004,Customer Changed Mind,1,82.0,No
+RET-S2-60029,2026-09-30,TXN-S2-120029,PRD-0027,Onion 2,Fresh Produce,LOC-003,CUST-005,Customer Changed Mind,1,21.0,No
+RET-S2-60030,2026-10-02,TXN-S2-120030,PRD-0056,White Cheese 500g 3,Dairy,LOC-003,CUST-001,Customer Changed Mind,1,67.0,No
+RET-S2-60031,2026-10-07,TXN-S2-120031,PRD-0014,Flour 2kg,Grocery,LOC-003,CUST-002,Customer Changed Mind,1,38.0,No
+RET-S2-60032,2026-10-08,TXN-S2-120032,PRD-0046,Potato 3,Fresh Produce,LOC-003,CUST-003,Customer Changed Mind,1,18.5,No
+RET-S2-60033,2026-10-12,TXN-S2-120033,PRD-0033,Sugar 2kg 2,Grocery,LOC-003,CUST-005,Customer Changed Mind,1,52.0,No
+RET-S2-60034,2026-10-15,TXN-S2-120034,PRD-0078,Eggs 30pcs 4,Dairy,LOC-003,CUST-004,Customer Changed Mind,1,82.0,No
+RET-S2-60035,2026-10-20,TXN-S2-120035,PRD-0037,Yogurt 1kg 2,Dairy,LOC-003,CUST-003,Customer Changed Mind,1,33.0,No
+RET-S2-60036,2026-10-22,TXN-S2-120036,PRD-0062,Cucumber 4,Fresh Produce,LOC-003,CUST-001,Customer Changed Mind,1,19.5,No
+RET-S2-60037,2026-10-31,TXN-S2-120037,PRD-0059,Arabic Bread Pack 3,Bakery,LOC-003,CUST-003,Customer Changed Mind,1,6.0,No
+RET-S2-60038,2026-11-02,TXN-S2-120038,PRD-0057,Yogurt 1kg 3,Dairy,LOC-003,CUST-003,Customer Changed Mind,1,33.0,No
+RET-S2-60039,2026-11-05,TXN-S2-120039,PRD-0047,Onion 3,Fresh Produce,LOC-003,CUST-002,Customer Changed Mind,1,21.0,No
+RET-S2-60040,2026-11-09,TXN-S2-120040,PRD-0066,Potato 4,Fresh Produce,LOC-003,CUST-001,Customer Changed Mind,1,18.5,No
+RET-S2-60041,2026-11-10,TXN-S2-120041,PRD-0035,Milk Full Fat 1L 2,Dairy,LOC-003,CUST-001,Customer Changed Mind,1,29.5,No
+RET-S2-60042,2026-11-12,TXN-S2-120042,PRD-0013,Sugar 2kg,Grocery,LOC-003,CUST-004,Customer Changed Mind,1,52.0,No
